@@ -1,0 +1,14 @@
+# Local working notes
+*.md
+!README.md
+!CHANGELOG.md
+CLAUDE.md
+CODEX_CHANGELOG.md
+.claude/
+
+# Editor and OS noise
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp

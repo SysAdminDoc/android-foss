@@ -1,7 +1,8 @@
 # Android FOSS
 
-[![CI](https://github.com/offa/android-foss/workflows/ci/badge.svg)](https://github.com/offa/android-foss/actions)
+[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Android-3ddc84.svg)](https://www.android.com/)
 
 A list of **Free** and **Open Source Software** ***(FOSS)*** for **Android** – saving *Freedom* and *Privacy*.
 
