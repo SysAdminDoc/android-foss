@@ -1,6 +1,6 @@
 # Android FOSS
 
-[![Version](https://img.shields.io/badge/version-0.0.12-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.0.13-blue.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android-3ddc84.svg)](https://www.android.com/)
 
@@ -1204,3 +1204,7 @@ store links, package IDs, and README line number.
 
 Run `python identity_check.py` to report duplicate names, duplicate source URLs,
 duplicate package IDs, and likely fork variants for maintainer review.
+
+Run `python popularity_metadata.py` to refresh `catalog-popularity.json`, an optional
+GitHub discovery sidecar with source stars, source update dates, and latest release
+dates. These values are advisory discovery signals, not quality or safety guarantees.

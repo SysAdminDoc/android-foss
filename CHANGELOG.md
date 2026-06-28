@@ -1,5 +1,10 @@
 # Changelog
 
+## Android FOSS v0.0.13 - 2026-06-28
+
+- Added optional GitHub popularity and recency metadata for source stars, source update dates, and latest release dates.
+- Displayed advisory discovery badges and added a discovery-signal filter in the static browser view.
+
 ## Android FOSS v0.0.12 - 2026-06-28
 
 - Added static renderer localization hooks for UI labels, placeholders, filter options, and result summaries.

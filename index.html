@@ -158,6 +158,11 @@
 			border-color: #75b798;
 			color: #75b798;
 		}
+		.trust-badge.advisory
+		{
+			border-color: #8bb9fe;
+			color: #8bb9fe;
+		}
 		@media (max-width: 700px)
 		{
 			.filter-grid
@@ -238,6 +243,16 @@
 					<option value="unknown" data-i18n="noUpdateMetadata">No update metadata</option>
 				</select>
 			</div>
+			<div class="filter-field">
+				<label for="filter-discovery" data-i18n="discoverySignal">Discovery Signal</label>
+				<select id="filter-discovery">
+					<option value="" data-i18n="anyDiscovery">Any discovery signal</option>
+					<option value="stars100" data-i18n="stars100">100+ source stars</option>
+					<option value="stars1000" data-i18n="stars1000">1000+ source stars</option>
+					<option value="has-release" data-i18n="hasRelease">Has GitHub release</option>
+					<option value="source-updated-365" data-i18n="sourceUpdated365">Source updated within 1 year</option>
+				</select>
+			</div>
 		</div>
 		<div id="filter-summary" aria-live="polite" data-i18n="filtersLoading">Filters load after the catalog renders.</div>
 	</form>
@@ -286,6 +301,12 @@
 				updated730: 'Updated within 2 years',
 				older730: 'Older than 2 years',
 				noUpdateMetadata: 'No update metadata',
+				discoverySignal: 'Discovery Signal',
+				anyDiscovery: 'Any discovery signal',
+				stars100: '100+ source stars',
+				stars1000: '1000+ source stars',
+				hasRelease: 'Has GitHub release',
+				sourceUpdated365: 'Source updated within 1 year',
 				filtersLoading: 'Filters load after the catalog renders.',
 				showing: ( visible, total ) => `Showing ${visible} of ${total} entries.`,
 			},
@@ -315,6 +336,12 @@
 				updated730: 'Actualizado en 2 anos',
 				older730: 'Mas de 2 anos',
 				noUpdateMetadata: 'Sin metadata de actualizacion',
+				discoverySignal: 'Senal de descubrimiento',
+				anyDiscovery: 'Cualquier senal',
+				stars100: '100+ estrellas de origen',
+				stars1000: '1000+ estrellas de origen',
+				hasRelease: 'Tiene release de GitHub',
+				sourceUpdated365: 'Origen actualizado en 1 ano',
 				filtersLoading: 'Los filtros cargan despues del catalogo.',
 				showing: ( visible, total ) => `Mostrando ${visible} de ${total} entradas.`,
 			},
@@ -331,8 +358,9 @@
 		const filterHost = document.querySelector( '#filter-host' );
 		const filterTrust = document.querySelector( '#filter-trust' );
 		const filterRecency = document.querySelector( '#filter-recency' );
+		const filterDiscovery = document.querySelector( '#filter-discovery' );
 		const filterSummary = document.querySelector( '#filter-summary' );
-		const filterControls = [ filterSearch, filterCategory, filterStore, filterHost, filterTrust, filterRecency ];
+		const filterControls = [ filterSearch, filterCategory, filterStore, filterHost, filterTrust, filterRecency, filterDiscovery ];
 		let catalogItems = [];
 
 		function t( key, ...args )
@@ -395,6 +423,22 @@
 			}
 		}
 
+		async function loadPopularityMetadata()
+		{
+			try
+			{
+				const response = await fetch( 'catalog-popularity.json', { cache: 'no-store' } );
+				if ( response.status === 404 ) return null;
+				if ( !response.ok ) throw new Error( `HTTP ${response.status}` );
+				return await response.json();
+			}
+			catch ( error )
+			{
+				console.warn( 'Popularity metadata could not be loaded:', error );
+				return null;
+			}
+		}
+
 		function addBadge( container, text, className, title )
 		{
 			const badge = document.createElement( 'span' );
@@ -452,6 +496,30 @@
 			}
 		}
 
+		function addPopularityBadges( container, metadata )
+		{
+			const title = 'Advisory discovery signal, not a quality or safety guarantee.';
+			if ( Number.isInteger( metadata.stars ) )
+			{
+				addBadge( container, `Stars ${metadata.stars}`, 'advisory', title );
+			}
+			if ( metadata.sourcePushed )
+			{
+				addBadge( container, `Source pushed ${metadata.sourcePushed}`, 'advisory', title );
+			}
+			if ( metadata.latestReleaseDate )
+			{
+				const label = metadata.latestReleaseTag ? `Release ${metadata.latestReleaseTag} ${metadata.latestReleaseDate}` : `Release ${metadata.latestReleaseDate}`;
+				addBadge( container, label, 'advisory', title );
+			}
+		}
+
+		function popularityFor( sourceUrl, metadata )
+		{
+			if ( !metadata || !metadata.sources ) return null;
+			return metadata.sources[ sourceUrl ] || metadata.sources[ sourceUrl.replace( /\/$/, '' ) ] || null;
+		}
+
 		function applyTrustMetadata( metadata )
 		{
 			if ( !metadata || !metadata.entries ) return;
@@ -469,6 +537,26 @@
 					addPackageBadges( container, packageMetadata );
 				}
 				link.closest( 'li' ).append( container );
+			}
+		}
+
+		function applyPopularityMetadata( metadata )
+		{
+			if ( !metadata || !metadata.sources ) return;
+			for ( const link of main.querySelectorAll( 'li > a:first-child' ) )
+			{
+				if ( !link.href.startsWith( 'http' ) ) continue;
+				const sourceMetadata = popularityFor( link.href, metadata );
+				if ( !sourceMetadata || sourceMetadata.available !== true ) continue;
+				const item = link.closest( 'li' );
+				let container = item.querySelector( ':scope > .trust-metadata' );
+				if ( !container )
+				{
+					container = document.createElement( 'div' );
+					container.className = 'trust-metadata';
+					item.append( container );
+				}
+				addPopularityBadges( container, sourceMetadata );
 			}
 		}
 
@@ -537,6 +625,23 @@
 			return age !== null && age <= Number( recency );
 		}
 
+		function matchesDiscovery( item )
+		{
+			const signal = filterDiscovery.value;
+			if ( !signal ) return true;
+			const popularity = item.popularity;
+			if ( !popularity ) return false;
+			if ( signal === 'stars100' ) return Number( popularity.stars ) >= 100;
+			if ( signal === 'stars1000' ) return Number( popularity.stars ) >= 1000;
+			if ( signal === 'has-release' ) return Boolean( popularity.latestReleaseDate );
+			if ( signal === 'source-updated-365' )
+			{
+				const age = daysSince( popularity.sourcePushed || popularity.sourceUpdated );
+				return age !== null && age <= 365;
+			}
+			return true;
+		}
+
 		function matchesFilters( item )
 		{
 			const search = filterSearch.value.trim().toLowerCase();
@@ -547,6 +652,7 @@
 			if ( filterHost.value && item.sourceHost !== filterHost.value ) return false;
 			if ( !hasTrustFlag( item, filterTrust.value ) ) return false;
 			if ( !matchesRecency( item, filterRecency.value ) ) return false;
+			if ( !matchesDiscovery( item ) ) return false;
 			return true;
 		}
 
@@ -573,7 +679,7 @@
 			}
 		}
 
-		function buildCatalogIndex( metadata )
+		function buildCatalogIndex( metadata, popularityMetadata )
 		{
 			const entries = metadata && metadata.entries ? metadata.entries : {};
 			const categories = new Set();
@@ -599,6 +705,7 @@
 				const stores = [ ...element.querySelectorAll( 'a[href*="f-droid.org/packages/"], a[href*="apt.izzysoft.de/packages/"]' ) ]
 					.map( link => link.href.includes( 'apt.izzysoft.de' ) ? 'IzzyOnDroid' : 'F-Droid' );
 				const entryMetadata = entries[ name ];
+				const popularity = popularityFor( source.href, popularityMetadata );
 				const ids = packageIds( entryMetadata );
 				const latest = latestUpdate( entryMetadata );
 				const itemCategory = category || 'General';
@@ -611,6 +718,7 @@
 					sourceHost: source.hostname,
 					stores,
 					metadata: entryMetadata,
+					popularity,
 					latestUpdate: latest,
 					searchText: [ name, itemCategory, source.hostname, source.href, ...stores, ...ids ].join( ' ' ).toLowerCase(),
 				} );
@@ -644,8 +752,10 @@
 
 				main.innerHTML = renderMarkdown( await response.text() );
 				const trustMetadata = await loadTrustMetadata();
+				const popularityMetadata = await loadPopularityMetadata();
 				applyTrustMetadata( trustMetadata );
-				buildCatalogIndex( trustMetadata );
+				applyPopularityMetadata( popularityMetadata );
+				buildCatalogIndex( trustMetadata, popularityMetadata );
 				main.setAttribute( 'aria-busy', 'false' );
 			}
 			catch ( error )
