@@ -1,6 +1,6 @@
 # Android FOSS
 
-[![Version](https://img.shields.io/badge/version-0.0.3-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.0.4-blue.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android-3ddc84.svg)](https://www.android.com/)
 
@@ -1154,3 +1154,10 @@ A list of **Free** and **Open Source Software** ***(FOSS)*** for **Android** –
 Run `python catalog_check.py` before submitting catalog edits. It validates app entry
 markup, F-Droid and IzzyOnDroid package URL formats, store-link order, and duplicate
 package identities with line-numbered errors.
+
+Run `python source_health.py` when reviewing maintenance health. It reports archived,
+moved, stale, missing, active, and rate-limited source URLs with README line numbers
+without editing the catalog. `bash check.sh` runs the structural catalog checker, and
+`bash check_manually.sh` runs the source-health report. Run
+`python -m unittest test_source_health.py` for the offline source-health classifier
+tests.

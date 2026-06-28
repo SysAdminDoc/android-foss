@@ -2,4 +2,4 @@
 
 set -euo pipefail
 
-python3 catalog_check.py "$@"
+python3 source_health.py "$@"

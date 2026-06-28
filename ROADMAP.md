@@ -2,13 +2,6 @@
 
 ## Research-Driven Additions
 
-- [ ] P0 - Add archived, moved, stale, and missing-source health checks
-  Why: Recent commits repeatedly remove inactive, archived, deprecated, moved, and dead projects, but the repo has only brittle manual GitHub HTML scraping.
-  Evidence: `rtk git log -200`; `check_manually.sh`; IzzyOnDroid inclusion/removal policy.
-  Touches: new local health checker, `check_manually.sh`, README entry parser.
-  Acceptance: Local report classifies GitHub/GitLab/Codeberg/source URLs as active, archived, moved, missing, rate-limited, or stale, with line numbers and no automatic README edits.
-  Complexity: L
-
 - [ ] P1 - Surface trust metadata for F-Droid and Izzy-backed entries
   Why: F-Droid and Izzy expose anti-features, reproducibility/build metadata, permissions, sensitive-permission explanations, and security scanning signals that the list does not currently show.
   Evidence: F-Droid Anti-Features; F-Droid Reproducible Builds; F-Droid Build Metadata Reference; IzzyOnDroid security info.

@@ -1,5 +1,11 @@
 # Changelog
 
+## Android FOSS v0.0.4 - 2026-06-28
+
+- Added a local source-health reporter for archived, moved, stale, missing, active, and rate-limited source URLs.
+- Routed the manual shell check through the source-health report with README line-numbered output.
+- Added offline unit coverage for source-health classifier states.
+
 ## Android FOSS v0.0.3 - 2026-06-28
 
 - Hardened the static browser renderer with local vendored assets and sanitized Markdown output.
