@@ -2,13 +2,6 @@
 
 ## Research-Driven Additions
 
-- [ ] P1 - Add contributor-facing acceptance lint for privacy and maintenance criteria
-  Why: `CONTRIBUTING.md` states privacy, no proprietary elements, stability, and active maintenance requirements, but local checks do not verify evidence for those criteria.
-  Evidence: `CONTRIBUTING.md`; F-Droid Anti-Features; IzzyOnDroid inclusion policy.
-  Touches: `CONTRIBUTING.md`, local checker, README parser.
-  Acceptance: New or changed entries are checked for source URL, license evidence, app-store link order, active upstream signal, and known anti-feature flags before maintainers review content.
-  Complexity: M
-
 - [ ] P2 - Generate a machine-readable catalog sidecar
   Why: Trust overlays, search, duplicate detection, and future exports are fragile if every field must be reparsed from Markdown each time.
   Evidence: 746 README entries; Awesome F-Droid generated table; open-source-android-apps generated categories.

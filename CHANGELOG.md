@@ -1,5 +1,10 @@
 # Changelog
 
+## Android FOSS v0.0.8 - 2026-06-28
+
+- Added a contributor-facing acceptance checker for changed README catalog entries.
+- Checked source URL shape, trust metadata evidence, blocked anti-features, and live source-health signals before review.
+
 ## Android FOSS v0.0.7 - 2026-06-28
 
 - Documented Android developer-verification timing, affected install paths, and F-Droid/IzzyOnDroid implications.

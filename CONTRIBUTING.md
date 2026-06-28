@@ -34,6 +34,10 @@ APK signing, release channels, F-Droid/IzzyOnDroid package availability, or Andr
 developer-verification status. This helps users in regions where certified Android
 devices enforce developer verification starting September 30, 2026.
 
+Before submitting README catalog changes, run `python contributor_check.py`. It checks
+changed entries for source URL shape, metadata evidence, blocked anti-features, and
+source health without requiring maintainers to inspect every field manually.
+
 *Examples:*
 
 ```markdown

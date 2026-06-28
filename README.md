@@ -1,6 +1,6 @@
 # Android FOSS
 
-[![Version](https://img.shields.io/badge/version-0.0.7-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.0.8-blue.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android-3ddc84.svg)](https://www.android.com/)
 
@@ -1193,3 +1193,7 @@ IzzyOnDroid indexes. The browser view loads that sidecar when present and displa
 store, anti-feature, sensitive-permission, update, source-archive, and optional
 reproducible-build indicators next to catalog entries. The browser view also builds
 local search and filter controls from the rendered README and sidecar metadata.
+
+Run `python contributor_check.py` before submitting README catalog changes. It checks
+changed entries for absolute source URLs, local trust metadata, blocked anti-features,
+license/update evidence, and live source-health signals.
