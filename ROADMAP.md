@@ -2,13 +2,6 @@
 
 ## Research-Driven Additions
 
-- [ ] P2 - Improve accessibility and responsive behavior of `index.html`
-  Why: The renderer has a fixed bottom-right unlabeled theme selector and minimal layout semantics, while the README is a long navigation-heavy document.
-  Evidence: `index.html`; F-Droid forum search/filter complaints; browser accessibility expectations.
-  Touches: `index.html`, CSS, render smoke test.
-  Acceptance: The browser view has labeled controls, keyboard-reachable navigation, visible focus states, no clipped content on mobile widths, and theme state that does not obscure content.
-  Complexity: M
-
 - [ ] P2 - Add optional localization hooks for the browser view
   Why: OpenAPK and F-Droid expose multilingual surfaces, and Android FOSS users are global, but the current browser chrome is English-only.
   Evidence: OpenAPK language switcher; F-Droid localized docs and app pages.

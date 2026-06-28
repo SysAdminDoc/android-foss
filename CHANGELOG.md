@@ -1,5 +1,10 @@
 # Changelog
 
+## Android FOSS v0.0.11 - 2026-06-28
+
+- Improved static browser accessibility with skip navigation, visible focus outlines, responsive media constraints, and a non-overlapping theme control.
+- Rechecked desktop and mobile rendered catalog behavior with the local Playwright smoke.
+
 ## Android FOSS v0.0.10 - 2026-06-28
 
 - Added a local identity report for duplicate names, duplicate source URLs, duplicate package IDs, and likely fork variants.
