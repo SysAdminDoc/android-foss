@@ -2,13 +2,6 @@
 
 ## Research-Driven Additions
 
-- [ ] P0 - Harden `index.html` Markdown rendering
-  Why: Marked explicitly does not sanitize output, but `index.html` injects parsed README HTML directly into `innerHTML` and loads remote runtime assets without integrity or offline fallback.
-  Evidence: `index.html`; Marked security documentation; jsDelivr Bootswatch package page.
-  Touches: `index.html`, optional vendored static assets, local render smoke test.
-  Acceptance: Rendered README HTML is sanitized, remote assets are pinned with integrity or vendored locally, load failures show an in-page error, and an XSS fixture cannot execute script.
-  Complexity: M
-
 - [ ] P0 - Add archived, moved, stale, and missing-source health checks
   Why: Recent commits repeatedly remove inactive, archived, deprecated, moved, and dead projects, but the repo has only brittle manual GitHub HTML scraping.
   Evidence: `rtk git log -200`; `check_manually.sh`; IzzyOnDroid inclusion/removal policy.

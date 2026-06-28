@@ -3,10 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A browser view for the Android FOSS catalog.">
+	<meta name="theme-color" content="#222222">
 	<title>Android FOSS</title>
-	<link rel="stylesheet" href="">
+	<link id="theme-css" rel="stylesheet" href="vendor/bootswatch/darkly/bootstrap.min.css">
 	<link rel="icon" href="android.svg" type="image/svg+xml">
 	<style>
+		body
+		{
+			min-height: 100vh;
+		}
 		main
 		{
 			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
@@ -15,61 +21,141 @@
 			max-width: 960px;
 			width: 100%;
 			margin: auto;
+			padding: 1rem;
 		}
-		select
+		.theme-control
 		{
 			position: fixed;
-			bottom: 0;
-			right: 0;
+			right: 1rem;
+			bottom: 1rem;
+			z-index: 10;
+			display: flex;
+			align-items: center;
+			gap: .5rem;
+			padding: .5rem;
+			background: rgba(0, 0, 0, .75);
+			border: 1px solid rgba(255, 255, 255, .2);
+			border-radius: .5rem;
+		}
+		#status
+		{
+			max-width: 960px;
+			margin: 1rem auto;
+			padding: .75rem 1rem;
+			border: 1px solid transparent;
+			border-radius: .5rem;
+		}
+		#status[hidden]
+		{
+			display: none;
+		}
+		#status.error
+		{
+			border-color: #f5c2c7;
+			background: #842029;
+			color: #fff;
+		}
+		@media (max-width: 700px)
+		{
+			.theme-control
+			{
+				position: static;
+				justify-content: flex-end;
+				margin: .5rem;
+			}
 		}
 	</style>
 </head>
 <body>
 
-	<select onchange="changeCSS( this.value )">
-		<option value="darkly">Darkly</option>
-		<option value="united">United</option>
-		<option value="flatly">Flatly</option>
-		<option value="quartz">Quartz</option>
-	</select>
+	<div class="theme-control">
+		<label for="theme-select">Theme</label>
+		<select id="theme-select">
+			<option value="darkly">Darkly</option>
+			<option value="united">United</option>
+			<option value="flatly">Flatly</option>
+			<option value="quartz">Quartz</option>
+		</select>
+	</div>
 
-	<main></main>
+	<div id="status" role="alert" hidden></div>
+	<main aria-busy="true"></main>
 
-	<!-- JavaScript Library to Convert Markdown into HTML -->
-	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
-	<!-- Marked plugin to add heading ID's -->
-	<script src="https://cdn.jsdelivr.net/npm/marked-gfm-heading-id/lib/index.umd.js"></script>
+	<script src="vendor/marked/marked.umd.js"></script>
+	<script src="vendor/marked-gfm-heading-id/index.umd.js"></script>
+	<script src="vendor/dompurify/purify.min.js"></script>
 
 	<script>
-		// Basic Settings
 		const defaultTheme = 'darkly';
-		const bootswatchVersion = '5.3.3'; // Last updated: 7 March, 2024
-		// Update last one only when https://www.jsdelivr.com/package/npm/bootswatch is updated.
+		const sourceFile = new URLSearchParams( window.location.search ).get( 'source' ) || 'README.md';
+		const allowedThemes = new Map( [
+			[ 'darkly', 'vendor/bootswatch/darkly/bootstrap.min.css' ],
+			[ 'united', 'vendor/bootswatch/united/bootstrap.min.css' ],
+			[ 'flatly', 'vendor/bootswatch/flatly/bootstrap.min.css' ],
+			[ 'quartz', 'vendor/bootswatch/quartz/bootstrap.min.css' ],
+		] );
 
-		// Configure marked.js to use Github heading ID's to allow the Contents list to function
-		marked.use( markedGfmHeadingId.gfmHeadingId() );
+		const main = document.querySelector( 'main' );
+		const status = document.querySelector( '#status' );
+		const themeSelect = document.querySelector( '#theme-select' );
 
-		// Get the markdown file, convert it to HTML & put it inside the main tag
-		fetch( 'README.md' )
-			.then( response => response.text() )
-			.then( data => {
-				document.querySelector( 'main' ).innerHTML = marked.parse( data );
-			})
-			.catch( error => console.error( 'Error:', error ) );
-
-		// Change the theme
-		const allowedThemes = ['darkly', 'united', 'flatly', 'quartz'];
+		function showError( message )
+		{
+			status.textContent = message;
+			status.className = 'error';
+			status.hidden = false;
+			main.setAttribute( 'aria-busy', 'false' );
+		}
 
 		function changeCSS( theme )
 		{
-			if ( !allowedThemes.includes( theme ) ) return;
-			document.querySelector( 'link' ).href
-					= `https://cdn.jsdelivr.net/npm/bootswatch@${bootswatchVersion}/dist/${theme}/bootstrap.min.css`;
+			if ( !allowedThemes.has( theme ) ) return;
+			document.querySelector( '#theme-css' ).href = allowedThemes.get( theme );
 		}
 
-		// Set the default theme
-		changeCSS( defaultTheme );
+		function dependenciesReady()
+		{
+			return window.marked && window.markedGfmHeadingId && window.DOMPurify;
+		}
+
+		function renderMarkdown( data )
+		{
+			const html = marked.parse( data );
+			return DOMPurify.sanitize( html, { USE_PROFILES: { html: true } } );
+		}
+
+		async function loadCatalog()
+		{
+			if ( !dependenciesReady() )
+			{
+				showError( 'Catalog renderer failed to load local dependencies.' );
+				return;
+			}
+
+			marked.use( markedGfmHeadingId.gfmHeadingId() );
+			window.__androidFossRenderMarkdown = renderMarkdown;
+
+			try
+			{
+				const response = await fetch( sourceFile, { cache: 'no-store' } );
+				if ( !response.ok )
+				{
+					throw new Error( `HTTP ${response.status}` );
+				}
+
+				main.innerHTML = renderMarkdown( await response.text() );
+				main.setAttribute( 'aria-busy', 'false' );
+			}
+			catch ( error )
+			{
+				showError( `Catalog could not be loaded from ${sourceFile}.` );
+				console.error( 'Catalog load failed:', error );
+			}
+		}
+
+		themeSelect.value = defaultTheme;
+		themeSelect.addEventListener( 'change', event => changeCSS( event.target.value ) );
+		loadCatalog();
 	</script>
 </body>
 </html>

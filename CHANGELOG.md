@@ -1,5 +1,10 @@
 # Changelog
 
+## Android FOSS v0.0.3 - 2026-06-28
+
+- Hardened the static browser renderer with local vendored assets and sanitized Markdown output.
+- Added in-page catalog load errors and a labeled theme selector that works across desktop and mobile widths.
+
 ## Android FOSS v0.0.2 - 2026-06-28
 
 - Added a cross-platform catalog checker for README entry markup, store URL formats, store-link order, and duplicate package IDs.
