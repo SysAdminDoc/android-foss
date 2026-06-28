@@ -37,6 +37,43 @@
 			border: 1px solid rgba(255, 255, 255, .2);
 			border-radius: .5rem;
 		}
+		.catalog-filters
+		{
+			max-width: 960px;
+			margin: 1rem auto 0;
+			padding: .75rem 1rem;
+			border-bottom: 1px solid rgba(255, 255, 255, .16);
+		}
+		.filter-grid
+		{
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: .75rem;
+		}
+		.filter-field
+		{
+			display: flex;
+			flex-direction: column;
+			gap: .25rem;
+			min-width: 0;
+		}
+		.filter-field label
+		{
+			font-size: .78rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 0;
+		}
+		.filter-field input,
+		.filter-field select
+		{
+			width: 100%;
+		}
+		#filter-summary
+		{
+			margin-top: .75rem;
+			font-size: .9rem;
+		}
 		#status
 		{
 			max-width: 960px;
@@ -86,6 +123,10 @@
 		}
 		@media (max-width: 700px)
 		{
+			.filter-grid
+			{
+				grid-template-columns: 1fr;
+			}
 			.theme-control
 			{
 				position: static;
@@ -107,6 +148,59 @@
 		</select>
 	</div>
 
+	<form class="catalog-filters" role="search" aria-label="Catalog filters">
+		<div class="filter-grid">
+			<div class="filter-field">
+				<label for="filter-search">Search</label>
+				<input id="filter-search" type="search" autocomplete="off" placeholder="App, category, package, source">
+			</div>
+			<div class="filter-field">
+				<label for="filter-category">Category</label>
+				<select id="filter-category">
+					<option value="">All categories</option>
+				</select>
+			</div>
+			<div class="filter-field">
+				<label for="filter-store">Store</label>
+				<select id="filter-store">
+					<option value="">Any store</option>
+					<option value="F-Droid">F-Droid</option>
+					<option value="IzzyOnDroid">IzzyOnDroid</option>
+					<option value="none">No store link</option>
+				</select>
+			</div>
+			<div class="filter-field">
+				<label for="filter-host">Source Host</label>
+				<select id="filter-host">
+					<option value="">Any host</option>
+				</select>
+			</div>
+			<div class="filter-field">
+				<label for="filter-trust">Trust Flag</label>
+				<select id="filter-trust">
+					<option value="">Any trust flag</option>
+					<option value="anti-features">Has anti-features</option>
+					<option value="sensitive-permissions">Sensitive permissions</option>
+					<option value="no-anti-features">No anti-features</option>
+					<option value="source-archive">Source archive</option>
+					<option value="reproducible-verified">Reproducible verified</option>
+				</select>
+			</div>
+			<div class="filter-field">
+				<label for="filter-recency">Update Recency</label>
+				<select id="filter-recency">
+					<option value="">Any update age</option>
+					<option value="90">Updated within 90 days</option>
+					<option value="365">Updated within 1 year</option>
+					<option value="730">Updated within 2 years</option>
+					<option value="stale">Older than 2 years</option>
+					<option value="unknown">No update metadata</option>
+				</select>
+			</div>
+		</div>
+		<div id="filter-summary" aria-live="polite">Filters load after the catalog renders.</div>
+	</form>
+
 	<div id="status" role="alert" hidden></div>
 	<main aria-busy="true"></main>
 
@@ -127,6 +221,15 @@
 		const main = document.querySelector( 'main' );
 		const status = document.querySelector( '#status' );
 		const themeSelect = document.querySelector( '#theme-select' );
+		const filterSearch = document.querySelector( '#filter-search' );
+		const filterCategory = document.querySelector( '#filter-category' );
+		const filterStore = document.querySelector( '#filter-store' );
+		const filterHost = document.querySelector( '#filter-host' );
+		const filterTrust = document.querySelector( '#filter-trust' );
+		const filterRecency = document.querySelector( '#filter-recency' );
+		const filterSummary = document.querySelector( '#filter-summary' );
+		const filterControls = [ filterSearch, filterCategory, filterStore, filterHost, filterTrust, filterRecency ];
+		let catalogItems = [];
 
 		function showError( message )
 		{
@@ -246,6 +349,157 @@
 			}
 		}
 
+		function cleanHeading( text )
+		{
+			return text.replace( /^[\s\-–•]+|[\s\-–•]+$/g, '' ).trim();
+		}
+
+		function packageIds( entry )
+		{
+			if ( !entry || !Array.isArray( entry.packages ) ) return [];
+			return entry.packages.map( item => item.packageId ).filter( Boolean );
+		}
+
+		function latestUpdate( entry )
+		{
+			if ( !entry || !Array.isArray( entry.packages ) ) return null;
+			const dates = entry.packages
+				.map( item => item.lastUpdated )
+				.filter( Boolean )
+				.sort();
+			return dates.length ? dates.at( -1 ) : null;
+		}
+
+		function daysSince( dateText )
+		{
+			if ( !dateText ) return null;
+			const date = new Date( `${dateText}T00:00:00Z` );
+			if ( Number.isNaN( date.getTime() ) ) return null;
+			return Math.floor( ( Date.now() - date.getTime() ) / 86400000 );
+		}
+
+		function hasTrustFlag( item, flag )
+		{
+			if ( !flag ) return true;
+			const packages = item.metadata && Array.isArray( item.metadata.packages ) ? item.metadata.packages : [];
+			if ( flag === 'anti-features' )
+			{
+				return packages.some( metadata => metadata.antiFeatures && metadata.antiFeatures.length );
+			}
+			if ( flag === 'sensitive-permissions' )
+			{
+				return packages.some( metadata => metadata.sensitivePermissions && metadata.sensitivePermissions.length );
+			}
+			if ( flag === 'no-anti-features' )
+			{
+				return packages.length > 0 && packages.every( metadata => !metadata.antiFeatures || !metadata.antiFeatures.length );
+			}
+			if ( flag === 'source-archive' )
+			{
+				return packages.some( metadata => metadata.sourceArchive );
+			}
+			if ( flag === 'reproducible-verified' )
+			{
+				return packages.some( metadata => metadata.reproducible === true );
+			}
+			return true;
+		}
+
+		function matchesRecency( item, recency )
+		{
+			if ( !recency ) return true;
+			const age = daysSince( item.latestUpdate );
+			if ( recency === 'unknown' ) return age === null;
+			if ( recency === 'stale' ) return age !== null && age > 730;
+			return age !== null && age <= Number( recency );
+		}
+
+		function matchesFilters( item )
+		{
+			const search = filterSearch.value.trim().toLowerCase();
+			if ( search && !item.searchText.includes( search ) ) return false;
+			if ( filterCategory.value && item.category !== filterCategory.value ) return false;
+			if ( filterStore.value === 'none' && item.stores.length ) return false;
+			if ( filterStore.value && filterStore.value !== 'none' && !item.stores.includes( filterStore.value ) ) return false;
+			if ( filterHost.value && item.sourceHost !== filterHost.value ) return false;
+			if ( !hasTrustFlag( item, filterTrust.value ) ) return false;
+			if ( !matchesRecency( item, filterRecency.value ) ) return false;
+			return true;
+		}
+
+		function applyFilters()
+		{
+			let visible = 0;
+			for ( const item of catalogItems )
+			{
+				const matched = matchesFilters( item );
+				item.element.hidden = !matched;
+				if ( matched ) visible += 1;
+			}
+			filterSummary.textContent = `Showing ${visible} of ${catalogItems.length} entries.`;
+		}
+
+		function fillSelect( select, values )
+		{
+			for ( const value of values )
+			{
+				const option = document.createElement( 'option' );
+				option.value = value;
+				option.textContent = value;
+				select.append( option );
+			}
+		}
+
+		function buildCatalogIndex( metadata )
+		{
+			const entries = metadata && metadata.entries ? metadata.entries : {};
+			const categories = new Set();
+			const hosts = new Set();
+			let category = '';
+			catalogItems = [];
+
+			for ( const element of main.querySelectorAll( 'h2, h3, li' ) )
+			{
+				if ( element.matches( 'h3' ) )
+				{
+					category = cleanHeading( element.textContent );
+					if ( category ) categories.add( category );
+					continue;
+				}
+				if ( !element.matches( 'li' ) ) continue;
+
+				const sourceLink = element.querySelector( ':scope > a:first-child' );
+				if ( !sourceLink || !sourceLink.href.startsWith( 'http' ) ) continue;
+
+				const name = sourceLink.textContent.trim();
+				const source = new URL( sourceLink.href );
+				const stores = [ ...element.querySelectorAll( 'a[href*="f-droid.org/packages/"], a[href*="apt.izzysoft.de/packages/"]' ) ]
+					.map( link => link.href.includes( 'apt.izzysoft.de' ) ? 'IzzyOnDroid' : 'F-Droid' );
+				const entryMetadata = entries[ name ];
+				const ids = packageIds( entryMetadata );
+				const latest = latestUpdate( entryMetadata );
+				const itemCategory = category || 'General';
+				categories.add( itemCategory );
+				hosts.add( source.hostname );
+				catalogItems.push( {
+					element,
+					name,
+					category: itemCategory,
+					sourceHost: source.hostname,
+					stores,
+					metadata: entryMetadata,
+					latestUpdate: latest,
+					searchText: [ name, itemCategory, source.hostname, source.href, ...stores, ...ids ].join( ' ' ).toLowerCase(),
+				} );
+			}
+
+			fillSelect( filterCategory, [ ...categories ].sort( ( a, b ) => a.localeCompare( b ) ) );
+			fillSelect( filterHost, [ ...hosts ].sort( ( a, b ) => a.localeCompare( b ) ) );
+			window.__androidFossCatalogItems = catalogItems;
+			window.__androidFossApplyFilters = applyFilters;
+			applyFilters();
+		}
+
 		async function loadCatalog()
 		{
 			if ( !dependenciesReady() )
@@ -266,7 +520,9 @@
 				}
 
 				main.innerHTML = renderMarkdown( await response.text() );
-				applyTrustMetadata( await loadTrustMetadata() );
+				const trustMetadata = await loadTrustMetadata();
+				applyTrustMetadata( trustMetadata );
+				buildCatalogIndex( trustMetadata );
 				main.setAttribute( 'aria-busy', 'false' );
 			}
 			catch ( error )
@@ -278,6 +534,7 @@
 
 		themeSelect.value = defaultTheme;
 		themeSelect.addEventListener( 'change', event => changeCSS( event.target.value ) );
+		filterControls.forEach( control => control.addEventListener( 'input', applyFilters ) );
 		loadCatalog();
 	</script>
 </body>

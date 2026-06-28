@@ -1,5 +1,10 @@
 # Changelog
 
+## Android FOSS v0.0.6 - 2026-06-28
+
+- Added local browser search over app names, categories, package IDs, source hosts, and store names.
+- Added category, store, source-host, trust-flag, and update-recency filters to the static catalog view.
+
 ## Android FOSS v0.0.5 - 2026-06-28
 
 - Added a generated F-Droid and IzzyOnDroid trust metadata sidecar for catalog entries.

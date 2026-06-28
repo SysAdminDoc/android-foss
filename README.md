@@ -1,6 +1,6 @@
 # Android FOSS
 
-[![Version](https://img.shields.io/badge/version-0.0.5-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.0.6-blue.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android-3ddc84.svg)](https://www.android.com/)
 
@@ -1165,4 +1165,5 @@ tests.
 Run `python trust_metadata.py` to refresh `catalog-trust.json` from the F-Droid and
 IzzyOnDroid indexes. The browser view loads that sidecar when present and displays
 store, anti-feature, sensitive-permission, update, source-archive, and optional
-reproducible-build indicators next to catalog entries.
+reproducible-build indicators next to catalog entries. The browser view also builds
+local search and filter controls from the rendered README and sidecar metadata.

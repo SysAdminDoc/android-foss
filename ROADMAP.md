@@ -2,13 +2,6 @@
 
 ## Research-Driven Additions
 
-- [ ] P1 - Add local search and filters to the static browser view
-  Why: Competing catalogs and community feedback consistently value search, category filtering, update recency, popularity, and compatibility filters over a long alphabetic page.
-  Evidence: Awesome F-Droid Apps; Fossdroid; OpenAPK; F-Droid forum and Reddit search/filter complaints.
-  Touches: `index.html`, generated search index, README parser.
-  Acceptance: Browser view supports text search plus category, F-Droid/Izzy availability, source host, trust flag, and update-recency filters while preserving the README as source content.
-  Complexity: L
-
 - [ ] P1 - Document Android developer-verification and sideloading impact
   Why: Android developer verification begins regionally in September 2026 and expands globally from 2027, directly affecting users who install apps outside Google Play.
   Evidence: Android Developers Blog; Keep Android Open; F-Droid forum; Hacker News discussion.
