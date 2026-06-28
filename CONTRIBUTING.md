@@ -24,6 +24,11 @@ If not yet, it's a good idea to promote F-Droid submission to the projects devel
 
 If the package is available on both, link F-Droid first, IzzyOnDroid second.
 
+After adding or changing store links, run `python trust_metadata.py` and review
+the generated `catalog-trust.json` entry for anti-features, sensitive permissions,
+last update date, source archive availability, and reproducible-build status before
+submitting the catalog change.
+
 *Examples:*
 
 ```markdown

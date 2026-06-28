@@ -1,5 +1,11 @@
 # Changelog
 
+## Android FOSS v0.0.5 - 2026-06-28
+
+- Added a generated F-Droid and IzzyOnDroid trust metadata sidecar for catalog entries.
+- Displayed store, anti-feature, sensitive-permission, update, source-archive, and reproducible-build indicators in the static browser view when metadata is available.
+- Added offline unit coverage for trust metadata extraction.
+
 ## Android FOSS v0.0.4 - 2026-06-28
 
 - Added a local source-health reporter for archived, moved, stale, missing, active, and rate-limited source URLs.

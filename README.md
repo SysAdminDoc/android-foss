@@ -1,6 +1,6 @@
 # Android FOSS
 
-[![Version](https://img.shields.io/badge/version-0.0.4-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.0.5-blue.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android-3ddc84.svg)](https://www.android.com/)
 
@@ -1161,3 +1161,8 @@ without editing the catalog. `bash check.sh` runs the structural catalog checker
 `bash check_manually.sh` runs the source-health report. Run
 `python -m unittest test_source_health.py` for the offline source-health classifier
 tests.
+
+Run `python trust_metadata.py` to refresh `catalog-trust.json` from the F-Droid and
+IzzyOnDroid indexes. The browser view loads that sidecar when present and displays
+store, anti-feature, sensitive-permission, update, source-archive, and optional
+reproducible-build indicators next to catalog entries.

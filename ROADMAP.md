@@ -2,13 +2,6 @@
 
 ## Research-Driven Additions
 
-- [ ] P1 - Surface trust metadata for F-Droid and Izzy-backed entries
-  Why: F-Droid and Izzy expose anti-features, reproducibility/build metadata, permissions, sensitive-permission explanations, and security scanning signals that the list does not currently show.
-  Evidence: F-Droid Anti-Features; F-Droid Reproducible Builds; F-Droid Build Metadata Reference; IzzyOnDroid security info.
-  Touches: README parser, generated metadata cache, `index.html`, contributor criteria.
-  Acceptance: Entries with available metadata can display source/store, anti-feature, reproducibility, sensitive-permission, and last-update indicators without hand-copying every field into README lines.
-  Complexity: L
-
 - [ ] P1 - Add local search and filters to the static browser view
   Why: Competing catalogs and community feedback consistently value search, category filtering, update recency, popularity, and compatibility filters over a long alphabetic page.
   Evidence: Awesome F-Droid Apps; Fossdroid; OpenAPK; F-Droid forum and Reddit search/filter complaints.

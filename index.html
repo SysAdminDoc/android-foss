@@ -55,6 +55,35 @@
 			background: #842029;
 			color: #fff;
 		}
+		.trust-metadata
+		{
+			display: flex;
+			flex-wrap: wrap;
+			gap: .25rem;
+			margin: .25rem 0 .5rem;
+			font-size: .78rem;
+		}
+		.trust-badge
+		{
+			display: inline-flex;
+			align-items: center;
+			gap: .25rem;
+			padding: .1rem .4rem;
+			border: 1px solid rgba(255, 255, 255, .2);
+			border-radius: 999px;
+			background: rgba(255, 255, 255, .08);
+			line-height: 1.4;
+		}
+		.trust-badge.warning
+		{
+			border-color: #ffc107;
+			color: #ffc107;
+		}
+		.trust-badge.good
+		{
+			border-color: #75b798;
+			color: #75b798;
+		}
 		@media (max-width: 700px)
 		{
 			.theme-control
@@ -124,6 +153,99 @@
 			return DOMPurify.sanitize( html, { USE_PROFILES: { html: true } } );
 		}
 
+		async function loadTrustMetadata()
+		{
+			try
+			{
+				const response = await fetch( 'catalog-trust.json', { cache: 'no-store' } );
+				if ( response.status === 404 ) return null;
+				if ( !response.ok ) throw new Error( `HTTP ${response.status}` );
+				return await response.json();
+			}
+			catch ( error )
+			{
+				console.warn( 'Trust metadata could not be loaded:', error );
+				return null;
+			}
+		}
+
+		function addBadge( container, text, className, title )
+		{
+			const badge = document.createElement( 'span' );
+			badge.className = `trust-badge ${className || ''}`.trim();
+			badge.textContent = text;
+			if ( title ) badge.title = title;
+			container.append( badge );
+		}
+
+		function addPackageBadges( container, metadata )
+		{
+			addBadge( container, metadata.store, 'good' );
+			if ( metadata.antiFeatures && metadata.antiFeatures.length )
+			{
+				addBadge( container, `Anti-features: ${metadata.antiFeatures.join( ', ' )}`, 'warning' );
+			}
+			else
+			{
+				addBadge( container, 'No anti-features', 'good' );
+			}
+
+			if ( metadata.sensitivePermissions && metadata.sensitivePermissions.length )
+			{
+				addBadge(
+					container,
+					`Sensitive perms: ${metadata.sensitivePermissions.length}`,
+					'warning',
+					metadata.sensitivePermissions.join( '\n' )
+				);
+			}
+			else if ( Number.isInteger( metadata.permissionCount ) )
+			{
+				addBadge( container, 'No sensitive perms', 'good' );
+			}
+
+			if ( metadata.lastUpdated )
+			{
+				addBadge( container, `Updated ${metadata.lastUpdated}` );
+			}
+			if ( metadata.reproducible === true )
+			{
+				addBadge( container, 'Reproducible verified', 'good' );
+			}
+			else if ( metadata.reproducible === false )
+			{
+				addBadge( container, 'Reproducible not verified', 'warning' );
+			}
+			else if ( metadata.store === 'F-Droid' )
+			{
+				addBadge( container, 'Reproducible unknown' );
+			}
+			if ( metadata.sourceArchive )
+			{
+				addBadge( container, 'Source archive', 'good' );
+			}
+		}
+
+		function applyTrustMetadata( metadata )
+		{
+			if ( !metadata || !metadata.entries ) return;
+			for ( const link of main.querySelectorAll( 'li > a:first-child' ) )
+			{
+				const name = link.textContent.trim();
+				const entry = metadata.entries[ name ];
+				if ( !entry || !Array.isArray( entry.packages ) || !entry.packages.length ) continue;
+
+				const container = document.createElement( 'div' );
+				container.className = 'trust-metadata';
+				container.setAttribute( 'aria-label', `${name} trust metadata` );
+				for ( const packageMetadata of entry.packages )
+				{
+					addPackageBadges( container, packageMetadata );
+				}
+				link.closest( 'li' ).append( container );
+			}
+		}
+
 		async function loadCatalog()
 		{
 			if ( !dependenciesReady() )
@@ -144,6 +266,7 @@
 				}
 
 				main.innerHTML = renderMarkdown( await response.text() );
+				applyTrustMetadata( await loadTrustMetadata() );
 				main.setAttribute( 'aria-busy', 'false' );
 			}
 			catch ( error )
