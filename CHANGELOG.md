@@ -1,5 +1,10 @@
 # Changelog
 
+## Android FOSS v0.0.12 - 2026-06-28
+
+- Added static renderer localization hooks for UI labels, placeholders, filter options, and result summaries.
+- Added `?lang=` locale selection with English fallback and Spanish sample strings without duplicating README content.
+
 ## Android FOSS v0.0.11 - 2026-06-28
 
 - Improved static browser accessibility with skip navigation, visible focus outlines, responsive media constraints, and a non-overlapping theme control.

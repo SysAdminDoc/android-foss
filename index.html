@@ -175,11 +175,11 @@
 </head>
 <body>
 
-	<a class="skip-link" href="#catalog">Skip to catalog</a>
+	<a class="skip-link" href="#catalog" data-i18n="skip">Skip to catalog</a>
 
 	<div class="theme-control">
 		<div class="theme-control-inner">
-			<label for="theme-select">Theme</label>
+			<label for="theme-select" data-i18n="theme">Theme</label>
 			<select id="theme-select">
 				<option value="darkly">Darkly</option>
 				<option value="united">United</option>
@@ -192,54 +192,54 @@
 	<form class="catalog-filters" role="search" aria-label="Catalog filters">
 		<div class="filter-grid">
 			<div class="filter-field">
-				<label for="filter-search">Search</label>
-				<input id="filter-search" type="search" autocomplete="off" placeholder="App, category, package, source">
+				<label for="filter-search" data-i18n="search">Search</label>
+				<input id="filter-search" type="search" autocomplete="off" placeholder="App, category, package, source" data-i18n-placeholder="searchPlaceholder">
 			</div>
 			<div class="filter-field">
-				<label for="filter-category">Category</label>
+				<label for="filter-category" data-i18n="category">Category</label>
 				<select id="filter-category">
-					<option value="">All categories</option>
+					<option value="" data-i18n="allCategories">All categories</option>
 				</select>
 			</div>
 			<div class="filter-field">
-				<label for="filter-store">Store</label>
+				<label for="filter-store" data-i18n="store">Store</label>
 				<select id="filter-store">
-					<option value="">Any store</option>
+					<option value="" data-i18n="anyStore">Any store</option>
 					<option value="F-Droid">F-Droid</option>
 					<option value="IzzyOnDroid">IzzyOnDroid</option>
-					<option value="none">No store link</option>
+					<option value="none" data-i18n="noStore">No store link</option>
 				</select>
 			</div>
 			<div class="filter-field">
-				<label for="filter-host">Source Host</label>
+				<label for="filter-host" data-i18n="sourceHost">Source Host</label>
 				<select id="filter-host">
-					<option value="">Any host</option>
+					<option value="" data-i18n="anyHost">Any host</option>
 				</select>
 			</div>
 			<div class="filter-field">
-				<label for="filter-trust">Trust Flag</label>
+				<label for="filter-trust" data-i18n="trustFlag">Trust Flag</label>
 				<select id="filter-trust">
-					<option value="">Any trust flag</option>
-					<option value="anti-features">Has anti-features</option>
-					<option value="sensitive-permissions">Sensitive permissions</option>
-					<option value="no-anti-features">No anti-features</option>
-					<option value="source-archive">Source archive</option>
-					<option value="reproducible-verified">Reproducible verified</option>
+					<option value="" data-i18n="anyTrust">Any trust flag</option>
+					<option value="anti-features" data-i18n="hasAntiFeatures">Has anti-features</option>
+					<option value="sensitive-permissions" data-i18n="sensitivePermissions">Sensitive permissions</option>
+					<option value="no-anti-features" data-i18n="noAntiFeatures">No anti-features</option>
+					<option value="source-archive" data-i18n="sourceArchive">Source archive</option>
+					<option value="reproducible-verified" data-i18n="reproducibleVerified">Reproducible verified</option>
 				</select>
 			</div>
 			<div class="filter-field">
-				<label for="filter-recency">Update Recency</label>
+				<label for="filter-recency" data-i18n="updateRecency">Update Recency</label>
 				<select id="filter-recency">
-					<option value="">Any update age</option>
-					<option value="90">Updated within 90 days</option>
-					<option value="365">Updated within 1 year</option>
-					<option value="730">Updated within 2 years</option>
-					<option value="stale">Older than 2 years</option>
-					<option value="unknown">No update metadata</option>
+					<option value="" data-i18n="anyUpdateAge">Any update age</option>
+					<option value="90" data-i18n="updated90">Updated within 90 days</option>
+					<option value="365" data-i18n="updated365">Updated within 1 year</option>
+					<option value="730" data-i18n="updated730">Updated within 2 years</option>
+					<option value="stale" data-i18n="older730">Older than 2 years</option>
+					<option value="unknown" data-i18n="noUpdateMetadata">No update metadata</option>
 				</select>
 			</div>
 		</div>
-		<div id="filter-summary" aria-live="polite">Filters load after the catalog renders.</div>
+		<div id="filter-summary" aria-live="polite" data-i18n="filtersLoading">Filters load after the catalog renders.</div>
 	</form>
 
 	<div id="status" role="alert" hidden></div>
@@ -252,12 +252,75 @@
 	<script>
 		const defaultTheme = 'darkly';
 		const sourceFile = new URLSearchParams( window.location.search ).get( 'source' ) || 'README.md';
+		const requestedLocale = new URLSearchParams( window.location.search ).get( 'lang' ) || navigator.language || 'en';
 		const allowedThemes = new Map( [
 			[ 'darkly', 'vendor/bootswatch/darkly/bootstrap.min.css' ],
 			[ 'united', 'vendor/bootswatch/united/bootstrap.min.css' ],
 			[ 'flatly', 'vendor/bootswatch/flatly/bootstrap.min.css' ],
 			[ 'quartz', 'vendor/bootswatch/quartz/bootstrap.min.css' ],
 		] );
+		const locales = {
+			en: {
+				skip: 'Skip to catalog',
+				theme: 'Theme',
+				search: 'Search',
+				searchPlaceholder: 'App, category, package, source',
+				category: 'Category',
+				allCategories: 'All categories',
+				store: 'Store',
+				anyStore: 'Any store',
+				noStore: 'No store link',
+				sourceHost: 'Source Host',
+				anyHost: 'Any host',
+				trustFlag: 'Trust Flag',
+				anyTrust: 'Any trust flag',
+				hasAntiFeatures: 'Has anti-features',
+				sensitivePermissions: 'Sensitive permissions',
+				noAntiFeatures: 'No anti-features',
+				sourceArchive: 'Source archive',
+				reproducibleVerified: 'Reproducible verified',
+				updateRecency: 'Update Recency',
+				anyUpdateAge: 'Any update age',
+				updated90: 'Updated within 90 days',
+				updated365: 'Updated within 1 year',
+				updated730: 'Updated within 2 years',
+				older730: 'Older than 2 years',
+				noUpdateMetadata: 'No update metadata',
+				filtersLoading: 'Filters load after the catalog renders.',
+				showing: ( visible, total ) => `Showing ${visible} of ${total} entries.`,
+			},
+			es: {
+				skip: 'Saltar al catalogo',
+				theme: 'Tema',
+				search: 'Buscar',
+				searchPlaceholder: 'App, categoria, paquete, origen',
+				category: 'Categoria',
+				allCategories: 'Todas las categorias',
+				store: 'Tienda',
+				anyStore: 'Cualquier tienda',
+				noStore: 'Sin enlace de tienda',
+				sourceHost: 'Servidor de origen',
+				anyHost: 'Cualquier servidor',
+				trustFlag: 'Senal de confianza',
+				anyTrust: 'Cualquier senal',
+				hasAntiFeatures: 'Tiene anti-features',
+				sensitivePermissions: 'Permisos sensibles',
+				noAntiFeatures: 'Sin anti-features',
+				sourceArchive: 'Archivo de origen',
+				reproducibleVerified: 'Reproducible verificado',
+				updateRecency: 'Actualizacion',
+				anyUpdateAge: 'Cualquier antiguedad',
+				updated90: 'Actualizado en 90 dias',
+				updated365: 'Actualizado en 1 ano',
+				updated730: 'Actualizado en 2 anos',
+				older730: 'Mas de 2 anos',
+				noUpdateMetadata: 'Sin metadata de actualizacion',
+				filtersLoading: 'Los filtros cargan despues del catalogo.',
+				showing: ( visible, total ) => `Mostrando ${visible} de ${total} entradas.`,
+			},
+		};
+		const localeKey = locales[ requestedLocale.toLowerCase() ] ? requestedLocale.toLowerCase() : requestedLocale.slice( 0, 2 ).toLowerCase();
+		const activeLocale = locales[ localeKey ] ? localeKey : 'en';
 
 		const main = document.querySelector( 'main' );
 		const status = document.querySelector( '#status' );
@@ -271,6 +334,25 @@
 		const filterSummary = document.querySelector( '#filter-summary' );
 		const filterControls = [ filterSearch, filterCategory, filterStore, filterHost, filterTrust, filterRecency ];
 		let catalogItems = [];
+
+		function t( key, ...args )
+		{
+			const value = locales[ activeLocale ][ key ] || locales.en[ key ] || key;
+			return typeof value === 'function' ? value( ...args ) : value;
+		}
+
+		function applyLocale()
+		{
+			document.documentElement.lang = activeLocale;
+			for ( const element of document.querySelectorAll( '[data-i18n]' ) )
+			{
+				element.textContent = t( element.dataset.i18n );
+			}
+			for ( const element of document.querySelectorAll( '[data-i18n-placeholder]' ) )
+			{
+				element.placeholder = t( element.dataset.i18nPlaceholder );
+			}
+		}
 
 		function showError( message )
 		{
@@ -477,7 +559,7 @@
 				item.element.hidden = !matched;
 				if ( matched ) visible += 1;
 			}
-			filterSummary.textContent = `Showing ${visible} of ${catalogItems.length} entries.`;
+			filterSummary.textContent = t( 'showing', visible, catalogItems.length );
 		}
 
 		function fillSelect( select, values )
@@ -574,6 +656,7 @@
 		}
 
 		themeSelect.value = defaultTheme;
+		applyLocale();
 		themeSelect.addEventListener( 'change', event => changeCSS( event.target.value ) );
 		filterControls.forEach( control => control.addEventListener( 'input', applyFilters ) );
 		loadCatalog();
