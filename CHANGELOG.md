@@ -1,5 +1,10 @@
 # Changelog
 
+## Android FOSS v0.0.7 - 2026-06-28
+
+- Documented Android developer-verification timing, affected install paths, and F-Droid/IzzyOnDroid implications.
+- Added contributor guidance for signing, release-channel, and developer-verification evidence.
+
 ## Android FOSS v0.0.6 - 2026-06-28
 
 - Added local browser search over app names, categories, package IDs, source hosts, and store names.

@@ -2,13 +2,6 @@
 
 ## Research-Driven Additions
 
-- [ ] P1 - Document Android developer-verification and sideloading impact
-  Why: Android developer verification begins regionally in September 2026 and expands globally from 2027, directly affecting users who install apps outside Google Play.
-  Evidence: Android Developers Blog; Keep Android Open; F-Droid forum; Hacker News discussion.
-  Touches: `README.md`, `doc/OpenAndroidProjects.md`, contributor criteria.
-  Acceptance: The catalog explains verified-developer requirements, affected regions/timeline, F-Droid/Izzy implications, and safe install/update guidance without endorsing proprietary lock-in.
-  Complexity: S
-
 - [ ] P1 - Add contributor-facing acceptance lint for privacy and maintenance criteria
   Why: `CONTRIBUTING.md` states privacy, no proprietary elements, stability, and active maintenance requirements, but local checks do not verify evidence for those criteria.
   Evidence: `CONTRIBUTING.md`; F-Droid Anti-Features; IzzyOnDroid inclusion policy.

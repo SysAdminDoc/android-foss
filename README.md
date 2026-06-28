@@ -1,6 +1,6 @@
 # Android FOSS
 
-[![Version](https://img.shields.io/badge/version-0.0.6-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.0.7-blue.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android-3ddc84.svg)](https://www.android.com/)
 
@@ -14,6 +14,7 @@ A list of **Free** and **Open Source Software** ***(FOSS)*** for **Android** –
 ## Table of Contents
 
 * [App Store](#-app-store-)
+* [Android developer verification](#android-developer-verification)
 * [Apps](#-apps-)
     * [Ad Blocker](#-ad-blocker)
     * [Anime &amp; Manga](#-anime--manga)
@@ -102,6 +103,31 @@ A list of **Free** and **Open Source Software** ***(FOSS)*** for **Android** –
 * [Tutorials and Guides](#-tutorials-and-guides-)
 * [Getting more …](#-getting-more--)
 * [Local validation](#local-validation)
+
+------------------------
+
+## Android developer verification
+
+Google's Android developer verification requirements affect certified Android
+devices, including apps installed outside Google Play. Current Android guidance
+says regional enforcement starts on **September 30, 2026** for Brazil,
+Indonesia, Singapore, and Thailand, then expands globally in **2027 and beyond**.
+Google says unregistered apps can still be installed with ADB or an advanced
+flow, but ordinary sideloading and third-party store installs can face new
+verification gates.
+
+For FOSS users, prefer entries with source links, F-Droid or IzzyOnDroid package
+links, current update metadata, and clear upstream signing or release notes.
+F-Droid has publicly opposed mandatory developer registration, so availability
+and install prompts may differ by region, device certification state, store
+registration status, and Android version. Keep a tested backup install path for
+critical apps before travelling into affected regions or updating a primary
+device.
+
+Sources: [Android developer verification](https://developer.android.com/developer-verification),
+[Android Developers Blog](https://android-developers.googleblog.com/2026/06/android-developer-verification.html),
+[F-Droid open letter](https://f-droid.org/2026/02/24/open-letter-opposing-developer-verification.html),
+[Keep Android Open](https://keepandroidopen.org/).
 
 ------------------------
 

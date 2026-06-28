@@ -29,6 +29,11 @@ the generated `catalog-trust.json` entry for anti-features, sensitive permission
 last update date, source archive availability, and reproducible-build status before
 submitting the catalog change.
 
+For apps mainly distributed outside Google Play, prefer upstream links that document
+APK signing, release channels, F-Droid/IzzyOnDroid package availability, or Android
+developer-verification status. This helps users in regions where certified Android
+devices enforce developer verification starting September 30, 2026.
+
 *Examples:*
 
 ```markdown
