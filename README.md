@@ -1,6 +1,6 @@
 # Android FOSS
 
-[![Version](https://img.shields.io/badge/version-0.0.8-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.0.9-blue.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android-3ddc84.svg)](https://www.android.com/)
 
@@ -1197,3 +1197,7 @@ local search and filter controls from the rendered README and sidecar metadata.
 Run `python contributor_check.py` before submitting README catalog changes. It checks
 changed entries for absolute source URLs, local trust metadata, blocked anti-features,
 license/update evidence, and live source-health signals.
+
+Run `python catalog_export.py` to refresh `catalog.json`, a deterministic
+machine-readable sidecar with each entry's name, category, source URL, source host,
+store links, package IDs, and README line number.

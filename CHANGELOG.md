@@ -1,5 +1,10 @@
 # Changelog
 
+## Android FOSS v0.0.9 - 2026-06-28
+
+- Added a deterministic machine-readable catalog sidecar generated from `README.md`.
+- Exported entry names, categories, source URLs, source hosts, store links, package IDs, and README line numbers.
+
 ## Android FOSS v0.0.8 - 2026-06-28
 
 - Added a contributor-facing acceptance checker for changed README catalog entries.

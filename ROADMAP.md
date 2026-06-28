@@ -2,13 +2,6 @@
 
 ## Research-Driven Additions
 
-- [ ] P2 - Generate a machine-readable catalog sidecar
-  Why: Trust overlays, search, duplicate detection, and future exports are fragile if every field must be reparsed from Markdown each time.
-  Evidence: 746 README entries; Awesome F-Droid generated table; open-source-android-apps generated categories.
-  Touches: README parser, generated JSON sidecar, local checker, `index.html`.
-  Acceptance: A local command emits deterministic JSON containing app name, category, source URL, store links, package IDs, source host, and line number, and README remains the visible canonical catalog.
-  Complexity: M
-
 - [ ] P2 - Add duplicate, fork, and package-identity detection
   Why: Android users need to know whether similarly named entries are forks, package variants, or duplicate listings; community complaints cite uncertainty about legitimate apps.
   Evidence: PrivacyGuides Reddit thread; F-Droid package identity model; APKMirror signature/variant FAQ.
