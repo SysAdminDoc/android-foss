@@ -2,13 +2,6 @@
 
 ## Research-Driven Additions
 
-- [ ] P0 - Replace stale link validators with one cross-platform local checker
-  Why: `check.sh` still searches the old `f-droid.org/app` pattern while current entries use `f-droid.org/packages`, and Bash checks are not reliable on this Windows maintenance environment.
-  Evidence: `check.sh`; `CONTRIBUTING.md`; F-Droid metadata docs.
-  Touches: `check.sh`, `check_manually.sh`, `ensure_sorted.py`, new local checker module/script.
-  Acceptance: A single local command validates F-Droid and Izzy URL formats, duplicate entries, store-link order, malformed Markdown lines, and exits non-zero with actionable line numbers.
-  Complexity: M
-
 - [ ] P0 - Harden `index.html` Markdown rendering
   Why: Marked explicitly does not sanitize output, but `index.html` injects parsed README HTML directly into `innerHTML` and loads remote runtime assets without integrity or offline fallback.
   Evidence: `index.html`; Marked security documentation; jsDelivr Bootswatch package page.
