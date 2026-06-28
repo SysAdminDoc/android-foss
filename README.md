@@ -1,6 +1,6 @@
 # Android FOSS
 
-[![Version](https://img.shields.io/badge/version-0.0.9-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.0.10-blue.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android-3ddc84.svg)](https://www.android.com/)
 
@@ -1201,3 +1201,6 @@ license/update evidence, and live source-health signals.
 Run `python catalog_export.py` to refresh `catalog.json`, a deterministic
 machine-readable sidecar with each entry's name, category, source URL, source host,
 store links, package IDs, and README line number.
+
+Run `python identity_check.py` to report duplicate names, duplicate source URLs,
+duplicate package IDs, and likely fork variants for maintainer review.

@@ -2,13 +2,6 @@
 
 ## Research-Driven Additions
 
-- [ ] P2 - Add duplicate, fork, and package-identity detection
-  Why: Android users need to know whether similarly named entries are forks, package variants, or duplicate listings; community complaints cite uncertainty about legitimate apps.
-  Evidence: PrivacyGuides Reddit thread; F-Droid package identity model; APKMirror signature/variant FAQ.
-  Touches: README parser, local checker, generated metadata cache.
-  Acceptance: Local checks report duplicate names, duplicate source URLs, duplicate package IDs, and likely fork variants with review-friendly classifications.
-  Complexity: M
-
 - [ ] P2 - Improve accessibility and responsive behavior of `index.html`
   Why: The renderer has a fixed bottom-right unlabeled theme selector and minimal layout semantics, while the README is a long navigation-heavy document.
   Evidence: `index.html`; F-Droid forum search/filter complaints; browser accessibility expectations.

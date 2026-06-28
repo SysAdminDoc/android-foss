@@ -1,5 +1,10 @@
 # Changelog
 
+## Android FOSS v0.0.10 - 2026-06-28
+
+- Added a local identity report for duplicate names, duplicate source URLs, duplicate package IDs, and likely fork variants.
+- Added offline unit coverage for identity report classifications.
+
 ## Android FOSS v0.0.9 - 2026-06-28
 
 - Added a deterministic machine-readable catalog sidecar generated from `README.md`.
