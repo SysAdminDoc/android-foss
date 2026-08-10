@@ -69,3 +69,18 @@
 - Added repository ignore rules for local working notes and editor files.
 - Made the sorted-list validator read `README.md` as UTF-8 on Windows.
 - Enforced LF line endings for shell scripts so local Bash checks run on Windows.
+
+## Roadmap archive — 2026-08-10 — ROADMAP.md
+
+<details>
+<summary>Original roadmap snapshot</summary>
+
+```markdown
+# Roadmap
+
+## Research-Driven Additions
+
+No active roadmap items.
+```
+
+</details>
