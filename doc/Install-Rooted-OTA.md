@@ -1,143 +1,143 @@
 # OTA Update on a Rooted Device
 
-The installation of ***OTA*** updates often fails if the device has been **rooted**. Though it's still **possible** – without losing any data. This guide shows how, using ***TWRP*** and ***Magisk***.
+Installing an ***OTA*** update often fails if the device has been **rooted**. You can still complete the update without losing data. This guide shows how to do it with ***TWRP*** and ***Magisk***.
 
-***WARNING:** Before you start **backup** everything that's important! Proceed at own risk!*
+**Warning:** Back up anything important before you start. These steps modify system partitions, so proceed at your own risk.
 
 ## Table of Contents
 
-* [Prerequisite](#-prerequisite-)
-* [Short Version](#-short-version-)
-* [Long Version](#-long-version-)
-    * [Step 1 – Preparation](#step-1--preparation)
-    * [Step 2 – Flash System Images](#step-2--flash-system-images)
-    * [Step 3 – Install *OTA*](#step-3--install-ota)
-    * [Step 4 – Install *TWRP*](#step-4--install-twrp)
-    * [Step 5 – Install *Magisk*](#step-5--install-magisk)
-    * [Step 6 – Done](#step-6--done)
-* [Further information](#-further-information-)
+* [Prerequisite](#prerequisite)
+* [Short Version](#short-version)
+* [Long Version](#long-version)
+    * [Step 1: Preparation](#step-1-preparation)
+    * [Step 2: Flash System Images](#step-2-flash-system-images)
+    * [Step 3: Install *OTA*](#step-3-install-ota)
+    * [Step 4: Install *TWRP*](#step-4-install-twrp)
+    * [Step 5: Install *Magisk*](#step-5-install-magisk)
+    * [Step 6: Done](#step-6-done)
+* [Further information](#further-information)
 
 -------------------------------------
 
-## – Prerequisite –
+## Prerequisite
 
-1. The Update file of the version that's *already running* on the device (*NOT* the update you want to install)
+1. The update file for the version *already running* on the device, not the version you want to install
 1. [**TWRP**](https://twrp.me/) for your device
 1. [**Magisk**](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
-1. ***ADB*** and ***Fastboot*** inclusive *Developer Mode* enabled on the device
+1. ***ADB*** and ***Fastboot***, with *Developer Mode* and *USB Debugging* enabled on the device
 
-Don't forget to check the checksums of all files.
+Verify the checksums of every downloaded file before flashing it.
 
-Doing the update isn't that difficult: Reset some system partitions, install ***OTA***, refresh ***TWPR*** and ***Magisk***, done. There are two versions of this guide: The *short version* is just a list of steps, while the *long version* explains each step and the commands necessary.
+The process resets selected system partitions, installs the ***OTA*** update, and restores ***TWRP*** and ***Magisk***. The *short version* is a checklist. The *long version* explains each step and includes the necessary commands.
 
 -------------------------------------
 
-## – Short Version –
+## Short Version
 
-1. Download the Update *current installed*
+1. Download the update for the currently installed version
 1. Enable USB Debugging
-1. Boot to Bootloader
+1. Boot into the bootloader
 1. Flash *recovery*, *system* and *boot* images
 1. Reboot
-1. Install OTA
+1. Install the OTA update
 1. Flash ***TWRP***
-1. Boot to Recovery
+1. Boot into recovery
 1. Install ***Magisk***
 1. Reboot
 
 -------------------------------------
 
-## – Long Version –
+## Long Version
 
-At first double check your backups and the prerequisites listed above.
+Double-check your backups and the prerequisites listed above before continuing.
 
-### Step 1 – Preparation
+### Step 1: Preparation
 
 #### Copy *Magisk* to your device
 
-Copy (or download) ***Magisk*** Zip to your device. It doesn't matter if it's on the internal or SD memory, just place it somewhere you can find it again later. You can do this step at any later time too.
+Copy or download the ***Magisk*** ZIP to your device. Internal storage and an SD card both work. Put the file somewhere you can find it later.
 
-#### Stock files of current running version
+#### Get the stock files for the current version
 
-Download the update file for the version already running on your device – *not* the version you want to install. Given you are running on v1.2.3 and want to update to v1.2.4, you need the v1.2.3 file.
+Download the update file for the version already running on your device, *not* the version you want to install. If you're running v1.2.3 and want to update to v1.2.4, you need the v1.2.3 file.
 
-Unpack the downloaded file, you need: `recovery.img`, `system.img` and `boot.img`.
+Unpack the downloaded file. You'll need `recovery.img`, `system.img`, and `boot.img`.
 
 #### Enable USB Debugging
 
 Connect the device to your computer through USB and enable *USB Debugging* on the device.
 
-### Step 2 – Flash System Images
+### Step 2: Flash System Images
 
-Open a terminal and use these commands to flash the necessary partitions (don't type the `>`):
+Open a terminal and use these commands to flash the necessary partitions:
 
 ```sh
 # Check if device is recognized
-> adb devices
+adb devices
 
 # Boot into bootloader
-> adb reboot bootloader
+adb reboot bootloader
 
 # Check device again in Bootloader
-> fastboot devices
+fastboot devices
 
 # Flash recovery image
-> fastboot flash recovery recovery.img
+fastboot flash recovery recovery.img
 
 # Flash system image
-> fastboot flash system system.img
+fastboot flash system system.img
 
 # Flash boot image
-> fastboot flash boot boot.img
+fastboot flash boot boot.img
 
 # Reboot device
-> fastboot reboot
+fastboot reboot
 ```
 
-### Step 3 – Install *OTA*
+### Step 3: Install *OTA*
 
-Install the ***OTA*** as usual on the device. The update will reboot automatically. Once this is done check that the installed version is correct and your system is up to date.
+Install the ***OTA*** update as usual on the device. It will reboot automatically. When it finishes, confirm that the installed version is correct and the system reports that it's up to date.
 
-### Step 4 – Install *TWRP*
+### Step 4: Install *TWRP*
 
-Flash ***TWRP*** using ***ADB***. The image typically has a device specific name (eg. `twrp-[version]-[device].img`), for simplification `TWRP.img` is used here.
+Flash ***TWRP*** using ***ADB*** and ***Fastboot***. The image usually has a device-specific name, such as `twrp-[version]-[device].img`. The example below uses `TWRP.img` for readability.
 
 ```sh
 # Check if device is recognized
-> adb devices
+adb devices
 
 # Boot into bootloader
-> adb reboot bootloader
+adb reboot bootloader
 
 # Check device again in Bootloader
-> fastboot devices
+fastboot devices
 
 # Flash TWRP
-> fastboot flash recovery TWRP.img
+fastboot flash recovery TWRP.img
 
 # Reboot device
-> fastboot reboot
+fastboot reboot
 ```
 
 #### Boot into *TWRP*
 
-When the last command restarts the device, use the *Volume Keys* to navigate. Select boot into *"Recovery"*. ***TWRP*** will show up then.
+When the last command restarts the device, use the volume keys to navigate. Choose *Recovery* to open ***TWRP***.
 
-### Step 5 – Install *Magisk*
+### Step 5: Install *Magisk*
 
-From the ***TWRP*** menu select *"Install"* and install the ***Magisk*** Zip. Reboot afterwards.
+From the ***TWRP*** menu, choose *Install* and select the ***Magisk*** ZIP. Reboot when installation finishes.
 
-**Note:** *It's a good chance to clear the Dalvik-Cache at this point – but that's fully optional.*
+**Note:** *This is a good time to clear the Dalvik cache, but it's optional.*
 
-### Step 6 – Done
+### Step 6: Done
 
-Once back in your system make sure everything works fine, you are running the latest version and root is enabled. Just one last step: Disable *USB Debugging*.
+Once the system starts, confirm that the updated version is running and root access is enabled. Disable *USB Debugging* when you're done.
 
 That's it!
 
 -------------------------------------
 
-## – Further information –
+## Further information
 
-* [Magisk – OTA Upgrade Guide](https://topjohnwu.github.io/Magisk/ota.html)
+* [Magisk: OTA Upgrade Guide](https://topjohnwu.github.io/Magisk/ota.html)
 * [A manual OTA for rooted hammerheads, quasi](https://gist.github.com/eyecatchup/ec0a852428c19705380e)

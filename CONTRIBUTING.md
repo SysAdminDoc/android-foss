@@ -1,26 +1,26 @@
 # Criteria
 
-Each listed software has to meet following criteria:
+Every listed app must meet these criteria:
 
-1. Licensed as *Free and Open Source Software*
-1. Source code available
-1. Keeps Privacy – No Advertisement, no Spyware!
+1. Licensed as free and open-source software
+1. Public source code
+1. Protects privacy. No advertising or spyware.
 1. No proprietary elements
-1. Stable (at least stable to use)
-1. Actively developed, maintained or supported
-1. Documentation available (Project website etc.)
+1. Stable enough for regular use
+1. Actively developed, maintained, or supported
+1. Documentation is available, such as a project website
 1. Free of charge
 
-F-Droid provides good [guidance](https://f-droid.org/docs/Anti-Features/) on *Anti-Features*.
+F-Droid publishes useful [guidance on anti-features](https://f-droid.org/docs/Anti-Features/).
 
 Entries are sorted alphabetically.
 
 ## F-Droid links
 
-If a package is available on [**F-Droid**](https://f-droid.org/) it can be linked using the `https://f-droid.org/packages/<App ID>` URL.
-If not yet, it's a good idea to promote F-Droid submission to the projects developer.
+If a package is available on [**F-Droid**](https://f-droid.org/), link it using the `https://f-droid.org/packages/<App ID>` URL.
+If it isn't listed yet, consider suggesting an F-Droid submission to the project's developers.
 
-[**IzzyOnDroid**](https://apt.izzysoft.de/fdroid/) can be linked using `https://apt.izzysoft.de/packages/<App ID>`, if the package is *not* marked by *NonFreeComp*.
+Link [**IzzyOnDroid**](https://apt.izzysoft.de/fdroid/) packages using `https://apt.izzysoft.de/packages/<App ID>` only when they aren't marked with *NonFreeComp*.
 
 If the package is available on both, link F-Droid first, IzzyOnDroid second.
 
@@ -54,4 +54,4 @@ source health without requiring maintainers to inspect every field manually.
 * [**Example Project**](https://github.com/example/proj) <sup>**[[F-Droid](https://f-droid.org/packages/ex.ample.proj)] [[IzzyOnDroid](https://apt.izzysoft.de/packages/ex.ample.proj)]**</sup>
 ```
 
-Please do not submit other third party F-Droid repositories or Google Play Store.
+Please don't submit links to other third-party F-Droid repositories or the Google Play Store.

@@ -1,21 +1,48 @@
-# Android FOSS
+<p align="center">
+  <img src="assets/brand/android-foss-mark.png" width="132" alt="Android FOSS logo">
+</p>
 
-[![Version](https://img.shields.io/badge/version-0.0.13-blue.svg)](CHANGELOG.md)
+<h1 align="center">Android FOSS</h1>
+
+<p align="center"><strong>Find open-source Android apps with the evidence you need to choose well.</strong></p>
+
+[![Version](https://img.shields.io/badge/version-0.0.14-blue.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android-3ddc84.svg)](https://www.android.com/)
 
-A list of **Free** and **Open Source Software** ***(FOSS)*** for **Android** – saving *Freedom* and *Privacy*.
+Browse 767 free and open-source Android apps without wading through a wall of links. Search by category, store, source host, update age, and published trust metadata.
+
+[**Browse the live catalog**](https://sysadmindoc.github.io/android-foss/) · [Read how the evidence works](#how-to-read-the-catalog) · [Contribute an app](CONTRIBUTING.md)
+
+![Android FOSS catalog showing search, trust filters, and app cards](assets/screenshots/catalog-home.png)
+
+## Why use Android FOSS?
+
+* Search the full catalog by app name, package ID, category, or source host.
+* Jump straight to source code and cataloged F-Droid or IzzyOnDroid packages.
+* Filter published anti-feature, permission, update, and reproducible-build metadata.
+* Sort by signal coverage, source activity, popularity, name, or category.
+
+## How to read the catalog
+
+Store metadata and repository activity can help you narrow a long list. They cannot prove that an app is safe or private. Review source, permissions, release notes, and signing details before installing anything important.
 
 > [!CAUTION]
-> :rotating_light: **Free and Open-Source Android is under threat.** Google will turn Android into a locked-down platform, restricting your essential freedom to install apps of your choice. Make your voice heard – [**Keep Android Open**](https://keepandroidopen.org/).
+> **Free and open-source Android is under threat.** New developer verification rules can restrict ordinary sideloading and third-party store installs. Read the current guidance and [Keep Android Open](https://keepandroidopen.org/).
 >
 > *See also: [Open Android Projects](doc/OpenAndroidProjects.md)*
 
+## A closer look
+
+| Focused search results | Light theme |
+|:--:|:--:|
+| ![Calendar search narrowed to four Android apps](assets/screenshots/catalog-search.png) | ![The same Android FOSS search in the light theme](assets/screenshots/catalog-light.png) |
+
 ## Table of Contents
 
-* [App Store](#-app-store-)
+* [App Store](#app-store)
 * [Android developer verification](#android-developer-verification)
-* [Apps](#-apps-)
+* [Apps](#apps)
     * [Ad Blocker](#-ad-blocker)
     * [Anime &amp; Manga](#-anime--manga)
     * [Automation](#-automation)
@@ -86,7 +113,7 @@ A list of **Free** and **Open Source Software** ***(FOSS)*** for **Android** –
     * [VPN](#-vpn)
     * [Wallpapers](#-wallpapers)
     * [Weather](#-weather)
-* [Games](#-games-)
+* [Games](#games)
     * [Board](#-board)
     * [Card](#-card)
     * [Educational](#-educational)
@@ -98,10 +125,10 @@ A list of **Free** and **Open Source Software** ***(FOSS)*** for **Android** –
     * [Retro](#-retro)
     * [Strategy](#-strategy)
     * [Word](#-word)
-* [Rooting and Recovery](#-rooting-and-recovery-)
-* [Tools](#-tools-)
-* [Tutorials and Guides](#-tutorials-and-guides-)
-* [Getting more …](#-getting-more--)
+* [Rooting and Recovery](#rooting-and-recovery)
+* [Tools](#tools)
+* [Tutorials and Guides](#tutorials-and-guides)
+* [Getting more apps](#getting-more-apps)
 * [Local validation](#local-validation)
 
 ------------------------
@@ -131,7 +158,7 @@ Sources: [Android developer verification](https://developer.android.com/develope
 
 ------------------------
 
-## – App Store –
+## App Store
 
 * [**F-Droid**](https://f-droid.org)
     * [**Neo-Store**](https://github.com/NeoApplications/Neo-Store) <sup>**[[F-Droid](https://f-droid.org/packages/com.machiav3lli.fdroid)]**</sup> <sup>**[[IzzyOnDroid](https://apt.izzysoft.de/packages/com.machiav3lli.fdroid)]**</sup>
@@ -149,7 +176,7 @@ Sources: [Android developer verification](https://developer.android.com/develope
 
 ------------------------
 
-## – Apps –
+## Apps
 
 ### • Ad Blocker
 
@@ -210,7 +237,7 @@ Sources: [Android developer verification](https://developer.android.com/develope
 * [**IdiomReplaceX Browser App**](https://github.com/idiomReplaceX/IdiomReplaceX-app) <sup>**[[F-Droid](https://f-droid.org/packages/de.idiomreplacex.browser_app)]**</sup>
 * [**IronFox**](https://gitlab.com/ironfox-oss/IronFox)
 * [**Lightning**](https://github.com/anthonycr/Lightning-Browser) <sup>**[[F-Droid](https://f-droid.org/packages/acr.browser.lightning)]**</sup>
-* [**Monocles Browser**](https://codeberg.org/Arne/monocles_browser) <sup>**[[F-Droid](https://f-droid.org/packages/de.monocles.browser)]**</sup>
+* [**Monocles Browser**](https://codeberg.org/monocles/monocles_browser) <sup>**[[F-Droid](https://f-droid.org/packages/de.monocles.browser)]**</sup>
 * [**Native Alpha**](https://github.com/cylonid/NativeAlphaForAndroid) <sup>**[[IzzyOnDroid](https://apt.izzysoft.de/packages/com.cylonid.nativealpha)]**</sup>
 * [**Privacy Browser**](https://gitweb.stoutner.com/?p=PrivacyBrowserAndroid.git;a=summary) <sup>**[[F-Droid](https://f-droid.org/packages/com.stoutner.privacybrowser.standard)]**</sup>
 * [**Tor Browser**](https://gitlab.torproject.org/tpo/applications/tor-browser)
@@ -331,7 +358,7 @@ Sources: [Android developer verification](https://developer.android.com/develope
 * [**Librera Reader**](https://github.com/foobnix/LibreraReader) <sup>**[[F-Droid](https://f-droid.org/packages/com.foobnix.pro.pdf.reader)]**</sup>
 * [**LxReader**](https://gitlab.com/coolreader-ng/lxreader) <sup>**[[F-Droid](https://f-droid.org/packages/io.gitlab.coolreader_ng.lxreader.fdroid)]**</sup>
 * [**MJ PDF Reader**](https://gitlab.com/mudlej_android/mj_pdf_reader) <sup>**[[IzzyOnDroid](https://apt.izzysoft.de/packages/com.gitlab.mudlej.MjPdfReader)]**</sup>
-* [**MuPDF**](http://mupdf.com/) <sup>**[[F-Droid](https://f-droid.org/packages/com.artifex.mupdf.viewer.app)]**</sup>
+* [**MuPDF**](https://mupdf.com/) <sup>**[[F-Droid](https://f-droid.org/packages/com.artifex.mupdf.viewer.app)]**</sup>
 * [**Orion Viewer**](https://github.com/max-kammerer/orion-viewer) <sup>**[[F-Droid](https://f-droid.org/packages/universe.constellation.orion.viewer)]**</sup>
 * [**Secure PDF Viewer**](https://github.com/GrapheneOS/PdfViewer)
 
@@ -369,7 +396,7 @@ Sources: [Android developer verification](https://developer.android.com/develope
 
 * [**FairEmail**](https://github.com/M66B/FairEmail) <sup>**[[F-Droid](https://f-droid.org/packages/eu.faircode.email)]**</sup>
 * [**K-9 Mail**](https://github.com/thundernest/k-9) <sup>**[[F-Droid](https://f-droid.org/packages/com.fsck.k9)]**</sup>
-    * [**monocles mail**](https://codeberg.org/Arne/monocles_mail) <sup>**[[F-Droid](https://f-droid.org/packages/de.monocles.mail)]**</sup>
+    * [**monocles mail**](https://codeberg.org/monocles/monocles_mail) <sup>**[[F-Droid](https://f-droid.org/packages/de.monocles.mail)]**</sup>
 * [**Ltt.rs**](https://codeberg.org/iNPUTmice/lttrs-android) <sup>**[[F-Droid](https://f-droid.org/packages/rs.ltt.android)]**</sup>
 * [**Thunderbird**](https://github.com/thunderbird/thunderbird-android) <sup>**[[F-Droid](https://f-droid.org/packages/net.thunderbird.android)]**</sup>
 * [**Tutanota**](https://github.com/tutao/tutanota) <sup>**[[F-Droid](https://f-droid.org/packages/de.tutao.tutanota)]**</sup>
@@ -516,7 +543,7 @@ Sources: [Android developer verification](https://developer.android.com/develope
 * [**Fokus Launcher**](https://github.com/luantak/FokusLauncher) <sup>**[[F-Droid](https://f-droid.org/packages/io.github.luantak.fokuslauncher)]**</sup>
 * [**Fossify Launcher**](https://github.com/FossifyOrg/Launcher) <sup>**[[F-Droid](https://f-droid.org/packages/org.fossify.home)]**</sup> <sup>**[[IzzyOnDroid](https://apt.izzysoft.de/packages/org.fossify.home)]**</sup>
 * [**Hex Launcher**](https://github.com/MrMannWood/launcher) <sup>**[[F-Droid](https://f-droid.org/packages/com.mrmannwood.hexlauncher)]**</sup>
-* [**KISS**](http://kisslauncher.com/) <sup>**[[F-Droid](https://f-droid.org/packages/fr.neamar.kiss)]**</sup>
+* [**KISS**](https://kisslauncher.com/) <sup>**[[F-Droid](https://f-droid.org/packages/fr.neamar.kiss)]**</sup>
 * [**Kvaesitso**](https://kvaesitso.mm20.de/) <sup>**[[F-Droid](https://f-droid.org/packages/de.mm20.launcher2.release)]**</sup> <sup>**[[IzzyOnDroid](https://apt.izzysoft.de/packages/de.mm20.launcher2.release)]**</sup>
 * [**LaunchTime**](https://github.com/quaap/LaunchTime) <sup>**[[F-Droid](https://f-droid.org/packages/com.quaap.launchtime)]**</sup>
 * [**Lawnchair**](https://github.com/LawnchairLauncher/lawnchair) <sup>**[[IzzyOnDroid](https://apt.izzysoft.de/packages/app.lawnchair)]**</sup>
@@ -753,7 +780,6 @@ Sources: [Android developer verification](https://developer.android.com/develope
 
 ### • Privacy & Security
 
-* [**AirGuard - AirTag tracking protection**](https://github.com/seemoo-lab/AirGuard) <sup>**[[F-Droid](https://f-droid.org/packages/de.seemoo.at_tracking_detection)]**</sup>
 * [**Exodus**](https://github.com/Exodus-Privacy/exodus-android-app) <sup>**[[F-Droid](https://f-droid.org/packages/org.eu.exodus_privacy.exodusprivacy)]**</sup>
 * [**PilferShush Jammer**](https://github.com/kaputnikGo/PilferShushJammer) <sup>**[[F-Droid](https://f-droid.org/packages/cityfreqs.com.pilfershushjammer)]**</sup>
 * [**Safe Space**](https://github.com/aashishksahu/SafeSpace) <sup>**[[F-Droid](https://f-droid.org/packages/org.privacymatters.safespace)]**</sup>
@@ -790,11 +816,11 @@ Sources: [Android developer verification](https://developer.android.com/develope
 ### • Sandboxing
 
 * [**Insular**](https://gitlab.com/secure-system/Insular) <sup>**[[F-Droid](https://f-droid.org/packages/com.oasisfeng.island.fdroid)]**</sup>
-* [**Shelter**](https://cgit.typeblog.net/Shelter) <sup>**[[F-Droid](https://f-droid.org/packages/net.typeblog.shelter)]**</sup>
+* [**Shelter**](https://gitea.angry.im/PeterCxy/Shelter) <sup>**[[F-Droid](https://f-droid.org/packages/net.typeblog.shelter)]**</sup>
 
 ### • Science & Education
 
-* [**Atomic - Periodic Table**](https://github.com/JLindemann42/Atomic-Periodic-Table.Android) <sup>**[[IzzyOnDroid](https://apt.izzysoft.de/packages/com.jlindemann.science)]**</sup>
+* [**Atomic: Periodic Table**](https://github.com/JLindemann42/Atomic-Periodic-Table.Android) <sup>**[[IzzyOnDroid](https://apt.izzysoft.de/packages/com.jlindemann.science)]**</sup>
 * [**Brainf**](https://github.com/fredhappyface/android.brainf) <sup>**[[F-Droid](https://f-droid.org/packages/com.fredhappyface.brainf)]**</sup>
 * [**Bubble**](https://github.com/woheller69/level) <sup>**[[F-Droid](https://f-droid.org/packages/org.woheller69.level)]**</sup>
 * [**ChemistryLab**](https://gitlab.com/asdoi/ChemistryLab) <sup>**[[F-Droid](https://f-droid.org/packages/com.chemistry.admin.chemistrylab)]**</sup>
@@ -878,7 +904,7 @@ Sources: [Android developer verification](https://developer.android.com/develope
 
 ### • Text Editors
 
-* [**Acode**](https://acode.foxdebug.com/) <sup>**[[F-Droid](https://f-droid.org/packages/com.foxdebug.acode)]**</sup>
+* [**Acode**](https://acode.app/) <sup>**[[F-Droid](https://f-droid.org/packages/com.foxdebug.acode)]**</sup>
 * [**Editor**](https://github.com/billthefarmer/editor) <sup>**[[F-Droid](https://f-droid.org/packages/org.billthefarmer.editor)]**</sup>
 * [**Emacs**](https://git.savannah.gnu.org/cgit/emacs.git/tree/?h=feature/android) <sup>**[[F-Droid](https://f-droid.org/packages/org.gnu.emacs)]**</sup>
 * [**Squircle CE**](https://github.com/massivemadness/Squircle-CE) <sup>**[[F-Droid](https://f-droid.org/packages/com.blacksquircle.ui)]**</sup>
@@ -1018,7 +1044,7 @@ Sources: [Android developer verification](https://developer.android.com/develope
 
 ------------------------
 
-## – Games –
+## Games
 
 ### • Board
 
@@ -1090,12 +1116,11 @@ Sources: [Android developer verification](https://developer.android.com/develope
 * [**Flowit**](https://github.com/Flowit-Game/Flowit) <sup>**[[F-Droid](https://f-droid.org/packages/com.bytehamster.flowitgame)]**</sup>
 * [**Gauguin**](https://github.com/meikpiep/gauguin) <sup>**[[F-Droid](https://f-droid.org/packages/org.piepmeyer.gauguin)]**</sup>
 * [**LibreSudoku**](https://github.com/kaajjo/Libre-Sudoku) <sup>**[[F-Droid](https://f-droid.org/packages/com.kaajjo.libresudoku)]**</sup>
-* [**Minesweeper - Antimine**](https://github.com/lucasnlm/antimine-android) <sup>**[[F-Droid](https://f-droid.org/packages/dev.lucanlm.antimine)]**</sup>
+* [**Minesweeper: Antimine**](https://github.com/lucasnlm/antimine-android) <sup>**[[F-Droid](https://f-droid.org/packages/dev.lucanlm.antimine)]**</sup>
 * [**Minute Maze**](https://gitlab.com/ygingras/minute-maze) <sup>**[[F-Droid](https://f-droid.org/packages/net.ygingras.minutemaze)]**</sup>
 * [**Open Sudoku**](https://gitlab.com/opensudoku/opensudoku) <sup>**[[F-Droid](https://f-droid.org/packages/org.moire.opensudoku)]**</sup>
 * [**Simon Tatham's Puzzles**](https://github.com/chrisboyle/sgtpuzzles) <sup>**[[F-Droid](https://f-droid.org/packages/name.boyle.chris.sgtpuzzles)]**</sup>
 * [**Simple Sudoku Game**](https://git.harrault.fr/android/org.benoitharrault.sudoku) <sup>**[[F-Droid](https://f-droid.org/packages/org.benoitharrault.sudoku)]**</sup>
-* [**Sleuth**](https://codeberg.org/BWPanda/sleuth)
 * [**Sudoku**](https://github.com/TheSunCat/Sudoku) <sup>**[[F-Droid](https://f-droid.org/packages/com.thesuncat.sudoku)]**</sup>
 
 ### • Racing
@@ -1121,7 +1146,7 @@ Sources: [Android developer verification](https://developer.android.com/develope
 
 ### • Word
 
-* [**CrossWords**](http://xwords.sourceforge.net/source.php) <sup>**[[F-Droid](https://f-droid.org/packages/org.eehouse.android.xw4)]**</sup>
+* [**CrossWords**](https://xwords.sourceforge.io/source.php) <sup>**[[F-Droid](https://f-droid.org/packages/org.eehouse.android.xw4)]**</sup>
 * [**Forkyz**](https://gitlab.com/Hague/forkyz) <sup>**[[F-Droid](https://f-droid.org/packages/app.crossword.yourealwaysbe.forkyz)]**</sup>
 * [**Gurgle**](https://github.com/billthefarmer/gurgle) <sup>**[[F-Droid](https://f-droid.org/packages/org.billthefarmer.gurgle)]**</sup>
 * [**Lexica**](https://github.com/lexica/lexica) <sup>**[[F-Droid](https://f-droid.org/packages/com.serwylo.lexica)]**</sup>
@@ -1129,7 +1154,7 @@ Sources: [Android developer verification](https://developer.android.com/develope
 
 ------------------------
 
-## – Rooting and Recovery –
+## Rooting and Recovery
 
 * [**APatch**](https://github.com/bmax121/APatch) <sup>**[[F-Droid](https://f-droid.org/packages/me.bmax.apatch)]**</sup> <sup>**[[IzzyOnDroid](https://apt.izzysoft.de/packages/me.bmax.apatch)]**</sup>
 * [**KernelSU**](https://kernelsu.org) <sup>**[[IzzyOnDroid](https://apt.izzysoft.de/packages/me.weishu.kernelsu)]**</sup>
@@ -1141,7 +1166,7 @@ Sources: [Android developer verification](https://developer.android.com/develope
 
 ------------------------
 
-## – Tools –
+## Tools
 
 * [**ACVTool**](https://github.com/pilgun/acvtool)
 * [**APK Editor Studio**](https://github.com/kefir500/apk-editor-studio)
@@ -1154,7 +1179,7 @@ Sources: [Android developer verification](https://developer.android.com/develope
 
 ------------------------
 
-## – Tutorials and Guides –
+## Tutorials and Guides
 
 * [**Android App Permissions by IzzySoft**](https://android.izzysoft.de/applists/perms)
 * [**Android Debloat List**](https://github.com/MuntashirAkon/android-debloat-list)
@@ -1163,11 +1188,11 @@ Sources: [Android developer verification](https://developer.android.com/develope
 
 ------------------------
 
-## – Getting more … –
+## Getting more apps
 
 * [**Awesome F-Droid Apps**](https://github.com/moneytoo/awesome-fdroid)
 * [**Awesome Shizuku Apps**](https://github.com/timschneeb/awesome-shizuku)
-* [**CellularPrivacy – Recommendations**](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector/wiki/Recommendations)
+* [**CellularPrivacy: Recommendations**](https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector)
 * [**F-Droid**](https://f-droid.org)
 * [**Fossdroid**](https://fossdroid.com)
 * [**Guardian Project**](https://guardianproject.info)
@@ -1191,8 +1216,7 @@ tests.
 Run `python trust_metadata.py` to refresh `catalog-trust.json` from the F-Droid and
 IzzyOnDroid indexes. The browser view loads that sidecar when present and displays
 store, anti-feature, sensitive-permission, update, source-archive, and optional
-reproducible-build indicators next to catalog entries. The browser view also builds
-local search and filter controls from the rendered README and sidecar metadata.
+reproducible-build indicators on app cards.
 
 Run `python contributor_check.py` before submitting README catalog changes. It checks
 changed entries for absolute source URLs, local trust metadata, blocked anti-features,
@@ -1200,7 +1224,8 @@ license/update evidence, and live source-health signals.
 
 Run `python catalog_export.py` to refresh `catalog.json`, a deterministic
 machine-readable sidecar with each entry's name, category, source URL, source host,
-store links, package IDs, and README line number.
+store links, package IDs, and README line number. The browser uses this file as its
+primary catalog and joins it with the optional trust and popularity sidecars.
 
 Run `python identity_check.py` to report duplicate names, duplicate source URLs,
 duplicate package IDs, and likely fork variants for maintainer review.
@@ -1208,3 +1233,8 @@ duplicate package IDs, and likely fork variants for maintainer review.
 Run `python popularity_metadata.py` to refresh `catalog-popularity.json`, an optional
 GitHub discovery sidecar with source stars, source update dates, and latest release
 dates. These values are advisory discovery signals, not quality or safety guarantees.
+
+Run `python -m unittest` for the offline test suite. It checks the catalog tools and
+the browser's data totals, local assets, icons, version strings, manifest, and public
+copy. Run `python build_release.py` to create the versioned static-site ZIP and SHA256
+file in `dist/`.

@@ -55,7 +55,7 @@ class Category:
 
 def main():
     # start of the Apps section
-    APPS_LINE_START = '## – Apps –\n'
+    APPS_LINE_START = '## Apps\n'
     with open('README.md', 'r', encoding='utf-8') as readme_file:
         lines = readme_file.readlines()
 
@@ -69,12 +69,13 @@ def main():
     categories = []
     for i in range(index+1, len(lines)):
         # This is a category
-        if lines[i].startswith("### •"):
-            category = Category(lines[i][6:-1])
+        if lines[i].startswith("### "):
+            category_name = lines[i][4:].strip().lstrip("• ")
+            category = Category(category_name)
             categories.append(category)
         # This is also a category
-        elif lines[i].startswith("## –"):
-            category_name = re.findall("(?<=##\\s–\\s).*?(?=\\s–)", lines[i])[0]
+        elif lines[i].startswith("## "):
+            category_name = lines[i][3:].strip().strip("- ")
             category = Category(category_name)
             categories.append(category)
         # This is an app

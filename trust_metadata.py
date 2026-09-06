@@ -255,7 +255,11 @@ def main() -> int:
     catalog = build_catalog(load_entries(), fdroid, izzy, args.verify_reproducible, args.timeout, args.limit)
 
     output = Path(args.output)
-    output.write_text(json.dumps(catalog, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    output.write_text(
+        json.dumps(catalog, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
     coverage = catalog["coverage"]
     print(f"wrote {output}: {coverage['entries']} entries, {coverage['packages']} package metadata records")
     return 0

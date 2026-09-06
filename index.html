@@ -1,775 +1,223 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="A browser view for the Android FOSS catalog.">
-	<meta name="theme-color" content="#222222">
-	<title>Android FOSS</title>
-	<link id="theme-css" rel="stylesheet" href="vendor/bootswatch/darkly/bootstrap.min.css">
-	<link rel="icon" href="android.svg" type="image/svg+xml">
-	<style>
-		body
-		{
-			min-height: 100vh;
+	<meta name="description" content="Search 767 open-source Android apps by category, store, source, update recency, and trust signals.">
+	<meta name="theme-color" content="#07110f">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Android FOSS">
+	<meta property="og:description" content="Find open-source Android apps with source, store, update, and trust metadata in one searchable catalog.">
+	<meta property="og:url" content="https://sysadmindoc.github.io/android-foss/">
+	<meta property="og:image" content="https://sysadmindoc.github.io/android-foss/assets/social-preview.png">
+	<meta name="twitter:card" content="summary_large_image">
+	<title>Android FOSS | Search the open-source app catalog</title>
+	<link rel="canonical" href="https://sysadmindoc.github.io/android-foss/">
+	<link rel="manifest" href="manifest.webmanifest">
+	<link rel="icon" href="assets/icons/favicon-32.png" sizes="32x32" type="image/png">
+	<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+	<link rel="preload" href="assets/brand/android-foss-mark.png" as="image" type="image/png">
+	<link rel="stylesheet" href="assets/styles.css">
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		"name": "Android FOSS",
+		"url": "https://sysadmindoc.github.io/android-foss/",
+		"description": "A searchable catalog of free and open-source Android apps.",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://sysadmindoc.github.io/android-foss/?q={search_term_string}",
+			"query-input": "required name=search_term_string"
 		}
-		a:focus-visible,
-		button:focus-visible,
-		input:focus-visible,
-		select:focus-visible,
-		main:focus-visible
-		{
-			outline: 3px solid #75b798;
-			outline-offset: 3px;
-		}
-		.skip-link
-		{
-			position: absolute;
-			left: 1rem;
-			top: 0;
-			z-index: 20;
-			transform: translateY(-120%);
-			padding: .5rem .75rem;
-			background: #111;
-			color: #fff;
-			border-radius: .25rem;
-		}
-		.skip-link:focus
-		{
-			transform: translateY(.75rem);
-		}
-		main
-		{
-			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-			font-size: 16px;
-			line-height: 1.5;
-			max-width: 960px;
-			width: 100%;
-			margin: auto;
-			padding: 1rem;
-			overflow-wrap: anywhere;
-		}
-		main img
-		{
-			max-width: 100%;
-			height: auto;
-		}
-		.theme-control
-		{
-			max-width: 960px;
-			margin: .75rem auto 0;
-			display: flex;
-			align-items: center;
-			justify-content: flex-end;
-			gap: .5rem;
-			padding: 0 1rem;
-		}
-		.theme-control-inner
-		{
-			display: inline-flex;
-			align-items: center;
-			gap: .5rem;
-			padding: .5rem;
-			background: rgba(0, 0, 0, .75);
-			border: 1px solid rgba(255, 255, 255, .2);
-			border-radius: .5rem;
-		}
-		.catalog-filters
-		{
-			max-width: 960px;
-			margin: 1rem auto 0;
-			padding: .75rem 1rem;
-			border-bottom: 1px solid rgba(255, 255, 255, .16);
-		}
-		.filter-grid
-		{
-			display: grid;
-			grid-template-columns: repeat(3, minmax(0, 1fr));
-			gap: .75rem;
-		}
-		.filter-field
-		{
-			display: flex;
-			flex-direction: column;
-			gap: .25rem;
-			min-width: 0;
-		}
-		.filter-field label
-		{
-			font-size: .78rem;
-			font-weight: 600;
-			text-transform: uppercase;
-			letter-spacing: 0;
-		}
-		.filter-field input,
-		.filter-field select
-		{
-			width: 100%;
-		}
-		#filter-summary
-		{
-			margin-top: .75rem;
-			font-size: .9rem;
-		}
-		#status
-		{
-			max-width: 960px;
-			margin: 1rem auto;
-			padding: .75rem 1rem;
-			border: 1px solid transparent;
-			border-radius: .5rem;
-		}
-		#status[hidden]
-		{
-			display: none;
-		}
-		#status.error
-		{
-			border-color: #f5c2c7;
-			background: #842029;
-			color: #fff;
-		}
-		.trust-metadata
-		{
-			display: flex;
-			flex-wrap: wrap;
-			gap: .25rem;
-			margin: .25rem 0 .5rem;
-			font-size: .78rem;
-		}
-		.trust-badge
-		{
-			display: inline-flex;
-			align-items: center;
-			gap: .25rem;
-			padding: .1rem .4rem;
-			border: 1px solid rgba(255, 255, 255, .2);
-			border-radius: 999px;
-			background: rgba(255, 255, 255, .08);
-			line-height: 1.4;
-		}
-		.trust-badge.warning
-		{
-			border-color: #ffc107;
-			color: #ffc107;
-		}
-		.trust-badge.good
-		{
-			border-color: #75b798;
-			color: #75b798;
-		}
-		.trust-badge.advisory
-		{
-			border-color: #8bb9fe;
-			color: #8bb9fe;
-		}
-		@media (max-width: 700px)
-		{
-			.filter-grid
-			{
-				grid-template-columns: 1fr;
-			}
-			.theme-control
-			{
-				justify-content: flex-end;
-				margin: .5rem;
-				padding: 0;
-			}
-		}
-	</style>
+	}
+	</script>
 </head>
 <body>
+	<a class="skip-link" href="#results">Skip to results</a>
 
-	<a class="skip-link" href="#catalog" data-i18n="skip">Skip to catalog</a>
-
-	<div class="theme-control">
-		<div class="theme-control-inner">
-			<label for="theme-select" data-i18n="theme">Theme</label>
-			<select id="theme-select">
-				<option value="darkly">Darkly</option>
-				<option value="united">United</option>
-				<option value="flatly">Flatly</option>
-				<option value="quartz">Quartz</option>
-			</select>
+	<header class="site-header">
+		<div class="shell header-inner">
+			<a class="brand" href="#top" aria-label="Android FOSS home">
+				<img src="assets/brand/android-foss-mark.png" alt="" width="42" height="42">
+				<span>Android FOSS</span>
+			</a>
+			<nav class="header-nav" aria-label="Primary navigation">
+				<a href="#methodology">About the catalog</a>
+				<a href="https://github.com/SysAdminDoc/android-foss" rel="noreferrer">View on GitHub</a>
+				<label class="theme-field" for="theme-select">
+					<span>Theme</span>
+					<select id="theme-select" aria-label="Color theme">
+						<option value="dark">Dark</option>
+						<option value="light">Light</option>
+						<option value="system">System</option>
+					</select>
+				</label>
+			</nav>
 		</div>
-	</div>
+	</header>
 
-	<form class="catalog-filters" role="search" aria-label="Catalog filters">
-		<div class="filter-grid">
-			<div class="filter-field">
-				<label for="filter-search" data-i18n="search">Search</label>
-				<input id="filter-search" type="search" autocomplete="off" placeholder="App, category, package, source" data-i18n-placeholder="searchPlaceholder">
+	<main id="top">
+		<section class="hero shell" aria-labelledby="hero-title">
+			<div class="hero-copy">
+				<p class="eyebrow">Curated open-source Android apps</p>
+				<h1 id="hero-title">Find an Android app you can trust.</h1>
+				<p class="hero-lede">Compare source links, store availability, update recency, and published trust metadata before you install.</p>
+
+				<label class="hero-search" for="catalog-search">
+					<span class="sr-only">Search the catalog</span>
+					<input id="catalog-search" type="search" autocomplete="off" spellcheck="false" placeholder="Search apps, categories, packages, or source hosts">
+				</label>
+
+				<div class="hero-actions">
+					<a class="button button-primary" href="#results">Browse all apps</a>
+					<a class="button button-quiet" href="#methodology">How verification works</a>
+				</div>
 			</div>
-			<div class="filter-field">
-				<label for="filter-category" data-i18n="category">Category</label>
-				<select id="filter-category">
-					<option value="" data-i18n="allCategories">All categories</option>
-				</select>
+
+			<aside class="proof-panel" aria-label="Catalog coverage">
+				<div class="proof-stat">
+					<strong id="stat-apps">767</strong>
+					<span>apps</span>
+				</div>
+				<div class="proof-stat">
+					<strong id="stat-categories">84</strong>
+					<span>categories</span>
+				</div>
+				<div class="proof-stat">
+					<strong id="stat-links">831</strong>
+					<span>cataloged store links</span>
+				</div>
+				<p>Metadata is evidence to review. It is not a safety guarantee.</p>
+			</aside>
+		</section>
+
+		<section class="catalog-section shell" id="results" aria-labelledby="results-title">
+			<div class="catalog-toolbar">
+				<div class="filter-row" role="search" aria-label="Catalog filters">
+					<label class="filter-field">
+						<span>Category</span>
+						<select id="filter-category">
+							<option value="">All categories</option>
+						</select>
+					</label>
+					<label class="filter-field">
+						<span>Store</span>
+						<select id="filter-store">
+							<option value="">Any store</option>
+							<option value="F-Droid">F-Droid</option>
+							<option value="IzzyOnDroid">IzzyOnDroid</option>
+							<option value="none">No store link</option>
+						</select>
+					</label>
+					<label class="filter-field">
+						<span>Trust signal</span>
+						<select id="filter-trust">
+							<option value="">Any signal</option>
+							<option value="no-anti-features">No listed anti-features</option>
+							<option value="reproducible-verified">Reproducible verified</option>
+							<option value="anti-features">Has anti-features</option>
+							<option value="sensitive-permissions">Sensitive permissions</option>
+							<option value="source-archive">Source archive</option>
+						</select>
+					</label>
+					<label class="filter-field">
+						<span>Updated</span>
+						<select id="filter-recency">
+							<option value="">Any age</option>
+							<option value="90">Within 90 days</option>
+							<option value="365">Within 1 year</option>
+							<option value="730">Within 2 years</option>
+							<option value="stale">Older than 2 years</option>
+							<option value="unknown">No update metadata</option>
+						</select>
+					</label>
+					<label class="filter-field filter-sort">
+						<span>Sort</span>
+						<select id="filter-sort">
+							<option value="recommended">Signal coverage</option>
+							<option value="name">Name</option>
+							<option value="updated">Recently updated</option>
+							<option value="stars">Source stars</option>
+							<option value="category">Category</option>
+						</select>
+					</label>
+					<button class="button button-clear" id="clear-filters" type="button">Clear</button>
+				</div>
+
+				<details class="advanced-filters" id="advanced-filters">
+					<summary>More filters</summary>
+					<div class="advanced-grid">
+						<label class="filter-field">
+							<span>Source host</span>
+							<select id="filter-host">
+								<option value="">Any source host</option>
+							</select>
+						</label>
+						<label class="filter-field">
+							<span>Discovery signal</span>
+							<select id="filter-discovery">
+								<option value="">Any discovery signal</option>
+								<option value="stars100">100+ source stars</option>
+								<option value="stars1000">1,000+ source stars</option>
+								<option value="has-release">Has a GitHub release</option>
+								<option value="source-updated-365">Source updated within 1 year</option>
+							</select>
+						</label>
+					</div>
+				</details>
 			</div>
-			<div class="filter-field">
-				<label for="filter-store" data-i18n="store">Store</label>
-				<select id="filter-store">
-					<option value="" data-i18n="anyStore">Any store</option>
-					<option value="F-Droid">F-Droid</option>
-					<option value="IzzyOnDroid">IzzyOnDroid</option>
-					<option value="none" data-i18n="noStore">No store link</option>
-				</select>
+
+			<div class="results-heading">
+				<div>
+					<p class="eyebrow">Explore the catalog</p>
+					<h2 id="results-title"><span id="result-count">767</span> apps</h2>
+					<div class="active-query" id="active-query" hidden>
+						<span>Search: <strong id="active-query-text"></strong></span>
+						<button id="clear-search" type="button">Remove search</button>
+					</div>
+				</div>
+				<p id="result-summary" class="result-summary" aria-live="polite">Loading source and trust metadata.</p>
 			</div>
-			<div class="filter-field">
-				<label for="filter-host" data-i18n="sourceHost">Source Host</label>
-				<select id="filter-host">
-					<option value="" data-i18n="anyHost">Any host</option>
-				</select>
+
+			<div id="status" class="status" role="alert" hidden></div>
+			<div id="catalog-grid" class="catalog-grid" aria-busy="true"></div>
+			<div id="empty-state" class="empty-state" hidden>
+				<h3>No apps match those filters.</h3>
+				<p>Try a shorter search or clear one of the selected filters.</p>
+				<button class="button button-primary" id="empty-clear" type="button">Clear filters</button>
 			</div>
-			<div class="filter-field">
-				<label for="filter-trust" data-i18n="trustFlag">Trust Flag</label>
-				<select id="filter-trust">
-					<option value="" data-i18n="anyTrust">Any trust flag</option>
-					<option value="anti-features" data-i18n="hasAntiFeatures">Has anti-features</option>
-					<option value="sensitive-permissions" data-i18n="sensitivePermissions">Sensitive permissions</option>
-					<option value="no-anti-features" data-i18n="noAntiFeatures">No anti-features</option>
-					<option value="source-archive" data-i18n="sourceArchive">Source archive</option>
-					<option value="reproducible-verified" data-i18n="reproducibleVerified">Reproducible verified</option>
-				</select>
+			<div class="load-more-wrap">
+				<button class="button button-secondary" id="load-more" type="button" hidden>Show more apps</button>
 			</div>
-			<div class="filter-field">
-				<label for="filter-recency" data-i18n="updateRecency">Update Recency</label>
-				<select id="filter-recency">
-					<option value="" data-i18n="anyUpdateAge">Any update age</option>
-					<option value="90" data-i18n="updated90">Updated within 90 days</option>
-					<option value="365" data-i18n="updated365">Updated within 1 year</option>
-					<option value="730" data-i18n="updated730">Updated within 2 years</option>
-					<option value="stale" data-i18n="older730">Older than 2 years</option>
-					<option value="unknown" data-i18n="noUpdateMetadata">No update metadata</option>
-				</select>
+		</section>
+
+		<section class="methodology shell" id="methodology" aria-labelledby="methodology-title">
+			<div>
+				<p class="eyebrow">Read the evidence</p>
+				<h2 id="methodology-title">Make the final call yourself.</h2>
 			</div>
-			<div class="filter-field">
-				<label for="filter-discovery" data-i18n="discoverySignal">Discovery Signal</label>
-				<select id="filter-discovery">
-					<option value="" data-i18n="anyDiscovery">Any discovery signal</option>
-					<option value="stars100" data-i18n="stars100">100+ source stars</option>
-					<option value="stars1000" data-i18n="stars1000">1000+ source stars</option>
-					<option value="has-release" data-i18n="hasRelease">Has GitHub release</option>
-					<option value="source-updated-365" data-i18n="sourceUpdated365">Source updated within 1 year</option>
-				</select>
+			<div class="methodology-copy">
+				<p>Android FOSS links each entry to its source and records available F-Droid or IzzyOnDroid packages. Published metadata can highlight anti-features, sensitive permissions, reproducible-build status, and update dates.</p>
+				<p>Stars and release dates help with discovery. They do not prove that an app is safe, private, or right for your device. Review the source, release notes, permissions, and signing details before installing anything important.</p>
+				<div class="methodology-links">
+					<a href="README.md">Read the full catalog</a>
+					<a href="https://keepandroidopen.org/" rel="noreferrer">Keep Android Open</a>
+				</div>
 			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="shell footer-inner">
+			<p>Android FOSS v0.0.14. Free and open-source under GPLv3.</p>
+			<a href="https://github.com/SysAdminDoc/android-foss">Contribute on GitHub</a>
 		</div>
-		<div id="filter-summary" aria-live="polite" data-i18n="filtersLoading">Filters load after the catalog renders.</div>
-	</form>
+	</footer>
 
-	<div id="status" role="alert" hidden></div>
-	<main id="catalog" tabindex="-1" aria-busy="true"></main>
-
-	<script src="vendor/marked/marked.umd.js"></script>
-	<script src="vendor/marked-gfm-heading-id/index.umd.js"></script>
-	<script src="vendor/dompurify/purify.min.js"></script>
-
-	<script>
-		const defaultTheme = 'darkly';
-		const sourceFile = new URLSearchParams( window.location.search ).get( 'source' ) || 'README.md';
-		const requestedLocale = new URLSearchParams( window.location.search ).get( 'lang' ) || navigator.language || 'en';
-		const allowedThemes = new Map( [
-			[ 'darkly', 'vendor/bootswatch/darkly/bootstrap.min.css' ],
-			[ 'united', 'vendor/bootswatch/united/bootstrap.min.css' ],
-			[ 'flatly', 'vendor/bootswatch/flatly/bootstrap.min.css' ],
-			[ 'quartz', 'vendor/bootswatch/quartz/bootstrap.min.css' ],
-		] );
-		const locales = {
-			en: {
-				skip: 'Skip to catalog',
-				theme: 'Theme',
-				search: 'Search',
-				searchPlaceholder: 'App, category, package, source',
-				category: 'Category',
-				allCategories: 'All categories',
-				store: 'Store',
-				anyStore: 'Any store',
-				noStore: 'No store link',
-				sourceHost: 'Source Host',
-				anyHost: 'Any host',
-				trustFlag: 'Trust Flag',
-				anyTrust: 'Any trust flag',
-				hasAntiFeatures: 'Has anti-features',
-				sensitivePermissions: 'Sensitive permissions',
-				noAntiFeatures: 'No anti-features',
-				sourceArchive: 'Source archive',
-				reproducibleVerified: 'Reproducible verified',
-				updateRecency: 'Update Recency',
-				anyUpdateAge: 'Any update age',
-				updated90: 'Updated within 90 days',
-				updated365: 'Updated within 1 year',
-				updated730: 'Updated within 2 years',
-				older730: 'Older than 2 years',
-				noUpdateMetadata: 'No update metadata',
-				discoverySignal: 'Discovery Signal',
-				anyDiscovery: 'Any discovery signal',
-				stars100: '100+ source stars',
-				stars1000: '1000+ source stars',
-				hasRelease: 'Has GitHub release',
-				sourceUpdated365: 'Source updated within 1 year',
-				filtersLoading: 'Filters load after the catalog renders.',
-				showing: ( visible, total ) => `Showing ${visible} of ${total} entries.`,
-			},
-			es: {
-				skip: 'Saltar al catalogo',
-				theme: 'Tema',
-				search: 'Buscar',
-				searchPlaceholder: 'App, categoria, paquete, origen',
-				category: 'Categoria',
-				allCategories: 'Todas las categorias',
-				store: 'Tienda',
-				anyStore: 'Cualquier tienda',
-				noStore: 'Sin enlace de tienda',
-				sourceHost: 'Servidor de origen',
-				anyHost: 'Cualquier servidor',
-				trustFlag: 'Senal de confianza',
-				anyTrust: 'Cualquier senal',
-				hasAntiFeatures: 'Tiene anti-features',
-				sensitivePermissions: 'Permisos sensibles',
-				noAntiFeatures: 'Sin anti-features',
-				sourceArchive: 'Archivo de origen',
-				reproducibleVerified: 'Reproducible verificado',
-				updateRecency: 'Actualizacion',
-				anyUpdateAge: 'Cualquier antiguedad',
-				updated90: 'Actualizado en 90 dias',
-				updated365: 'Actualizado en 1 ano',
-				updated730: 'Actualizado en 2 anos',
-				older730: 'Mas de 2 anos',
-				noUpdateMetadata: 'Sin metadata de actualizacion',
-				discoverySignal: 'Senal de descubrimiento',
-				anyDiscovery: 'Cualquier senal',
-				stars100: '100+ estrellas de origen',
-				stars1000: '1000+ estrellas de origen',
-				hasRelease: 'Tiene release de GitHub',
-				sourceUpdated365: 'Origen actualizado en 1 ano',
-				filtersLoading: 'Los filtros cargan despues del catalogo.',
-				showing: ( visible, total ) => `Mostrando ${visible} de ${total} entradas.`,
-			},
-		};
-		const localeKey = locales[ requestedLocale.toLowerCase() ] ? requestedLocale.toLowerCase() : requestedLocale.slice( 0, 2 ).toLowerCase();
-		const activeLocale = locales[ localeKey ] ? localeKey : 'en';
-
-		const main = document.querySelector( 'main' );
-		const status = document.querySelector( '#status' );
-		const themeSelect = document.querySelector( '#theme-select' );
-		const filterSearch = document.querySelector( '#filter-search' );
-		const filterCategory = document.querySelector( '#filter-category' );
-		const filterStore = document.querySelector( '#filter-store' );
-		const filterHost = document.querySelector( '#filter-host' );
-		const filterTrust = document.querySelector( '#filter-trust' );
-		const filterRecency = document.querySelector( '#filter-recency' );
-		const filterDiscovery = document.querySelector( '#filter-discovery' );
-		const filterSummary = document.querySelector( '#filter-summary' );
-		const filterControls = [ filterSearch, filterCategory, filterStore, filterHost, filterTrust, filterRecency, filterDiscovery ];
-		let catalogItems = [];
-
-		function t( key, ...args )
-		{
-			const value = locales[ activeLocale ][ key ] || locales.en[ key ] || key;
-			return typeof value === 'function' ? value( ...args ) : value;
-		}
-
-		function applyLocale()
-		{
-			document.documentElement.lang = activeLocale;
-			for ( const element of document.querySelectorAll( '[data-i18n]' ) )
-			{
-				element.textContent = t( element.dataset.i18n );
-			}
-			for ( const element of document.querySelectorAll( '[data-i18n-placeholder]' ) )
-			{
-				element.placeholder = t( element.dataset.i18nPlaceholder );
-			}
-		}
-
-		function showError( message )
-		{
-			status.textContent = message;
-			status.className = 'error';
-			status.hidden = false;
-			main.setAttribute( 'aria-busy', 'false' );
-		}
-
-		function changeCSS( theme )
-		{
-			if ( !allowedThemes.has( theme ) ) return;
-			document.querySelector( '#theme-css' ).href = allowedThemes.get( theme );
-		}
-
-		function dependenciesReady()
-		{
-			return window.marked && window.markedGfmHeadingId && window.DOMPurify;
-		}
-
-		function renderMarkdown( data )
-		{
-			const html = marked.parse( data );
-			return DOMPurify.sanitize( html, { USE_PROFILES: { html: true } } );
-		}
-
-		async function loadTrustMetadata()
-		{
-			try
-			{
-				const response = await fetch( 'catalog-trust.json', { cache: 'no-store' } );
-				if ( response.status === 404 ) return null;
-				if ( !response.ok ) throw new Error( `HTTP ${response.status}` );
-				return await response.json();
-			}
-			catch ( error )
-			{
-				console.warn( 'Trust metadata could not be loaded:', error );
-				return null;
-			}
-		}
-
-		async function loadPopularityMetadata()
-		{
-			try
-			{
-				const response = await fetch( 'catalog-popularity.json', { cache: 'no-store' } );
-				if ( response.status === 404 ) return null;
-				if ( !response.ok ) throw new Error( `HTTP ${response.status}` );
-				return await response.json();
-			}
-			catch ( error )
-			{
-				console.warn( 'Popularity metadata could not be loaded:', error );
-				return null;
-			}
-		}
-
-		function addBadge( container, text, className, title )
-		{
-			const badge = document.createElement( 'span' );
-			badge.className = `trust-badge ${className || ''}`.trim();
-			badge.textContent = text;
-			if ( title ) badge.title = title;
-			container.append( badge );
-		}
-
-		function addPackageBadges( container, metadata )
-		{
-			addBadge( container, metadata.store, 'good' );
-			if ( metadata.antiFeatures && metadata.antiFeatures.length )
-			{
-				addBadge( container, `Anti-features: ${metadata.antiFeatures.join( ', ' )}`, 'warning' );
-			}
-			else
-			{
-				addBadge( container, 'No anti-features', 'good' );
-			}
-
-			if ( metadata.sensitivePermissions && metadata.sensitivePermissions.length )
-			{
-				addBadge(
-					container,
-					`Sensitive perms: ${metadata.sensitivePermissions.length}`,
-					'warning',
-					metadata.sensitivePermissions.join( '\n' )
-				);
-			}
-			else if ( Number.isInteger( metadata.permissionCount ) )
-			{
-				addBadge( container, 'No sensitive perms', 'good' );
-			}
-
-			if ( metadata.lastUpdated )
-			{
-				addBadge( container, `Updated ${metadata.lastUpdated}` );
-			}
-			if ( metadata.reproducible === true )
-			{
-				addBadge( container, 'Reproducible verified', 'good' );
-			}
-			else if ( metadata.reproducible === false )
-			{
-				addBadge( container, 'Reproducible not verified', 'warning' );
-			}
-			else if ( metadata.store === 'F-Droid' )
-			{
-				addBadge( container, 'Reproducible unknown' );
-			}
-			if ( metadata.sourceArchive )
-			{
-				addBadge( container, 'Source archive', 'good' );
-			}
-		}
-
-		function addPopularityBadges( container, metadata )
-		{
-			const title = 'Advisory discovery signal, not a quality or safety guarantee.';
-			if ( Number.isInteger( metadata.stars ) )
-			{
-				addBadge( container, `Stars ${metadata.stars}`, 'advisory', title );
-			}
-			if ( metadata.sourcePushed )
-			{
-				addBadge( container, `Source pushed ${metadata.sourcePushed}`, 'advisory', title );
-			}
-			if ( metadata.latestReleaseDate )
-			{
-				const label = metadata.latestReleaseTag ? `Release ${metadata.latestReleaseTag} ${metadata.latestReleaseDate}` : `Release ${metadata.latestReleaseDate}`;
-				addBadge( container, label, 'advisory', title );
-			}
-		}
-
-		function popularityFor( sourceUrl, metadata )
-		{
-			if ( !metadata || !metadata.sources ) return null;
-			return metadata.sources[ sourceUrl ] || metadata.sources[ sourceUrl.replace( /\/$/, '' ) ] || null;
-		}
-
-		function applyTrustMetadata( metadata )
-		{
-			if ( !metadata || !metadata.entries ) return;
-			for ( const link of main.querySelectorAll( 'li > a:first-child' ) )
-			{
-				const name = link.textContent.trim();
-				const entry = metadata.entries[ name ];
-				if ( !entry || !Array.isArray( entry.packages ) || !entry.packages.length ) continue;
-
-				const container = document.createElement( 'div' );
-				container.className = 'trust-metadata';
-				container.setAttribute( 'aria-label', `${name} trust metadata` );
-				for ( const packageMetadata of entry.packages )
-				{
-					addPackageBadges( container, packageMetadata );
-				}
-				link.closest( 'li' ).append( container );
-			}
-		}
-
-		function applyPopularityMetadata( metadata )
-		{
-			if ( !metadata || !metadata.sources ) return;
-			for ( const link of main.querySelectorAll( 'li > a:first-child' ) )
-			{
-				if ( !link.href.startsWith( 'http' ) ) continue;
-				const sourceMetadata = popularityFor( link.href, metadata );
-				if ( !sourceMetadata || sourceMetadata.available !== true ) continue;
-				const item = link.closest( 'li' );
-				let container = item.querySelector( ':scope > .trust-metadata' );
-				if ( !container )
-				{
-					container = document.createElement( 'div' );
-					container.className = 'trust-metadata';
-					item.append( container );
-				}
-				addPopularityBadges( container, sourceMetadata );
-			}
-		}
-
-		function cleanHeading( text )
-		{
-			return text.replace( /^[\s\-–•]+|[\s\-–•]+$/g, '' ).trim();
-		}
-
-		function packageIds( entry )
-		{
-			if ( !entry || !Array.isArray( entry.packages ) ) return [];
-			return entry.packages.map( item => item.packageId ).filter( Boolean );
-		}
-
-		function latestUpdate( entry )
-		{
-			if ( !entry || !Array.isArray( entry.packages ) ) return null;
-			const dates = entry.packages
-				.map( item => item.lastUpdated )
-				.filter( Boolean )
-				.sort();
-			return dates.length ? dates.at( -1 ) : null;
-		}
-
-		function daysSince( dateText )
-		{
-			if ( !dateText ) return null;
-			const date = new Date( `${dateText}T00:00:00Z` );
-			if ( Number.isNaN( date.getTime() ) ) return null;
-			return Math.floor( ( Date.now() - date.getTime() ) / 86400000 );
-		}
-
-		function hasTrustFlag( item, flag )
-		{
-			if ( !flag ) return true;
-			const packages = item.metadata && Array.isArray( item.metadata.packages ) ? item.metadata.packages : [];
-			if ( flag === 'anti-features' )
-			{
-				return packages.some( metadata => metadata.antiFeatures && metadata.antiFeatures.length );
-			}
-			if ( flag === 'sensitive-permissions' )
-			{
-				return packages.some( metadata => metadata.sensitivePermissions && metadata.sensitivePermissions.length );
-			}
-			if ( flag === 'no-anti-features' )
-			{
-				return packages.length > 0 && packages.every( metadata => !metadata.antiFeatures || !metadata.antiFeatures.length );
-			}
-			if ( flag === 'source-archive' )
-			{
-				return packages.some( metadata => metadata.sourceArchive );
-			}
-			if ( flag === 'reproducible-verified' )
-			{
-				return packages.some( metadata => metadata.reproducible === true );
-			}
-			return true;
-		}
-
-		function matchesRecency( item, recency )
-		{
-			if ( !recency ) return true;
-			const age = daysSince( item.latestUpdate );
-			if ( recency === 'unknown' ) return age === null;
-			if ( recency === 'stale' ) return age !== null && age > 730;
-			return age !== null && age <= Number( recency );
-		}
-
-		function matchesDiscovery( item )
-		{
-			const signal = filterDiscovery.value;
-			if ( !signal ) return true;
-			const popularity = item.popularity;
-			if ( !popularity ) return false;
-			if ( signal === 'stars100' ) return Number( popularity.stars ) >= 100;
-			if ( signal === 'stars1000' ) return Number( popularity.stars ) >= 1000;
-			if ( signal === 'has-release' ) return Boolean( popularity.latestReleaseDate );
-			if ( signal === 'source-updated-365' )
-			{
-				const age = daysSince( popularity.sourcePushed || popularity.sourceUpdated );
-				return age !== null && age <= 365;
-			}
-			return true;
-		}
-
-		function matchesFilters( item )
-		{
-			const search = filterSearch.value.trim().toLowerCase();
-			if ( search && !item.searchText.includes( search ) ) return false;
-			if ( filterCategory.value && item.category !== filterCategory.value ) return false;
-			if ( filterStore.value === 'none' && item.stores.length ) return false;
-			if ( filterStore.value && filterStore.value !== 'none' && !item.stores.includes( filterStore.value ) ) return false;
-			if ( filterHost.value && item.sourceHost !== filterHost.value ) return false;
-			if ( !hasTrustFlag( item, filterTrust.value ) ) return false;
-			if ( !matchesRecency( item, filterRecency.value ) ) return false;
-			if ( !matchesDiscovery( item ) ) return false;
-			return true;
-		}
-
-		function applyFilters()
-		{
-			let visible = 0;
-			for ( const item of catalogItems )
-			{
-				const matched = matchesFilters( item );
-				item.element.hidden = !matched;
-				if ( matched ) visible += 1;
-			}
-			filterSummary.textContent = t( 'showing', visible, catalogItems.length );
-		}
-
-		function fillSelect( select, values )
-		{
-			for ( const value of values )
-			{
-				const option = document.createElement( 'option' );
-				option.value = value;
-				option.textContent = value;
-				select.append( option );
-			}
-		}
-
-		function buildCatalogIndex( metadata, popularityMetadata )
-		{
-			const entries = metadata && metadata.entries ? metadata.entries : {};
-			const categories = new Set();
-			const hosts = new Set();
-			let category = '';
-			catalogItems = [];
-
-			for ( const element of main.querySelectorAll( 'h2, h3, li' ) )
-			{
-				if ( element.matches( 'h3' ) )
-				{
-					category = cleanHeading( element.textContent );
-					if ( category ) categories.add( category );
-					continue;
-				}
-				if ( !element.matches( 'li' ) ) continue;
-
-				const sourceLink = element.querySelector( ':scope > a:first-child' );
-				if ( !sourceLink || !sourceLink.href.startsWith( 'http' ) ) continue;
-
-				const name = sourceLink.textContent.trim();
-				const source = new URL( sourceLink.href );
-				const stores = [ ...element.querySelectorAll( 'a[href*="f-droid.org/packages/"], a[href*="apt.izzysoft.de/packages/"]' ) ]
-					.map( link => link.href.includes( 'apt.izzysoft.de' ) ? 'IzzyOnDroid' : 'F-Droid' );
-				const entryMetadata = entries[ name ];
-				const popularity = popularityFor( source.href, popularityMetadata );
-				const ids = packageIds( entryMetadata );
-				const latest = latestUpdate( entryMetadata );
-				const itemCategory = category || 'General';
-				categories.add( itemCategory );
-				hosts.add( source.hostname );
-				catalogItems.push( {
-					element,
-					name,
-					category: itemCategory,
-					sourceHost: source.hostname,
-					stores,
-					metadata: entryMetadata,
-					popularity,
-					latestUpdate: latest,
-					searchText: [ name, itemCategory, source.hostname, source.href, ...stores, ...ids ].join( ' ' ).toLowerCase(),
-				} );
-			}
-
-			fillSelect( filterCategory, [ ...categories ].sort( ( a, b ) => a.localeCompare( b ) ) );
-			fillSelect( filterHost, [ ...hosts ].sort( ( a, b ) => a.localeCompare( b ) ) );
-			window.__androidFossCatalogItems = catalogItems;
-			window.__androidFossApplyFilters = applyFilters;
-			applyFilters();
-		}
-
-		async function loadCatalog()
-		{
-			if ( !dependenciesReady() )
-			{
-				showError( 'Catalog renderer failed to load local dependencies.' );
-				return;
-			}
-
-			marked.use( markedGfmHeadingId.gfmHeadingId() );
-			window.__androidFossRenderMarkdown = renderMarkdown;
-
-			try
-			{
-				const response = await fetch( sourceFile, { cache: 'no-store' } );
-				if ( !response.ok )
-				{
-					throw new Error( `HTTP ${response.status}` );
-				}
-
-				main.innerHTML = renderMarkdown( await response.text() );
-				const trustMetadata = await loadTrustMetadata();
-				const popularityMetadata = await loadPopularityMetadata();
-				applyTrustMetadata( trustMetadata );
-				applyPopularityMetadata( popularityMetadata );
-				buildCatalogIndex( trustMetadata, popularityMetadata );
-				main.setAttribute( 'aria-busy', 'false' );
-			}
-			catch ( error )
-			{
-				showError( `Catalog could not be loaded from ${sourceFile}.` );
-				console.error( 'Catalog load failed:', error );
-			}
-		}
-
-		themeSelect.value = defaultTheme;
-		applyLocale();
-		themeSelect.addEventListener( 'change', event => changeCSS( event.target.value ) );
-		filterControls.forEach( control => control.addEventListener( 'input', applyFilters ) );
-		loadCatalog();
-	</script>
+	<noscript>
+		<div class="noscript">JavaScript is required for catalog search. The complete list is available in <a href="README.md">README.md</a>.</div>
+	</noscript>
+	<script src="assets/app.js" defer></script>
 </body>
 </html>

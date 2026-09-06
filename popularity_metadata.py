@@ -155,7 +155,11 @@ def main() -> int:
 
     metadata = build_metadata(args.limit, args.workers, args.timeout)
     output = Path(args.output)
-    output.write_text(json.dumps(metadata, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    output.write_text(
+        json.dumps(metadata, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
     coverage = metadata["coverage"]
     print(f"wrote {output}: {coverage['available']} available of {coverage['repositories']} GitHub repositories")
     return 0

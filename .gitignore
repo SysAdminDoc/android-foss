@@ -12,3 +12,8 @@ CODEX_CHANGELOG.md
 .DS_Store
 Thumbs.db
 *.swp
+
+# Local build and Python output
+__pycache__/
+*.py[cod]
+dist/

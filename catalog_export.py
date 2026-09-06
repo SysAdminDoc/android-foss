@@ -85,7 +85,11 @@ def main() -> int:
 
     catalog = export_catalog(README.read_text(encoding="utf-8").splitlines(keepends=True))
     output = Path(args.output)
-    output.write_text(json.dumps(catalog, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    output.write_text(
+        json.dumps(catalog, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
     print(f"wrote {output}: {catalog['entryCount']} entries")
     return 0
 
