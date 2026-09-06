@@ -2,7 +2,7 @@
   "entries": [
     {
       "category": "App Store",
-      "line": 163,
+      "line": 164,
       "name": "F-Droid",
       "sourceHost": "f-droid.org",
       "sourceUrl": "https://f-droid.org",
@@ -10,7 +10,7 @@
     },
     {
       "category": "App Store",
-      "line": 164,
+      "line": 165,
       "name": "Neo-Store",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/NeoApplications/Neo-Store",
@@ -29,7 +29,7 @@
     },
     {
       "category": "App Store",
-      "line": 165,
+      "line": 166,
       "name": "Droid-ify",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Iamlooker/Droid-ify",
@@ -43,20 +43,6 @@
           "packageId": "com.looker.droidify",
           "store": "IzzyOnDroid",
           "url": "https://apt.izzysoft.de/packages/com.looker.droidify"
-        }
-      ]
-    },
-    {
-      "category": "App Store",
-      "line": 166,
-      "name": "F-Droid Classic",
-      "sourceHost": "git.bubu1.eu",
-      "sourceUrl": "https://git.bubu1.eu/Bubu/fdroidclassic",
-      "storeLinks": [
-        {
-          "packageId": "eu.bubu1.fdroidclassic",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/eu.bubu1.fdroidclassic"
         }
       ]
     },
@@ -170,9 +156,17 @@
     {
       "category": "App Store",
       "line": 174,
-      "name": "Github Store",
+      "name": "Git Store",
       "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/rainxchzed/Github-Store",
+      "sourceUrl": "https://github.com/Darkmintis/Git-Store",
+      "storeLinks": []
+    },
+    {
+      "category": "App Store",
+      "line": 175,
+      "name": "Komi Store",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/komi-store/komi-store",
       "storeLinks": [
         {
           "packageId": "zed.rainxch.githubstore",
@@ -183,7 +177,7 @@
     },
     {
       "category": "App Store",
-      "line": 175,
+      "line": 176,
       "name": "Zap.Store",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/zapstore/zapstore",
@@ -191,7 +185,7 @@
     },
     {
       "category": "Ad Blocker",
-      "line": 183,
+      "line": 184,
       "name": "AdAway",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/AdAway/AdAway",
@@ -205,7 +199,7 @@
     },
     {
       "category": "Ad Blocker",
-      "line": 184,
+      "line": 185,
       "name": "BlockAds",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/pass-with-high-score/blockads-android",
@@ -219,7 +213,7 @@
     },
     {
       "category": "Ad Blocker",
-      "line": 185,
+      "line": 186,
       "name": "Blokada",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/blokadaorg/blokada",
@@ -227,7 +221,7 @@
     },
     {
       "category": "Ad Blocker",
-      "line": 186,
+      "line": 187,
       "name": "DNSNet",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/t895/DNSNet",
@@ -241,7 +235,7 @@
     },
     {
       "category": "Ad Blocker",
-      "line": 187,
+      "line": 188,
       "name": "personalDNSfilter",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/IngoZenz/personaldnsfilter",
@@ -255,7 +249,7 @@
     },
     {
       "category": "Ad Blocker",
-      "line": 188,
+      "line": 189,
       "name": "TrackerControl",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/TrackerControl/tracker-control-android",
@@ -274,7 +268,7 @@
     },
     {
       "category": "Anime & Manga",
-      "line": 192,
+      "line": 193,
       "name": "Aniyomi",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/aniyomiorg/aniyomi",
@@ -282,7 +276,7 @@
     },
     {
       "category": "Anime & Manga",
-      "line": 193,
+      "line": 194,
       "name": "Bangumi",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/czy0729/Bangumi",
@@ -296,7 +290,7 @@
     },
     {
       "category": "Anime & Manga",
-      "line": 194,
+      "line": 195,
       "name": "DailyAL",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/JICA98/DailyAL",
@@ -310,7 +304,7 @@
     },
     {
       "category": "Anime & Manga",
-      "line": 195,
+      "line": 196,
       "name": "Futon",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/AppFuton/Futon",
@@ -329,7 +323,7 @@
     },
     {
       "category": "Anime & Manga",
-      "line": 196,
+      "line": 197,
       "name": "Kahon",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/AmanoTeam/Kahon",
@@ -343,7 +337,7 @@
     },
     {
       "category": "Anime & Manga",
-      "line": 197,
+      "line": 198,
       "name": "Nekome",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Chesire/Nekome",
@@ -357,7 +351,7 @@
     },
     {
       "category": "Automation",
-      "line": 201,
+      "line": 202,
       "name": "Automation",
       "sourceHost": "git.server47.de",
       "sourceUrl": "https://git.server47.de/jens/Automation",
@@ -371,7 +365,7 @@
     },
     {
       "category": "Automation",
-      "line": 202,
+      "line": 203,
       "name": "Dicio",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Stypox/dicio-android",
@@ -380,20 +374,6 @@
           "packageId": "org.stypox.dicio",
           "store": "F-Droid",
           "url": "https://f-droid.org/packages/org.stypox.dicio"
-        }
-      ]
-    },
-    {
-      "category": "Automation",
-      "line": 203,
-      "name": "Easer",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/renyuneyun/Easer",
-      "storeLinks": [
-        {
-          "packageId": "ryey.easer",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/ryey.easer"
         }
       ]
     },
@@ -555,20 +535,6 @@
     {
       "category": "Battery",
       "line": 223,
-      "name": "BatteryBot Pro",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/darshan-/Battery-Indicator-Pro",
-      "storeLinks": [
-        {
-          "packageId": "com.darshancomputing.BatteryIndicatorPro",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/com.darshancomputing.BatteryIndicatorPro"
-        }
-      ]
-    },
-    {
-      "category": "Battery",
-      "line": 224,
       "name": "BCL",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/MuntashirAkon/BatteryChargeLimiter",
@@ -582,7 +548,7 @@
     },
     {
       "category": "Battery",
-      "line": 225,
+      "line": 224,
       "name": "SaverTuner",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/s1m/savertuner",
@@ -596,7 +562,7 @@
     },
     {
       "category": "Battery",
-      "line": 226,
+      "line": 225,
       "name": "Wattz",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/dubrowgn/wattz",
@@ -610,7 +576,7 @@
     },
     {
       "category": "Browser",
-      "line": 230,
+      "line": 229,
       "name": "Cromite",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/uazo/cromite",
@@ -618,7 +584,7 @@
     },
     {
       "category": "Browser",
-      "line": 231,
+      "line": 230,
       "name": "DuckDuckGo Privacy Browser",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/duckduckgo/Android",
@@ -632,7 +598,7 @@
     },
     {
       "category": "Browser",
-      "line": 232,
+      "line": 231,
       "name": "EinkBro",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/plateaukao/browser",
@@ -646,7 +612,7 @@
     },
     {
       "category": "Browser",
-      "line": 233,
+      "line": 232,
       "name": "Fennec",
       "sourceHost": "hg.mozilla.org",
       "sourceUrl": "https://hg.mozilla.org/releases/mozilla-esr68",
@@ -660,7 +626,7 @@
     },
     {
       "category": "Browser",
-      "line": 234,
+      "line": 233,
       "name": "FFUpdater",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Tobi823/ffupdater",
@@ -674,7 +640,7 @@
     },
     {
       "category": "Browser",
-      "line": 235,
+      "line": 234,
       "name": "FOSS Browser",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/Gaukler_Faun/FOSS_Browser",
@@ -688,7 +654,7 @@
     },
     {
       "category": "Browser",
-      "line": 236,
+      "line": 235,
       "name": "Fulguris Web Browser",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Slion/Fulguris",
@@ -702,21 +668,7 @@
     },
     {
       "category": "Browser",
-      "line": 237,
-      "name": "IdiomReplaceX Browser App",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/idiomReplaceX/IdiomReplaceX-app",
-      "storeLinks": [
-        {
-          "packageId": "de.idiomreplacex.browser_app",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/de.idiomreplacex.browser_app"
-        }
-      ]
-    },
-    {
-      "category": "Browser",
-      "line": 238,
+      "line": 236,
       "name": "IronFox",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/ironfox-oss/IronFox",
@@ -724,7 +676,7 @@
     },
     {
       "category": "Browser",
-      "line": 239,
+      "line": 237,
       "name": "Lightning",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/anthonycr/Lightning-Browser",
@@ -738,7 +690,7 @@
     },
     {
       "category": "Browser",
-      "line": 240,
+      "line": 238,
       "name": "Monocles Browser",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/monocles/monocles_browser",
@@ -752,7 +704,7 @@
     },
     {
       "category": "Browser",
-      "line": 241,
+      "line": 239,
       "name": "Native Alpha",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/cylonid/NativeAlphaForAndroid",
@@ -766,7 +718,7 @@
     },
     {
       "category": "Browser",
-      "line": 242,
+      "line": 240,
       "name": "Privacy Browser",
       "sourceHost": "gitweb.stoutner.com",
       "sourceUrl": "https://gitweb.stoutner.com/?p=PrivacyBrowserAndroid.git;a=summary",
@@ -780,7 +732,7 @@
     },
     {
       "category": "Browser",
-      "line": 243,
+      "line": 241,
       "name": "Tor Browser",
       "sourceHost": "gitlab.torproject.org",
       "sourceUrl": "https://gitlab.torproject.org/tpo/applications/tor-browser",
@@ -788,7 +740,7 @@
     },
     {
       "category": "Browser",
-      "line": 244,
+      "line": 242,
       "name": "WebLibre",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FaFre/WebLibre",
@@ -802,7 +754,7 @@
     },
     {
       "category": "Browser",
-      "line": 245,
+      "line": 243,
       "name": "Webview Kiosk",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/nktnet1/webview-kiosk",
@@ -821,7 +773,7 @@
     },
     {
       "category": "Calculator",
-      "line": 249,
+      "line": 247,
       "name": "ArityCalc",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/woheller69/Arity",
@@ -835,7 +787,7 @@
     },
     {
       "category": "Calculator",
-      "line": 250,
+      "line": 248,
       "name": "Calculator You",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/forzzzzz/Calculator-You",
@@ -849,7 +801,7 @@
     },
     {
       "category": "Calculator",
-      "line": 251,
+      "line": 249,
       "name": "CuteCalc",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/sosauce/CuteCalc",
@@ -868,7 +820,7 @@
     },
     {
       "category": "Calculator",
-      "line": 252,
+      "line": 250,
       "name": "Fossify Calculator",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FossifyOrg/Calculator",
@@ -887,7 +839,7 @@
     },
     {
       "category": "Calculator",
-      "line": 253,
+      "line": 251,
       "name": "NumberHub",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Myzel394/NumberHub",
@@ -901,7 +853,7 @@
     },
     {
       "category": "Calculator",
-      "line": 254,
+      "line": 252,
       "name": "OpenCalc",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Darkempire78/OpenCalc",
@@ -920,7 +872,7 @@
     },
     {
       "category": "Calculator",
-      "line": 255,
+      "line": 253,
       "name": "Qalculate",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/jherkenhoff/qalculate-android",
@@ -934,7 +886,7 @@
     },
     {
       "category": "Calculator",
-      "line": 256,
+      "line": 254,
       "name": "Unitto",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/sadellie/unitto",
@@ -948,7 +900,7 @@
     },
     {
       "category": "Calculator",
-      "line": 257,
+      "line": 255,
       "name": "yetCalc",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Yet-Zio/yetCalc",
@@ -967,7 +919,7 @@
     },
     {
       "category": "Calendar",
-      "line": 261,
+      "line": 259,
       "name": "Birday",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/m-i-n-a-r/birday",
@@ -986,7 +938,7 @@
     },
     {
       "category": "Calendar",
-      "line": 262,
+      "line": 260,
       "name": "Etar",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Etar-Group/Etar-Calendar",
@@ -1000,7 +952,7 @@
     },
     {
       "category": "Calendar",
-      "line": 263,
+      "line": 261,
       "name": "Fossify Calendar",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FossifyOrg/Calendar",
@@ -1019,7 +971,26 @@
     },
     {
       "category": "Calendar",
-      "line": 264,
+      "line": 262,
+      "name": "KashCal",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/KashCal/KashCal",
+      "storeLinks": [
+        {
+          "packageId": "org.onekash.kashcal",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/org.onekash.kashcal"
+        },
+        {
+          "packageId": "org.onekash.kashcal",
+          "store": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/packages/org.onekash.kashcal"
+        }
+      ]
+    },
+    {
+      "category": "Calendar",
+      "line": 263,
       "name": "Tuta Calendar",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/tutao/tutanota",
@@ -1033,21 +1004,7 @@
     },
     {
       "category": "Call Blocker & Spam Filter",
-      "line": 268,
-      "name": "NoPhoneSpam",
-      "sourceHost": "gitlab.com",
-      "sourceUrl": "https://gitlab.com/bitfireAT/NoPhoneSpam",
-      "storeLinks": [
-        {
-          "packageId": "at.bitfire.nophonespam",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/at.bitfire.nophonespam"
-        }
-      ]
-    },
-    {
-      "category": "Call Blocker & Spam Filter",
-      "line": 269,
+      "line": 267,
       "name": "Saracroche",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/cbouvat/saracroche-android",
@@ -1061,7 +1018,7 @@
     },
     {
       "category": "Call Blocker & Spam Filter",
-      "line": 270,
+      "line": 268,
       "name": "Silence",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/x13a/Silence",
@@ -1075,7 +1032,7 @@
     },
     {
       "category": "Call Blocker & Spam Filter",
-      "line": 271,
+      "line": 269,
       "name": "SpamBlocker (Call & SMS)",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/aj3423/SpamBlocker",
@@ -1089,7 +1046,7 @@
     },
     {
       "category": "Camera",
-      "line": 275,
+      "line": 273,
       "name": "Cryptocam",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/cryptocam/cryptocam",
@@ -1103,7 +1060,7 @@
     },
     {
       "category": "Camera",
-      "line": 276,
+      "line": 274,
       "name": "FadCam",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/anonfaded/FadCam",
@@ -1117,7 +1074,7 @@
     },
     {
       "category": "Camera",
-      "line": 277,
+      "line": 275,
       "name": "Fossify Camera",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FossifyOrg/Camera",
@@ -1136,7 +1093,7 @@
     },
     {
       "category": "Camera",
-      "line": 278,
+      "line": 276,
       "name": "FreeDcam",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/KillerInk/FreeDcam",
@@ -1150,7 +1107,7 @@
     },
     {
       "category": "Camera",
-      "line": 279,
+      "line": 277,
       "name": "Libre Camera",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/iakmds/librecamera",
@@ -1164,7 +1121,7 @@
     },
     {
       "category": "Camera",
-      "line": 280,
+      "line": 278,
       "name": "ObscuraCam",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/guardianproject/ObscuraCam",
@@ -1178,7 +1135,7 @@
     },
     {
       "category": "Camera",
-      "line": 281,
+      "line": 279,
       "name": "Open Camera",
       "sourceHost": "sourceforge.net",
       "sourceUrl": "https://sourceforge.net/projects/opencamera",
@@ -1192,7 +1149,7 @@
     },
     {
       "category": "Camera",
-      "line": 282,
+      "line": 280,
       "name": "Secure Camera",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/GrapheneOS/Camera",
@@ -1200,7 +1157,7 @@
     },
     {
       "category": "Clock & Time",
-      "line": 286,
+      "line": 284,
       "name": "Chrono",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/vicolo-dev/chrono",
@@ -1219,7 +1176,7 @@
     },
     {
       "category": "Clock & Time",
-      "line": 287,
+      "line": 285,
       "name": "Chronos",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/meenbeese/Chronos",
@@ -1233,7 +1190,7 @@
     },
     {
       "category": "Clock & Time",
-      "line": 288,
+      "line": 286,
       "name": "Clock",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/BlackyHawky/Clock",
@@ -1252,7 +1209,7 @@
     },
     {
       "category": "Clock & Time",
-      "line": 289,
+      "line": 287,
       "name": "Clock You",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/you-apps/ClockYou",
@@ -1271,7 +1228,7 @@
     },
     {
       "category": "Clock & Time",
-      "line": 290,
+      "line": 288,
       "name": "Fossify Clock",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FossifyOrg/Clock",
@@ -1290,7 +1247,7 @@
     },
     {
       "category": "Clock & Time",
-      "line": 291,
+      "line": 289,
       "name": "Simple Alarm Clock",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/yuriykulikov/AlarmClock",
@@ -1304,7 +1261,7 @@
     },
     {
       "category": "Clock & Time",
-      "line": 292,
+      "line": 290,
       "name": "Smart EggTimer",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/woheller69/eggtimer",
@@ -1318,7 +1275,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 296,
+      "line": 294,
       "name": "Dhaaga (Lite)",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/suvam0451/dhaaga",
@@ -1332,7 +1289,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 297,
+      "line": 295,
       "name": "Eternity",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/Bazsalanszky/Eternity",
@@ -1346,7 +1303,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 298,
+      "line": 296,
       "name": "Fedilab",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/tom79/Fedilab",
@@ -1360,21 +1317,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 299,
-      "name": "Fritter",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/jonjomckay/fritter",
-      "storeLinks": [
-        {
-          "packageId": "com.jonjomckay.fritter",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/com.jonjomckay.fritter"
-        }
-      ]
-    },
-    {
-      "category": "Community Clients",
-      "line": 300,
+      "line": 297,
       "name": "Hacki",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Livinglist/Hacki",
@@ -1388,7 +1331,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 301,
+      "line": 298,
       "name": "Husky",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/captainepoch/husky",
@@ -1402,7 +1345,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 302,
+      "line": 299,
       "name": "Infinity for Reddit",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Docile-Alligator/Infinity-For-Reddit",
@@ -1416,7 +1359,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 303,
+      "line": 300,
       "name": "Jerboa",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/dessalines/jerboa",
@@ -1435,21 +1378,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 304,
-      "name": "monocles social",
-      "sourceHost": "codeberg.org",
-      "sourceUrl": "https://codeberg.org/Arne/monocles_social",
-      "storeLinks": [
-        {
-          "packageId": "de.monocles.social",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/de.monocles.social"
-        }
-      ]
-    },
-    {
-      "category": "Community Clients",
-      "line": 305,
+      "line": 301,
       "name": "OctoDroid",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/slapperwan/gh4a",
@@ -1463,7 +1392,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 306,
+      "line": 302,
       "name": "Odysee",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/OdyseeTeam/odysee-android-floss",
@@ -1477,7 +1406,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 307,
+      "line": 303,
       "name": "PixelDroid",
       "sourceHost": "gitlab.shinice.net",
       "sourceUrl": "https://gitlab.shinice.net/pixeldroid/PixelDroid",
@@ -1491,7 +1420,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 308,
+      "line": 304,
       "name": "RedReader",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/QuantumBadger/RedReader",
@@ -1505,21 +1434,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 309,
-      "name": "Slide",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/ccrama/Slide",
-      "storeLinks": [
-        {
-          "packageId": "me.ccrama.redditslide",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/me.ccrama.redditslide"
-        }
-      ]
-    },
-    {
-      "category": "Community Clients",
-      "line": 310,
+      "line": 305,
       "name": "Squawker",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/j-fbriere/squawker",
@@ -1533,7 +1448,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 311,
+      "line": 306,
       "name": "Stealth",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/cosmosapps/stealth",
@@ -1547,7 +1462,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 312,
+      "line": 307,
       "name": "Thunder",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/thunder-app/thunder",
@@ -1561,7 +1476,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 313,
+      "line": 308,
       "name": "Tusky",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/tusky/Tusky",
@@ -1575,21 +1490,7 @@
     },
     {
       "category": "Community Clients",
-      "line": 314,
-      "name": "Twidere X",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/TwidereProject/TwidereX-Android",
-      "storeLinks": [
-        {
-          "packageId": "com.twidere.twiderex",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/com.twidere.twiderex"
-        }
-      ]
-    },
-    {
-      "category": "Community Clients",
-      "line": 315,
+      "line": 309,
       "name": "Voyager",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/aeharding/voyager",
@@ -1603,7 +1504,7 @@
     },
     {
       "category": "Contacts",
-      "line": 319,
+      "line": 313,
       "name": "Connect You",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/you-apps/ConnectYou",
@@ -1617,7 +1518,7 @@
     },
     {
       "category": "Contacts",
-      "line": 320,
+      "line": 314,
       "name": "Fossify Contacts",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FossifyOrg/Contacts",
@@ -1636,7 +1537,7 @@
     },
     {
       "category": "Contacts",
-      "line": 321,
+      "line": 315,
       "name": "OpenContacts",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/sultanahamer/OpenContacts",
@@ -1650,7 +1551,7 @@
     },
     {
       "category": "Development",
-      "line": 325,
+      "line": 319,
       "name": "Godot Editor",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/godotengine/godot",
@@ -1664,7 +1565,7 @@
     },
     {
       "category": "Development",
-      "line": 326,
+      "line": 320,
       "name": "OpenCode Mobile",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/dzianisv/opencode-mobile",
@@ -1672,7 +1573,7 @@
     },
     {
       "category": "Development",
-      "line": 327,
+      "line": 321,
       "name": "TermuC",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/RainbowC0/TermuC",
@@ -1686,7 +1587,7 @@
     },
     {
       "category": "Diary",
-      "line": 331,
+      "line": 325,
       "name": "Daily You",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Demizo/Daily_You",
@@ -1700,7 +1601,7 @@
     },
     {
       "category": "Diary",
-      "line": 332,
+      "line": 326,
       "name": "Easy Diary",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/hanjoongcho/aaf-easydiary",
@@ -1714,7 +1615,7 @@
     },
     {
       "category": "Dialer",
-      "line": 336,
+      "line": 330,
       "name": "Amadz",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/msusman1/Amadz",
@@ -1728,7 +1629,7 @@
     },
     {
       "category": "Dialer",
-      "line": 337,
+      "line": 331,
       "name": "Fossify Phone",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FossifyOrg/Phone",
@@ -1747,7 +1648,7 @@
     },
     {
       "category": "Dialer",
-      "line": 338,
+      "line": 332,
       "name": "Koler",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Chooloo/koler",
@@ -1761,7 +1662,7 @@
     },
     {
       "category": "Dictionaries",
-      "line": 342,
+      "line": 336,
       "name": "Aard 2",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/itkach/aard2-android",
@@ -1775,7 +1676,7 @@
     },
     {
       "category": "Dictionaries",
-      "line": 343,
+      "line": 337,
       "name": "OSS-Dict",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/farfromrefug/OSS-Dict",
@@ -1794,7 +1695,7 @@
     },
     {
       "category": "Dictionaries",
-      "line": 344,
+      "line": 338,
       "name": "Ciyue",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/mumu-lhl/Ciyue",
@@ -1808,7 +1709,7 @@
     },
     {
       "category": "Dictionaries",
-      "line": 345,
+      "line": 339,
       "name": "freeDictionaryApp",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/yamin8000/freeDictionaryApp",
@@ -1827,7 +1728,7 @@
     },
     {
       "category": "Dictionaries",
-      "line": 346,
+      "line": 340,
       "name": "Notification Dictionary",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/tirkarthi/NotificationDictionary",
@@ -1841,7 +1742,7 @@
     },
     {
       "category": "Dictionaries",
-      "line": 347,
+      "line": 341,
       "name": "QDict",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/marmistrz/QDict",
@@ -1855,7 +1756,7 @@
     },
     {
       "category": "Dictionaries",
-      "line": 348,
+      "line": 342,
       "name": "QuickDic",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/rdoeffinger/Dictionary",
@@ -1869,7 +1770,7 @@
     },
     {
       "category": "Dictionaries",
-      "line": 349,
+      "line": 343,
       "name": "SilverDict",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Crissium/SilverDict-mobile",
@@ -1883,7 +1784,7 @@
     },
     {
       "category": "Document & PDF Viewer",
-      "line": 353,
+      "line": 347,
       "name": "Anx Reader",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Anxcye/anx-reader",
@@ -1897,7 +1798,7 @@
     },
     {
       "category": "Document & PDF Viewer",
-      "line": 354,
+      "line": 348,
       "name": "Book Reader",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/axet/android-book-reader",
@@ -1911,7 +1812,7 @@
     },
     {
       "category": "Document & PDF Viewer",
-      "line": 355,
+      "line": 349,
       "name": "Book's Story",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Acclorite/book-story",
@@ -1930,7 +1831,7 @@
     },
     {
       "category": "Document & PDF Viewer",
-      "line": 356,
+      "line": 350,
       "name": "Episteme Reader",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Aryan-Raj3112/episteme",
@@ -1944,7 +1845,7 @@
     },
     {
       "category": "Document & PDF Viewer",
-      "line": 357,
+      "line": 351,
       "name": "KOReader",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/koreader/koreader",
@@ -1958,7 +1859,7 @@
     },
     {
       "category": "Document & PDF Viewer",
-      "line": 358,
+      "line": 352,
       "name": "Librera Reader",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/foobnix/LibreraReader",
@@ -1972,7 +1873,7 @@
     },
     {
       "category": "Document & PDF Viewer",
-      "line": 359,
+      "line": 353,
       "name": "LxReader",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/coolreader-ng/lxreader",
@@ -1986,7 +1887,7 @@
     },
     {
       "category": "Document & PDF Viewer",
-      "line": 360,
+      "line": 354,
       "name": "MJ PDF Reader",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/mudlej_android/mj_pdf_reader",
@@ -2000,7 +1901,7 @@
     },
     {
       "category": "Document & PDF Viewer",
-      "line": 361,
+      "line": 355,
       "name": "MuPDF",
       "sourceHost": "mupdf.com",
       "sourceUrl": "https://mupdf.com",
@@ -2014,7 +1915,21 @@
     },
     {
       "category": "Document & PDF Viewer",
-      "line": 362,
+      "line": 356,
+      "name": "OpenDocument Reader",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/opendocument-app/OpenDocument.droid",
+      "storeLinks": [
+        {
+          "packageId": "at.tomtasche.reader",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/at.tomtasche.reader"
+        }
+      ]
+    },
+    {
+      "category": "Document & PDF Viewer",
+      "line": 357,
       "name": "Orion Viewer",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/max-kammerer/orion-viewer",
@@ -2028,7 +1943,7 @@
     },
     {
       "category": "Document & PDF Viewer",
-      "line": 363,
+      "line": 358,
       "name": "Secure PDF Viewer",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/GrapheneOS/PdfViewer",
@@ -2036,7 +1951,7 @@
     },
     {
       "category": "Document Scanner & Editor",
-      "line": 367,
+      "line": 362,
       "name": "FairScan",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/pynicolas/FairScan",
@@ -2044,7 +1959,7 @@
     },
     {
       "category": "Document Scanner & Editor",
-      "line": 368,
+      "line": 363,
       "name": "MakeACopy",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/egdels/makeacopy",
@@ -2052,7 +1967,7 @@
     },
     {
       "category": "Document Scanner & Editor",
-      "line": 369,
+      "line": 364,
       "name": "OpenNoteScanner",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ctodobom/OpenNoteScanner",
@@ -2066,7 +1981,7 @@
     },
     {
       "category": "Document Scanner & Editor",
-      "line": 370,
+      "line": 365,
       "name": "OSS Document Scanner",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Akylas/com.akylas.documentscanner",
@@ -2080,7 +1995,7 @@
     },
     {
       "category": "Document Scanner & Editor",
-      "line": 371,
+      "line": 366,
       "name": "PaperKnife+",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/potatameister/PaperKnifePlus",
@@ -2094,7 +2009,7 @@
     },
     {
       "category": "Document Scanner & Editor",
-      "line": 372,
+      "line": 367,
       "name": "PDF Converter",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Swati4star/Images-to-PDF",
@@ -2108,7 +2023,7 @@
     },
     {
       "category": "Downloader & Manager",
-      "line": 376,
+      "line": 371,
       "name": "Aria2App",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/devgianlu/Aria2App",
@@ -2122,7 +2037,7 @@
     },
     {
       "category": "Downloader & Manager",
-      "line": 377,
+      "line": 372,
       "name": "Download Navi",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/TachibanaGeneralLaboratories/download-navi",
@@ -2136,7 +2051,7 @@
     },
     {
       "category": "Downloader & Manager",
-      "line": 378,
+      "line": 373,
       "name": "dvd",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/yausername/dvd",
@@ -2150,7 +2065,15 @@
     },
     {
       "category": "Downloader & Manager",
-      "line": 379,
+      "line": 374,
+      "name": "FluxDown",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/zerx-lab/FluxDown",
+      "storeLinks": []
+    },
+    {
+      "category": "Downloader & Manager",
+      "line": 375,
       "name": "Gopeed",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/GopeedLab/gopeed",
@@ -2158,7 +2081,7 @@
     },
     {
       "category": "Downloader & Manager",
-      "line": 380,
+      "line": 376,
       "name": "LibreTorrent",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/proninyaroslav/libretorrent",
@@ -2172,7 +2095,7 @@
     },
     {
       "category": "Downloader & Manager",
-      "line": 381,
+      "line": 377,
       "name": "Myne",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Pool-Of-Tears/Myne",
@@ -2191,7 +2114,7 @@
     },
     {
       "category": "Downloader & Manager",
-      "line": 382,
+      "line": 378,
       "name": "Navit",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/navit-gps/navit",
@@ -2205,7 +2128,7 @@
     },
     {
       "category": "Downloader & Manager",
-      "line": 383,
+      "line": 379,
       "name": "Openlib",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/dstark5/Openlib",
@@ -2219,7 +2142,7 @@
     },
     {
       "category": "Downloader & Manager",
-      "line": 384,
+      "line": 380,
       "name": "Seal",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/JunkFood02/Seal",
@@ -2233,7 +2156,7 @@
     },
     {
       "category": "Downloader & Manager",
-      "line": 385,
+      "line": 381,
       "name": "SpotiFlyer",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Shabinder/SpotiFlyer",
@@ -2247,7 +2170,7 @@
     },
     {
       "category": "Downloader & Manager",
-      "line": 386,
+      "line": 382,
       "name": "Torrent Client",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/axet/android-torrent-client",
@@ -2261,7 +2184,7 @@
     },
     {
       "category": "Downloader & Manager",
-      "line": 387,
+      "line": 383,
       "name": "TorrServe",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/YouROK/TorrServe",
@@ -2275,7 +2198,7 @@
     },
     {
       "category": "Downloader & Manager",
-      "line": 388,
+      "line": 384,
       "name": "YTDLnis",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/deniscerri/ytdlnis",
@@ -2289,7 +2212,7 @@
     },
     {
       "category": "Email Aliases",
-      "line": 392,
+      "line": 388,
       "name": "addy.io Android",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/anonaddy/addy-android",
@@ -2303,7 +2226,7 @@
     },
     {
       "category": "Email Aliases",
-      "line": 393,
+      "line": 389,
       "name": "SimpleLogin",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/simple-login/Simple-Login-Android",
@@ -2317,7 +2240,7 @@
     },
     {
       "category": "Email Clients",
-      "line": 397,
+      "line": 393,
       "name": "FairEmail",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/M66B/FairEmail",
@@ -2331,7 +2254,7 @@
     },
     {
       "category": "Email Clients",
-      "line": 398,
+      "line": 394,
       "name": "K-9 Mail",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/thundernest/k-9",
@@ -2345,7 +2268,7 @@
     },
     {
       "category": "Email Clients",
-      "line": 399,
+      "line": 395,
       "name": "monocles mail",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/monocles/monocles_mail",
@@ -2359,7 +2282,7 @@
     },
     {
       "category": "Email Clients",
-      "line": 400,
+      "line": 396,
       "name": "Ltt.rs",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/iNPUTmice/lttrs-android",
@@ -2373,7 +2296,21 @@
     },
     {
       "category": "Email Clients",
-      "line": 401,
+      "line": 397,
+      "name": "Sterna Mail",
+      "sourceHost": "codeberg.org",
+      "sourceUrl": "https://codeberg.org/emon/sterna-mail",
+      "storeLinks": [
+        {
+          "packageId": "app.sterna",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/app.sterna"
+        }
+      ]
+    },
+    {
+      "category": "Email Clients",
+      "line": 398,
       "name": "Thunderbird",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/thunderbird/thunderbird-android",
@@ -2387,7 +2324,7 @@
     },
     {
       "category": "Email Clients",
-      "line": 402,
+      "line": 399,
       "name": "Tutanota",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/tutao/tutanota",
@@ -2401,7 +2338,7 @@
     },
     {
       "category": "File Encryption",
-      "line": 406,
+      "line": 403,
       "name": "Cryptomator",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/cryptomator/android",
@@ -2415,7 +2352,7 @@
     },
     {
       "category": "File Encryption",
-      "line": 407,
+      "line": 404,
       "name": "DroidFS",
       "sourceHost": "forge.chapril.org",
       "sourceUrl": "https://forge.chapril.org/hardcoresushi/DroidFS",
@@ -2429,7 +2366,7 @@
     },
     {
       "category": "File Encryption",
-      "line": 408,
+      "line": 405,
       "name": "Koofr Vault",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/koofr/vault",
@@ -2442,8 +2379,22 @@
       ]
     },
     {
+      "category": "File Encryption",
+      "line": 406,
+      "name": "Picocrypt-NG",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/Picocrypt-NG/Picocrypt-NG",
+      "storeLinks": [
+        {
+          "packageId": "io.github.picocrypt_ng.picocrypt_ng",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/io.github.picocrypt_ng.picocrypt_ng"
+        }
+      ]
+    },
+    {
       "category": "File Manager",
-      "line": 412,
+      "line": 410,
       "name": "Amaze",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/TeamAmaze/AmazeFileManager",
@@ -2462,7 +2413,7 @@
     },
     {
       "category": "File Manager",
-      "line": 413,
+      "line": 411,
       "name": "File Manager",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/axet/android-file-manager",
@@ -2476,7 +2427,7 @@
     },
     {
       "category": "File Manager",
-      "line": 414,
+      "line": 412,
       "name": "Fossify File Manager",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FossifyOrg/File-Manager",
@@ -2495,7 +2446,7 @@
     },
     {
       "category": "File Manager",
-      "line": 415,
+      "line": 413,
       "name": "Ghost Commander",
       "sourceHost": "sourceforge.net",
       "sourceUrl": "https://sourceforge.net/p/ghostcommander/svn/HEAD/tree",
@@ -2509,7 +2460,7 @@
     },
     {
       "category": "File Manager",
-      "line": 416,
+      "line": 414,
       "name": "Little File Explorer",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/martinmimigames/little-file-explorer",
@@ -2523,7 +2474,7 @@
     },
     {
       "category": "File Manager",
-      "line": 417,
+      "line": 415,
       "name": "Material Files",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/zhanghai/MaterialFiles",
@@ -2537,7 +2488,7 @@
     },
     {
       "category": "File Manager",
-      "line": 418,
+      "line": 416,
       "name": "Prism File Explorer",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Raival-e/Prism-File-Explorer",
@@ -2551,7 +2502,7 @@
     },
     {
       "category": "File Sharing",
-      "line": 422,
+      "line": 420,
       "name": "Croc-app",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Dking08/croc-app",
@@ -2565,7 +2516,7 @@
     },
     {
       "category": "File Sharing",
-      "line": 423,
+      "line": 421,
       "name": "Custom Uploader",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/SrS2225a/custom_uploader",
@@ -2579,7 +2530,7 @@
     },
     {
       "category": "File Sharing",
-      "line": 424,
+      "line": 422,
       "name": "Device Connect",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/cyanomiko/dcnnt-android",
@@ -2593,7 +2544,7 @@
     },
     {
       "category": "File Sharing",
-      "line": 425,
+      "line": 423,
       "name": "Filester",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/rouzbehzarei/filester",
@@ -2607,7 +2558,7 @@
     },
     {
       "category": "File Sharing",
-      "line": 426,
+      "line": 424,
       "name": "FTPClient",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/qwerty287/ftpclient",
@@ -2621,7 +2572,7 @@
     },
     {
       "category": "File Sharing",
-      "line": 427,
+      "line": 425,
       "name": "KDE Connect",
       "sourceHost": "invent.kde.org",
       "sourceUrl": "https://invent.kde.org/network/kdeconnect-android",
@@ -2635,7 +2586,7 @@
     },
     {
       "category": "File Sharing",
-      "line": 428,
+      "line": 426,
       "name": "LocalSend",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/localsend/localsend",
@@ -2649,7 +2600,7 @@
     },
     {
       "category": "File Sharing",
-      "line": 429,
+      "line": 427,
       "name": "ShareX",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/akanshSirohi/ShareX",
@@ -2663,7 +2614,7 @@
     },
     {
       "category": "File Sharing",
-      "line": 430,
+      "line": 428,
       "name": "Sharik",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/marchellodev/sharik",
@@ -2677,7 +2628,7 @@
     },
     {
       "category": "File Sharing",
-      "line": 431,
+      "line": 429,
       "name": "Sharing",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Ammar64/Sharing",
@@ -2696,7 +2647,7 @@
     },
     {
       "category": "File Sharing",
-      "line": 432,
+      "line": 430,
       "name": "Snapdrop & PairDrop for Android",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/fm-sys/snapdrop-android",
@@ -2710,7 +2661,7 @@
     },
     {
       "category": "File Sharing",
-      "line": 433,
+      "line": 431,
       "name": "Warpinator",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/slowscript/warpinator-android",
@@ -2729,7 +2680,7 @@
     },
     {
       "category": "File Sharing",
-      "line": 434,
+      "line": 432,
       "name": "Zorin Connect",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ZorinOS/zorin-connect-android",
@@ -2743,7 +2694,7 @@
     },
     {
       "category": "Finance",
-      "line": 438,
+      "line": 436,
       "name": "Arru",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/KSSidll/Arru",
@@ -2757,7 +2708,7 @@
     },
     {
       "category": "Finance",
-      "line": 439,
+      "line": 437,
       "name": "CryptoTracker",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/judemont/cryptotracker",
@@ -2771,7 +2722,7 @@
     },
     {
       "category": "Finance",
-      "line": 440,
+      "line": 438,
       "name": "Currencies",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/sal0max/currencies",
@@ -2790,21 +2741,7 @@
     },
     {
       "category": "Finance",
-      "line": 441,
-      "name": "FDTracker",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/Abhay-cloud/Fixed-Deposit-Tracker",
-      "storeLinks": [
-        {
-          "packageId": "dev.abhaycloud.fdtracker",
-          "store": "IzzyOnDroid",
-          "url": "https://apt.izzysoft.de/packages/dev.abhaycloud.fdtracker"
-        }
-      ]
-    },
-    {
-      "category": "Finance",
-      "line": 442,
+      "line": 439,
       "name": "GreenStash",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Pool-Of-Tears/GreenStash",
@@ -2818,7 +2755,21 @@
     },
     {
       "category": "Finance",
-      "line": 443,
+      "line": 440,
+      "name": "Money Manager Ex",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/moneymanagerex/android-money-manager-ex",
+      "storeLinks": [
+        {
+          "packageId": "com.money.manager.ex",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/com.money.manager.ex"
+        }
+      ]
+    },
+    {
+      "category": "Finance",
+      "line": 441,
       "name": "My Expenses",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/mtotschnig/MyExpenses",
@@ -2832,7 +2783,7 @@
     },
     {
       "category": "Finance",
-      "line": 444,
+      "line": 442,
       "name": "Oinkoin",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/emavgl/oinkoin",
@@ -2846,7 +2797,7 @@
     },
     {
       "category": "Finance",
-      "line": 445,
+      "line": 443,
       "name": "Recurring Expense Tracker",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/DennisBauer/RecurringExpenseTracker",
@@ -2860,7 +2811,7 @@
     },
     {
       "category": "Firewall",
-      "line": 449,
+      "line": 447,
       "name": "AFWall+",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ukanth/afwall",
@@ -2874,7 +2825,7 @@
     },
     {
       "category": "Firewall",
-      "line": 450,
+      "line": 448,
       "name": "De1984",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/dorumrr/de1984",
@@ -2888,7 +2839,7 @@
     },
     {
       "category": "Firewall",
-      "line": 451,
+      "line": 449,
       "name": "Karma Firewall",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/nightflame2/karma-firewall",
@@ -2902,7 +2853,21 @@
     },
     {
       "category": "Firewall",
-      "line": 452,
+      "line": 450,
+      "name": "LANShield",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/DistriNet/LANShield",
+      "storeLinks": [
+        {
+          "packageId": "org.distrinet.lanshield",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/org.distrinet.lanshield"
+        }
+      ]
+    },
+    {
+      "category": "Firewall",
+      "line": 451,
       "name": "NetGuard",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/M66B/NetGuard",
@@ -2921,7 +2886,7 @@
     },
     {
       "category": "Firewall",
-      "line": 453,
+      "line": 452,
       "name": "Rethink DNS + Firewall",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/celzero/rethink-app",
@@ -2935,7 +2900,7 @@
     },
     {
       "category": "Flashcard",
-      "line": 457,
+      "line": 456,
       "name": "AnkiDroid",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ankidroid/Anki-Android",
@@ -2949,7 +2914,7 @@
     },
     {
       "category": "Flashcard",
-      "line": 458,
+      "line": 457,
       "name": "Flash Deck",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/rh-id/a-flash-deck",
@@ -2963,21 +2928,7 @@
     },
     {
       "category": "Flashcard",
-      "line": 459,
-      "name": "ForgetMeNot",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/tema6120/ForgetMeNot",
-      "storeLinks": [
-        {
-          "packageId": "com.odnovolov.forgetmenot",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/com.odnovolov.forgetmenot"
-        }
-      ]
-    },
-    {
-      "category": "Flashcard",
-      "line": 460,
+      "line": 458,
       "name": "QuizFlow",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/judemont/quizflow",
@@ -2991,7 +2942,7 @@
     },
     {
       "category": "Flashlight",
-      "line": 464,
+      "line": 462,
       "name": "FlashDim",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/cyb3rko/flashdim",
@@ -3005,7 +2956,7 @@
     },
     {
       "category": "Flashlight",
-      "line": 465,
+      "line": 463,
       "name": "Flashy",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Crazy-Marvin/Flashy",
@@ -3019,7 +2970,7 @@
     },
     {
       "category": "Flashlight",
-      "line": 466,
+      "line": 464,
       "name": "Lumolight",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/BitMavrick/Lumolight",
@@ -3038,7 +2989,7 @@
     },
     {
       "category": "Graphics",
-      "line": 470,
+      "line": 468,
       "name": "Fossify Paint",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FossifyOrg/Paint",
@@ -3057,7 +3008,7 @@
     },
     {
       "category": "Graphics",
-      "line": 471,
+      "line": 469,
       "name": "FreePaint",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/pastthepixels/FreePaint",
@@ -3071,7 +3022,7 @@
     },
     {
       "category": "Graphics",
-      "line": 472,
+      "line": 470,
       "name": "Krita",
       "sourceHost": "invent.kde.org",
       "sourceUrl": "https://invent.kde.org/graphics/krita",
@@ -3085,7 +3036,7 @@
     },
     {
       "category": "Graphics",
-      "line": 473,
+      "line": 471,
       "name": "Pocket Paint",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Catrobat/Paintroid",
@@ -3099,7 +3050,7 @@
     },
     {
       "category": "Graphics",
-      "line": 474,
+      "line": 472,
       "name": "PxerStudio",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/BennyKok/PxerStudio",
@@ -3113,7 +3064,7 @@
     },
     {
       "category": "Graphics",
-      "line": 475,
+      "line": 473,
       "name": "Tux Paint",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/tux4kids/Tuxpaint-Android",
@@ -3127,7 +3078,7 @@
     },
     {
       "category": "Habit Tracker",
-      "line": 479,
+      "line": 477,
       "name": "Grit",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/shub39/Grit",
@@ -3141,7 +3092,7 @@
     },
     {
       "category": "Habit Tracker",
-      "line": 480,
+      "line": 478,
       "name": "Habit-Maker",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/dessalines/habit-maker",
@@ -3160,7 +3111,7 @@
     },
     {
       "category": "Habit Tracker",
-      "line": 481,
+      "line": 479,
       "name": "Loop Habit Tracker",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/iSoron/uhabits",
@@ -3174,7 +3125,15 @@
     },
     {
       "category": "Habit Tracker",
-      "line": 482,
+      "line": 480,
+      "name": "OpenHabitTracker",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/Jinjinov/OpenHabitTracker",
+      "storeLinks": []
+    },
+    {
+      "category": "Habit Tracker",
+      "line": 481,
       "name": "SkillApp",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Jaimies/SkillApp",
@@ -3188,7 +3147,7 @@
     },
     {
       "category": "Habit Tracker",
-      "line": 483,
+      "line": 482,
       "name": "Sobriety",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/KiARC/Sobriety",
@@ -3202,7 +3161,7 @@
     },
     {
       "category": "Habit Tracker",
-      "line": 484,
+      "line": 483,
       "name": "Table Habit",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FriesI23/mhabit",
@@ -3216,7 +3175,7 @@
     },
     {
       "category": "Icon Packs",
-      "line": 488,
+      "line": 487,
       "name": "Arcticons",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Arcticons-Team/Arcticons",
@@ -3230,7 +3189,7 @@
     },
     {
       "category": "Icon Packs",
-      "line": 489,
+      "line": 488,
       "name": "Delta Icon Pack",
       "sourceHost": "delta-icons.github.io",
       "sourceUrl": "https://delta-icons.github.io",
@@ -3244,7 +3203,7 @@
     },
     {
       "category": "Icon Packs",
-      "line": 490,
+      "line": 489,
       "name": "Lawnicons",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/LawnchairLauncher/lawnicons",
@@ -3258,7 +3217,7 @@
     },
     {
       "category": "Image Manipulation",
-      "line": 494,
+      "line": 493,
       "name": "Easy Watermark",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/rosuH/EasyWatermark",
@@ -3277,7 +3236,7 @@
     },
     {
       "category": "Image Manipulation",
-      "line": 495,
+      "line": 494,
       "name": "Exif Thumbnail Adder",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/tenzap/exif-thumbnail-adder",
@@ -3291,7 +3250,7 @@
     },
     {
       "category": "Image Manipulation",
-      "line": 496,
+      "line": 495,
       "name": "FFShare",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/caydey/ffshare",
@@ -3305,7 +3264,7 @@
     },
     {
       "category": "Image Manipulation",
-      "line": 497,
+      "line": 496,
       "name": "Image Toolbox",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/T8RIN/ImageToolbox",
@@ -3324,7 +3283,7 @@
     },
     {
       "category": "Image Manipulation",
-      "line": 498,
+      "line": 497,
       "name": "ImagePipe",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/Starfish/Imagepipe",
@@ -3338,7 +3297,7 @@
     },
     {
       "category": "Image Manipulation",
-      "line": 499,
+      "line": 498,
       "name": "Kompact",
       "sourceHost": "git.naxod.com",
       "sourceUrl": "https://git.naxod.com/luca/Kompact",
@@ -3352,7 +3311,7 @@
     },
     {
       "category": "Image Manipulation",
-      "line": 500,
+      "line": 499,
       "name": "Metadata Remover",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Crazy-Marvin/MetadataRemover",
@@ -3366,7 +3325,7 @@
     },
     {
       "category": "Image Manipulation",
-      "line": 501,
+      "line": 500,
       "name": "PrivacyBlur",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/MATHEMA-GmbH/privacyblur",
@@ -3380,7 +3339,7 @@
     },
     {
       "category": "Image Manipulation",
-      "line": 502,
+      "line": 501,
       "name": "Scrambled Exif",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/juanitobananas/scrambled-exif",
@@ -3394,7 +3353,7 @@
     },
     {
       "category": "Image Viewer & Gallery",
-      "line": 506,
+      "line": 505,
       "name": "Aves",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/deckerst/aves",
@@ -3413,7 +3372,7 @@
     },
     {
       "category": "Image Viewer & Gallery",
-      "line": 507,
+      "line": 506,
       "name": "Ente Photos",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ente-io/ente",
@@ -3427,7 +3386,7 @@
     },
     {
       "category": "Image Viewer & Gallery",
-      "line": 508,
+      "line": 507,
       "name": "Fossify Gallery",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FossifyOrg/Gallery",
@@ -3446,21 +3405,7 @@
     },
     {
       "category": "Image Viewer & Gallery",
-      "line": 509,
-      "name": "Gallery",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/IacobIonut01/Gallery",
-      "storeLinks": [
-        {
-          "packageId": "com.dot.gallery",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/com.dot.gallery"
-        }
-      ]
-    },
-    {
-      "category": "Image Viewer & Gallery",
-      "line": 510,
+      "line": 508,
       "name": "Immich",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/immich-app/immich",
@@ -3474,7 +3419,21 @@
     },
     {
       "category": "Image Viewer & Gallery",
-      "line": 511,
+      "line": 509,
+      "name": "ReFra",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/IacobIonut01/ReFra",
+      "storeLinks": [
+        {
+          "packageId": "com.dot.gallery",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/com.dot.gallery"
+        }
+      ]
+    },
+    {
+      "category": "Image Viewer & Gallery",
+      "line": 510,
       "name": "Stingle Photos",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/stingle/stingle-photos-android",
@@ -3488,7 +3447,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 515,
+      "line": 514,
       "name": "8VIM",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/flide/8VIM",
@@ -3507,7 +3466,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 516,
+      "line": 515,
       "name": "AnySoftKeyboard",
       "sourceHost": "anysoftkeyboard.github.io",
       "sourceUrl": "https://anysoftkeyboard.github.io",
@@ -3521,7 +3480,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 517,
+      "line": 516,
       "name": "fcitx5-android",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/fcitx5-android/fcitx5-android",
@@ -3535,7 +3494,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 518,
+      "line": 517,
       "name": "FlorisBoard",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/florisboard/florisboard",
@@ -3554,7 +3513,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 520,
+      "line": 519,
       "name": "Fossify Keyboard",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FossifyOrg/Keyboard",
@@ -3573,7 +3532,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 521,
+      "line": 520,
       "name": "FutharkBoard",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/DrMaxNix/futharkboard",
@@ -3587,7 +3546,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 522,
+      "line": 521,
       "name": "GifBoard",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/gifboard/gifboard",
@@ -3601,7 +3560,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 523,
+      "line": 522,
       "name": "Hacker's Keyboard",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/klausw/hackerskeyboard",
@@ -3615,7 +3574,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 524,
+      "line": 523,
       "name": "HeliBoard",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Helium314/HeliBoard",
@@ -3634,7 +3593,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 525,
+      "line": 524,
       "name": "Indic Keyboard",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/indicproject/indic-keyboard",
@@ -3648,7 +3607,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 526,
+      "line": 525,
       "name": "KryptEY",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/amnesica/KryptEY",
@@ -3662,7 +3621,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 527,
+      "line": 526,
       "name": "LeanType",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/LeanBitLab/LeanType",
@@ -3676,7 +3635,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 528,
+      "line": 527,
       "name": "OpenBoard",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/dslul/openboard",
@@ -3690,7 +3649,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 529,
+      "line": 528,
       "name": "Simple Keyboard",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/rkkr/simple-keyboard",
@@ -3709,7 +3668,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 530,
+      "line": 529,
       "name": "Stroke Input Method (\u7b46\u756b\u8f38\u5165\u6cd5)",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/stroke-input/stroke-input-android",
@@ -3723,7 +3682,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 531,
+      "line": 530,
       "name": "Thumb-Key",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/dessalines/thumb-key",
@@ -3742,7 +3701,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 532,
+      "line": 531,
       "name": "Traditional T9",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/sspanak/tt9",
@@ -3756,7 +3715,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 533,
+      "line": 532,
       "name": "Trime",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/osfans/trime",
@@ -3770,7 +3729,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 534,
+      "line": 533,
       "name": "Unexpected Keyboard",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Julow/Unexpected-Keyboard",
@@ -3784,7 +3743,7 @@
     },
     {
       "category": "Keyboard",
-      "line": 535,
+      "line": 534,
       "name": "Urik",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/urikdev/Urik",
@@ -3798,7 +3757,7 @@
     },
     {
       "category": "Launcher & Desktop",
-      "line": 539,
+      "line": 538,
       "name": "BlissLauncher",
       "sourceHost": "gitlab.e.foundation",
       "sourceUrl": "https://gitlab.e.foundation/e/os/BlissLauncher3",
@@ -3806,7 +3765,7 @@
     },
     {
       "category": "Launcher & Desktop",
-      "line": 540,
+      "line": 539,
       "name": "CCLauncher",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/mlm-games/cclauncher",
@@ -3825,7 +3784,7 @@
     },
     {
       "category": "Launcher & Desktop",
-      "line": 541,
+      "line": 540,
       "name": "Discreet Launcher",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/falzonv/discreet-launcher",
@@ -3834,6 +3793,25 @@
           "packageId": "com.vincent_falzon.discreetlauncher",
           "store": "F-Droid",
           "url": "https://f-droid.org/packages/com.vincent_falzon.discreetlauncher"
+        }
+      ]
+    },
+    {
+      "category": "Launcher & Desktop",
+      "line": 541,
+      "name": "Dragon Launcher",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/Elnix90/Dragon-Launcher",
+      "storeLinks": [
+        {
+          "packageId": "org.elnix.dragonlauncher",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/org.elnix.dragonlauncher"
+        },
+        {
+          "packageId": "org.elnix.dragonlauncher",
+          "store": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/packages/org.elnix.dragonlauncher"
         }
       ]
     },
@@ -4520,6 +4498,20 @@
     {
       "category": "Media Frontends",
       "line": 592,
+      "name": "PlayTube",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/arslandaim-hub/PlayTube",
+      "storeLinks": [
+        {
+          "packageId": "com.arslandaim.playtube",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/com.arslandaim.playtube"
+        }
+      ]
+    },
+    {
+      "category": "Media Frontends",
+      "line": 593,
       "name": "SkyTube",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ram-on/SkyTube",
@@ -4533,7 +4525,7 @@
     },
     {
       "category": "Media Frontends",
-      "line": 593,
+      "line": 594,
       "name": "Twire",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/twireapp/Twire",
@@ -4547,7 +4539,7 @@
     },
     {
       "category": "Media Frontends",
-      "line": 594,
+      "line": 595,
       "name": "Xtra",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/crackededed/Xtra",
@@ -4561,7 +4553,7 @@
     },
     {
       "category": "Messaging",
-      "line": 598,
+      "line": 599,
       "name": "ArcaneChat",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ArcaneChat/android",
@@ -4575,7 +4567,7 @@
     },
     {
       "category": "Messaging",
-      "line": 599,
+      "line": 600,
       "name": "blabber.im",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/kriztan/blabber.im",
@@ -4589,7 +4581,7 @@
     },
     {
       "category": "Messaging",
-      "line": 600,
+      "line": 601,
       "name": "Briar",
       "sourceHost": "code.briarproject.org",
       "sourceUrl": "https://code.briarproject.org/briar/briar",
@@ -4603,7 +4595,7 @@
     },
     {
       "category": "Messaging",
-      "line": 601,
+      "line": 602,
       "name": "Conversations",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/iNPUTmice/Conversations",
@@ -4617,7 +4609,7 @@
     },
     {
       "category": "Messaging",
-      "line": 602,
+      "line": 603,
       "name": "another.im",
       "sourceHost": "dev.narayana.im",
       "sourceUrl": "https://dev.narayana.im/narayana/anotherim",
@@ -4631,7 +4623,7 @@
     },
     {
       "category": "Messaging",
-      "line": 603,
+      "line": 604,
       "name": "Cheogram",
       "sourceHost": "git.singpolyma.net",
       "sourceUrl": "https://git.singpolyma.net/cheogram-android",
@@ -4645,7 +4637,7 @@
     },
     {
       "category": "Messaging",
-      "line": 604,
+      "line": 605,
       "name": "monocles chat",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/monocles/monocles_chat",
@@ -4659,7 +4651,7 @@
     },
     {
       "category": "Messaging",
-      "line": 605,
+      "line": 606,
       "name": "Element X",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/vector-im/element-x-android",
@@ -4673,7 +4665,7 @@
     },
     {
       "category": "Messaging",
-      "line": 606,
+      "line": 607,
       "name": "SchildiChat Next",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/SchildiChat/schildichat-android-next",
@@ -4687,7 +4679,7 @@
     },
     {
       "category": "Messaging",
-      "line": 607,
+      "line": 608,
       "name": "FluffyChat",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/krille-chan/fluffychat",
@@ -4701,7 +4693,21 @@
     },
     {
       "category": "Messaging",
-      "line": 608,
+      "line": 609,
+      "name": "Forkgram",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/Forkgram/TelegramAndroid",
+      "storeLinks": [
+        {
+          "packageId": "org.forkgram.messenger",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/org.forkgram.messenger"
+        }
+      ]
+    },
+    {
+      "category": "Messaging",
+      "line": 610,
       "name": "Jami",
       "sourceHost": "git.jami.net",
       "sourceUrl": "https://git.jami.net/savoirfairelinux/jami-client-android",
@@ -4715,7 +4721,7 @@
     },
     {
       "category": "Messaging",
-      "line": 609,
+      "line": 611,
       "name": "Jitsi Meet",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/jitsi/jitsi-meet",
@@ -4729,7 +4735,7 @@
     },
     {
       "category": "Messaging",
-      "line": 610,
+      "line": 612,
       "name": "Launch Chat",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/vinaygopinath/launch-chat",
@@ -4743,7 +4749,7 @@
     },
     {
       "category": "Messaging",
-      "line": 611,
+      "line": 613,
       "name": "Manyverse",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/staltz/manyverse",
@@ -4757,7 +4763,7 @@
     },
     {
       "category": "Messaging",
-      "line": 612,
+      "line": 614,
       "name": "Mastodon",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/mastodon/mastodon-android",
@@ -4776,7 +4782,7 @@
     },
     {
       "category": "Messaging",
-      "line": 613,
+      "line": 615,
       "name": "Megalodon",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/sk22/megalodon",
@@ -4784,7 +4790,7 @@
     },
     {
       "category": "Messaging",
-      "line": 614,
+      "line": 616,
       "name": "Moshidon",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/LucasGGamerM/moshidon",
@@ -4803,7 +4809,21 @@
     },
     {
       "category": "Messaging",
-      "line": 615,
+      "line": 617,
+      "name": "Mercurygram",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/Mercurygram/Mercurygram",
+      "storeLinks": [
+        {
+          "packageId": "it.belloworld.mercurygram",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/it.belloworld.mercurygram"
+        }
+      ]
+    },
+    {
+      "category": "Messaging",
+      "line": 618,
       "name": "Meshenger",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/meshenger-app/meshenger-android",
@@ -4817,7 +4837,7 @@
     },
     {
       "category": "Messaging",
-      "line": 616,
+      "line": 619,
       "name": "Molly",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/mollyim/mollyim-android",
@@ -4825,7 +4845,7 @@
     },
     {
       "category": "Messaging",
-      "line": 617,
+      "line": 620,
       "name": "Mumla",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/quite/mumla",
@@ -4839,7 +4859,7 @@
     },
     {
       "category": "Messaging",
-      "line": 618,
+      "line": 621,
       "name": "SchildiChat",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/SchildiChat/SchildiChat-android",
@@ -4853,21 +4873,15 @@
     },
     {
       "category": "Messaging",
-      "line": 619,
-      "name": "Session F-Droid",
+      "line": 622,
+      "name": "Session Android",
       "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/oxen-io/session-android",
-      "storeLinks": [
-        {
-          "packageId": "network.loki.messenger.fdroid",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/network.loki.messenger.fdroid"
-        }
-      ]
+      "sourceUrl": "https://github.com/session-foundation/session-android",
+      "storeLinks": []
     },
     {
       "category": "Messaging",
-      "line": 620,
+      "line": 623,
       "name": "Signal-Foss",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/tw-hx/Signal-Android",
@@ -4875,7 +4889,7 @@
     },
     {
       "category": "Messaging",
-      "line": 621,
+      "line": 624,
       "name": "SimpleX Chat",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/simplex-chat/simplex-chat",
@@ -4884,48 +4898,6 @@
           "packageId": "chat.simplex.app",
           "store": "F-Droid",
           "url": "https://f-droid.org/packages/chat.simplex.app"
-        }
-      ]
-    },
-    {
-      "category": "Messaging",
-      "line": 622,
-      "name": "Telegram-FOSS",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/Telegram-FOSS-Team/Telegram-FOSS",
-      "storeLinks": [
-        {
-          "packageId": "org.telegram.messenger",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/org.telegram.messenger"
-        }
-      ]
-    },
-    {
-      "category": "Messaging",
-      "line": 623,
-      "name": "Forkgram",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/Forkgram/TelegramAndroid",
-      "storeLinks": [
-        {
-          "packageId": "org.forkgram.messenger",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/org.forkgram.messenger"
-        }
-      ]
-    },
-    {
-      "category": "Messaging",
-      "line": 624,
-      "name": "Mercurygram",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/drizzt/Mercurygram",
-      "storeLinks": [
-        {
-          "packageId": "it.belloworld.mercurygram",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/it.belloworld.mercurygram"
         }
       ]
     },
@@ -5171,7 +5143,18 @@
       "name": "ShizuCallRecorder",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/kitsumed/ShizuCallRecorder",
-      "storeLinks": []
+      "storeLinks": [
+        {
+          "packageId": "com.kitsumed.shizucallrecorder",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/com.kitsumed.shizucallrecorder"
+        },
+        {
+          "packageId": "com.kitsumed.shizucallrecorder",
+          "store": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/packages/com.kitsumed.shizucallrecorder"
+        }
+      ]
     },
     {
       "category": "Miscellaneous",
@@ -5443,10 +5426,16 @@
     {
       "category": "Music",
       "line": 670,
-      "name": "Noten Learner",
+      "name": "Noten Learnen",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/MelvilQ/noten-lernen",
-      "storeLinks": []
+      "storeLinks": [
+        {
+          "packageId": "de.melvil.noten",
+          "store": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/packages/de.melvil.noten"
+        }
+      ]
     },
     {
       "category": "Music",
@@ -5615,6 +5604,14 @@
     {
       "category": "Music & Audio Player",
       "line": 685,
+      "name": "Echo Music",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/EchoMusicApp/Echo-Music",
+      "storeLinks": []
+    },
+    {
+      "category": "Music & Audio Player",
+      "line": 686,
       "name": "Fossify Music Player",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FossifyOrg/Music-Player",
@@ -5633,7 +5630,7 @@
     },
     {
       "category": "Music & Audio Player",
-      "line": 686,
+      "line": 687,
       "name": "Gramophone",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FoedusProgramme/Gramophone",
@@ -5652,7 +5649,7 @@
     },
     {
       "category": "Music & Audio Player",
-      "line": 687,
+      "line": 688,
       "name": "InnerTune",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/z-huang/InnerTune",
@@ -5671,7 +5668,7 @@
     },
     {
       "category": "Music & Audio Player",
-      "line": 688,
+      "line": 689,
       "name": "InnerTune (Fork)",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Malopieds/InnerTune",
@@ -5685,7 +5682,7 @@
     },
     {
       "category": "Music & Audio Player",
-      "line": 689,
+      "line": 690,
       "name": "Outer Tune",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/DD3Boh/OuterTune",
@@ -5699,7 +5696,7 @@
     },
     {
       "category": "Music & Audio Player",
-      "line": 690,
+      "line": 691,
       "name": "Kreate",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/knighthat/Kreate",
@@ -5713,7 +5710,7 @@
     },
     {
       "category": "Music & Audio Player",
-      "line": 691,
+      "line": 692,
       "name": "little music player",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/martinmimigames/little-music-player",
@@ -5722,20 +5719,6 @@
           "packageId": "com.martinmimigames.littlemusicplayer",
           "store": "F-Droid",
           "url": "https://f-droid.org/packages/com.martinmimigames.littlemusicplayer"
-        }
-      ]
-    },
-    {
-      "category": "Music & Audio Player",
-      "line": 692,
-      "name": "Metro",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/MuntashirAkon/Metro",
-      "storeLinks": [
-        {
-          "packageId": "io.github.muntashirakon.Music",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/io.github.muntashirakon.Music"
         }
       ]
     },
@@ -5962,6 +5945,11 @@
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/eddyizm/tempus",
       "storeLinks": [
+        {
+          "packageId": "com.eddyizm.degoogled.tempus",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/com.eddyizm.degoogled.tempus"
+        },
         {
           "packageId": "com.eddyizm.degoogled.tempus",
           "store": "IzzyOnDroid",
@@ -6423,7 +6411,7 @@
       "line": 746,
       "name": "LibreOffice Viewer",
       "sourceHost": "www.libreoffice.org",
-      "sourceUrl": "https://www.libreoffice.org/download/android-viewer",
+      "sourceUrl": "https://www.libreoffice.org/download-other/#android-ios",
       "storeLinks": [
         {
           "packageId": "org.documentfoundation.libreoffice",
@@ -6433,22 +6421,8 @@
       ]
     },
     {
-      "category": "Office",
-      "line": 747,
-      "name": "OpenDocument",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/opendocument-app/OpenDocument.droid",
-      "storeLinks": [
-        {
-          "packageId": "at.tomtasche.reader",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/at.tomtasche.reader"
-        }
-      ]
-    },
-    {
       "category": "Password & Authentication",
-      "line": 751,
+      "line": 750,
       "name": "2fa",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/979/2fa",
@@ -6462,7 +6436,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 752,
+      "line": 751,
       "name": "Aegis",
       "sourceHost": "getaegis.app",
       "sourceUrl": "https://getaegis.app",
@@ -6481,7 +6455,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 753,
+      "line": 752,
       "name": "AuthenticatorPro",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/jamie-mh/AuthenticatorPro",
@@ -6495,7 +6469,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 754,
+      "line": 753,
       "name": "AuthPass",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/authpass/authpass",
@@ -6509,7 +6483,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 755,
+      "line": 754,
       "name": "Bitwarden",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/bitwarden/android",
@@ -6517,7 +6491,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 756,
+      "line": 755,
       "name": "Ente Auth",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ente-io/ente",
@@ -6531,7 +6505,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 757,
+      "line": 756,
       "name": "FreeOTP+",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/helloworld1/FreeOTPPlus",
@@ -6545,7 +6519,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 758,
+      "line": 757,
       "name": "Is Your Password Secure?",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/StellarSand/IYPS",
@@ -6564,7 +6538,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 759,
+      "line": 758,
       "name": "KeePassDX",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Kunzisoft/KeePassDX",
@@ -6583,7 +6557,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 760,
+      "line": 759,
       "name": "Keyoxide",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/keyoxide/keyoxide-flutter",
@@ -6597,7 +6571,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 761,
+      "line": 760,
       "name": "Mauth",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/X1nto/Mauth",
@@ -6611,7 +6585,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 762,
+      "line": 761,
       "name": "OpenKeychain",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/open-keychain/open-keychain",
@@ -6625,7 +6599,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 763,
+      "line": 762,
       "name": "Password Monitor",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/StellarSand/Password-Monitor",
@@ -6639,7 +6613,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 764,
+      "line": 763,
       "name": "ProtonPass",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/protonpass/android-pass",
@@ -6653,7 +6627,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 765,
+      "line": 764,
       "name": "Tokn",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/fthomys/tokn",
@@ -6667,7 +6641,7 @@
     },
     {
       "category": "Password & Authentication",
-      "line": 766,
+      "line": 765,
       "name": "Vault",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/arsvechkarev/Vault",
@@ -6681,7 +6655,7 @@
     },
     {
       "category": "Podcast & Audio Book Player",
-      "line": 770,
+      "line": 769,
       "name": "AntennaPod",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/AntennaPod/AntennaPod",
@@ -6695,7 +6669,7 @@
     },
     {
       "category": "Podcast & Audio Book Player",
-      "line": 771,
+      "line": 770,
       "name": "Anytime Podcast Player",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/amugofjava/anytime_podcast_player",
@@ -6709,7 +6683,7 @@
     },
     {
       "category": "Podcast & Audio Book Player",
-      "line": 772,
+      "line": 771,
       "name": "Audio Anchor",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/flackbash/AudioAnchor",
@@ -6723,7 +6697,7 @@
     },
     {
       "category": "Podcast & Audio Book Player",
-      "line": 773,
+      "line": 772,
       "name": "Escapepod",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/y20k/escapepod",
@@ -6737,7 +6711,7 @@
     },
     {
       "category": "Podcast & Audio Book Player",
-      "line": 774,
+      "line": 773,
       "name": "FocusPodcast",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/allentown521/FocusPodcast",
@@ -6751,7 +6725,7 @@
     },
     {
       "category": "Podcast & Audio Book Player",
-      "line": 775,
+      "line": 774,
       "name": "Libre Librivox listener",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/libre-librivox-listener/libre-librivox-listener",
@@ -6765,26 +6739,21 @@
     },
     {
       "category": "Podcast & Audio Book Player",
-      "line": 776,
-      "name": "Podcini.X",
+      "line": 775,
+      "name": "Podcini.A",
       "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/XilinJia/Podcini.X",
+      "sourceUrl": "https://github.com/XilinJia/Podcini.A",
       "storeLinks": [
         {
-          "packageId": "ac.mdiq.podcini.X",
+          "packageId": "ac.mdiq.Podcini.A",
           "store": "F-Droid",
-          "url": "https://f-droid.org/packages/ac.mdiq.podcini.X"
-        },
-        {
-          "packageId": "ac.mdiq.podcini.X",
-          "store": "IzzyOnDroid",
-          "url": "https://apt.izzysoft.de/packages/ac.mdiq.podcini.X"
+          "url": "https://f-droid.org/packages/ac.mdiq.Podcini.A"
         }
       ]
     },
     {
       "category": "Podcast & Audio Book Player",
-      "line": 777,
+      "line": 776,
       "name": "Podverse",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/podverse/podverse-fdroid",
@@ -6798,7 +6767,7 @@
     },
     {
       "category": "Podcast & Audio Book Player",
-      "line": 778,
+      "line": 777,
       "name": "Tsacdop",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/stonega/tsacdop",
@@ -6812,7 +6781,7 @@
     },
     {
       "category": "Podcast & Audio Book Player",
-      "line": 779,
+      "line": 778,
       "name": "Voice",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/PaulWoitaschek/Voice",
@@ -6826,6 +6795,25 @@
           "packageId": "de.ph1b.audiobook",
           "store": "IzzyOnDroid",
           "url": "https://apt.izzysoft.de/packages/de.ph1b.audiobook"
+        }
+      ]
+    },
+    {
+      "category": "Privacy & Security",
+      "line": 782,
+      "name": "AppVerifier BG",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/RoundSalmon4/AppVerifierBG",
+      "storeLinks": [
+        {
+          "packageId": "com.roundsalmon4.appverifier",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/com.roundsalmon4.appverifier"
+        },
+        {
+          "packageId": "com.roundsalmon4.appverifier",
+          "store": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/packages/com.roundsalmon4.appverifier"
         }
       ]
     },
@@ -6847,8 +6835,8 @@
       "category": "Privacy & Security",
       "line": 784,
       "name": "PilferShush Jammer",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/kaputnikGo/PilferShushJammer",
+      "sourceHost": "codeberg.org",
+      "sourceUrl": "https://codeberg.org/kaputnikGo/PilferShushJammer",
       "storeLinks": [
         {
           "packageId": "cityfreqs.com.pilfershushjammer",
@@ -6874,6 +6862,20 @@
     {
       "category": "Privacy & Security",
       "line": 786,
+      "name": "Spectre",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/thomasbuilds/Spectre",
+      "storeLinks": [
+        {
+          "packageId": "dev.thomasbuilds.spectre",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/dev.thomasbuilds.spectre"
+        }
+      ]
+    },
+    {
+      "category": "Privacy & Security",
+      "line": 787,
       "name": "Valv",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Arctosoft/Valv-Android",
@@ -6892,7 +6894,7 @@
     },
     {
       "category": "Productivity",
-      "line": 790,
+      "line": 791,
       "name": "Flux",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/chindaronit/Flux",
@@ -6910,8 +6912,50 @@
       ]
     },
     {
-      "category": "Public Transport",
+      "category": "Productivity",
+      "line": 792,
+      "name": "Read Later",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/sak96/read_later",
+      "storeLinks": [
+        {
+          "packageId": "io.github.sak.read.it.later",
+          "store": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/packages/io.github.sak.read.it.later"
+        }
+      ]
+    },
+    {
+      "category": "Productivity",
+      "line": 793,
+      "name": "Super Productivity",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/super-productivity/super-productivity",
+      "storeLinks": [
+        {
+          "packageId": "com.superproductivity.superproductivity",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/com.superproductivity.superproductivity"
+        }
+      ]
+    },
+    {
+      "category": "Productivity",
       "line": 794,
+      "name": "TimePlanner",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/v1tzor/TimePlanner",
+      "storeLinks": [
+        {
+          "packageId": "ru.aleshin.timeplanner",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/ru.aleshin.timeplanner"
+        }
+      ]
+    },
+    {
+      "category": "Public Transport",
+      "line": 798,
       "name": "Bimba",
       "sourceHost": "git.apiote.xyz",
       "sourceUrl": "https://git.apiote.xyz/Bimba.git",
@@ -6925,7 +6969,7 @@
     },
     {
       "category": "Public Transport",
-      "line": 795,
+      "line": 799,
       "name": "Transito",
       "sourceHost": "git.sr.ht",
       "sourceUrl": "https://git.sr.ht/~mil/transito",
@@ -6939,7 +6983,7 @@
     },
     {
       "category": "Public Transport",
-      "line": 796,
+      "line": 800,
       "name": "Transportr",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/grote/transportr",
@@ -6958,7 +7002,21 @@
     },
     {
       "category": "Religion",
-      "line": 800,
+      "line": 804,
+      "name": "AndBible: Bible Study",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/AndBible/and-bible",
+      "storeLinks": [
+        {
+          "packageId": "net.bible.android.activity",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/net.bible.android.activity"
+        }
+      ]
+    },
+    {
+      "category": "Religion",
+      "line": 805,
       "name": "Bhagavad Gita",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/WirelessAlien/BhagavadGitaApp",
@@ -6972,7 +7030,7 @@
     },
     {
       "category": "Religion",
-      "line": 801,
+      "line": 806,
       "name": "Dharmik",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/shub39/Dharmik",
@@ -6991,7 +7049,7 @@
     },
     {
       "category": "Religion",
-      "line": 802,
+      "line": 807,
       "name": "PocketDhamma",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/s4nj1th/pocket-dhamma",
@@ -7010,7 +7068,7 @@
     },
     {
       "category": "RSS Readers",
-      "line": 806,
+      "line": 811,
       "name": "Aggregator",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/tughi/aggregator-android",
@@ -7024,7 +7082,7 @@
     },
     {
       "category": "RSS Readers",
-      "line": 807,
+      "line": 812,
       "name": "Feeder",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/spacecowboy/Feeder",
@@ -7038,7 +7096,7 @@
     },
     {
       "category": "RSS Readers",
-      "line": 808,
+      "line": 813,
       "name": "FeedFlow",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/prof18/feed-flow",
@@ -7052,7 +7110,7 @@
     },
     {
       "category": "RSS Readers",
-      "line": 809,
+      "line": 814,
       "name": "HandyNewsReader",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/yanus171/Handy-News-Reader",
@@ -7066,7 +7124,7 @@
     },
     {
       "category": "RSS Readers",
-      "line": 810,
+      "line": 815,
       "name": "NewsBlur",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/samuelclay/NewsBlur",
@@ -7080,7 +7138,7 @@
     },
     {
       "category": "RSS Readers",
-      "line": 811,
+      "line": 816,
       "name": "Nunti",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/ondrejfoltyn/nunti",
@@ -7094,7 +7152,7 @@
     },
     {
       "category": "RSS Readers",
-      "line": 812,
+      "line": 817,
       "name": "ReaDrops",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/readrops/Readrops",
@@ -7108,7 +7166,7 @@
     },
     {
       "category": "RSS Readers",
-      "line": 813,
+      "line": 818,
       "name": "ReadYou",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Ashinch/ReadYou",
@@ -7122,7 +7180,7 @@
     },
     {
       "category": "RSS Readers",
-      "line": 814,
+      "line": 819,
       "name": "Thud",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/aerotoad/Thud",
@@ -7136,7 +7194,7 @@
     },
     {
       "category": "Sandboxing",
-      "line": 818,
+      "line": 823,
       "name": "Insular",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/secure-system/Insular",
@@ -7150,7 +7208,7 @@
     },
     {
       "category": "Sandboxing",
-      "line": 819,
+      "line": 824,
       "name": "Shelter",
       "sourceHost": "gitea.angry.im",
       "sourceUrl": "https://gitea.angry.im/PeterCxy/Shelter",
@@ -7164,7 +7222,7 @@
     },
     {
       "category": "Science & Education",
-      "line": 823,
+      "line": 828,
       "name": "Atomic: Periodic Table",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/JLindemann42/Atomic-Periodic-Table.Android",
@@ -7178,7 +7236,7 @@
     },
     {
       "category": "Science & Education",
-      "line": 824,
+      "line": 829,
       "name": "Brainf",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/fredhappyface/android.brainf",
@@ -7192,7 +7250,7 @@
     },
     {
       "category": "Science & Education",
-      "line": 825,
+      "line": 830,
       "name": "Bubble",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/woheller69/level",
@@ -7206,21 +7264,7 @@
     },
     {
       "category": "Science & Education",
-      "line": 826,
-      "name": "ChemistryLab",
-      "sourceHost": "gitlab.com",
-      "sourceUrl": "https://gitlab.com/asdoi/ChemistryLab",
-      "storeLinks": [
-        {
-          "packageId": "com.chemistry.admin.chemistrylab",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/com.chemistry.admin.chemistrylab"
-        }
-      ]
-    },
-    {
-      "category": "Science & Education",
-      "line": 827,
+      "line": 831,
       "name": "Git+ Coach",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/vishal2376/git-coach",
@@ -7234,7 +7278,7 @@
     },
     {
       "category": "Science & Education",
-      "line": 828,
+      "line": 832,
       "name": "Linux Command Library",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/SimonSchubert/LinuxCommandLibrary",
@@ -7248,7 +7292,7 @@
     },
     {
       "category": "Science & Education",
-      "line": 829,
+      "line": 833,
       "name": "phyphox",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/phyphox/phyphox-android",
@@ -7262,7 +7306,7 @@
     },
     {
       "category": "Science & Education",
-      "line": 830,
+      "line": 834,
       "name": "PSLab",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/fossasia/pslab-android",
@@ -7276,7 +7320,7 @@
     },
     {
       "category": "Science & Education",
-      "line": 831,
+      "line": 835,
       "name": "Sky Map",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/sky-map-team/stardroid",
@@ -7290,7 +7334,7 @@
     },
     {
       "category": "Science & Education",
-      "line": 832,
+      "line": 836,
       "name": "Snow",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/sahej-dev/Snow",
@@ -7304,7 +7348,7 @@
     },
     {
       "category": "Science & Education",
-      "line": 833,
+      "line": 837,
       "name": "Wikipedia",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/wikimedia/apps-android-wikipedia",
@@ -7318,7 +7362,7 @@
     },
     {
       "category": "SMS",
-      "line": 837,
+      "line": 841,
       "name": "Fossify SMS Messenger",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FossifyOrg/Messages",
@@ -7337,7 +7381,7 @@
     },
     {
       "category": "SMS",
-      "line": 838,
+      "line": 842,
       "name": "Messages",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/PVOT-OSS/Messages",
@@ -7351,7 +7395,7 @@
     },
     {
       "category": "SMS",
-      "line": 839,
+      "line": 843,
       "name": "Quik",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/octoshrimpy/quik",
@@ -7365,7 +7409,7 @@
     },
     {
       "category": "Sports & Health",
-      "line": 843,
+      "line": 847,
       "name": "Box, Box!",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/BrightDV/BoxBox",
@@ -7379,7 +7423,15 @@
     },
     {
       "category": "Sports & Health",
-      "line": 844,
+      "line": 848,
+      "name": "Chompass",
+      "sourceHost": "codeberg.org",
+      "sourceUrl": "https://codeberg.org/fitguy/chompass",
+      "storeLinks": []
+    },
+    {
+      "category": "Sports & Health",
+      "line": 849,
       "name": "Feeel",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/enjoyingfoss/feeel",
@@ -7393,7 +7445,7 @@
     },
     {
       "category": "Sports & Health",
-      "line": 845,
+      "line": 850,
       "name": "FitoTrack",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/jannis/FitoTrack",
@@ -7407,7 +7459,7 @@
     },
     {
       "category": "Sports & Health",
-      "line": 846,
+      "line": 851,
       "name": "Flexify",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/brandonp2412/Flexify",
@@ -7421,7 +7473,7 @@
     },
     {
       "category": "Sports & Health",
-      "line": 847,
+      "line": 852,
       "name": "hEARtest",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/woheller69/audiometry",
@@ -7435,7 +7487,7 @@
     },
     {
       "category": "Sports & Health",
-      "line": 848,
+      "line": 853,
       "name": "Meditation",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/nyxkn/meditation",
@@ -7449,7 +7501,7 @@
     },
     {
       "category": "Sports & Health",
-      "line": 849,
+      "line": 854,
       "name": "MedTimer",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Futsch1/medTimer",
@@ -7468,7 +7520,7 @@
     },
     {
       "category": "Sports & Health",
-      "line": 850,
+      "line": 855,
       "name": "OpenTracks",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/OpenTracksApp/OpenTracks",
@@ -7482,7 +7534,7 @@
     },
     {
       "category": "Sports & Health",
-      "line": 851,
+      "line": 856,
       "name": "Paseo",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/pardomi/paseo",
@@ -7496,7 +7548,7 @@
     },
     {
       "category": "Sports & Health",
-      "line": 852,
+      "line": 857,
       "name": "Red Moon",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/LibreShift/red-moon",
@@ -7510,7 +7562,7 @@
     },
     {
       "category": "Synchronisation",
-      "line": 856,
+      "line": 861,
       "name": "DAVx\u2075",
       "sourceHost": "www.davx5.com",
       "sourceUrl": "https://www.davx5.com",
@@ -7529,7 +7581,7 @@
     },
     {
       "category": "Synchronisation",
-      "line": 857,
+      "line": 862,
       "name": "EteSync",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/etesync/android",
@@ -7543,7 +7595,7 @@
     },
     {
       "category": "Synchronisation",
-      "line": 858,
+      "line": 863,
       "name": "floccus",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/floccusaddon/floccus",
@@ -7562,7 +7614,7 @@
     },
     {
       "category": "Synchronisation",
-      "line": 859,
+      "line": 864,
       "name": "Nextcloud",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/nextcloud/android",
@@ -7576,7 +7628,7 @@
     },
     {
       "category": "Synchronisation",
-      "line": 860,
+      "line": 865,
       "name": "Nextcloud News",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/nextcloud/news-android",
@@ -7590,7 +7642,7 @@
     },
     {
       "category": "Synchronisation",
-      "line": 861,
+      "line": 866,
       "name": "ownCloud",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/owncloud/android",
@@ -7604,7 +7656,7 @@
     },
     {
       "category": "Synchronisation",
-      "line": 862,
+      "line": 867,
       "name": "Seafile",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/haiwen/seadroid",
@@ -7618,7 +7670,7 @@
     },
     {
       "category": "Synchronisation",
-      "line": 863,
+      "line": 868,
       "name": "Syncopoli",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/fengshaun/syncopoli",
@@ -7632,7 +7684,7 @@
     },
     {
       "category": "Synchronisation",
-      "line": 864,
+      "line": 869,
       "name": "Syncthing-Fork",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Catfriend1/syncthing-android",
@@ -7646,7 +7698,7 @@
     },
     {
       "category": "Synchronisation",
-      "line": 865,
+      "line": 870,
       "name": "Syncthing-Lite",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Catfriend1/syncthing-lite",
@@ -7660,7 +7712,7 @@
     },
     {
       "category": "System",
-      "line": 869,
+      "line": 874,
       "name": "Adaptive Theme",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/xlexip/adaptive-theme",
@@ -7668,7 +7720,7 @@
     },
     {
       "category": "System",
-      "line": 870,
+      "line": 875,
       "name": "AppManager",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/MuntashirAkon/AppManager",
@@ -7687,7 +7739,7 @@
     },
     {
       "category": "System",
-      "line": 871,
+      "line": 876,
       "name": "aShell You",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/DP-Hridayan/aShellYou",
@@ -7701,7 +7753,7 @@
     },
     {
       "category": "System",
-      "line": 872,
+      "line": 877,
       "name": "Auditor",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/GrapheneOS/Auditor",
@@ -7709,7 +7761,7 @@
     },
     {
       "category": "System",
-      "line": 873,
+      "line": 878,
       "name": "AutoPie",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/cryptrr/AutoPie",
@@ -7717,7 +7769,7 @@
     },
     {
       "category": "System",
-      "line": 874,
+      "line": 879,
       "name": "Canta",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/samolego/Canta",
@@ -7731,7 +7783,7 @@
     },
     {
       "category": "System",
-      "line": 875,
+      "line": 880,
       "name": "Captive Portal Controller",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/MuntashirAkon/CaptivePortalController",
@@ -7750,7 +7802,7 @@
     },
     {
       "category": "System",
-      "line": 876,
+      "line": 881,
       "name": "CPU Info",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/kamgurgul/cpu-info",
@@ -7764,7 +7816,7 @@
     },
     {
       "category": "System",
-      "line": 877,
+      "line": 882,
       "name": "Dark theme",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/phstudio2/Darktheme",
@@ -7778,7 +7830,7 @@
     },
     {
       "category": "System",
-      "line": 878,
+      "line": 883,
       "name": "De-Bloater",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/sunilpaulmathew/De-Bloater",
@@ -7797,7 +7849,7 @@
     },
     {
       "category": "System",
-      "line": 879,
+      "line": 884,
       "name": "Dhizuku",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/iamr0s/Dhizuku",
@@ -7816,7 +7868,7 @@
     },
     {
       "category": "System",
-      "line": 880,
+      "line": 885,
       "name": "DSU Sideloader",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/VegaBobo/DSU-Sideloader",
@@ -7830,7 +7882,7 @@
     },
     {
       "category": "System",
-      "line": 881,
+      "line": 886,
       "name": "Geto",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/JackEblan/Geto",
@@ -7844,7 +7896,7 @@
     },
     {
       "category": "System",
-      "line": 882,
+      "line": 887,
       "name": "Headwind MDM Agent",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/h-mdm/hmdm-android",
@@ -7858,7 +7910,7 @@
     },
     {
       "category": "System",
-      "line": 883,
+      "line": 888,
       "name": "Inure App Manager (Trial)",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Hamza417/Inure",
@@ -7877,7 +7929,7 @@
     },
     {
       "category": "System",
-      "line": 884,
+      "line": 889,
       "name": "LibChecker",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/zhaobozhen/LibChecker",
@@ -7896,7 +7948,7 @@
     },
     {
       "category": "System",
-      "line": 885,
+      "line": 890,
       "name": "LogFox",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/F0x1d/LogFox",
@@ -7915,7 +7967,7 @@
     },
     {
       "category": "System",
-      "line": 886,
+      "line": 891,
       "name": "Network Survey",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/christianrowlands/android-network-survey",
@@ -7929,7 +7981,7 @@
     },
     {
       "category": "System",
-      "line": 887,
+      "line": 892,
       "name": "Nix-on-Droid",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/nix-community/nix-on-droid",
@@ -7943,7 +7995,7 @@
     },
     {
       "category": "System",
-      "line": 888,
+      "line": 893,
       "name": "NoMoreBackground",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/adil192/no_more_background",
@@ -7957,7 +8009,7 @@
     },
     {
       "category": "System",
-      "line": 889,
+      "line": 894,
       "name": "PCAPdroid",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/emanuele-f/PCAPdroid",
@@ -7971,7 +8023,7 @@
     },
     {
       "category": "System",
-      "line": 890,
+      "line": 895,
       "name": "Permission Pilot",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/d4rken-org/permission-pilot",
@@ -7990,7 +8042,7 @@
     },
     {
       "category": "System",
-      "line": 891,
+      "line": 896,
       "name": "ReVanced Manager",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ReVanced/revanced-manager",
@@ -7998,21 +8050,7 @@
     },
     {
       "category": "System",
-      "line": 892,
-      "name": "Scoop",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/TacoTheDank/Scoop",
-      "storeLinks": [
-        {
-          "packageId": "taco.scoop",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/taco.scoop"
-        }
-      ]
-    },
-    {
-      "category": "System",
-      "line": 893,
+      "line": 897,
       "name": "SuperFreezZ",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/SuperFreezZ/SuperFreezZ",
@@ -8026,7 +8064,7 @@
     },
     {
       "category": "System",
-      "line": 894,
+      "line": 898,
       "name": "SystemUI Tuner",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/zacharee/Tweaker",
@@ -8040,7 +8078,7 @@
     },
     {
       "category": "System",
-      "line": 895,
+      "line": 899,
       "name": "TaskManager",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/RohitKushvaha01/TaskManager",
@@ -8054,7 +8092,7 @@
     },
     {
       "category": "System",
-      "line": 896,
+      "line": 900,
       "name": "Treble Info",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/TrebleInfo/TrebleInfo",
@@ -8068,7 +8106,7 @@
     },
     {
       "category": "System",
-      "line": 897,
+      "line": 901,
       "name": "UpgradeAll",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/DUpdateSystem/UpgradeAll",
@@ -8082,7 +8120,7 @@
     },
     {
       "category": "System",
-      "line": 898,
+      "line": 902,
       "name": "WifiAnalyzer",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer",
@@ -8096,7 +8134,7 @@
     },
     {
       "category": "Terminals",
-      "line": 902,
+      "line": 906,
       "name": "ReTerminal",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/RohitKushvaha01/ReTerminal",
@@ -8115,7 +8153,7 @@
     },
     {
       "category": "Terminals",
-      "line": 903,
+      "line": 907,
       "name": "Termux",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/termux/termux-app",
@@ -8129,7 +8167,7 @@
     },
     {
       "category": "Text Editors",
-      "line": 907,
+      "line": 911,
       "name": "Acode",
       "sourceHost": "acode.app",
       "sourceUrl": "https://acode.app",
@@ -8143,7 +8181,7 @@
     },
     {
       "category": "Text Editors",
-      "line": 908,
+      "line": 912,
       "name": "Editor",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/billthefarmer/editor",
@@ -8157,7 +8195,7 @@
     },
     {
       "category": "Text Editors",
-      "line": 909,
+      "line": 913,
       "name": "Emacs",
       "sourceHost": "git.savannah.gnu.org",
       "sourceUrl": "https://git.savannah.gnu.org/cgit/emacs.git/tree/?h=feature/android",
@@ -8171,7 +8209,7 @@
     },
     {
       "category": "Text Editors",
-      "line": 910,
+      "line": 914,
       "name": "Squircle CE",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/massivemadness/Squircle-CE",
@@ -8185,7 +8223,7 @@
     },
     {
       "category": "Text Editors",
-      "line": 911,
+      "line": 915,
       "name": "Xed-Editor (Karbon)",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Xed-Editor/Xed-Editor",
@@ -8204,7 +8242,7 @@
     },
     {
       "category": "Text-to-Speech",
-      "line": 915,
+      "line": 919,
       "name": "eSpeak",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/espeak-ng/espeak-ng",
@@ -8218,7 +8256,7 @@
     },
     {
       "category": "Text-to-Speech",
-      "line": 916,
+      "line": 920,
       "name": "RHVoice",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/RHVoice/RHVoice",
@@ -8232,7 +8270,7 @@
     },
     {
       "category": "Text-to-Speech",
-      "line": 917,
+      "line": 921,
       "name": "SherpaTTS",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/woheller69/ttsengine",
@@ -8246,7 +8284,7 @@
     },
     {
       "category": "ToDo Lists",
-      "line": 921,
+      "line": 925,
       "name": "1List",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/lolo-io/OneList",
@@ -8260,7 +8298,7 @@
     },
     {
       "category": "ToDo Lists",
-      "line": 922,
+      "line": 926,
       "name": "Everyday Tasks",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/jenspfahl/EverydayTasks",
@@ -8274,7 +8312,7 @@
     },
     {
       "category": "ToDo Lists",
-      "line": 923,
+      "line": 927,
       "name": "Orgzly",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/orgzly/orgzly-android",
@@ -8288,7 +8326,7 @@
     },
     {
       "category": "ToDo Lists",
-      "line": 924,
+      "line": 928,
       "name": "PocketPlan",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/RayLeaf-Studios/PocketPlan",
@@ -8302,7 +8340,7 @@
     },
     {
       "category": "ToDo Lists",
-      "line": 925,
+      "line": 929,
       "name": "Tasks.org",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/tasks/tasks",
@@ -8316,7 +8354,7 @@
     },
     {
       "category": "Translation",
-      "line": 929,
+      "line": 933,
       "name": "DeepL",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/sakusaku3939/DeepLAndroid",
@@ -8330,21 +8368,7 @@
     },
     {
       "category": "Translation",
-      "line": 930,
-      "name": "Lentil Translate",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/yaxarat/lingvaandroid",
-      "storeLinks": [
-        {
-          "packageId": "dev.atajan.lingva_android",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/dev.atajan.lingva_android"
-        }
-      ]
-    },
-    {
-      "category": "Translation",
-      "line": 931,
+      "line": 934,
       "name": "Offline Translator",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/DavidVentura/offline-translator",
@@ -8358,7 +8382,7 @@
     },
     {
       "category": "Translation",
-      "line": 932,
+      "line": 935,
       "name": "Seamless",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/woheller69/seamless",
@@ -8372,7 +8396,7 @@
     },
     {
       "category": "Translation",
-      "line": 933,
+      "line": 936,
       "name": "SimplyTranslate Mobile",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ManeraKai/simplytranslate_mobile",
@@ -8386,21 +8410,7 @@
     },
     {
       "category": "Translation",
-      "line": 934,
-      "name": "The Translator",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/sunilpaulmathew/Translator",
-      "storeLinks": [
-        {
-          "packageId": "com.sunilpaulmathew.translator",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/com.sunilpaulmathew.translator"
-        }
-      ]
-    },
-    {
-      "category": "Translation",
-      "line": 935,
+      "line": 937,
       "name": "Translate You",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/you-apps/TranslateYou",
@@ -8419,7 +8429,7 @@
     },
     {
       "category": "URL Manipulation",
-      "line": 939,
+      "line": 941,
       "name": "Leon",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/svenjacobs/leon",
@@ -8438,7 +8448,7 @@
     },
     {
       "category": "URL Manipulation",
-      "line": 940,
+      "line": 942,
       "name": "LinkSheet",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/LinkSheet/LinkSheet",
@@ -8452,7 +8462,7 @@
     },
     {
       "category": "URL Manipulation",
-      "line": 941,
+      "line": 943,
       "name": "Tarnhelm",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/lz233/Tarnhelm",
@@ -8466,7 +8476,7 @@
     },
     {
       "category": "URL Manipulation",
-      "line": 942,
+      "line": 944,
       "name": "Untracker",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/zhanghai/Untracker",
@@ -8480,7 +8490,7 @@
     },
     {
       "category": "URL Manipulation",
-      "line": 943,
+      "line": 945,
       "name": "UntrackMe",
       "sourceHost": "framagit.org",
       "sourceUrl": "https://framagit.org/tom79/nitterizeme",
@@ -8494,7 +8504,7 @@
     },
     {
       "category": "URL Manipulation",
-      "line": 944,
+      "line": 946,
       "name": "URLCheck",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/TrianguloY/UrlChecker",
@@ -8513,7 +8523,7 @@
     },
     {
       "category": "Utilities",
-      "line": 948,
+      "line": 950,
       "name": "5G",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/OpenAppsLabs/5G",
@@ -8527,7 +8537,7 @@
     },
     {
       "category": "Utilities",
-      "line": 949,
+      "line": 951,
       "name": "Amaze File Utilities",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/TeamAmaze/AmazeFileUtilities",
@@ -8546,7 +8556,7 @@
     },
     {
       "category": "Utilities",
-      "line": 950,
+      "line": 952,
       "name": "AVNC",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/gujjwal00/avnc",
@@ -8560,7 +8570,7 @@
     },
     {
       "category": "Utilities",
-      "line": 951,
+      "line": 953,
       "name": "BendyStraw",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/mm-dev/bendy-straw",
@@ -8574,7 +8584,7 @@
     },
     {
       "category": "Utilities",
-      "line": 952,
+      "line": 954,
       "name": "BetterCounter",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/albertvaka/bettercounter",
@@ -8588,7 +8598,7 @@
     },
     {
       "category": "Utilities",
-      "line": 953,
+      "line": 955,
       "name": "Cams",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/vladpen/cams",
@@ -8602,7 +8612,7 @@
     },
     {
       "category": "Utilities",
-      "line": 954,
+      "line": 956,
       "name": "ConnectBot",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/connectbot/connectbot",
@@ -8616,7 +8626,7 @@
     },
     {
       "category": "Utilities",
-      "line": 955,
+      "line": 957,
       "name": "Converter NOW",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ferraridamiano/ConverterNOW",
@@ -8630,7 +8640,7 @@
     },
     {
       "category": "Utilities",
-      "line": 956,
+      "line": 958,
       "name": "CSV Editor",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/bgrayburn/csv-editor",
@@ -8644,7 +8654,7 @@
     },
     {
       "category": "Utilities",
-      "line": 957,
+      "line": 959,
       "name": "Data Monitor",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/itsdrnoob/DataMonitor",
@@ -8658,7 +8668,7 @@
     },
     {
       "category": "Utilities",
-      "line": 958,
+      "line": 960,
       "name": "DeadHash",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/CodeDead/DeadHash-android",
@@ -8677,7 +8687,7 @@
     },
     {
       "category": "Utilities",
-      "line": 959,
+      "line": 961,
       "name": "droidVNC-NG",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/bk138/droidVNC-NG",
@@ -8691,7 +8701,7 @@
     },
     {
       "category": "Utilities",
-      "line": 960,
+      "line": 962,
       "name": "EtchDroid",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/EtchDroid/EtchDroid",
@@ -8705,7 +8715,21 @@
     },
     {
       "category": "Utilities",
-      "line": 961,
+      "line": 963,
+      "name": "Granular Volume: Quiet Dial",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/Rzuss/granular-volume",
+      "storeLinks": [
+        {
+          "packageId": "granularvolume.com",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/granularvolume.com"
+        }
+      ]
+    },
+    {
+      "category": "Utilities",
+      "line": 964,
       "name": "HexViewer",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Keidan/HexViewer",
@@ -8719,7 +8743,7 @@
     },
     {
       "category": "Utilities",
-      "line": 962,
+      "line": 965,
       "name": "InviZible Pro",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Gedsh/InviZible",
@@ -8733,7 +8757,7 @@
     },
     {
       "category": "Utilities",
-      "line": 963,
+      "line": 966,
       "name": "Json List",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/SlaVcE14/JsonList",
@@ -8747,7 +8771,7 @@
     },
     {
       "category": "Utilities",
-      "line": 964,
+      "line": 967,
       "name": "Keep Alive",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/keepalivedev/KeepAlive",
@@ -8761,7 +8785,7 @@
     },
     {
       "category": "Utilities",
-      "line": 965,
+      "line": 968,
       "name": "Key Mapper",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/keymapperorg/KeyMapper",
@@ -8775,7 +8799,7 @@
     },
     {
       "category": "Utilities",
-      "line": 966,
+      "line": 969,
       "name": "KeyStoreViewer",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/qdsfdhvh/KeyStoreViewer",
@@ -8789,7 +8813,7 @@
     },
     {
       "category": "Utilities",
-      "line": 967,
+      "line": 970,
       "name": "Linkora",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/LinkoraApp/Linkora",
@@ -8803,7 +8827,7 @@
     },
     {
       "category": "Utilities",
-      "line": 968,
+      "line": 971,
       "name": "Middor",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/nktnet1/middor",
@@ -8822,21 +8846,7 @@
     },
     {
       "category": "Utilities",
-      "line": 969,
-      "name": "Miniter",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/mlm-games/miniter",
-      "storeLinks": [
-        {
-          "packageId": "org.mlm.miniter",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/org.mlm.miniter"
-        }
-      ]
-    },
-    {
-      "category": "Utilities",
-      "line": 970,
+      "line": 972,
       "name": "NFCGate",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/nfcgate/nfcgate",
@@ -8855,7 +8865,7 @@
     },
     {
       "category": "Utilities",
-      "line": 971,
+      "line": 973,
       "name": "OCR",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/SubhamTyagi/android-ocr",
@@ -8869,7 +8879,7 @@
     },
     {
       "category": "Utilities",
-      "line": 972,
+      "line": 974,
       "name": "Omni",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/FoedusProgramme/Omni",
@@ -8883,7 +8893,7 @@
     },
     {
       "category": "Utilities",
-      "line": 973,
+      "line": 975,
       "name": "OONI Probe",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ooni/probe-multiplatform",
@@ -8897,21 +8907,7 @@
     },
     {
       "category": "Utilities",
-      "line": 974,
-      "name": "Open Video Editor",
-      "sourceHost": "github.com",
-      "sourceUrl": "https://github.com/devhyper/open-video-editor",
-      "storeLinks": [
-        {
-          "packageId": "io.github.devhyper.openvideoeditor",
-          "store": "F-Droid",
-          "url": "https://f-droid.org/packages/io.github.devhyper.openvideoeditor"
-        }
-      ]
-    },
-    {
-      "category": "Utilities",
-      "line": 975,
+      "line": 976,
       "name": "Orgro",
       "sourceHost": "orgro.org",
       "sourceUrl": "https://orgro.org",
@@ -8925,7 +8921,7 @@
     },
     {
       "category": "Utilities",
-      "line": 976,
+      "line": 977,
       "name": "PlugBrain",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/msbelaid/PlugBrain",
@@ -8939,7 +8935,7 @@
     },
     {
       "category": "Utilities",
-      "line": 977,
+      "line": 978,
       "name": "Screen Time",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/markusfisch/ScreenTime",
@@ -8958,7 +8954,7 @@
     },
     {
       "category": "Utilities",
-      "line": 978,
+      "line": 979,
       "name": "SD Maid 2/SE",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/d4rken-org/sdmaid-se",
@@ -8977,7 +8973,7 @@
     },
     {
       "category": "Utilities",
-      "line": 979,
+      "line": 980,
       "name": "Smart Edge",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Imtiaz-Official/Smart-Edge",
@@ -8991,7 +8987,7 @@
     },
     {
       "category": "Utilities",
-      "line": 980,
+      "line": 981,
       "name": "SMS Import / Export",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/tmo1/sms-ie",
@@ -9005,7 +9001,7 @@
     },
     {
       "category": "Utilities",
-      "line": 981,
+      "line": 982,
       "name": "Track & Graph",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/SamAmco/track-and-graph",
@@ -9019,7 +9015,7 @@
     },
     {
       "category": "Utilities",
-      "line": 982,
+      "line": 983,
       "name": "TTS Util",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Danesprite/tts-util-app",
@@ -9033,7 +9029,7 @@
     },
     {
       "category": "Utilities",
-      "line": 983,
+      "line": 984,
       "name": "USB Descriptor Explorer",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/iodn/android-usb-device-info",
@@ -9047,7 +9043,7 @@
     },
     {
       "category": "Utilities",
-      "line": 984,
+      "line": 985,
       "name": "Voice Notify",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/pilot51/voicenotify",
@@ -9061,7 +9057,7 @@
     },
     {
       "category": "Utilities",
-      "line": 985,
+      "line": 986,
       "name": "VolumeScroll",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/YeapGuy/VolumeScroll",
@@ -9074,8 +9070,50 @@
       ]
     },
     {
+      "category": "Video Editor",
+      "line": 990,
+      "name": "LibreCuts",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/tharunbirla/LibreCuts",
+      "storeLinks": [
+        {
+          "packageId": "com.tharunbirla.librecuts",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/com.tharunbirla.librecuts"
+        }
+      ]
+    },
+    {
+      "category": "Video Editor",
+      "line": 991,
+      "name": "Miniter",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/mlm-games/miniter",
+      "storeLinks": [
+        {
+          "packageId": "org.mlm.miniter",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/org.mlm.miniter"
+        }
+      ]
+    },
+    {
+      "category": "Video Editor",
+      "line": 992,
+      "name": "Open Video Editor",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/devhyper/open-video-editor",
+      "storeLinks": [
+        {
+          "packageId": "io.github.devhyper.openvideoeditor",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/io.github.devhyper.openvideoeditor"
+        }
+      ]
+    },
+    {
       "category": "Video Player",
-      "line": 989,
+      "line": 996,
       "name": "Fermata Media Player",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/AndreyPavlenko/Fermata",
@@ -9083,7 +9121,7 @@
     },
     {
       "category": "Video Player",
-      "line": 990,
+      "line": 997,
       "name": "Just (Video) Player",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/moneytoo/Player",
@@ -9097,7 +9135,7 @@
     },
     {
       "category": "Video Player",
-      "line": 991,
+      "line": 998,
       "name": "Kodi",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/xbmc/xbmc",
@@ -9111,7 +9149,7 @@
     },
     {
       "category": "Video Player",
-      "line": 992,
+      "line": 999,
       "name": "Kore",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/xbmc/Kore",
@@ -9125,7 +9163,7 @@
     },
     {
       "category": "Video Player",
-      "line": 993,
+      "line": 1000,
       "name": "mpv for Android",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/mpv-android/mpv-android",
@@ -9139,7 +9177,7 @@
     },
     {
       "category": "Video Player",
-      "line": 994,
+      "line": 1001,
       "name": "mpvExtended",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/marlboro-advance/mpvex",
@@ -9153,7 +9191,7 @@
     },
     {
       "category": "Video Player",
-      "line": 995,
+      "line": 1002,
       "name": "Next Player",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/anilbeesetti/nextplayer",
@@ -9172,7 +9210,7 @@
     },
     {
       "category": "Video Player",
-      "line": 996,
+      "line": 1003,
       "name": "Nova Video Player",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/nova-video-player/aos-AVP",
@@ -9191,7 +9229,7 @@
     },
     {
       "category": "Video Player",
-      "line": 997,
+      "line": 1004,
       "name": "VLC",
       "sourceHost": "www.videolan.org",
       "sourceUrl": "https://www.videolan.org/vlc/download-android.html",
@@ -9205,7 +9243,7 @@
     },
     {
       "category": "VPN",
-      "line": 1001,
+      "line": 1008,
       "name": "Calyx VPN",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/CalyxOS/bitmask_android",
@@ -9219,7 +9257,7 @@
     },
     {
       "category": "VPN",
-      "line": 1002,
+      "line": 1009,
       "name": "IVPN",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ivpn/android-app",
@@ -9233,7 +9271,7 @@
     },
     {
       "category": "VPN",
-      "line": 1003,
+      "line": 1010,
       "name": "Mullvad",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/mullvad/mullvadvpn-app",
@@ -9247,7 +9285,7 @@
     },
     {
       "category": "VPN",
-      "line": 1004,
+      "line": 1011,
       "name": "Mysterium VPN",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/mysteriumnetwork/mysterium-vpn-mobile",
@@ -9261,7 +9299,7 @@
     },
     {
       "category": "VPN",
-      "line": 1005,
+      "line": 1012,
       "name": "NekoBox for Android",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid",
@@ -9269,7 +9307,7 @@
     },
     {
       "category": "VPN",
-      "line": 1006,
+      "line": 1013,
       "name": "NymVPN",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/nymtech/nym-vpn-client",
@@ -9283,7 +9321,7 @@
     },
     {
       "category": "VPN",
-      "line": 1007,
+      "line": 1014,
       "name": "Orbot",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/guardianproject/orbot",
@@ -9291,7 +9329,7 @@
     },
     {
       "category": "VPN",
-      "line": 1008,
+      "line": 1015,
       "name": "ProtonVPN",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ProtonVPN/android-app",
@@ -9305,7 +9343,7 @@
     },
     {
       "category": "VPN",
-      "line": 1009,
+      "line": 1016,
       "name": "Riseup VPN",
       "sourceHost": "0xacab.org",
       "sourceUrl": "https://0xacab.org/leap/bitmask_android",
@@ -9319,7 +9357,7 @@
     },
     {
       "category": "VPN",
-      "line": 1010,
+      "line": 1017,
       "name": "Tailscale",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/tailscale/tailscale-android",
@@ -9333,7 +9371,7 @@
     },
     {
       "category": "VPN",
-      "line": 1011,
+      "line": 1018,
       "name": "UpVPN",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/upvpn/upvpn-app",
@@ -9347,7 +9385,7 @@
     },
     {
       "category": "VPN",
-      "line": 1012,
+      "line": 1019,
       "name": "WG Tunnel",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/wgtunnel/wgtunnel",
@@ -9361,7 +9399,7 @@
     },
     {
       "category": "VPN",
-      "line": 1013,
+      "line": 1020,
       "name": "WireGuard",
       "sourceHost": "git.zx2c4.com",
       "sourceUrl": "https://git.zx2c4.com/wireguard-android",
@@ -9369,7 +9407,7 @@
     },
     {
       "category": "Wallpapers",
-      "line": 1017,
+      "line": 1024,
       "name": "Dark Mode Live Wallpaper",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/cvzi/darkmodewallpaper",
@@ -9383,7 +9421,7 @@
     },
     {
       "category": "Wallpapers",
-      "line": 1018,
+      "line": 1025,
       "name": "Doodle",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/patzly/doodle-android",
@@ -9397,7 +9435,7 @@
     },
     {
       "category": "Wallpapers",
-      "line": 1019,
+      "line": 1026,
       "name": "GIF Live Wallpaper",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/redwarp/gif-wallpaper",
@@ -9411,7 +9449,7 @@
     },
     {
       "category": "Wallpapers",
-      "line": 1020,
+      "line": 1027,
       "name": "Materials Live Wallpaper",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Reminimalism/MaterialsLiveWallpaper",
@@ -9425,7 +9463,7 @@
     },
     {
       "category": "Wallpapers",
-      "line": 1021,
+      "line": 1028,
       "name": "Palette-Cycle",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ManApart/palette-cycle",
@@ -9439,7 +9477,7 @@
     },
     {
       "category": "Wallpapers",
-      "line": 1022,
+      "line": 1029,
       "name": "Paperize",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Anthonyy232/Paperize",
@@ -9453,7 +9491,7 @@
     },
     {
       "category": "Wallpapers",
-      "line": 1023,
+      "line": 1030,
       "name": "Peristyle",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Hamza417/Peristyle",
@@ -9472,7 +9510,7 @@
     },
     {
       "category": "Wallpapers",
-      "line": 1024,
+      "line": 1031,
       "name": "Slideshow Wallpaper",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Doubi88/SlideshowWallpaper",
@@ -9486,7 +9524,7 @@
     },
     {
       "category": "Wallpapers",
-      "line": 1025,
+      "line": 1032,
       "name": "Wall You",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/you-apps/WallYou",
@@ -9505,7 +9543,7 @@
     },
     {
       "category": "Wallpapers",
-      "line": 1026,
+      "line": 1033,
       "name": "WallFlow",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ammargitham/WallFlow",
@@ -9524,7 +9562,7 @@
     },
     {
       "category": "Wallpapers",
-      "line": 1027,
+      "line": 1034,
       "name": "WallMan",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/colorata/wallman",
@@ -9538,7 +9576,7 @@
     },
     {
       "category": "Wallpapers",
-      "line": 1028,
+      "line": 1035,
       "name": "Wave Lines Live Wallpaper",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/markusfisch/WaveLinesWallpaper",
@@ -9552,7 +9590,7 @@
     },
     {
       "category": "Wallpapers",
-      "line": 1029,
+      "line": 1036,
       "name": "Zade's Wallpaper",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/zadeviggers/wallpaper",
@@ -9566,7 +9604,7 @@
     },
     {
       "category": "Weather",
-      "line": 1033,
+      "line": 1040,
       "name": "Atmos Weather",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/atticuscornett/AtmosWeather",
@@ -9580,7 +9618,7 @@
     },
     {
       "category": "Weather",
-      "line": 1034,
+      "line": 1041,
       "name": "Breezy Weather",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/breezy-weather/breezy-weather",
@@ -9599,7 +9637,7 @@
     },
     {
       "category": "Weather",
-      "line": 1035,
+      "line": 1042,
       "name": "Bura",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/davidtakac/bura",
@@ -9618,7 +9656,7 @@
     },
     {
       "category": "Weather",
-      "line": 1036,
+      "line": 1043,
       "name": "Cirrus",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/woheller69/omweather",
@@ -9632,7 +9670,7 @@
     },
     {
       "category": "Weather",
-      "line": 1037,
+      "line": 1044,
       "name": "Clima",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/Lacerte/clima",
@@ -9646,7 +9684,7 @@
     },
     {
       "category": "Weather",
-      "line": 1038,
+      "line": 1045,
       "name": "Overmorrow Weather",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/bmaroti9/Overmorrow",
@@ -9660,7 +9698,7 @@
     },
     {
       "category": "Weather",
-      "line": 1039,
+      "line": 1046,
       "name": "RadarWeather",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/woheller69/weather",
@@ -9674,7 +9712,7 @@
     },
     {
       "category": "Weather",
-      "line": 1040,
+      "line": 1047,
       "name": "Rain",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/darkmoonight/Rain",
@@ -9688,7 +9726,7 @@
     },
     {
       "category": "Weather",
-      "line": 1041,
+      "line": 1048,
       "name": "Tiny Weather Forecast Germany",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/Starfish/TinyWeatherForecastGermany",
@@ -9707,7 +9745,7 @@
     },
     {
       "category": "Weather",
-      "line": 1042,
+      "line": 1049,
       "name": "Weather",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/sunilpaulmathew/Weather",
@@ -9721,7 +9759,7 @@
     },
     {
       "category": "Weather",
-      "line": 1043,
+      "line": 1050,
       "name": "WeatherMaster",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/PranshulGG/WeatherMaster",
@@ -9735,7 +9773,7 @@
     },
     {
       "category": "Board",
-      "line": 1051,
+      "line": 1058,
       "name": "Chess",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/jcarolus/android-chess",
@@ -9749,7 +9787,7 @@
     },
     {
       "category": "Board",
-      "line": 1052,
+      "line": 1059,
       "name": "Chess Clock",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ChessCom/android-chessclock",
@@ -9763,7 +9801,7 @@
     },
     {
       "category": "Board",
-      "line": 1053,
+      "line": 1060,
       "name": "DroidFish",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/peterosterlund2/droidfish",
@@ -9777,7 +9815,7 @@
     },
     {
       "category": "Board",
-      "line": 1054,
+      "line": 1061,
       "name": "Flang",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/jannis/FlangAndroid",
@@ -9791,7 +9829,7 @@
     },
     {
       "category": "Board",
-      "line": 1055,
+      "line": 1062,
       "name": "Freebloks",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/shlusiak/Freebloks-Android",
@@ -9805,7 +9843,7 @@
     },
     {
       "category": "Board",
-      "line": 1056,
+      "line": 1063,
       "name": "Halma",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Crazy-Marvin/Halma",
@@ -9819,7 +9857,7 @@
     },
     {
       "category": "Board",
-      "line": 1057,
+      "line": 1064,
       "name": "Lichess",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/lichess-org/mobile",
@@ -9833,7 +9871,7 @@
     },
     {
       "category": "Board",
-      "line": 1058,
+      "line": 1065,
       "name": "lidraughts",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/roepstoep/lidraughts",
@@ -9841,7 +9879,7 @@
     },
     {
       "category": "Board",
-      "line": 1059,
+      "line": 1066,
       "name": "Mill",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/calcitem/Sanmill",
@@ -9855,7 +9893,7 @@
     },
     {
       "category": "Board",
-      "line": 1060,
+      "line": 1067,
       "name": "Open Chaos Chess",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/CorruptedArk/open-chaos-chess",
@@ -9869,7 +9907,7 @@
     },
     {
       "category": "Board",
-      "line": 1061,
+      "line": 1068,
       "name": "Simple Chess Clock",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/simenheg/simple-chess-clock",
@@ -9883,7 +9921,7 @@
     },
     {
       "category": "Card",
-      "line": 1065,
+      "line": 1072,
       "name": "MTG Familiar",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/AEFeinstein/mtg-familiar",
@@ -9897,7 +9935,7 @@
     },
     {
       "category": "Card",
-      "line": 1066,
+      "line": 1073,
       "name": "TriPeaks",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/mimoguz/tripeaks-gdx",
@@ -9911,7 +9949,21 @@
     },
     {
       "category": "Educational",
-      "line": 1070,
+      "line": 1077,
+      "name": "Braincup",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/SimonSchubert/Braincup",
+      "storeLinks": [
+        {
+          "packageId": "com.inspiredandroid.braincup",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/com.inspiredandroid.braincup"
+        }
+      ]
+    },
+    {
+      "category": "Educational",
+      "line": 1078,
       "name": "Digits",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/foxtrotdev/learn-digits",
@@ -9925,7 +9977,7 @@
     },
     {
       "category": "Educational",
-      "line": 1071,
+      "line": 1079,
       "name": "Everest",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/mwageringel/everest",
@@ -9939,7 +9991,7 @@
     },
     {
       "category": "Educational",
-      "line": 1072,
+      "line": 1080,
       "name": "GCompris",
       "sourceHost": "invent.kde.org",
       "sourceUrl": "https://invent.kde.org/education/gcompris.git",
@@ -9953,7 +10005,7 @@
     },
     {
       "category": "Educational",
-      "line": 1073,
+      "line": 1081,
       "name": "Geoperion",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/vulnerabbity/Geoperion",
@@ -9967,7 +10019,7 @@
     },
     {
       "category": "Educational",
-      "line": 1074,
+      "line": 1082,
       "name": "Mental Math",
       "sourceHost": "codeberg.org",
       "sourceUrl": "https://codeberg.org/Mental-Math/MentalMath",
@@ -9981,7 +10033,7 @@
     },
     {
       "category": "Educational",
-      "line": 1075,
+      "line": 1083,
       "name": "Quick Calculation",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/SubhamTyagi/quick-calculation",
@@ -9995,7 +10047,7 @@
     },
     {
       "category": "Educational",
-      "line": 1076,
+      "line": 1084,
       "name": "RUTMath",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/przemarbor/RUTMath",
@@ -10009,7 +10061,7 @@
     },
     {
       "category": "Educational",
-      "line": 1077,
+      "line": 1085,
       "name": "The Powder Toy",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/The-Powder-Toy/The-Powder-Toy",
@@ -10017,7 +10069,7 @@
     },
     {
       "category": "Educational",
-      "line": 1078,
+      "line": 1086,
       "name": "Tux Math",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/Afrikalan/tuxmath-android",
@@ -10031,7 +10083,15 @@
     },
     {
       "category": "Emulator",
-      "line": 1082,
+      "line": 1090,
+      "name": "Cemu",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/SSimco/Cemu",
+      "storeLinks": []
+    },
+    {
+      "category": "Emulator",
+      "line": 1091,
       "name": "Dolphin",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/dolphin-emu/dolphin",
@@ -10045,7 +10105,15 @@
     },
     {
       "category": "Emulator",
-      "line": 1083,
+      "line": 1092,
+      "name": "Eden",
+      "sourceHost": "git.eden-emu.dev",
+      "sourceUrl": "https://git.eden-emu.dev/eden-emu/eden",
+      "storeLinks": []
+    },
+    {
+      "category": "Emulator",
+      "line": 1093,
       "name": "J2ME Loader",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/nikita36078/J2ME-Loader",
@@ -10059,7 +10127,7 @@
     },
     {
       "category": "Emulator",
-      "line": 1084,
+      "line": 1094,
       "name": "Lemuroid",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Swordfish90/Lemuroid",
@@ -10073,7 +10141,7 @@
     },
     {
       "category": "Emulator",
-      "line": 1085,
+      "line": 1095,
       "name": "PPSSPP",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/hrydgard/ppsspp",
@@ -10087,7 +10155,7 @@
     },
     {
       "category": "Emulator",
-      "line": 1086,
+      "line": 1096,
       "name": "RetroArch",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/libretro/RetroArch",
@@ -10100,8 +10168,16 @@
       ]
     },
     {
+      "category": "Emulator",
+      "line": 1097,
+      "name": "Vita3K",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/Vita3K/Vita3K",
+      "storeLinks": []
+    },
+    {
       "category": "Miscellaneous",
-      "line": 1090,
+      "line": 1101,
       "name": "Apple Flinger",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/ar-/apple-flinger",
@@ -10115,7 +10191,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1091,
+      "line": 1102,
       "name": "Ball2Box",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/dulvui/ball2box",
@@ -10129,7 +10205,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1092,
+      "line": 1103,
       "name": "Breakout 71",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/lecarore/breakout71",
@@ -10143,7 +10219,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1093,
+      "line": 1104,
       "name": "Burger Party",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/agateau/burgerparty",
@@ -10157,7 +10233,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1094,
+      "line": 1105,
       "name": "DekaDico",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/vivekthazhathattil/dekadico",
@@ -10171,7 +10247,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1095,
+      "line": 1106,
       "name": "Destination Sol",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/MovingBlocks/DestinationSol",
@@ -10185,7 +10261,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1096,
+      "line": 1107,
       "name": "Dooz",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/yamin8000/Dooz",
@@ -10199,7 +10275,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1097,
+      "line": 1108,
       "name": "Endless Sky",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/thewierdnut/endless-mobile",
@@ -10213,7 +10289,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1098,
+      "line": 1109,
       "name": "Falling Blocks",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Sajeg/falling-blocks",
@@ -10227,7 +10303,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1099,
+      "line": 1110,
       "name": "Luanti",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/minetest/minetest",
@@ -10241,7 +10317,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1100,
+      "line": 1111,
       "name": "Pocket Broomball",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/dulvui/pocket-broomball",
@@ -10255,7 +10331,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1101,
+      "line": 1112,
       "name": "Quinb",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/deepdaikon/Quinb",
@@ -10269,7 +10345,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1102,
+      "line": 1113,
       "name": "Space Vertex Multiplayer",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/smart-fun/spacevertex",
@@ -10283,7 +10359,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1103,
+      "line": 1114,
       "name": "WordleSolver",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/billthefarmer/wordlesolver",
@@ -10297,7 +10373,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1104,
+      "line": 1115,
       "name": "Xeonjia",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/deepdaikon/Xeonjia",
@@ -10311,7 +10387,7 @@
     },
     {
       "category": "Miscellaneous",
-      "line": 1105,
+      "line": 1116,
       "name": "Zoysii",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/deepdaikon/Zoysii",
@@ -10325,7 +10401,7 @@
     },
     {
       "category": "Music",
-      "line": 1109,
+      "line": 1120,
       "name": "Beat Feet",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/beat-game/beat-game",
@@ -10339,7 +10415,7 @@
     },
     {
       "category": "Music",
-      "line": 1110,
+      "line": 1121,
       "name": "CDLC Player",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/tilk/cdlc_player",
@@ -10353,7 +10429,7 @@
     },
     {
       "category": "Music",
-      "line": 1111,
+      "line": 1122,
       "name": "PianOli",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/nicolasbrailo/PianOli",
@@ -10367,7 +10443,7 @@
     },
     {
       "category": "Puzzle",
-      "line": 1115,
+      "line": 1126,
       "name": "Block Puzzle Stone Wars",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/SoltauFintel/blockpuzzle",
@@ -10381,7 +10457,7 @@
     },
     {
       "category": "Puzzle",
-      "line": 1116,
+      "line": 1127,
       "name": "Flowit",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Flowit-Game/Flowit",
@@ -10395,7 +10471,7 @@
     },
     {
       "category": "Puzzle",
-      "line": 1117,
+      "line": 1128,
       "name": "Gauguin",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/meikpiep/gauguin",
@@ -10409,7 +10485,7 @@
     },
     {
       "category": "Puzzle",
-      "line": 1118,
+      "line": 1129,
       "name": "LibreSudoku",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/kaajjo/Libre-Sudoku",
@@ -10423,7 +10499,7 @@
     },
     {
       "category": "Puzzle",
-      "line": 1119,
+      "line": 1130,
       "name": "Minesweeper: Antimine",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/lucasnlm/antimine-android",
@@ -10437,7 +10513,7 @@
     },
     {
       "category": "Puzzle",
-      "line": 1120,
+      "line": 1131,
       "name": "Minute Maze",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/ygingras/minute-maze",
@@ -10451,7 +10527,7 @@
     },
     {
       "category": "Puzzle",
-      "line": 1121,
+      "line": 1132,
       "name": "Open Sudoku",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/opensudoku/opensudoku",
@@ -10465,7 +10541,21 @@
     },
     {
       "category": "Puzzle",
-      "line": 1122,
+      "line": 1133,
+      "name": "Puzzle Games",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/sidhant947/puzzle",
+      "storeLinks": [
+        {
+          "packageId": "com.sidhant.puzzle",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/com.sidhant.puzzle"
+        }
+      ]
+    },
+    {
+      "category": "Puzzle",
+      "line": 1134,
       "name": "Simon Tatham's Puzzles",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/chrisboyle/sgtpuzzles",
@@ -10479,7 +10569,7 @@
     },
     {
       "category": "Puzzle",
-      "line": 1123,
+      "line": 1135,
       "name": "Simple Sudoku Game",
       "sourceHost": "git.harrault.fr",
       "sourceUrl": "https://git.harrault.fr/android/org.benoitharrault.sudoku",
@@ -10493,7 +10583,7 @@
     },
     {
       "category": "Puzzle",
-      "line": 1124,
+      "line": 1136,
       "name": "Sudoku",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/TheSunCat/Sudoku",
@@ -10507,7 +10597,7 @@
     },
     {
       "category": "Racing",
-      "line": 1128,
+      "line": 1140,
       "name": "Lato",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/ar-/lato",
@@ -10521,7 +10611,7 @@
     },
     {
       "category": "Racing",
-      "line": 1129,
+      "line": 1141,
       "name": "Pixel Wheels",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/agateau/pixelwheels",
@@ -10535,7 +10625,7 @@
     },
     {
       "category": "Racing",
-      "line": 1130,
+      "line": 1142,
       "name": "SuperTuxKart",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/supertuxkart/stk-code",
@@ -10549,7 +10639,7 @@
     },
     {
       "category": "Retro",
-      "line": 1134,
+      "line": 1146,
       "name": "Super Retro Mega Wars",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/retrowars/retrowars",
@@ -10563,7 +10653,7 @@
     },
     {
       "category": "Strategy",
-      "line": 1138,
+      "line": 1150,
       "name": "Chip Defense",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/ochadenas/cpudefense",
@@ -10577,7 +10667,7 @@
     },
     {
       "category": "Strategy",
-      "line": 1139,
+      "line": 1151,
       "name": "Feudal Tactics",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Sesu8642/FeudalTactics",
@@ -10591,7 +10681,7 @@
     },
     {
       "category": "Strategy",
-      "line": 1140,
+      "line": 1152,
       "name": "Mindustry",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Anuken/Mindustry",
@@ -10605,7 +10695,7 @@
     },
     {
       "category": "Strategy",
-      "line": 1141,
+      "line": 1153,
       "name": "OpenTTD",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/n-ice-community/commandergenius",
@@ -10619,7 +10709,7 @@
     },
     {
       "category": "Strategy",
-      "line": 1142,
+      "line": 1154,
       "name": "Planes",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/xxxcucus/planes",
@@ -10633,7 +10723,7 @@
     },
     {
       "category": "Strategy",
-      "line": 1143,
+      "line": 1155,
       "name": "Revengate",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/ygingras/revengate",
@@ -10647,7 +10737,7 @@
     },
     {
       "category": "Strategy",
-      "line": 1144,
+      "line": 1156,
       "name": "Shattered Pixel Dungeon",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/00-Evan/shattered-pixel-dungeon",
@@ -10661,7 +10751,7 @@
     },
     {
       "category": "Strategy",
-      "line": 1145,
+      "line": 1157,
       "name": "UnCiv",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/yairm210/UnCiv",
@@ -10675,7 +10765,7 @@
     },
     {
       "category": "Word",
-      "line": 1149,
+      "line": 1161,
       "name": "CrossWords",
       "sourceHost": "xwords.sourceforge.io",
       "sourceUrl": "https://xwords.sourceforge.io/source.php",
@@ -10689,7 +10779,7 @@
     },
     {
       "category": "Word",
-      "line": 1150,
+      "line": 1162,
       "name": "Forkyz",
       "sourceHost": "gitlab.com",
       "sourceUrl": "https://gitlab.com/Hague/forkyz",
@@ -10703,7 +10793,7 @@
     },
     {
       "category": "Word",
-      "line": 1151,
+      "line": 1163,
       "name": "Gurgle",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/billthefarmer/gurgle",
@@ -10717,7 +10807,7 @@
     },
     {
       "category": "Word",
-      "line": 1152,
+      "line": 1164,
       "name": "Lexica",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/lexica/lexica",
@@ -10731,7 +10821,7 @@
     },
     {
       "category": "Word",
-      "line": 1153,
+      "line": 1165,
       "name": "Word Tracer",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/plhosk/wordtracer",
@@ -10745,7 +10835,7 @@
     },
     {
       "category": "Rooting and Recovery",
-      "line": 1159,
+      "line": 1171,
       "name": "APatch",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/bmax121/APatch",
@@ -10764,7 +10854,7 @@
     },
     {
       "category": "Rooting and Recovery",
-      "line": 1160,
+      "line": 1172,
       "name": "KernelSU",
       "sourceHost": "kernelsu.org",
       "sourceUrl": "https://kernelsu.org",
@@ -10778,7 +10868,7 @@
     },
     {
       "category": "Rooting and Recovery",
-      "line": 1161,
+      "line": 1173,
       "name": "Magisk",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/topjohnwu/Magisk",
@@ -10797,7 +10887,7 @@
     },
     {
       "category": "Rooting and Recovery",
-      "line": 1162,
+      "line": 1174,
       "name": "OrangeFox Recovery",
       "sourceHost": "orangefox.download",
       "sourceUrl": "https://orangefox.download",
@@ -10805,7 +10895,7 @@
     },
     {
       "category": "Rooting and Recovery",
-      "line": 1163,
+      "line": 1175,
       "name": "Pitch Black Recovery Project",
       "sourceHost": "pitchblackrecovery.com",
       "sourceUrl": "https://pitchblackrecovery.com",
@@ -10813,7 +10903,7 @@
     },
     {
       "category": "Rooting and Recovery",
-      "line": 1164,
+      "line": 1176,
       "name": "SKYHAWK Recovery Project",
       "sourceHost": "skyhawkrecovery.github.io",
       "sourceUrl": "https://skyhawkrecovery.github.io",
@@ -10821,7 +10911,7 @@
     },
     {
       "category": "Rooting and Recovery",
-      "line": 1165,
+      "line": 1177,
       "name": "TWRP",
       "sourceHost": "twrp.me",
       "sourceUrl": "https://twrp.me",
@@ -10829,7 +10919,7 @@
     },
     {
       "category": "Tools",
-      "line": 1171,
+      "line": 1183,
       "name": "ACVTool",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/pilgun/acvtool",
@@ -10837,7 +10927,7 @@
     },
     {
       "category": "Tools",
-      "line": 1172,
+      "line": 1184,
       "name": "APK Editor Studio",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/kefir500/apk-editor-studio",
@@ -10845,7 +10935,7 @@
     },
     {
       "category": "Tools",
-      "line": 1173,
+      "line": 1185,
       "name": "APK2Url",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/n0mi1k/apk2url",
@@ -10853,7 +10943,7 @@
     },
     {
       "category": "Tools",
-      "line": 1174,
+      "line": 1186,
       "name": "APKLab",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/APKLab/APKLab",
@@ -10861,7 +10951,7 @@
     },
     {
       "category": "Tools",
-      "line": 1175,
+      "line": 1187,
       "name": "Apktool",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/iBotPeaches/Apktool",
@@ -10869,7 +10959,7 @@
     },
     {
       "category": "Tools",
-      "line": 1176,
+      "line": 1188,
       "name": "APKToolGUI",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/AndnixSH/APKToolGUI",
@@ -10877,7 +10967,26 @@
     },
     {
       "category": "Tools",
-      "line": 1177,
+      "line": 1189,
+      "name": "NodeLook",
+      "sourceHost": "github.com",
+      "sourceUrl": "https://github.com/nodelook/android",
+      "storeLinks": [
+        {
+          "packageId": "ir.ammari.nodelook",
+          "store": "F-Droid",
+          "url": "https://f-droid.org/packages/ir.ammari.nodelook"
+        },
+        {
+          "packageId": "ir.ammari.nodelook",
+          "store": "IzzyOnDroid",
+          "url": "https://apt.izzysoft.de/packages/ir.ammari.nodelook"
+        }
+      ]
+    },
+    {
+      "category": "Tools",
+      "line": 1190,
       "name": "Shizuku",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/RikkaApps/Shizuku",
@@ -10885,7 +10994,7 @@
     },
     {
       "category": "Tools",
-      "line": 1178,
+      "line": 1191,
       "name": "Universal Android Debloater GUI",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater",
@@ -10893,7 +11002,7 @@
     },
     {
       "category": "Tutorials and Guides",
-      "line": 1184,
+      "line": 1197,
       "name": "Android App Permissions by IzzySoft",
       "sourceHost": "android.izzysoft.de",
       "sourceUrl": "https://android.izzysoft.de/applists/perms",
@@ -10901,7 +11010,7 @@
     },
     {
       "category": "Tutorials and Guides",
-      "line": 1185,
+      "line": 1198,
       "name": "Android Debloat List",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/MuntashirAkon/android-debloat-list",
@@ -10909,7 +11018,7 @@
     },
     {
       "category": "Tutorials and Guides",
-      "line": 1186,
+      "line": 1199,
       "name": "Open Android Projects",
       "sourceHost": "",
       "sourceUrl": "doc/OpenAndroidProjects.md",
@@ -10917,7 +11026,7 @@
     },
     {
       "category": "Tutorials and Guides",
-      "line": 1187,
+      "line": 1200,
       "name": "OTA on Rooted Device",
       "sourceHost": "",
       "sourceUrl": "doc/Install-Rooted-OTA.md",
@@ -10925,7 +11034,7 @@
     },
     {
       "category": "Getting more apps",
-      "line": 1193,
+      "line": 1206,
       "name": "Awesome F-Droid Apps",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/moneytoo/awesome-fdroid",
@@ -10933,7 +11042,7 @@
     },
     {
       "category": "Getting more apps",
-      "line": 1194,
+      "line": 1207,
       "name": "Awesome Shizuku Apps",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/timschneeb/awesome-shizuku",
@@ -10941,7 +11050,7 @@
     },
     {
       "category": "Getting more apps",
-      "line": 1195,
+      "line": 1208,
       "name": "CellularPrivacy: Recommendations",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/CellularPrivacy/Android-IMSI-Catcher-Detector",
@@ -10949,7 +11058,7 @@
     },
     {
       "category": "Getting more apps",
-      "line": 1196,
+      "line": 1209,
       "name": "F-Droid",
       "sourceHost": "f-droid.org",
       "sourceUrl": "https://f-droid.org",
@@ -10957,7 +11066,7 @@
     },
     {
       "category": "Getting more apps",
-      "line": 1197,
+      "line": 1210,
       "name": "Fossdroid",
       "sourceHost": "fossdroid.com",
       "sourceUrl": "https://fossdroid.com",
@@ -10965,7 +11074,7 @@
     },
     {
       "category": "Getting more apps",
-      "line": 1198,
+      "line": 1211,
       "name": "Guardian Project",
       "sourceHost": "guardianproject.info",
       "sourceUrl": "https://guardianproject.info",
@@ -10973,7 +11082,7 @@
     },
     {
       "category": "Getting more apps",
-      "line": 1199,
+      "line": 1212,
       "name": "IzzyOnDroid F-Droid Repository",
       "sourceHost": "apt.izzysoft.de",
       "sourceUrl": "https://apt.izzysoft.de/fdroid",
@@ -10981,7 +11090,7 @@
     },
     {
       "category": "Getting more apps",
-      "line": 1200,
+      "line": 1213,
       "name": "List of free and open-source Android applications",
       "sourceHost": "en.wikipedia.org",
       "sourceUrl": "https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications",
@@ -10989,14 +11098,14 @@
     },
     {
       "category": "Getting more apps",
-      "line": 1201,
+      "line": 1214,
       "name": "OpenApk",
       "sourceHost": "github.com",
       "sourceUrl": "https://github.com/mobilenetworkltd/openapk",
       "storeLinks": []
     }
   ],
-  "entryCount": 767,
+  "entryCount": 776,
   "schemaVersion": 1,
   "source": "README.md"
 }

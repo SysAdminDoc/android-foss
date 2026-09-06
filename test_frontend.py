@@ -35,9 +35,10 @@ class FrontendTests(unittest.TestCase):
     def test_catalog_coverage_matches_marketing_copy(self):
         catalog = json.loads((ROOT / "catalog.json").read_text(encoding="utf-8"))
         entries = catalog["entries"]
-        self.assertEqual(767, len(entries))
-        self.assertEqual(84, len({entry["category"] for entry in entries}))
-        self.assertEqual(831, sum(len(entry["storeLinks"]) for entry in entries))
+        self.assertEqual(776, len(entries))
+        self.assertEqual(85, len({entry["category"] for entry in entries}))
+        self.assertEqual(838, sum(len(entry["storeLinks"]) for entry in entries))
+        self.assertEqual(5, sum(entry["category"] == "Calendar" for entry in entries))
 
     def test_frontend_uses_local_runtime_assets(self):
         parser = AssetParser()

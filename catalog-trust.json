@@ -1,11 +1,11 @@
 {
   "coverage": {
-    "entries": 680,
-    "packages": 805
+    "entries": 689,
+    "packages": 819
   },
   "entries": {
     "1List": {
-      "line": 921,
+      "line": 925,
       "packages": [
         {
           "antiFeatures": [],
@@ -24,7 +24,7 @@
       "sourceUrl": "https://github.com/lolo-io/OneList"
     },
     "2fa": {
-      "line": 751,
+      "line": 750,
       "packages": [
         {
           "antiFeatures": [],
@@ -43,7 +43,7 @@
       "sourceUrl": "https://codeberg.org/979/2fa"
     },
     "5G": {
-      "line": 948,
+      "line": 950,
       "packages": [
         {
           "antiFeatures": [],
@@ -62,7 +62,7 @@
       "sourceUrl": "https://github.com/OpenAppsLabs/5G"
     },
     "8VIM": {
-      "line": 515,
+      "line": 514,
       "packages": [
         {
           "antiFeatures": [],
@@ -94,7 +94,7 @@
       "sourceUrl": "https://github.com/flide/8VIM"
     },
     "AFWall+": {
-      "line": 449,
+      "line": 447,
       "packages": [
         {
           "antiFeatures": [
@@ -115,7 +115,7 @@
       "sourceUrl": "https://github.com/ukanth/afwall"
     },
     "APatch": {
-      "line": 1159,
+      "line": 1171,
       "packages": [
         {
           "antiFeatures": [],
@@ -147,7 +147,7 @@
       "sourceUrl": "https://github.com/bmax121/APatch"
     },
     "AVNC": {
-      "line": 950,
+      "line": 952,
       "packages": [
         {
           "antiFeatures": [],
@@ -166,7 +166,7 @@
       "sourceUrl": "https://github.com/gujjwal00/avnc"
     },
     "Aard 2": {
-      "line": 342,
+      "line": 336,
       "packages": [
         {
           "antiFeatures": [],
@@ -185,7 +185,7 @@
       "sourceUrl": "https://github.com/itkach/aard2-android"
     },
     "Acode": {
-      "line": 907,
+      "line": 911,
       "packages": [
         {
           "antiFeatures": [],
@@ -204,7 +204,7 @@
       "sourceUrl": "https://acode.app"
     },
     "AdAway": {
-      "line": 183,
+      "line": 184,
       "packages": [
         {
           "antiFeatures": [],
@@ -223,7 +223,7 @@
       "sourceUrl": "https://github.com/AdAway/AdAway"
     },
     "Aegis": {
-      "line": 752,
+      "line": 751,
       "packages": [
         {
           "antiFeatures": [],
@@ -255,7 +255,7 @@
       "sourceUrl": "https://getaegis.app"
     },
     "Aggregator": {
-      "line": 806,
+      "line": 811,
       "packages": [
         {
           "antiFeatures": [],
@@ -293,7 +293,7 @@
       "sourceUrl": "https://github.com/Akylas/alpimaps"
     },
     "Amadz": {
-      "line": 336,
+      "line": 330,
       "packages": [
         {
           "antiFeatures": [],
@@ -312,7 +312,7 @@
       "sourceUrl": "https://github.com/msusman1/Amadz"
     },
     "Amaze": {
-      "line": 412,
+      "line": 410,
       "packages": [
         {
           "antiFeatures": [],
@@ -344,7 +344,7 @@
       "sourceUrl": "https://github.com/TeamAmaze/AmazeFileManager"
     },
     "Amaze File Utilities": {
-      "line": 949,
+      "line": 951,
       "packages": [
         {
           "antiFeatures": [
@@ -377,8 +377,27 @@
       ],
       "sourceUrl": "https://github.com/TeamAmaze/AmazeFileUtilities"
     },
+    "AndBible: Bible Study": {
+      "line": 804,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-07-20",
+          "license": "GPL-3.0-or-later",
+          "packageId": "net.bible.android.activity",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/AndBible/and-bible",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/AndBible/and-bible"
+    },
     "AnkiDroid": {
-      "line": 457,
+      "line": 456,
       "packages": [
         {
           "antiFeatures": [],
@@ -397,7 +416,7 @@
       "sourceUrl": "https://github.com/ankidroid/Anki-Android"
     },
     "AntennaPod": {
-      "line": 770,
+      "line": 769,
       "packages": [
         {
           "antiFeatures": [],
@@ -416,7 +435,7 @@
       "sourceUrl": "https://github.com/AntennaPod/AntennaPod"
     },
     "Anx Reader": {
-      "line": 353,
+      "line": 347,
       "packages": [
         {
           "antiFeatures": [],
@@ -435,7 +454,7 @@
       "sourceUrl": "https://github.com/Anxcye/anx-reader"
     },
     "AnySoftKeyboard": {
-      "line": 516,
+      "line": 515,
       "packages": [
         {
           "antiFeatures": [],
@@ -454,7 +473,7 @@
       "sourceUrl": "https://anysoftkeyboard.github.io"
     },
     "Anytime Podcast Player": {
-      "line": 771,
+      "line": 770,
       "packages": [
         {
           "antiFeatures": [
@@ -476,7 +495,7 @@
       "sourceUrl": "https://github.com/amugofjava/anytime_podcast_player"
     },
     "AppManager": {
-      "line": 870,
+      "line": 875,
       "packages": [
         {
           "antiFeatures": [],
@@ -507,8 +526,40 @@
       ],
       "sourceUrl": "https://github.com/MuntashirAkon/AppManager"
     },
+    "AppVerifier BG": {
+      "line": 782,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-08-21",
+          "license": "ISC",
+          "packageId": "com.roundsalmon4.appverifier",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/RoundSalmon4/AppVerifierBG",
+          "store": "F-Droid"
+        },
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-09-04",
+          "license": "ISC",
+          "packageId": "com.roundsalmon4.appverifier",
+          "permissionCount": 0,
+          "repository": "IzzyOnDroid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/RoundSalmon4/AppVerifierBG",
+          "store": "IzzyOnDroid"
+        }
+      ],
+      "sourceUrl": "https://github.com/RoundSalmon4/AppVerifierBG"
+    },
     "Apple Flinger": {
-      "line": 1090,
+      "line": 1101,
       "packages": [
         {
           "antiFeatures": [],
@@ -527,7 +578,7 @@
       "sourceUrl": "https://gitlab.com/ar-/apple-flinger"
     },
     "ArcaneChat": {
-      "line": 598,
+      "line": 599,
       "packages": [
         {
           "antiFeatures": [],
@@ -568,7 +619,7 @@
       "sourceUrl": "https://github.com/koiverse/ArchiveTune"
     },
     "Arcticons": {
-      "line": 488,
+      "line": 487,
       "packages": [
         {
           "antiFeatures": [],
@@ -587,7 +638,7 @@
       "sourceUrl": "https://github.com/Arcticons-Team/Arcticons"
     },
     "Aria2App": {
-      "line": 376,
+      "line": 371,
       "packages": [
         {
           "antiFeatures": [
@@ -608,7 +659,7 @@
       "sourceUrl": "https://github.com/devgianlu/Aria2App"
     },
     "ArityCalc": {
-      "line": 249,
+      "line": 247,
       "packages": [
         {
           "antiFeatures": [],
@@ -627,7 +678,7 @@
       "sourceUrl": "https://github.com/woheller69/Arity"
     },
     "Arru": {
-      "line": 438,
+      "line": 436,
       "packages": [
         {
           "antiFeatures": [],
@@ -646,7 +697,7 @@
       "sourceUrl": "https://github.com/KSSidll/Arru"
     },
     "Atmos Weather": {
-      "line": 1033,
+      "line": 1040,
       "packages": [
         {
           "antiFeatures": [],
@@ -665,7 +716,7 @@
       "sourceUrl": "https://github.com/atticuscornett/AtmosWeather"
     },
     "Atomic: Periodic Table": {
-      "line": 823,
+      "line": 828,
       "packages": [
         {
           "antiFeatures": [],
@@ -705,7 +756,7 @@
       "sourceUrl": "https://github.com/aleksey-saenko/MusicRecognizer"
     },
     "Audio Anchor": {
-      "line": 772,
+      "line": 771,
       "packages": [
         {
           "antiFeatures": [],
@@ -765,7 +816,7 @@
       "sourceUrl": "https://gitlab.com/AuroraOSS/AuroraStore"
     },
     "AuthPass": {
-      "line": 754,
+      "line": 753,
       "packages": [
         {
           "antiFeatures": [],
@@ -784,7 +835,7 @@
       "sourceUrl": "https://github.com/authpass/authpass"
     },
     "AuthenticatorPro": {
-      "line": 753,
+      "line": 752,
       "packages": [
         {
           "antiFeatures": [],
@@ -803,7 +854,7 @@
       "sourceUrl": "https://github.com/jamie-mh/AuthenticatorPro"
     },
     "Automation": {
-      "line": 201,
+      "line": 202,
       "packages": [
         {
           "antiFeatures": [],
@@ -841,7 +892,7 @@
       "sourceUrl": "https://github.com/OxygenCobalt/Auxio"
     },
     "Aves": {
-      "line": 506,
+      "line": 505,
       "packages": [
         {
           "antiFeatures": [],
@@ -876,7 +927,7 @@
       "sourceUrl": "https://github.com/deckerst/aves"
     },
     "BCL": {
-      "line": 224,
+      "line": 223,
       "packages": [
         {
           "antiFeatures": [],
@@ -895,7 +946,7 @@
       "sourceUrl": "https://github.com/MuntashirAkon/BatteryChargeLimiter"
     },
     "Ball2Box": {
-      "line": 1091,
+      "line": 1102,
       "packages": [
         {
           "antiFeatures": [],
@@ -914,7 +965,7 @@
       "sourceUrl": "https://github.com/dulvui/ball2box"
     },
     "Bangumi": {
-      "line": 193,
+      "line": 194,
       "packages": [
         {
           "antiFeatures": [
@@ -972,27 +1023,8 @@
       ],
       "sourceUrl": "https://github.com/Domi04151309/BatteryTool"
     },
-    "BatteryBot Pro": {
-      "line": 223,
-      "packages": [
-        {
-          "antiFeatures": [],
-          "lastUpdated": "2021-12-07",
-          "license": "GPL-3.0-only",
-          "packageId": "com.darshancomputing.BatteryIndicatorPro",
-          "permissionCount": 0,
-          "repository": "F-Droid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://github.com/darshan-/Battery-Indicator-Pro",
-          "store": "F-Droid"
-        }
-      ],
-      "sourceUrl": "https://github.com/darshan-/Battery-Indicator-Pro"
-    },
     "Beat Feet": {
-      "line": 1109,
+      "line": 1120,
       "packages": [
         {
           "antiFeatures": [
@@ -1013,7 +1045,7 @@
       "sourceUrl": "https://github.com/beat-game/beat-game"
     },
     "BendyStraw": {
-      "line": 951,
+      "line": 953,
       "packages": [
         {
           "antiFeatures": [],
@@ -1032,7 +1064,7 @@
       "sourceUrl": "https://codeberg.org/mm-dev/bendy-straw"
     },
     "BetterCounter": {
-      "line": 952,
+      "line": 954,
       "packages": [
         {
           "antiFeatures": [],
@@ -1051,7 +1083,7 @@
       "sourceUrl": "https://github.com/albertvaka/bettercounter"
     },
     "Bhagavad Gita": {
-      "line": 800,
+      "line": 805,
       "packages": [
         {
           "antiFeatures": [],
@@ -1070,7 +1102,7 @@
       "sourceUrl": "https://github.com/WirelessAlien/BhagavadGitaApp"
     },
     "Bimba": {
-      "line": 794,
+      "line": 798,
       "packages": [
         {
           "antiFeatures": [],
@@ -1108,7 +1140,7 @@
       "sourceUrl": "https://github.com/markusfisch/BinaryEye"
     },
     "Birday": {
-      "line": 261,
+      "line": 259,
       "packages": [
         {
           "antiFeatures": [],
@@ -1140,7 +1172,7 @@
       "sourceUrl": "https://github.com/m-i-n-a-r/birday"
     },
     "Block Puzzle Stone Wars": {
-      "line": 1115,
+      "line": 1126,
       "packages": [
         {
           "antiFeatures": [],
@@ -1159,7 +1191,7 @@
       "sourceUrl": "https://github.com/SoltauFintel/blockpuzzle"
     },
     "BlockAds": {
-      "line": 184,
+      "line": 185,
       "packages": [
         {
           "antiFeatures": [
@@ -1199,7 +1231,7 @@
       "sourceUrl": "https://github.com/HemantKArya/BloomeeTunes"
     },
     "Book's Story": {
-      "line": 355,
+      "line": 349,
       "packages": [
         {
           "antiFeatures": [],
@@ -1252,7 +1284,7 @@
       "sourceUrl": "https://github.com/mardous/BoomingMusic"
     },
     "Box, Box!": {
-      "line": 843,
+      "line": 847,
       "packages": [
         {
           "antiFeatures": [
@@ -1272,8 +1304,27 @@
       ],
       "sourceUrl": "https://github.com/BrightDV/BoxBox"
     },
+    "Braincup": {
+      "line": 1077,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-09-05",
+          "license": "Apache-2.0",
+          "packageId": "com.inspiredandroid.braincup",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/SimonSchubert/Braincup",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/SimonSchubert/Braincup"
+    },
     "Brainf": {
-      "line": 824,
+      "line": 829,
       "packages": [
         {
           "antiFeatures": [],
@@ -1292,7 +1343,7 @@
       "sourceUrl": "https://github.com/fredhappyface/android.brainf"
     },
     "Breakout 71": {
-      "line": 1092,
+      "line": 1103,
       "packages": [
         {
           "antiFeatures": [],
@@ -1311,7 +1362,7 @@
       "sourceUrl": "https://gitlab.com/lecarore/breakout71"
     },
     "Breezy Weather": {
-      "line": 1034,
+      "line": 1041,
       "packages": [
         {
           "antiFeatures": [],
@@ -1343,7 +1394,7 @@
       "sourceUrl": "https://github.com/breezy-weather/breezy-weather"
     },
     "Briar": {
-      "line": 600,
+      "line": 601,
       "packages": [
         {
           "antiFeatures": [],
@@ -1362,7 +1413,7 @@
       "sourceUrl": "https://code.briarproject.org/briar/briar"
     },
     "Bubble": {
-      "line": 825,
+      "line": 830,
       "packages": [
         {
           "antiFeatures": [],
@@ -1381,7 +1432,7 @@
       "sourceUrl": "https://github.com/woheller69/level"
     },
     "Bura": {
-      "line": 1035,
+      "line": 1042,
       "packages": [
         {
           "antiFeatures": [
@@ -1415,7 +1466,7 @@
       "sourceUrl": "https://github.com/davidtakac/bura"
     },
     "Burger Party": {
-      "line": 1093,
+      "line": 1104,
       "packages": [
         {
           "antiFeatures": [],
@@ -1453,7 +1504,7 @@
       "sourceUrl": "https://github.com/LinwoodDev/Butterfly"
     },
     "CCLauncher": {
-      "line": 540,
+      "line": 539,
       "packages": [
         {
           "antiFeatures": [],
@@ -1485,7 +1536,7 @@
       "sourceUrl": "https://github.com/mlm-games/cclauncher"
     },
     "CDLC Player": {
-      "line": 1110,
+      "line": 1121,
       "packages": [
         {
           "antiFeatures": [],
@@ -1504,7 +1555,7 @@
       "sourceUrl": "https://github.com/tilk/cdlc_player"
     },
     "CPU Info": {
-      "line": 876,
+      "line": 881,
       "packages": [
         {
           "antiFeatures": [],
@@ -1523,7 +1574,7 @@
       "sourceUrl": "https://github.com/kamgurgul/cpu-info"
     },
     "CSV Editor": {
-      "line": 956,
+      "line": 958,
       "packages": [
         {
           "antiFeatures": [],
@@ -1542,7 +1593,7 @@
       "sourceUrl": "https://codeberg.org/bgrayburn/csv-editor"
     },
     "Calculator You": {
-      "line": 250,
+      "line": 248,
       "packages": [
         {
           "antiFeatures": [],
@@ -1561,7 +1612,7 @@
       "sourceUrl": "https://github.com/forzzzzz/Calculator-You"
     },
     "Calyx VPN": {
-      "line": 1001,
+      "line": 1008,
       "packages": [
         {
           "antiFeatures": [
@@ -1582,7 +1633,7 @@
       "sourceUrl": "https://gitlab.com/CalyxOS/bitmask_android"
     },
     "Cams": {
-      "line": 953,
+      "line": 955,
       "packages": [
         {
           "antiFeatures": [],
@@ -1601,7 +1652,7 @@
       "sourceUrl": "https://github.com/vladpen/cams"
     },
     "Captive Portal Controller": {
-      "line": 875,
+      "line": 880,
       "packages": [
         {
           "antiFeatures": [],
@@ -1664,29 +1715,8 @@
       ],
       "sourceUrl": "https://github.com/CatimaLoyalty/Android"
     },
-    "ChemistryLab": {
-      "line": 826,
-      "packages": [
-        {
-          "antiFeatures": [
-            "NonFreeNet"
-          ],
-          "lastUpdated": "2023-09-19",
-          "license": "MIT",
-          "packageId": "com.chemistry.admin.chemistrylab",
-          "permissionCount": 0,
-          "repository": "F-Droid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://gitlab.com/flxholle/ChemistryLab",
-          "store": "F-Droid"
-        }
-      ],
-      "sourceUrl": "https://gitlab.com/asdoi/ChemistryLab"
-    },
     "Cheogram": {
-      "line": 603,
+      "line": 604,
       "packages": [
         {
           "antiFeatures": [],
@@ -1705,7 +1735,7 @@
       "sourceUrl": "https://git.singpolyma.net/cheogram-android"
     },
     "Chess": {
-      "line": 1051,
+      "line": 1058,
       "packages": [
         {
           "antiFeatures": [],
@@ -1724,7 +1754,7 @@
       "sourceUrl": "https://github.com/jcarolus/android-chess"
     },
     "Chess Clock": {
-      "line": 1052,
+      "line": 1059,
       "packages": [
         {
           "antiFeatures": [],
@@ -1743,7 +1773,7 @@
       "sourceUrl": "https://github.com/ChessCom/android-chessclock"
     },
     "Chip Defense": {
-      "line": 1138,
+      "line": 1150,
       "packages": [
         {
           "antiFeatures": [],
@@ -1802,7 +1832,7 @@
       "sourceUrl": "https://github.com/cognitivitydev/Chronal"
     },
     "Chrono": {
-      "line": 286,
+      "line": 284,
       "packages": [
         {
           "antiFeatures": [],
@@ -1834,7 +1864,7 @@
       "sourceUrl": "https://github.com/vicolo-dev/chrono"
     },
     "Chronos": {
-      "line": 287,
+      "line": 285,
       "packages": [
         {
           "antiFeatures": [],
@@ -1853,7 +1883,7 @@
       "sourceUrl": "https://github.com/meenbeese/Chronos"
     },
     "Cirrus": {
-      "line": 1036,
+      "line": 1043,
       "packages": [
         {
           "antiFeatures": [
@@ -1874,7 +1904,7 @@
       "sourceUrl": "https://github.com/woheller69/omweather"
     },
     "Ciyue": {
-      "line": 344,
+      "line": 338,
       "packages": [
         {
           "antiFeatures": [
@@ -1895,7 +1925,7 @@
       "sourceUrl": "https://github.com/mumu-lhl/Ciyue"
     },
     "Clima": {
-      "line": 1037,
+      "line": 1044,
       "packages": [
         {
           "antiFeatures": [
@@ -1937,7 +1967,7 @@
       "sourceUrl": "https://github.com/lamarios/clipious"
     },
     "Clock": {
-      "line": 288,
+      "line": 286,
       "packages": [
         {
           "antiFeatures": [],
@@ -1969,7 +1999,7 @@
       "sourceUrl": "https://github.com/BlackyHawky/Clock"
     },
     "Clock You": {
-      "line": 289,
+      "line": 287,
       "packages": [
         {
           "antiFeatures": [],
@@ -2071,7 +2101,7 @@
       "sourceUrl": "https://github.com/Kr0oked/Compass"
     },
     "Connect You": {
-      "line": 319,
+      "line": 313,
       "packages": [
         {
           "antiFeatures": [],
@@ -2090,7 +2120,7 @@
       "sourceUrl": "https://github.com/you-apps/ConnectYou"
     },
     "ConnectBot": {
-      "line": 954,
+      "line": 956,
       "packages": [
         {
           "antiFeatures": [],
@@ -2109,7 +2139,7 @@
       "sourceUrl": "https://github.com/connectbot/connectbot"
     },
     "Conversations": {
-      "line": 601,
+      "line": 602,
       "packages": [
         {
           "antiFeatures": [],
@@ -2128,7 +2158,7 @@
       "sourceUrl": "https://codeberg.org/iNPUTmice/Conversations"
     },
     "Converter NOW": {
-      "line": 955,
+      "line": 957,
       "packages": [
         {
           "antiFeatures": [
@@ -2149,7 +2179,7 @@
       "sourceUrl": "https://github.com/ferraridamiano/ConverterNOW"
     },
     "Croc-app": {
-      "line": 422,
+      "line": 420,
       "packages": [
         {
           "antiFeatures": [],
@@ -2168,7 +2198,7 @@
       "sourceUrl": "https://github.com/Dking08/croc-app"
     },
     "CrossWords": {
-      "line": 1149,
+      "line": 1161,
       "packages": [
         {
           "antiFeatures": [],
@@ -2187,7 +2217,7 @@
       "sourceUrl": "https://xwords.sourceforge.io/source.php"
     },
     "CryptoTracker": {
-      "line": 439,
+      "line": 437,
       "packages": [
         {
           "antiFeatures": [
@@ -2209,7 +2239,7 @@
       "sourceUrl": "https://github.com/judemont/cryptotracker"
     },
     "Cryptocam": {
-      "line": 275,
+      "line": 273,
       "packages": [
         {
           "antiFeatures": [],
@@ -2228,7 +2258,7 @@
       "sourceUrl": "https://gitlab.com/cryptocam/cryptocam"
     },
     "Cryptomator": {
-      "line": 406,
+      "line": 403,
       "packages": [
         {
           "antiFeatures": [],
@@ -2266,7 +2296,7 @@
       "sourceUrl": "https://github.com/ncosgray/cuppa_mobile"
     },
     "Currencies": {
-      "line": 440,
+      "line": 438,
       "packages": [
         {
           "antiFeatures": [
@@ -2300,7 +2330,7 @@
       "sourceUrl": "https://github.com/sal0max/currencies"
     },
     "Custom Uploader": {
-      "line": 423,
+      "line": 421,
       "packages": [
         {
           "antiFeatures": [],
@@ -2319,7 +2349,7 @@
       "sourceUrl": "https://github.com/SrS2225a/custom_uploader"
     },
     "CuteCalc": {
-      "line": 251,
+      "line": 249,
       "packages": [
         {
           "antiFeatures": [],
@@ -2383,7 +2413,7 @@
       "sourceUrl": "https://github.com/sosauce/CuteMusic"
     },
     "DAVx\u2075": {
-      "line": 856,
+      "line": 861,
       "packages": [
         {
           "antiFeatures": [],
@@ -2415,7 +2445,7 @@
       "sourceUrl": "https://www.davx5.com"
     },
     "DNSNet": {
-      "line": 186,
+      "line": 187,
       "packages": [
         {
           "antiFeatures": [],
@@ -2434,7 +2464,7 @@
       "sourceUrl": "https://github.com/t895/DNSNet"
     },
     "DSU Sideloader": {
-      "line": 880,
+      "line": 885,
       "packages": [
         {
           "antiFeatures": [],
@@ -2453,7 +2483,7 @@
       "sourceUrl": "https://github.com/VegaBobo/DSU-Sideloader"
     },
     "Daily You": {
-      "line": 331,
+      "line": 325,
       "packages": [
         {
           "antiFeatures": [],
@@ -2472,7 +2502,7 @@
       "sourceUrl": "https://github.com/Demizo/Daily_You"
     },
     "DailyAL": {
-      "line": 194,
+      "line": 195,
       "packages": [
         {
           "antiFeatures": [
@@ -2493,7 +2523,7 @@
       "sourceUrl": "https://github.com/JICA98/DailyAL"
     },
     "Dark Mode Live Wallpaper": {
-      "line": 1017,
+      "line": 1024,
       "packages": [
         {
           "antiFeatures": [],
@@ -2512,7 +2542,7 @@
       "sourceUrl": "https://github.com/cvzi/darkmodewallpaper"
     },
     "Dark theme": {
-      "line": 877,
+      "line": 882,
       "packages": [
         {
           "antiFeatures": [],
@@ -2531,7 +2561,7 @@
       "sourceUrl": "https://github.com/phstudio2/Darktheme"
     },
     "Data Monitor": {
-      "line": 957,
+      "line": 959,
       "packages": [
         {
           "antiFeatures": [],
@@ -2582,7 +2612,7 @@
       "sourceUrl": "https://github.com/XayahSuSuSu/Android-DataBackup"
     },
     "De-Bloater": {
-      "line": 878,
+      "line": 883,
       "packages": [
         {
           "antiFeatures": [],
@@ -2614,7 +2644,7 @@
       "sourceUrl": "https://github.com/sunilpaulmathew/De-Bloater"
     },
     "De1984": {
-      "line": 450,
+      "line": 448,
       "packages": [
         {
           "antiFeatures": [],
@@ -2633,7 +2663,7 @@
       "sourceUrl": "https://github.com/dorumrr/de1984"
     },
     "DeadHash": {
-      "line": 958,
+      "line": 960,
       "packages": [
         {
           "antiFeatures": [],
@@ -2665,7 +2695,7 @@
       "sourceUrl": "https://github.com/CodeDead/DeadHash-android"
     },
     "DeepL": {
-      "line": 929,
+      "line": 933,
       "packages": [
         {
           "antiFeatures": [
@@ -2686,7 +2716,7 @@
       "sourceUrl": "https://github.com/sakusaku3939/DeepLAndroid"
     },
     "DekaDico": {
-      "line": 1094,
+      "line": 1105,
       "packages": [
         {
           "antiFeatures": [],
@@ -2705,7 +2735,7 @@
       "sourceUrl": "https://github.com/vivekthazhathattil/dekadico"
     },
     "Delta Icon Pack": {
-      "line": 489,
+      "line": 488,
       "packages": [
         {
           "antiFeatures": [
@@ -2727,7 +2757,7 @@
       "sourceUrl": "https://delta-icons.github.io"
     },
     "Destination Sol": {
-      "line": 1095,
+      "line": 1106,
       "packages": [
         {
           "antiFeatures": [
@@ -2767,7 +2797,7 @@
       "sourceUrl": "https://github.com/deutsia/deutsia-radio"
     },
     "Device Connect": {
-      "line": 424,
+      "line": 422,
       "packages": [
         {
           "antiFeatures": [],
@@ -2786,7 +2816,7 @@
       "sourceUrl": "https://github.com/cyanomiko/dcnnt-android"
     },
     "Dhaaga (Lite)": {
-      "line": 296,
+      "line": 294,
       "packages": [
         {
           "antiFeatures": [],
@@ -2805,7 +2835,7 @@
       "sourceUrl": "https://github.com/suvam0451/dhaaga"
     },
     "Dharmik": {
-      "line": 801,
+      "line": 806,
       "packages": [
         {
           "antiFeatures": [
@@ -2841,7 +2871,7 @@
       "sourceUrl": "https://github.com/shub39/Dharmik"
     },
     "Dhizuku": {
-      "line": 879,
+      "line": 884,
       "packages": [
         {
           "antiFeatures": [],
@@ -2911,7 +2941,7 @@
       "sourceUrl": "https://github.com/grizzlyfute/Diatronome"
     },
     "Dicio": {
-      "line": 202,
+      "line": 203,
       "packages": [
         {
           "antiFeatures": [
@@ -2932,7 +2962,7 @@
       "sourceUrl": "https://github.com/Stypox/dicio-android"
     },
     "Digits": {
-      "line": 1070,
+      "line": 1078,
       "packages": [
         {
           "antiFeatures": [],
@@ -2951,7 +2981,7 @@
       "sourceUrl": "https://github.com/foxtrotdev/learn-digits"
     },
     "Discreet Launcher": {
-      "line": 541,
+      "line": 540,
       "packages": [
         {
           "antiFeatures": [],
@@ -2970,7 +3000,7 @@
       "sourceUrl": "https://github.com/falzonv/discreet-launcher"
     },
     "Dolphin": {
-      "line": 1082,
+      "line": 1091,
       "packages": [
         {
           "antiFeatures": [],
@@ -2989,7 +3019,7 @@
       "sourceUrl": "https://github.com/dolphin-emu/dolphin"
     },
     "Doodle": {
-      "line": 1018,
+      "line": 1025,
       "packages": [
         {
           "antiFeatures": [],
@@ -3008,7 +3038,7 @@
       "sourceUrl": "https://github.com/patzly/doodle-android"
     },
     "Dooz": {
-      "line": 1096,
+      "line": 1107,
       "packages": [
         {
           "antiFeatures": [],
@@ -3027,7 +3057,7 @@
       "sourceUrl": "https://github.com/yamin8000/Dooz"
     },
     "Download Navi": {
-      "line": 377,
+      "line": 372,
       "packages": [
         {
           "antiFeatures": [],
@@ -3045,8 +3075,40 @@
       ],
       "sourceUrl": "https://github.com/TachibanaGeneralLaboratories/download-navi"
     },
+    "Dragon Launcher": {
+      "line": 541,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-08-31",
+          "license": "GPL-3.0-or-later",
+          "packageId": "org.elnix.dragonlauncher",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/Elnix90/Dragon-Launcher",
+          "store": "F-Droid"
+        },
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-05-29",
+          "license": "GPL-3.0-only",
+          "packageId": "org.elnix.dragonlauncher",
+          "permissionCount": 0,
+          "repository": "IzzyOnDroid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/Elnix90/Dragon-Launcher",
+          "store": "IzzyOnDroid"
+        }
+      ],
+      "sourceUrl": "https://github.com/Elnix90/Dragon-Launcher"
+    },
     "Droid-ify": {
-      "line": 165,
+      "line": 166,
       "packages": [
         {
           "antiFeatures": [],
@@ -3078,7 +3140,7 @@
       "sourceUrl": "https://github.com/Iamlooker/Droid-ify"
     },
     "DroidFS": {
-      "line": 407,
+      "line": 404,
       "packages": [
         {
           "antiFeatures": [],
@@ -3097,7 +3159,7 @@
       "sourceUrl": "https://forge.chapril.org/hardcoresushi/DroidFS"
     },
     "DroidFish": {
-      "line": 1053,
+      "line": 1060,
       "packages": [
         {
           "antiFeatures": [],
@@ -3116,7 +3178,7 @@
       "sourceUrl": "https://github.com/peterosterlund2/droidfish"
     },
     "DuckDuckGo Privacy Browser": {
-      "line": 231,
+      "line": 230,
       "packages": [
         {
           "antiFeatures": [
@@ -3137,7 +3199,7 @@
       "sourceUrl": "https://github.com/duckduckgo/Android"
     },
     "Easy Diary": {
-      "line": 332,
+      "line": 326,
       "packages": [
         {
           "antiFeatures": [],
@@ -3207,7 +3269,7 @@
       "sourceUrl": "https://github.com/Kin69/EasyNotes"
     },
     "Easy Watermark": {
-      "line": 494,
+      "line": 493,
       "packages": [
         {
           "antiFeatures": [],
@@ -3239,7 +3301,7 @@
       "sourceUrl": "https://github.com/rosuH/EasyWatermark"
     },
     "Editor": {
-      "line": 908,
+      "line": 912,
       "packages": [
         {
           "antiFeatures": [],
@@ -3258,7 +3320,7 @@
       "sourceUrl": "https://github.com/billthefarmer/editor"
     },
     "EinkBro": {
-      "line": 232,
+      "line": 231,
       "packages": [
         {
           "antiFeatures": [],
@@ -3277,7 +3339,7 @@
       "sourceUrl": "https://github.com/plateaukao/browser"
     },
     "Element X": {
-      "line": 605,
+      "line": 606,
       "packages": [
         {
           "antiFeatures": [],
@@ -3296,7 +3358,7 @@
       "sourceUrl": "https://github.com/vector-im/element-x-android"
     },
     "Emacs": {
-      "line": 909,
+      "line": 913,
       "packages": [
         {
           "antiFeatures": [],
@@ -3315,7 +3377,7 @@
       "sourceUrl": "https://git.savannah.gnu.org/cgit/emacs.git/tree/?h=feature/android"
     },
     "Endless Sky": {
-      "line": 1097,
+      "line": 1108,
       "packages": [
         {
           "antiFeatures": [],
@@ -3334,7 +3396,7 @@
       "sourceUrl": "https://github.com/thewierdnut/endless-mobile"
     },
     "Ente Auth": {
-      "line": 756,
+      "line": 755,
       "packages": [
         {
           "antiFeatures": [],
@@ -3353,7 +3415,7 @@
       "sourceUrl": "https://github.com/ente-io/ente"
     },
     "Ente Photos": {
-      "line": 507,
+      "line": 506,
       "packages": [
         {
           "antiFeatures": [],
@@ -3372,7 +3434,7 @@
       "sourceUrl": "https://github.com/ente-io/ente"
     },
     "Episteme Reader": {
-      "line": 356,
+      "line": 350,
       "packages": [
         {
           "antiFeatures": [],
@@ -3391,7 +3453,7 @@
       "sourceUrl": "https://github.com/Aryan-Raj3112/episteme"
     },
     "Escapepod": {
-      "line": 773,
+      "line": 772,
       "packages": [
         {
           "antiFeatures": [
@@ -3412,7 +3474,7 @@
       "sourceUrl": "https://codeberg.org/y20k/escapepod"
     },
     "Etar": {
-      "line": 262,
+      "line": 260,
       "packages": [
         {
           "antiFeatures": [],
@@ -3431,7 +3493,7 @@
       "sourceUrl": "https://github.com/Etar-Group/Etar-Calendar"
     },
     "EtchDroid": {
-      "line": 960,
+      "line": 962,
       "packages": [
         {
           "antiFeatures": [],
@@ -3450,7 +3512,7 @@
       "sourceUrl": "https://github.com/EtchDroid/EtchDroid"
     },
     "EteSync": {
-      "line": 857,
+      "line": 862,
       "packages": [
         {
           "antiFeatures": [],
@@ -3469,7 +3531,7 @@
       "sourceUrl": "https://github.com/etesync/android"
     },
     "Eternity": {
-      "line": 297,
+      "line": 295,
       "packages": [
         {
           "antiFeatures": [],
@@ -3488,7 +3550,7 @@
       "sourceUrl": "https://codeberg.org/Bazsalanszky/Eternity"
     },
     "Everest": {
-      "line": 1071,
+      "line": 1079,
       "packages": [
         {
           "antiFeatures": [],
@@ -3507,7 +3569,7 @@
       "sourceUrl": "https://github.com/mwageringel/everest"
     },
     "Everyday Tasks": {
-      "line": 922,
+      "line": 926,
       "packages": [
         {
           "antiFeatures": [],
@@ -3526,7 +3588,7 @@
       "sourceUrl": "https://github.com/jenspfahl/EverydayTasks"
     },
     "Exif Thumbnail Adder": {
-      "line": 495,
+      "line": 494,
       "packages": [
         {
           "antiFeatures": [],
@@ -3563,46 +3625,8 @@
       ],
       "sourceUrl": "https://github.com/Exodus-Privacy/exodus-android-app"
     },
-    "F-Droid Classic": {
-      "line": 166,
-      "packages": [
-        {
-          "antiFeatures": [],
-          "lastUpdated": "2022-06-01",
-          "license": "GPL-3.0-or-later",
-          "packageId": "eu.bubu1.fdroidclassic",
-          "permissionCount": 0,
-          "repository": "F-Droid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://git.bubu1.eu/Bubu/fdroidclassic",
-          "store": "F-Droid"
-        }
-      ],
-      "sourceUrl": "https://git.bubu1.eu/Bubu/fdroidclassic"
-    },
-    "FDTracker": {
-      "line": 441,
-      "packages": [
-        {
-          "antiFeatures": [],
-          "lastUpdated": "2024-07-26",
-          "license": "MIT",
-          "packageId": "dev.abhaycloud.fdtracker",
-          "permissionCount": 0,
-          "repository": "IzzyOnDroid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://github.com/Abhay-cloud/Fixed-Deposit-Tracker",
-          "store": "IzzyOnDroid"
-        }
-      ],
-      "sourceUrl": "https://github.com/Abhay-cloud/Fixed-Deposit-Tracker"
-    },
     "FFShare": {
-      "line": 496,
+      "line": 495,
       "packages": [
         {
           "antiFeatures": [],
@@ -3621,7 +3645,7 @@
       "sourceUrl": "https://github.com/caydey/ffshare"
     },
     "FFUpdater": {
-      "line": 234,
+      "line": 233,
       "packages": [
         {
           "antiFeatures": [
@@ -3642,7 +3666,7 @@
       "sourceUrl": "https://github.com/Tobi823/ffupdater"
     },
     "FOSS Browser": {
-      "line": 235,
+      "line": 234,
       "packages": [
         {
           "antiFeatures": [],
@@ -3661,7 +3685,7 @@
       "sourceUrl": "https://codeberg.org/Gaukler_Faun/FOSS_Browser"
     },
     "FTPClient": {
-      "line": 426,
+      "line": 424,
       "packages": [
         {
           "antiFeatures": [],
@@ -3680,7 +3704,7 @@
       "sourceUrl": "https://codeberg.org/qwerty287/ftpclient"
     },
     "FadCam": {
-      "line": 276,
+      "line": 274,
       "packages": [
         {
           "antiFeatures": [],
@@ -3699,7 +3723,7 @@
       "sourceUrl": "https://github.com/anonfaded/FadCam"
     },
     "FairEmail": {
-      "line": 397,
+      "line": 393,
       "packages": [
         {
           "antiFeatures": [],
@@ -3718,7 +3742,7 @@
       "sourceUrl": "https://github.com/M66B/FairEmail"
     },
     "Falling Blocks": {
-      "line": 1098,
+      "line": 1109,
       "packages": [
         {
           "antiFeatures": [],
@@ -3737,7 +3761,7 @@
       "sourceUrl": "https://github.com/Sajeg/falling-blocks"
     },
     "Fedilab": {
-      "line": 298,
+      "line": 296,
       "packages": [
         {
           "antiFeatures": [],
@@ -3756,7 +3780,7 @@
       "sourceUrl": "https://codeberg.org/tom79/Fedilab"
     },
     "FeedFlow": {
-      "line": 808,
+      "line": 813,
       "packages": [
         {
           "antiFeatures": [],
@@ -3775,7 +3799,7 @@
       "sourceUrl": "https://github.com/prof18/feed-flow"
     },
     "Feeder": {
-      "line": 807,
+      "line": 812,
       "packages": [
         {
           "antiFeatures": [],
@@ -3794,7 +3818,7 @@
       "sourceUrl": "https://github.com/spacecowboy/Feeder"
     },
     "Feeel": {
-      "line": 844,
+      "line": 849,
       "packages": [
         {
           "antiFeatures": [],
@@ -3813,7 +3837,7 @@
       "sourceUrl": "https://gitlab.com/enjoyingfoss/feeel"
     },
     "Fennec": {
-      "line": 233,
+      "line": 232,
       "packages": [
         {
           "antiFeatures": [
@@ -3834,7 +3858,7 @@
       "sourceUrl": "https://hg.mozilla.org/releases/mozilla-esr68"
     },
     "Feudal Tactics": {
-      "line": 1139,
+      "line": 1151,
       "packages": [
         {
           "antiFeatures": [],
@@ -3853,7 +3877,7 @@
       "sourceUrl": "https://github.com/Sesu8642/FeudalTactics"
     },
     "Filester": {
-      "line": 425,
+      "line": 423,
       "packages": [
         {
           "antiFeatures": [
@@ -3874,7 +3898,7 @@
       "sourceUrl": "https://github.com/rouzbehzarei/filester"
     },
     "FitoTrack": {
-      "line": 845,
+      "line": 850,
       "packages": [
         {
           "antiFeatures": [],
@@ -3893,7 +3917,7 @@
       "sourceUrl": "https://codeberg.org/jannis/FitoTrack"
     },
     "Flang": {
-      "line": 1054,
+      "line": 1061,
       "packages": [
         {
           "antiFeatures": [],
@@ -3912,7 +3936,7 @@
       "sourceUrl": "https://codeberg.org/jannis/FlangAndroid"
     },
     "Flash Deck": {
-      "line": 458,
+      "line": 457,
       "packages": [
         {
           "antiFeatures": [],
@@ -3931,7 +3955,7 @@
       "sourceUrl": "https://github.com/rh-id/a-flash-deck"
     },
     "FlashDim": {
-      "line": 464,
+      "line": 462,
       "packages": [
         {
           "antiFeatures": [],
@@ -3950,7 +3974,7 @@
       "sourceUrl": "https://github.com/cyb3rko/flashdim"
     },
     "Flashy": {
-      "line": 465,
+      "line": 463,
       "packages": [
         {
           "antiFeatures": [],
@@ -3969,7 +3993,7 @@
       "sourceUrl": "https://github.com/Crazy-Marvin/Flashy"
     },
     "Flexify": {
-      "line": 846,
+      "line": 851,
       "packages": [
         {
           "antiFeatures": [],
@@ -4041,7 +4065,7 @@
       "sourceUrl": "https://github.com/Nandanrmenon/florid"
     },
     "FlorisBoard": {
-      "line": 518,
+      "line": 517,
       "packages": [
         {
           "antiFeatures": [],
@@ -4094,7 +4118,7 @@
       "sourceUrl": "https://github.com/A-EDev/Flow"
     },
     "Flowit": {
-      "line": 1116,
+      "line": 1127,
       "packages": [
         {
           "antiFeatures": [],
@@ -4113,7 +4137,7 @@
       "sourceUrl": "https://github.com/Flowit-Game/Flowit"
     },
     "FluffyChat": {
-      "line": 607,
+      "line": 608,
       "packages": [
         {
           "antiFeatures": [],
@@ -4132,7 +4156,7 @@
       "sourceUrl": "https://github.com/krille-chan/fluffychat"
     },
     "Flux": {
-      "line": 790,
+      "line": 791,
       "packages": [
         {
           "antiFeatures": [],
@@ -4164,7 +4188,7 @@
       "sourceUrl": "https://github.com/chindaronit/Flux"
     },
     "FocusPodcast": {
-      "line": 774,
+      "line": 773,
       "packages": [
         {
           "antiFeatures": [
@@ -4203,27 +4227,8 @@
       ],
       "sourceUrl": "https://github.com/luantak/FokusLauncher"
     },
-    "ForgetMeNot": {
-      "line": 459,
-      "packages": [
-        {
-          "antiFeatures": [],
-          "lastUpdated": "2023-04-13",
-          "license": "GPL-3.0-only",
-          "packageId": "com.odnovolov.forgetmenot",
-          "permissionCount": 0,
-          "repository": "F-Droid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://github.com/tema6120/ForgetMeNot",
-          "store": "F-Droid"
-        }
-      ],
-      "sourceUrl": "https://github.com/tema6120/ForgetMeNot"
-    },
     "Forkgram": {
-      "line": 623,
+      "line": 609,
       "packages": [
         {
           "antiFeatures": [
@@ -4245,7 +4250,7 @@
       "sourceUrl": "https://github.com/Forkgram/TelegramAndroid"
     },
     "Forkyz": {
-      "line": 1150,
+      "line": 1162,
       "packages": [
         {
           "antiFeatures": [
@@ -4266,7 +4271,7 @@
       "sourceUrl": "https://gitlab.com/Hague/forkyz"
     },
     "Fossify Calculator": {
-      "line": 252,
+      "line": 250,
       "packages": [
         {
           "antiFeatures": [],
@@ -4298,7 +4303,7 @@
       "sourceUrl": "https://github.com/FossifyOrg/Calculator"
     },
     "Fossify Calendar": {
-      "line": 263,
+      "line": 261,
       "packages": [
         {
           "antiFeatures": [],
@@ -4330,7 +4335,7 @@
       "sourceUrl": "https://github.com/FossifyOrg/Calendar"
     },
     "Fossify Camera": {
-      "line": 277,
+      "line": 275,
       "packages": [
         {
           "antiFeatures": [],
@@ -4362,7 +4367,7 @@
       "sourceUrl": "https://github.com/FossifyOrg/Camera"
     },
     "Fossify Clock": {
-      "line": 290,
+      "line": 288,
       "packages": [
         {
           "antiFeatures": [],
@@ -4394,7 +4399,7 @@
       "sourceUrl": "https://github.com/FossifyOrg/Clock"
     },
     "Fossify Contacts": {
-      "line": 320,
+      "line": 314,
       "packages": [
         {
           "antiFeatures": [],
@@ -4426,7 +4431,7 @@
       "sourceUrl": "https://github.com/FossifyOrg/Contacts"
     },
     "Fossify File Manager": {
-      "line": 414,
+      "line": 412,
       "packages": [
         {
           "antiFeatures": [],
@@ -4458,7 +4463,7 @@
       "sourceUrl": "https://github.com/FossifyOrg/File-Manager"
     },
     "Fossify Gallery": {
-      "line": 508,
+      "line": 507,
       "packages": [
         {
           "antiFeatures": [],
@@ -4490,7 +4495,7 @@
       "sourceUrl": "https://github.com/FossifyOrg/Gallery"
     },
     "Fossify Keyboard": {
-      "line": 520,
+      "line": 519,
       "packages": [
         {
           "antiFeatures": [],
@@ -4554,7 +4559,7 @@
       "sourceUrl": "https://github.com/FossifyOrg/Launcher"
     },
     "Fossify Music Player": {
-      "line": 685,
+      "line": 686,
       "packages": [
         {
           "antiFeatures": [],
@@ -4618,7 +4623,7 @@
       "sourceUrl": "https://github.com/FossifyOrg/Notes"
     },
     "Fossify Paint": {
-      "line": 470,
+      "line": 468,
       "packages": [
         {
           "antiFeatures": [],
@@ -4650,7 +4655,7 @@
       "sourceUrl": "https://github.com/FossifyOrg/Paint"
     },
     "Fossify Phone": {
-      "line": 337,
+      "line": 331,
       "packages": [
         {
           "antiFeatures": [],
@@ -4682,7 +4687,7 @@
       "sourceUrl": "https://github.com/FossifyOrg/Phone"
     },
     "Fossify SMS Messenger": {
-      "line": 837,
+      "line": 841,
       "packages": [
         {
           "antiFeatures": [],
@@ -4746,7 +4751,7 @@
       "sourceUrl": "https://github.com/FossifyOrg/Voice-Recorder"
     },
     "FreeDcam": {
-      "line": 278,
+      "line": 276,
       "packages": [
         {
           "antiFeatures": [],
@@ -4765,7 +4770,7 @@
       "sourceUrl": "https://github.com/KillerInk/FreeDcam"
     },
     "FreeOTP+": {
-      "line": 757,
+      "line": 756,
       "packages": [
         {
           "antiFeatures": [],
@@ -4784,7 +4789,7 @@
       "sourceUrl": "https://github.com/helloworld1/FreeOTPPlus"
     },
     "FreePaint": {
-      "line": 471,
+      "line": 469,
       "packages": [
         {
           "antiFeatures": [],
@@ -4824,7 +4829,7 @@
       "sourceUrl": "https://github.com/MarmadileManteater/FreeTubeAndroid"
     },
     "Freebloks": {
-      "line": 1055,
+      "line": 1062,
       "packages": [
         {
           "antiFeatures": [],
@@ -4843,7 +4848,7 @@
       "sourceUrl": "https://github.com/shlusiak/Freebloks-Android"
     },
     "Fulguris Web Browser": {
-      "line": 236,
+      "line": 235,
       "packages": [
         {
           "antiFeatures": [],
@@ -4862,7 +4867,7 @@
       "sourceUrl": "https://github.com/Slion/Fulguris"
     },
     "FutharkBoard": {
-      "line": 521,
+      "line": 520,
       "packages": [
         {
           "antiFeatures": [],
@@ -4881,7 +4886,7 @@
       "sourceUrl": "https://github.com/DrMaxNix/futharkboard"
     },
     "Futon": {
-      "line": 195,
+      "line": 196,
       "packages": [
         {
           "antiFeatures": [
@@ -4934,7 +4939,7 @@
       "sourceUrl": "https://gitlab.com/gdroid/gdroidclient"
     },
     "GCompris": {
-      "line": 1072,
+      "line": 1080,
       "packages": [
         {
           "antiFeatures": [],
@@ -4953,7 +4958,7 @@
       "sourceUrl": "https://invent.kde.org/education/gcompris.git"
     },
     "GIF Live Wallpaper": {
-      "line": 1019,
+      "line": 1026,
       "packages": [
         {
           "antiFeatures": [],
@@ -5003,27 +5008,8 @@
       ],
       "sourceUrl": "https://codeberg.org/Freeyourgadget/Gadgetbridge"
     },
-    "Gallery": {
-      "line": 509,
-      "packages": [
-        {
-          "antiFeatures": [],
-          "lastUpdated": "2026-09-02",
-          "license": "Apache-2.0",
-          "packageId": "com.dot.gallery",
-          "permissionCount": 0,
-          "repository": "F-Droid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://github.com/IacobIonut01/Gallery",
-          "store": "F-Droid"
-        }
-      ],
-      "sourceUrl": "https://github.com/IacobIonut01/Gallery"
-    },
     "Gauguin": {
-      "line": 1117,
+      "line": 1128,
       "packages": [
         {
           "antiFeatures": [],
@@ -5076,7 +5062,7 @@
       "sourceUrl": "https://github.com/jakubvalenta/geoshare"
     },
     "Geoperion": {
-      "line": 1073,
+      "line": 1081,
       "packages": [
         {
           "antiFeatures": [],
@@ -5095,7 +5081,7 @@
       "sourceUrl": "https://github.com/vulnerabbity/Geoperion"
     },
     "Geto": {
-      "line": 881,
+      "line": 886,
       "packages": [
         {
           "antiFeatures": [],
@@ -5114,7 +5100,7 @@
       "sourceUrl": "https://github.com/JackEblan/Geto"
     },
     "Ghost Commander": {
-      "line": 415,
+      "line": 413,
       "packages": [
         {
           "antiFeatures": [],
@@ -5133,7 +5119,7 @@
       "sourceUrl": "https://sourceforge.net/p/ghostcommander/svn/HEAD/tree"
     },
     "GifBoard": {
-      "line": 522,
+      "line": 521,
       "packages": [
         {
           "antiFeatures": [
@@ -5155,7 +5141,7 @@
       "sourceUrl": "https://github.com/gifboard/gifboard"
     },
     "Git+ Coach": {
-      "line": 827,
+      "line": 831,
       "packages": [
         {
           "antiFeatures": [],
@@ -5173,29 +5159,8 @@
       ],
       "sourceUrl": "https://github.com/vishal2376/git-coach"
     },
-    "Github Store": {
-      "line": 174,
-      "packages": [
-        {
-          "antiFeatures": [
-            "NonFreeNet"
-          ],
-          "lastUpdated": "2026-06-27",
-          "license": "Apache-2.0",
-          "packageId": "zed.rainxch.githubstore",
-          "permissionCount": 0,
-          "repository": "F-Droid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://github.com/kurikomi-labs/komi-store",
-          "store": "F-Droid"
-        }
-      ],
-      "sourceUrl": "https://github.com/rainxchzed/Github-Store"
-    },
     "Godot Editor": {
-      "line": 325,
+      "line": 319,
       "packages": [
         {
           "antiFeatures": [],
@@ -5233,7 +5198,7 @@
       "sourceUrl": "https://github.com/goodtime-productivity/Goodtime"
     },
     "Gramophone": {
-      "line": 686,
+      "line": 687,
       "packages": [
         {
           "antiFeatures": [],
@@ -5264,6 +5229,25 @@
       ],
       "sourceUrl": "https://github.com/FoedusProgramme/Gramophone"
     },
+    "Granular Volume: Quiet Dial": {
+      "line": 963,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-08-19",
+          "license": "GPL-3.0-only",
+          "packageId": "granularvolume.com",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/Rzuss/granular-volume",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/Rzuss/granular-volume"
+    },
     "GraphHopper Maps": {
       "line": 566,
       "packages": [
@@ -5284,7 +5268,7 @@
       "sourceUrl": "https://github.com/boldtrn/graphhopper-maps-capacitor"
     },
     "GreenStash": {
-      "line": 442,
+      "line": 439,
       "packages": [
         {
           "antiFeatures": [],
@@ -5303,7 +5287,7 @@
       "sourceUrl": "https://github.com/Pool-Of-Tears/GreenStash"
     },
     "Grit": {
-      "line": 479,
+      "line": 477,
       "packages": [
         {
           "antiFeatures": [],
@@ -5343,7 +5327,7 @@
       "sourceUrl": "https://gitlab.com/pandagoespoop/guitarfretboardtrainer"
     },
     "Gurgle": {
-      "line": 1151,
+      "line": 1163,
       "packages": [
         {
           "antiFeatures": [],
@@ -5362,7 +5346,7 @@
       "sourceUrl": "https://github.com/billthefarmer/gurgle"
     },
     "Habit-Maker": {
-      "line": 480,
+      "line": 478,
       "packages": [
         {
           "antiFeatures": [],
@@ -5394,7 +5378,7 @@
       "sourceUrl": "https://github.com/dessalines/habit-maker"
     },
     "Hacker's Keyboard": {
-      "line": 523,
+      "line": 522,
       "packages": [
         {
           "antiFeatures": [],
@@ -5413,7 +5397,7 @@
       "sourceUrl": "https://github.com/klausw/hackerskeyboard"
     },
     "Hacki": {
-      "line": 300,
+      "line": 297,
       "packages": [
         {
           "antiFeatures": [
@@ -5434,7 +5418,7 @@
       "sourceUrl": "https://github.com/Livinglist/Hacki"
     },
     "Halma": {
-      "line": 1056,
+      "line": 1063,
       "packages": [
         {
           "antiFeatures": [],
@@ -5453,7 +5437,7 @@
       "sourceUrl": "https://github.com/Crazy-Marvin/Halma"
     },
     "HandyNewsReader": {
-      "line": 809,
+      "line": 814,
       "packages": [
         {
           "antiFeatures": [
@@ -5474,7 +5458,7 @@
       "sourceUrl": "https://github.com/yanus171/Handy-News-Reader"
     },
     "Headwind MDM Agent": {
-      "line": 882,
+      "line": 887,
       "packages": [
         {
           "antiFeatures": [],
@@ -5493,7 +5477,7 @@
       "sourceUrl": "https://github.com/h-mdm/hmdm-android"
     },
     "HeliBoard": {
-      "line": 524,
+      "line": 523,
       "packages": [
         {
           "antiFeatures": [],
@@ -5563,7 +5547,7 @@
       "sourceUrl": "https://github.com/MrMannWood/launcher"
     },
     "HexViewer": {
-      "line": 961,
+      "line": 964,
       "packages": [
         {
           "antiFeatures": [],
@@ -5620,7 +5604,7 @@
       "sourceUrl": "https://github.com/home-assistant/android"
     },
     "Husky": {
-      "line": 301,
+      "line": 298,
       "packages": [
         {
           "antiFeatures": [],
@@ -5639,7 +5623,7 @@
       "sourceUrl": "https://github.com/captainepoch/husky"
     },
     "IVPN": {
-      "line": 1002,
+      "line": 1009,
       "packages": [
         {
           "antiFeatures": [
@@ -5659,27 +5643,8 @@
       ],
       "sourceUrl": "https://github.com/ivpn/android-app"
     },
-    "IdiomReplaceX Browser App": {
-      "line": 237,
-      "packages": [
-        {
-          "antiFeatures": [],
-          "lastUpdated": "2022-07-24",
-          "license": "Apache-2.0",
-          "packageId": "de.idiomreplacex.browser_app",
-          "permissionCount": 0,
-          "repository": "F-Droid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://github.com/idiomReplaceX/IdiomReplaceX-app",
-          "store": "F-Droid"
-        }
-      ],
-      "sourceUrl": "https://github.com/idiomReplaceX/IdiomReplaceX-app"
-    },
     "Image Toolbox": {
-      "line": 497,
+      "line": 496,
       "packages": [
         {
           "antiFeatures": [],
@@ -5711,7 +5676,7 @@
       "sourceUrl": "https://github.com/T8RIN/ImageToolbox"
     },
     "ImagePipe": {
-      "line": 498,
+      "line": 497,
       "packages": [
         {
           "antiFeatures": [],
@@ -5730,7 +5695,7 @@
       "sourceUrl": "https://codeberg.org/Starfish/Imagepipe"
     },
     "Immich": {
-      "line": 510,
+      "line": 508,
       "packages": [
         {
           "antiFeatures": [],
@@ -5749,7 +5714,7 @@
       "sourceUrl": "https://github.com/immich-app/immich"
     },
     "Indic Keyboard": {
-      "line": 525,
+      "line": 524,
       "packages": [
         {
           "antiFeatures": [],
@@ -5768,7 +5733,7 @@
       "sourceUrl": "https://gitlab.com/indicproject/indic-keyboard"
     },
     "InnerTune": {
-      "line": 687,
+      "line": 688,
       "packages": [
         {
           "antiFeatures": [
@@ -5804,7 +5769,7 @@
       "sourceUrl": "https://github.com/z-huang/InnerTune"
     },
     "InnerTune (Fork)": {
-      "line": 688,
+      "line": 689,
       "packages": [
         {
           "antiFeatures": [
@@ -5825,7 +5790,7 @@
       "sourceUrl": "https://github.com/Malopieds/InnerTune"
     },
     "Insular": {
-      "line": 818,
+      "line": 823,
       "packages": [
         {
           "antiFeatures": [],
@@ -5844,7 +5809,7 @@
       "sourceUrl": "https://gitlab.com/secure-system/Insular"
     },
     "Inure App Manager (Trial)": {
-      "line": 883,
+      "line": 888,
       "packages": [
         {
           "antiFeatures": [
@@ -5879,7 +5844,7 @@
       "sourceUrl": "https://github.com/Hamza417/Inure"
     },
     "InviZible Pro": {
-      "line": 962,
+      "line": 965,
       "packages": [
         {
           "antiFeatures": [],
@@ -5898,7 +5863,7 @@
       "sourceUrl": "https://github.com/Gedsh/InviZible"
     },
     "Is Your Password Secure?": {
-      "line": 758,
+      "line": 757,
       "packages": [
         {
           "antiFeatures": [],
@@ -5962,7 +5927,7 @@
       "sourceUrl": "https://gitlab.com/sunilpaulmathew/izzyondroid"
     },
     "J2ME Loader": {
-      "line": 1083,
+      "line": 1093,
       "packages": [
         {
           "antiFeatures": [],
@@ -5981,7 +5946,7 @@
       "sourceUrl": "https://github.com/nikita36078/J2ME-Loader"
     },
     "Jami": {
-      "line": 608,
+      "line": 610,
       "packages": [
         {
           "antiFeatures": [],
@@ -6019,7 +5984,7 @@
       "sourceUrl": "https://github.com/jellyfin/jellyfin-android"
     },
     "Jerboa": {
-      "line": 303,
+      "line": 300,
       "packages": [
         {
           "antiFeatures": [],
@@ -6051,7 +6016,7 @@
       "sourceUrl": "https://github.com/dessalines/jerboa"
     },
     "Jitsi Meet": {
-      "line": 609,
+      "line": 611,
       "packages": [
         {
           "antiFeatures": [],
@@ -6108,7 +6073,7 @@
       "sourceUrl": "https://github.com/OpenAppsLabs/Jotter"
     },
     "Json List": {
-      "line": 963,
+      "line": 966,
       "packages": [
         {
           "antiFeatures": [],
@@ -6127,7 +6092,7 @@
       "sourceUrl": "https://github.com/SlaVcE14/JsonList"
     },
     "Just (Video) Player": {
-      "line": 990,
+      "line": 997,
       "packages": [
         {
           "antiFeatures": [],
@@ -6165,7 +6130,7 @@
       "sourceUrl": "https://github.com/AmanoTeam/JustDeleteMe"
     },
     "K-9 Mail": {
-      "line": 398,
+      "line": 394,
       "packages": [
         {
           "antiFeatures": [],
@@ -6184,7 +6149,7 @@
       "sourceUrl": "https://github.com/thundernest/k-9"
     },
     "KDE Connect": {
-      "line": 427,
+      "line": 425,
       "packages": [
         {
           "antiFeatures": [],
@@ -6222,7 +6187,7 @@
       "sourceUrl": "https://kisslauncher.com"
     },
     "KOReader": {
-      "line": 357,
+      "line": 351,
       "packages": [
         {
           "antiFeatures": [],
@@ -6241,7 +6206,7 @@
       "sourceUrl": "https://github.com/koreader/koreader"
     },
     "Kahon": {
-      "line": 196,
+      "line": 197,
       "packages": [
         {
           "antiFeatures": [],
@@ -6260,7 +6225,7 @@
       "sourceUrl": "https://github.com/AmanoTeam/Kahon"
     },
     "Karma Firewall": {
-      "line": 451,
+      "line": 449,
       "packages": [
         {
           "antiFeatures": [],
@@ -6278,8 +6243,40 @@
       ],
       "sourceUrl": "https://github.com/nightflame2/karma-firewall"
     },
+    "KashCal": {
+      "line": 262,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-08-31",
+          "license": "Apache-2.0",
+          "packageId": "org.onekash.kashcal",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/KashCal/KashCal",
+          "store": "F-Droid"
+        },
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-09-05",
+          "license": "Apache-2.0",
+          "packageId": "org.onekash.kashcal",
+          "permissionCount": 0,
+          "repository": "IzzyOnDroid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/KashCal/KashCal",
+          "store": "IzzyOnDroid"
+        }
+      ],
+      "sourceUrl": "https://github.com/KashCal/KashCal"
+    },
     "KeePassDX": {
-      "line": 759,
+      "line": 758,
       "packages": [
         {
           "antiFeatures": [],
@@ -6311,7 +6308,7 @@
       "sourceUrl": "https://github.com/Kunzisoft/KeePassDX"
     },
     "Keep Alive": {
-      "line": 964,
+      "line": 967,
       "packages": [
         {
           "antiFeatures": [],
@@ -6330,7 +6327,7 @@
       "sourceUrl": "https://github.com/keepalivedev/KeepAlive"
     },
     "KernelSU": {
-      "line": 1160,
+      "line": 1172,
       "packages": [
         {
           "antiFeatures": [],
@@ -6349,7 +6346,7 @@
       "sourceUrl": "https://kernelsu.org"
     },
     "Key Mapper": {
-      "line": 965,
+      "line": 968,
       "packages": [
         {
           "antiFeatures": [
@@ -6370,7 +6367,7 @@
       "sourceUrl": "https://github.com/keymapperorg/KeyMapper"
     },
     "KeyStoreViewer": {
-      "line": 966,
+      "line": 969,
       "packages": [
         {
           "antiFeatures": [],
@@ -6389,7 +6386,7 @@
       "sourceUrl": "https://github.com/qdsfdhvh/KeyStoreViewer"
     },
     "Keyoxide": {
-      "line": 760,
+      "line": 759,
       "packages": [
         {
           "antiFeatures": [],
@@ -6408,7 +6405,7 @@
       "sourceUrl": "https://codeberg.org/keyoxide/keyoxide-flutter"
     },
     "Kodi": {
-      "line": 991,
+      "line": 998,
       "packages": [
         {
           "antiFeatures": [],
@@ -6427,7 +6424,7 @@
       "sourceUrl": "https://github.com/xbmc/xbmc"
     },
     "Koler": {
-      "line": 338,
+      "line": 332,
       "packages": [
         {
           "antiFeatures": [],
@@ -6445,8 +6442,29 @@
       ],
       "sourceUrl": "https://github.com/Chooloo/koler"
     },
+    "Komi Store": {
+      "line": 175,
+      "packages": [
+        {
+          "antiFeatures": [
+            "NonFreeNet"
+          ],
+          "lastUpdated": "2026-06-27",
+          "license": "Apache-2.0",
+          "packageId": "zed.rainxch.githubstore",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/kurikomi-labs/komi-store",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/kurikomi-labs/komi-store"
+    },
     "Kompact": {
-      "line": 499,
+      "line": 498,
       "packages": [
         {
           "antiFeatures": [],
@@ -6465,7 +6483,7 @@
       "sourceUrl": "https://git.naxod.com/luca/Kompact"
     },
     "Koofr Vault": {
-      "line": 408,
+      "line": 405,
       "packages": [
         {
           "antiFeatures": [
@@ -6486,7 +6504,7 @@
       "sourceUrl": "https://github.com/koofr/vault"
     },
     "Kore": {
-      "line": 992,
+      "line": 999,
       "packages": [
         {
           "antiFeatures": [],
@@ -6505,7 +6523,7 @@
       "sourceUrl": "https://github.com/xbmc/Kore"
     },
     "Kreate": {
-      "line": 690,
+      "line": 691,
       "packages": [
         {
           "antiFeatures": [
@@ -6526,7 +6544,7 @@
       "sourceUrl": "https://github.com/knighthat/Kreate"
     },
     "Krita": {
-      "line": 472,
+      "line": 470,
       "packages": [
         {
           "antiFeatures": [],
@@ -6545,7 +6563,7 @@
       "sourceUrl": "https://invent.kde.org/graphics/krita"
     },
     "KryptEY": {
-      "line": 526,
+      "line": 525,
       "packages": [
         {
           "antiFeatures": [],
@@ -6600,8 +6618,27 @@
       ],
       "sourceUrl": "https://kvaesitso.mm20.de"
     },
+    "LANShield": {
+      "line": 450,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-06-21",
+          "license": "Apache-2.0",
+          "packageId": "org.distrinet.lanshield",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/DistriNet/lanshield",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/DistriNet/LANShield"
+    },
     "Lato": {
-      "line": 1128,
+      "line": 1140,
       "packages": [
         {
           "antiFeatures": [],
@@ -6620,7 +6657,7 @@
       "sourceUrl": "https://gitlab.com/ar-/lato"
     },
     "Launch Chat": {
-      "line": 610,
+      "line": 612,
       "packages": [
         {
           "antiFeatures": [
@@ -6680,7 +6717,7 @@
       "sourceUrl": "https://github.com/LawnchairLauncher/lawnchair"
     },
     "Lawnicons": {
-      "line": 490,
+      "line": 489,
       "packages": [
         {
           "antiFeatures": [],
@@ -6699,7 +6736,7 @@
       "sourceUrl": "https://github.com/LawnchairLauncher/lawnicons"
     },
     "LeanType": {
-      "line": 527,
+      "line": 526,
       "packages": [
         {
           "antiFeatures": [],
@@ -6739,7 +6776,7 @@
       "sourceUrl": "https://github.com/akshvaishnav21/LearnTube"
     },
     "Lemuroid": {
-      "line": 1084,
+      "line": 1094,
       "packages": [
         {
           "antiFeatures": [
@@ -6760,29 +6797,8 @@
       ],
       "sourceUrl": "https://github.com/Swordfish90/Lemuroid"
     },
-    "Lentil Translate": {
-      "line": 930,
-      "packages": [
-        {
-          "antiFeatures": [
-            "NonFreeNet"
-          ],
-          "lastUpdated": "2023-09-25",
-          "license": "AGPL-3.0-only",
-          "packageId": "dev.atajan.lingva_android",
-          "permissionCount": 0,
-          "repository": "F-Droid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://github.com/yaxarat/lingvaandroid",
-          "store": "F-Droid"
-        }
-      ],
-      "sourceUrl": "https://github.com/yaxarat/lingvaandroid"
-    },
     "Leon": {
-      "line": 939,
+      "line": 941,
       "packages": [
         {
           "antiFeatures": [],
@@ -6814,7 +6830,7 @@
       "sourceUrl": "https://github.com/svenjacobs/leon"
     },
     "Lexica": {
-      "line": 1152,
+      "line": 1164,
       "packages": [
         {
           "antiFeatures": [],
@@ -6833,7 +6849,7 @@
       "sourceUrl": "https://github.com/lexica/lexica"
     },
     "LibChecker": {
-      "line": 884,
+      "line": 889,
       "packages": [
         {
           "antiFeatures": [
@@ -6867,7 +6883,7 @@
       "sourceUrl": "https://github.com/zhaobozhen/LibChecker"
     },
     "Libre Camera": {
-      "line": 279,
+      "line": 277,
       "packages": [
         {
           "antiFeatures": [],
@@ -6886,7 +6902,7 @@
       "sourceUrl": "https://github.com/iakmds/librecamera"
     },
     "Libre Librivox listener": {
-      "line": 775,
+      "line": 774,
       "packages": [
         {
           "antiFeatures": [
@@ -6906,6 +6922,25 @@
       ],
       "sourceUrl": "https://gitlab.com/libre-librivox-listener/libre-librivox-listener"
     },
+    "LibreCuts": {
+      "line": 990,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-08-21",
+          "license": "MIT",
+          "packageId": "com.tharunbirla.librecuts",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/tharunbirla/LibreCuts",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/tharunbirla/LibreCuts"
+    },
     "LibreOffice Viewer": {
       "line": 746,
       "packages": [
@@ -6923,10 +6958,10 @@
           "store": "F-Droid"
         }
       ],
-      "sourceUrl": "https://www.libreoffice.org/download/android-viewer"
+      "sourceUrl": "https://www.libreoffice.org/download-other/#android-ios"
     },
     "LibreSudoku": {
-      "line": 1118,
+      "line": 1129,
       "packages": [
         {
           "antiFeatures": [],
@@ -6945,7 +6980,7 @@
       "sourceUrl": "https://github.com/kaajjo/Libre-Sudoku"
     },
     "LibreTorrent": {
-      "line": 380,
+      "line": 376,
       "packages": [
         {
           "antiFeatures": [],
@@ -7000,7 +7035,7 @@
       "sourceUrl": "https://github.com/libre-tube/LibreTube"
     },
     "Librera Reader": {
-      "line": 358,
+      "line": 352,
       "packages": [
         {
           "antiFeatures": [],
@@ -7019,7 +7054,7 @@
       "sourceUrl": "https://github.com/foobnix/LibreraReader"
     },
     "Lichess": {
-      "line": 1057,
+      "line": 1064,
       "packages": [
         {
           "antiFeatures": [
@@ -7062,7 +7097,7 @@
       "sourceUrl": "https://codeberg.org/LiedgutDatenbank/Liedgutverzeichnis"
     },
     "Lightning": {
-      "line": 239,
+      "line": 237,
       "packages": [
         {
           "antiFeatures": [],
@@ -7100,7 +7135,7 @@
       "sourceUrl": "https://github.com/AmrDeveloper/LinkHub"
     },
     "LinkSheet": {
-      "line": 940,
+      "line": 942,
       "packages": [
         {
           "antiFeatures": [],
@@ -7119,7 +7154,7 @@
       "sourceUrl": "https://github.com/LinkSheet/LinkSheet"
     },
     "Linkora": {
-      "line": 967,
+      "line": 970,
       "packages": [
         {
           "antiFeatures": [],
@@ -7138,7 +7173,7 @@
       "sourceUrl": "https://github.com/LinkoraApp/Linkora"
     },
     "Linux Command Library": {
-      "line": 828,
+      "line": 832,
       "packages": [
         {
           "antiFeatures": [],
@@ -7157,7 +7192,7 @@
       "sourceUrl": "https://github.com/SimonSchubert/LinuxCommandLibrary"
     },
     "Little File Explorer": {
-      "line": 416,
+      "line": 414,
       "packages": [
         {
           "antiFeatures": [],
@@ -7229,7 +7264,7 @@
       "sourceUrl": "https://github.com/maelchiotti/LocalMaterialNotes"
     },
     "LocalSend": {
-      "line": 428,
+      "line": 426,
       "packages": [
         {
           "antiFeatures": [],
@@ -7248,7 +7283,7 @@
       "sourceUrl": "https://github.com/localsend/localsend"
     },
     "LogFox": {
-      "line": 885,
+      "line": 890,
       "packages": [
         {
           "antiFeatures": [],
@@ -7299,7 +7334,7 @@
       "sourceUrl": "https://github.com/logseq/logseq"
     },
     "Loop Habit Tracker": {
-      "line": 481,
+      "line": 479,
       "packages": [
         {
           "antiFeatures": [],
@@ -7318,7 +7353,7 @@
       "sourceUrl": "https://github.com/iSoron/uhabits"
     },
     "Ltt.rs": {
-      "line": 400,
+      "line": 396,
       "packages": [
         {
           "antiFeatures": [],
@@ -7337,7 +7372,7 @@
       "sourceUrl": "https://codeberg.org/iNPUTmice/lttrs-android"
     },
     "Luanti": {
-      "line": 1099,
+      "line": 1110,
       "packages": [
         {
           "antiFeatures": [],
@@ -7356,7 +7391,7 @@
       "sourceUrl": "https://github.com/minetest/minetest"
     },
     "Lumolight": {
-      "line": 466,
+      "line": 464,
       "packages": [
         {
           "antiFeatures": [],
@@ -7407,7 +7442,7 @@
       "sourceUrl": "https://github.com/iamrasel/lunar-launcher"
     },
     "LxReader": {
-      "line": 359,
+      "line": 353,
       "packages": [
         {
           "antiFeatures": [],
@@ -7458,7 +7493,7 @@
       "sourceUrl": "https://github.com/CompassMB/MBCompass"
     },
     "MJ PDF Reader": {
-      "line": 360,
+      "line": 354,
       "packages": [
         {
           "antiFeatures": [],
@@ -7477,7 +7512,7 @@
       "sourceUrl": "https://gitlab.com/mudlej_android/mj_pdf_reader"
     },
     "MTG Familiar": {
-      "line": 1065,
+      "line": 1072,
       "packages": [
         {
           "antiFeatures": [],
@@ -7496,7 +7531,7 @@
       "sourceUrl": "https://github.com/AEFeinstein/mtg-familiar"
     },
     "Magisk": {
-      "line": 1161,
+      "line": 1173,
       "packages": [
         {
           "antiFeatures": [],
@@ -7547,7 +7582,7 @@
       "sourceUrl": "https://github.com/gsantner/markor"
     },
     "Mastodon": {
-      "line": 612,
+      "line": 614,
       "packages": [
         {
           "antiFeatures": [
@@ -7583,7 +7618,7 @@
       "sourceUrl": "https://github.com/mastodon/mastodon-android"
     },
     "Material Files": {
-      "line": 417,
+      "line": 415,
       "packages": [
         {
           "antiFeatures": [],
@@ -7634,7 +7669,7 @@
       "sourceUrl": "https://github.com/Materialious/Materialious"
     },
     "Materials Live Wallpaper": {
-      "line": 1020,
+      "line": 1027,
       "packages": [
         {
           "antiFeatures": [],
@@ -7653,7 +7688,7 @@
       "sourceUrl": "https://github.com/Reminimalism/MaterialsLiveWallpaper"
     },
     "Mauth": {
-      "line": 761,
+      "line": 760,
       "packages": [
         {
           "antiFeatures": [],
@@ -7691,7 +7726,7 @@
       "sourceUrl": "https://github.com/bwqr/mavinote"
     },
     "MedTimer": {
-      "line": 849,
+      "line": 854,
       "packages": [
         {
           "antiFeatures": [],
@@ -7723,7 +7758,7 @@
       "sourceUrl": "https://github.com/Futsch1/medTimer"
     },
     "Meditation": {
-      "line": 848,
+      "line": 853,
       "packages": [
         {
           "antiFeatures": [],
@@ -7761,7 +7796,7 @@
       "sourceUrl": "https://github.com/mwarning/Memento"
     },
     "Mental Math": {
-      "line": 1074,
+      "line": 1082,
       "packages": [
         {
           "antiFeatures": [],
@@ -7780,7 +7815,7 @@
       "sourceUrl": "https://codeberg.org/Mental-Math/MentalMath"
     },
     "Mercurygram": {
-      "line": 624,
+      "line": 617,
       "packages": [
         {
           "antiFeatures": [
@@ -7802,7 +7837,7 @@
       "sourceUrl": "https://github.com/drizzt/Mercurygram"
     },
     "Meshenger": {
-      "line": 615,
+      "line": 618,
       "packages": [
         {
           "antiFeatures": [],
@@ -7821,7 +7856,7 @@
       "sourceUrl": "https://github.com/meshenger-app/meshenger-android"
     },
     "Messages": {
-      "line": 838,
+      "line": 842,
       "packages": [
         {
           "antiFeatures": [],
@@ -7840,7 +7875,7 @@
       "sourceUrl": "https://github.com/PVOT-OSS/Messages"
     },
     "Metadata Remover": {
-      "line": 500,
+      "line": 499,
       "packages": [
         {
           "antiFeatures": [],
@@ -7857,25 +7892,6 @@
         }
       ],
       "sourceUrl": "https://github.com/Crazy-Marvin/MetadataRemover"
-    },
-    "Metro": {
-      "line": 692,
-      "packages": [
-        {
-          "antiFeatures": [],
-          "lastUpdated": "2023-04-10",
-          "license": "GPL-3.0-only",
-          "packageId": "io.github.muntashirakon.Music",
-          "permissionCount": 0,
-          "repository": "F-Droid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://github.com/MuntashirAkon/Metro",
-          "store": "F-Droid"
-        }
-      ],
-      "sourceUrl": "https://github.com/MuntashirAkon/Metro"
     },
     "Metrolist": {
       "line": 693,
@@ -7918,7 +7934,7 @@
       "sourceUrl": "https://github.com/thetwom/toc2"
     },
     "Middor": {
-      "line": 968,
+      "line": 971,
       "packages": [
         {
           "antiFeatures": [],
@@ -7950,7 +7966,7 @@
       "sourceUrl": "https://github.com/nktnet1/middor"
     },
     "Mill": {
-      "line": 1059,
+      "line": 1066,
       "packages": [
         {
           "antiFeatures": [],
@@ -7969,7 +7985,7 @@
       "sourceUrl": "https://github.com/calcitem/Sanmill"
     },
     "Mindustry": {
-      "line": 1140,
+      "line": 1152,
       "packages": [
         {
           "antiFeatures": [],
@@ -7988,7 +8004,7 @@
       "sourceUrl": "https://github.com/Anuken/Mindustry"
     },
     "Minesweeper: Antimine": {
-      "line": 1119,
+      "line": 1130,
       "packages": [
         {
           "antiFeatures": [],
@@ -8007,7 +8023,7 @@
       "sourceUrl": "https://github.com/lucasnlm/antimine-android"
     },
     "Miniter": {
-      "line": 969,
+      "line": 991,
       "packages": [
         {
           "antiFeatures": [],
@@ -8026,7 +8042,7 @@
       "sourceUrl": "https://github.com/mlm-games/miniter"
     },
     "Minute Maze": {
-      "line": 1120,
+      "line": 1131,
       "packages": [
         {
           "antiFeatures": [],
@@ -8044,8 +8060,27 @@
       ],
       "sourceUrl": "https://gitlab.com/ygingras/minute-maze"
     },
+    "Money Manager Ex": {
+      "line": 440,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-08-28",
+          "license": "GPL-3.0-or-later",
+          "packageId": "com.money.manager.ex",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/moneymanagerex/android-money-manager-ex",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/moneymanagerex/android-money-manager-ex"
+    },
     "Monocles Browser": {
-      "line": 240,
+      "line": 238,
       "packages": [
         {
           "antiFeatures": [],
@@ -8083,7 +8118,7 @@
       "sourceUrl": "https://github.com/moonlight-stream/moonlight-android"
     },
     "Moshidon": {
-      "line": 614,
+      "line": 616,
       "packages": [
         {
           "antiFeatures": [],
@@ -8168,7 +8203,7 @@
       "sourceUrl": "https://github.com/shalenMathew/MovieFlix_App"
     },
     "MuPDF": {
-      "line": 361,
+      "line": 355,
       "packages": [
         {
           "antiFeatures": [],
@@ -8187,7 +8222,7 @@
       "sourceUrl": "https://mupdf.com"
     },
     "Mullvad": {
-      "line": 1003,
+      "line": 1010,
       "packages": [
         {
           "antiFeatures": [
@@ -8208,7 +8243,7 @@
       "sourceUrl": "https://github.com/mullvad/mullvadvpn-app"
     },
     "Mumla": {
-      "line": 617,
+      "line": 620,
       "packages": [
         {
           "antiFeatures": [],
@@ -8325,7 +8360,7 @@
       "sourceUrl": "https://github.com/gokadzev/Musify"
     },
     "My Expenses": {
-      "line": 443,
+      "line": 441,
       "packages": [
         {
           "antiFeatures": [],
@@ -8344,7 +8379,7 @@
       "sourceUrl": "https://github.com/mtotschnig/MyExpenses"
     },
     "Myne": {
-      "line": 381,
+      "line": 377,
       "packages": [
         {
           "antiFeatures": [
@@ -8380,7 +8415,7 @@
       "sourceUrl": "https://github.com/Pool-Of-Tears/Myne"
     },
     "Mysterium VPN": {
-      "line": 1004,
+      "line": 1011,
       "packages": [
         {
           "antiFeatures": [],
@@ -8399,7 +8434,7 @@
       "sourceUrl": "https://github.com/mysteriumnetwork/mysterium-vpn-mobile"
     },
     "NFCGate": {
-      "line": 970,
+      "line": 972,
       "packages": [
         {
           "antiFeatures": [],
@@ -8431,7 +8466,7 @@
       "sourceUrl": "https://github.com/nfcgate/nfcgate"
     },
     "Native Alpha": {
-      "line": 241,
+      "line": 239,
       "packages": [
         {
           "antiFeatures": [],
@@ -8450,7 +8485,7 @@
       "sourceUrl": "https://github.com/cylonid/NativeAlphaForAndroid"
     },
     "Navit": {
-      "line": 382,
+      "line": 378,
       "packages": [
         {
           "antiFeatures": [],
@@ -8469,7 +8504,7 @@
       "sourceUrl": "https://github.com/navit-gps/navit"
     },
     "Nekome": {
-      "line": 197,
+      "line": 198,
       "packages": [
         {
           "antiFeatures": [
@@ -8541,7 +8576,7 @@
       "sourceUrl": "https://github.com/NeoApplications/Neo-Launcher"
     },
     "Neo-Store": {
-      "line": 164,
+      "line": 165,
       "packages": [
         {
           "antiFeatures": [],
@@ -8573,7 +8608,7 @@
       "sourceUrl": "https://github.com/NeoApplications/Neo-Store"
     },
     "NetGuard": {
-      "line": 452,
+      "line": 451,
       "packages": [
         {
           "antiFeatures": [],
@@ -8608,7 +8643,7 @@
       "sourceUrl": "https://github.com/M66B/NetGuard"
     },
     "Network Survey": {
-      "line": 886,
+      "line": 891,
       "packages": [
         {
           "antiFeatures": [],
@@ -8663,7 +8698,7 @@
       "sourceUrl": "https://github.com/TeamNewPipe/NewPipe"
     },
     "NewsBlur": {
-      "line": 810,
+      "line": 815,
       "packages": [
         {
           "antiFeatures": [],
@@ -8682,7 +8717,7 @@
       "sourceUrl": "https://github.com/samuelclay/NewsBlur"
     },
     "Next Player": {
-      "line": 995,
+      "line": 1002,
       "packages": [
         {
           "antiFeatures": [],
@@ -8714,7 +8749,7 @@
       "sourceUrl": "https://github.com/anilbeesetti/nextplayer"
     },
     "Nextcloud": {
-      "line": 859,
+      "line": 864,
       "packages": [
         {
           "antiFeatures": [],
@@ -8733,7 +8768,7 @@
       "sourceUrl": "https://github.com/nextcloud/android"
     },
     "Nextcloud News": {
-      "line": 860,
+      "line": 865,
       "packages": [
         {
           "antiFeatures": [],
@@ -8771,7 +8806,7 @@
       "sourceUrl": "https://github.com/nextcloud/notes-android"
     },
     "Nix-on-Droid": {
-      "line": 887,
+      "line": 892,
       "packages": [
         {
           "antiFeatures": [],
@@ -8790,7 +8825,7 @@
       "sourceUrl": "https://github.com/nix-community/nix-on-droid"
     },
     "NoMoreBackground": {
-      "line": 888,
+      "line": 893,
       "packages": [
         {
           "antiFeatures": [],
@@ -8807,6 +8842,38 @@
         }
       ],
       "sourceUrl": "https://github.com/adil192/no_more_background"
+    },
+    "NodeLook": {
+      "line": 1189,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-07-20",
+          "license": "MIT",
+          "packageId": "ir.ammari.nodelook",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/nodelook/android",
+          "store": "F-Droid"
+        },
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-07-21",
+          "license": "MIT",
+          "packageId": "ir.ammari.nodelook",
+          "permissionCount": 0,
+          "repository": "IzzyOnDroid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/nodelook/android",
+          "store": "IzzyOnDroid"
+        }
+      ],
+      "sourceUrl": "https://github.com/nodelook/android"
     },
     "Noice": {
       "line": 669,
@@ -8899,6 +8966,25 @@
       ],
       "sourceUrl": "https://github.com/tosinonikute/NotelyVoice"
     },
+    "Noten Learnen": {
+      "line": 670,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2022-07-16",
+          "license": "MIT",
+          "packageId": "de.melvil.noten",
+          "permissionCount": 0,
+          "repository": "IzzyOnDroid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/MelvilQ/noten-lernen",
+          "store": "IzzyOnDroid"
+        }
+      ],
+      "sourceUrl": "https://github.com/MelvilQ/noten-lernen"
+    },
     "Notesnook": {
       "line": 733,
       "packages": [
@@ -8919,7 +9005,7 @@
       "sourceUrl": "https://github.com/streetwriters/notesnook"
     },
     "Notification Dictionary": {
-      "line": 346,
+      "line": 340,
       "packages": [
         {
           "antiFeatures": [],
@@ -8970,7 +9056,7 @@
       "sourceUrl": "https://github.com/alialbaali/Noto"
     },
     "Nova Video Player": {
-      "line": 996,
+      "line": 1003,
       "packages": [
         {
           "antiFeatures": [
@@ -9006,7 +9092,7 @@
       "sourceUrl": "https://github.com/nova-video-player/aos-AVP"
     },
     "NumberHub": {
-      "line": 253,
+      "line": 251,
       "packages": [
         {
           "antiFeatures": [
@@ -9027,7 +9113,7 @@
       "sourceUrl": "https://github.com/Myzel394/NumberHub"
     },
     "Nunti": {
-      "line": 811,
+      "line": 816,
       "packages": [
         {
           "antiFeatures": [],
@@ -9046,7 +9132,7 @@
       "sourceUrl": "https://gitlab.com/ondrejfoltyn/nunti"
     },
     "NymVPN": {
-      "line": 1006,
+      "line": 1013,
       "packages": [
         {
           "antiFeatures": [
@@ -9067,7 +9153,7 @@
       "sourceUrl": "https://github.com/nymtech/nym-vpn-client"
     },
     "OCR": {
-      "line": 971,
+      "line": 973,
       "packages": [
         {
           "antiFeatures": [],
@@ -9086,7 +9172,7 @@
       "sourceUrl": "https://github.com/SubhamTyagi/android-ocr"
     },
     "OONI Probe": {
-      "line": 973,
+      "line": 975,
       "packages": [
         {
           "antiFeatures": [
@@ -9107,7 +9193,7 @@
       "sourceUrl": "https://github.com/ooni/probe-multiplatform"
     },
     "OSS Document Scanner": {
-      "line": 370,
+      "line": 365,
       "packages": [
         {
           "antiFeatures": [],
@@ -9126,7 +9212,7 @@
       "sourceUrl": "https://github.com/Akylas/com.akylas.documentscanner"
     },
     "OSS-Dict": {
-      "line": 343,
+      "line": 337,
       "packages": [
         {
           "antiFeatures": [],
@@ -9158,7 +9244,7 @@
       "sourceUrl": "https://github.com/farfromrefug/OSS-Dict"
     },
     "ObscuraCam": {
-      "line": 280,
+      "line": 278,
       "packages": [
         {
           "antiFeatures": [],
@@ -9209,7 +9295,7 @@
       "sourceUrl": "https://github.com/ImranR98/Obtainium"
     },
     "OctoDroid": {
-      "line": 305,
+      "line": 301,
       "packages": [
         {
           "antiFeatures": [
@@ -9249,7 +9335,7 @@
       "sourceUrl": "https://github.com/thibseisel/android-odeon"
     },
     "Odysee": {
-      "line": 306,
+      "line": 302,
       "packages": [
         {
           "antiFeatures": [
@@ -9290,7 +9376,7 @@
       "sourceUrl": "https://github.com/gateship-one/odyssey"
     },
     "Offline Translator": {
-      "line": 931,
+      "line": 934,
       "packages": [
         {
           "antiFeatures": [],
@@ -9309,7 +9395,7 @@
       "sourceUrl": "https://github.com/DavidVentura/offline-translator"
     },
     "Oinkoin": {
-      "line": 444,
+      "line": 442,
       "packages": [
         {
           "antiFeatures": [],
@@ -9347,7 +9433,7 @@
       "sourceUrl": "https://github.com/tanujnotes/Olauncher"
     },
     "Omni": {
-      "line": 972,
+      "line": 974,
       "packages": [
         {
           "antiFeatures": [],
@@ -9387,7 +9473,7 @@
       "sourceUrl": "https://federicoiosue.github.io/Omni-Notes"
     },
     "Open Camera": {
-      "line": 281,
+      "line": 279,
       "packages": [
         {
           "antiFeatures": [],
@@ -9406,7 +9492,7 @@
       "sourceUrl": "https://sourceforge.net/projects/opencamera"
     },
     "Open Chaos Chess": {
-      "line": 1060,
+      "line": 1067,
       "packages": [
         {
           "antiFeatures": [],
@@ -9425,7 +9511,7 @@
       "sourceUrl": "https://github.com/CorruptedArk/open-chaos-chess"
     },
     "Open Sudoku": {
-      "line": 1121,
+      "line": 1132,
       "packages": [
         {
           "antiFeatures": [],
@@ -9444,7 +9530,7 @@
       "sourceUrl": "https://gitlab.com/opensudoku/opensudoku"
     },
     "Open Video Editor": {
-      "line": 974,
+      "line": 992,
       "packages": [
         {
           "antiFeatures": [],
@@ -9463,7 +9549,7 @@
       "sourceUrl": "https://github.com/devhyper/open-video-editor"
     },
     "OpenCalc": {
-      "line": 254,
+      "line": 252,
       "packages": [
         {
           "antiFeatures": [],
@@ -9495,7 +9581,7 @@
       "sourceUrl": "https://github.com/Darkempire78/OpenCalc"
     },
     "OpenContacts": {
-      "line": 321,
+      "line": 315,
       "packages": [
         {
           "antiFeatures": [],
@@ -9513,8 +9599,8 @@
       ],
       "sourceUrl": "https://gitlab.com/sultanahamer/OpenContacts"
     },
-    "OpenDocument": {
-      "line": 747,
+    "OpenDocument Reader": {
+      "line": 356,
       "packages": [
         {
           "antiFeatures": [],
@@ -9533,7 +9619,7 @@
       "sourceUrl": "https://github.com/opendocument-app/OpenDocument.droid"
     },
     "OpenKeychain": {
-      "line": 762,
+      "line": 761,
       "packages": [
         {
           "antiFeatures": [],
@@ -9552,7 +9638,7 @@
       "sourceUrl": "https://github.com/open-keychain/open-keychain"
     },
     "OpenNoteScanner": {
-      "line": 369,
+      "line": 364,
       "packages": [
         {
           "antiFeatures": [],
@@ -9571,7 +9657,7 @@
       "sourceUrl": "https://github.com/ctodobom/OpenNoteScanner"
     },
     "OpenTTD": {
-      "line": 1141,
+      "line": 1153,
       "packages": [
         {
           "antiFeatures": [],
@@ -9609,7 +9695,7 @@
       "sourceUrl": "https://github.com/Pygmalion69/OpenTopoMapViewer"
     },
     "OpenTracks": {
-      "line": 850,
+      "line": 855,
       "packages": [
         {
           "antiFeatures": [],
@@ -9649,7 +9735,7 @@
       "sourceUrl": "https://github.com/Arturo254/OpenTune"
     },
     "Openlib": {
-      "line": 383,
+      "line": 379,
       "packages": [
         {
           "antiFeatures": [
@@ -9708,7 +9794,7 @@
       "sourceUrl": "https://github.com/organicmaps/organicmaps"
     },
     "Orgro": {
-      "line": 975,
+      "line": 976,
       "packages": [
         {
           "antiFeatures": [
@@ -9729,7 +9815,7 @@
       "sourceUrl": "https://orgro.org"
     },
     "Orion Viewer": {
-      "line": 362,
+      "line": 357,
       "packages": [
         {
           "antiFeatures": [],
@@ -9770,7 +9856,7 @@
       "sourceUrl": "http://osmand.net"
     },
     "Outer Tune": {
-      "line": 689,
+      "line": 690,
       "packages": [
         {
           "antiFeatures": [
@@ -9791,7 +9877,7 @@
       "sourceUrl": "https://github.com/DD3Boh/OuterTune"
     },
     "Overmorrow Weather": {
-      "line": 1038,
+      "line": 1045,
       "packages": [
         {
           "antiFeatures": [],
@@ -9810,7 +9896,7 @@
       "sourceUrl": "https://github.com/bmaroti9/Overmorrow"
     },
     "PCAPdroid": {
-      "line": 889,
+      "line": 894,
       "packages": [
         {
           "antiFeatures": [],
@@ -9829,7 +9915,7 @@
       "sourceUrl": "https://github.com/emanuele-f/PCAPdroid"
     },
     "PDF Converter": {
-      "line": 372,
+      "line": 367,
       "packages": [
         {
           "antiFeatures": [],
@@ -9848,7 +9934,7 @@
       "sourceUrl": "https://github.com/Swati4star/Images-to-PDF"
     },
     "PPSSPP": {
-      "line": 1085,
+      "line": 1095,
       "packages": [
         {
           "antiFeatures": [],
@@ -9867,7 +9953,7 @@
       "sourceUrl": "https://github.com/hrydgard/ppsspp"
     },
     "PSLab": {
-      "line": 830,
+      "line": 834,
       "packages": [
         {
           "antiFeatures": [],
@@ -9886,7 +9972,7 @@
       "sourceUrl": "https://github.com/fossasia/pslab-android"
     },
     "Palette-Cycle": {
-      "line": 1021,
+      "line": 1028,
       "packages": [
         {
           "antiFeatures": [
@@ -9908,7 +9994,7 @@
       "sourceUrl": "https://github.com/ManApart/palette-cycle"
     },
     "PaperKnife+": {
-      "line": 371,
+      "line": 366,
       "packages": [
         {
           "antiFeatures": [],
@@ -9946,7 +10032,7 @@
       "sourceUrl": "https://github.com/devmil/PaperLaunch"
     },
     "Paperize": {
-      "line": 1022,
+      "line": 1029,
       "packages": [
         {
           "antiFeatures": [],
@@ -9965,7 +10051,7 @@
       "sourceUrl": "https://github.com/Anthonyy232/Paperize"
     },
     "Paseo": {
-      "line": 851,
+      "line": 856,
       "packages": [
         {
           "antiFeatures": [],
@@ -9984,7 +10070,7 @@
       "sourceUrl": "https://gitlab.com/pardomi/paseo"
     },
     "Password Monitor": {
-      "line": 763,
+      "line": 762,
       "packages": [
         {
           "antiFeatures": [
@@ -10024,7 +10110,7 @@
       "sourceUrl": "https://framagit.org/framasoft/peertube/mobile-application"
     },
     "Peristyle": {
-      "line": 1023,
+      "line": 1030,
       "packages": [
         {
           "antiFeatures": [],
@@ -10056,7 +10142,7 @@
       "sourceUrl": "https://github.com/Hamza417/Peristyle"
     },
     "Permission Pilot": {
-      "line": 890,
+      "line": 895,
       "packages": [
         {
           "antiFeatures": [
@@ -10111,7 +10197,7 @@
       "sourceUrl": "https://github.com/chr56/Phonograph_Plus"
     },
     "PianOli": {
-      "line": 1111,
+      "line": 1122,
       "packages": [
         {
           "antiFeatures": [],
@@ -10128,6 +10214,25 @@
         }
       ],
       "sourceUrl": "https://github.com/nicolasbrailo/PianOli"
+    },
+    "Picocrypt-NG": {
+      "line": 406,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-07-01",
+          "license": "GPL-3.0-only",
+          "packageId": "io.github.picocrypt_ng.picocrypt_ng",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/Picocrypt-NG/Picocrypt-NG",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/Picocrypt-NG/Picocrypt-NG"
     },
     "Pie Launcher": {
       "line": 555,
@@ -10165,7 +10270,7 @@
           "store": "F-Droid"
         }
       ],
-      "sourceUrl": "https://github.com/kaputnikGo/PilferShushJammer"
+      "sourceUrl": "https://codeberg.org/kaputnikGo/PilferShushJammer"
     },
     "PipePipe": {
       "line": 589,
@@ -10204,7 +10309,7 @@
       "sourceUrl": "https://codeberg.org/NullPointerException/PipePipe"
     },
     "Pixel Wheels": {
-      "line": 1129,
+      "line": 1141,
       "packages": [
         {
           "antiFeatures": [],
@@ -10223,7 +10328,7 @@
       "sourceUrl": "https://github.com/agateau/pixelwheels"
     },
     "PixelDroid": {
-      "line": 307,
+      "line": 303,
       "packages": [
         {
           "antiFeatures": [],
@@ -10242,7 +10347,7 @@
       "sourceUrl": "https://gitlab.shinice.net/pixeldroid/PixelDroid"
     },
     "Planes": {
-      "line": 1142,
+      "line": 1154,
       "packages": [
         {
           "antiFeatures": [],
@@ -10260,8 +10365,29 @@
       ],
       "sourceUrl": "https://github.com/xxxcucus/planes"
     },
+    "PlayTube": {
+      "line": 592,
+      "packages": [
+        {
+          "antiFeatures": [
+            "NonFreeNet"
+          ],
+          "lastUpdated": "2026-08-28",
+          "license": "GPL-3.0-or-later",
+          "packageId": "com.arslandaim.playtube",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/arslandaim-hub/PlayTube",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/arslandaim-hub/PlayTube"
+    },
     "PlugBrain": {
-      "line": 976,
+      "line": 977,
       "packages": [
         {
           "antiFeatures": [],
@@ -10280,7 +10406,7 @@
       "sourceUrl": "https://github.com/msbelaid/PlugBrain"
     },
     "Pocket Broomball": {
-      "line": 1100,
+      "line": 1111,
       "packages": [
         {
           "antiFeatures": [
@@ -10301,7 +10427,7 @@
       "sourceUrl": "https://github.com/dulvui/pocket-broomball"
     },
     "Pocket Paint": {
-      "line": 473,
+      "line": 471,
       "packages": [
         {
           "antiFeatures": [],
@@ -10320,7 +10446,7 @@
       "sourceUrl": "https://github.com/Catrobat/Paintroid"
     },
     "PocketDhamma": {
-      "line": 802,
+      "line": 807,
       "packages": [
         {
           "antiFeatures": [],
@@ -10352,7 +10478,7 @@
       "sourceUrl": "https://github.com/s4nj1th/pocket-dhamma"
     },
     "PocketPlan": {
-      "line": 924,
+      "line": 928,
       "packages": [
         {
           "antiFeatures": [],
@@ -10370,42 +10496,27 @@
       ],
       "sourceUrl": "https://github.com/RayLeaf-Studios/PocketPlan"
     },
-    "Podcini.X": {
-      "line": 776,
+    "Podcini.A": {
+      "line": 775,
       "packages": [
         {
           "antiFeatures": [],
-          "lastUpdated": "2026-06-02",
+          "lastUpdated": "2026-08-26",
           "license": "GPL-3.0-only",
-          "packageId": "ac.mdiq.podcini.X",
+          "packageId": "ac.mdiq.Podcini.A",
           "permissionCount": 0,
           "repository": "F-Droid",
           "reproducible": null,
           "sensitivePermissions": [],
           "sourceArchive": false,
-          "sourceCode": "https://github.com/XilinJia/Podcini.X",
+          "sourceCode": "https://github.com/XilinJia/Podcini.A",
           "store": "F-Droid"
-        },
-        {
-          "antiFeatures": [
-            "NonFreeNet"
-          ],
-          "lastUpdated": "2026-06-07",
-          "license": "GPL-3.0-only",
-          "packageId": "ac.mdiq.podcini.X",
-          "permissionCount": 0,
-          "repository": "IzzyOnDroid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://github.com/XilinJia/Podcini.X",
-          "store": "IzzyOnDroid"
         }
       ],
-      "sourceUrl": "https://github.com/XilinJia/Podcini.X"
+      "sourceUrl": "https://github.com/XilinJia/Podcini.A"
     },
     "Podverse": {
-      "line": 777,
+      "line": 776,
       "packages": [
         {
           "antiFeatures": [],
@@ -10443,7 +10554,7 @@
       "sourceUrl": "https://codeberg.org/Berker/practice_suite"
     },
     "Prism File Explorer": {
-      "line": 418,
+      "line": 416,
       "packages": [
         {
           "antiFeatures": [],
@@ -10462,7 +10573,7 @@
       "sourceUrl": "https://github.com/Raival-e/Prism-File-Explorer"
     },
     "Privacy Browser": {
-      "line": 242,
+      "line": 240,
       "packages": [
         {
           "antiFeatures": [],
@@ -10519,7 +10630,7 @@
       "sourceUrl": "https://github.com/SecUSo/privacy-friendly-qr-scanner"
     },
     "PrivacyBlur": {
-      "line": 501,
+      "line": 500,
       "packages": [
         {
           "antiFeatures": [
@@ -10540,7 +10651,7 @@
       "sourceUrl": "https://github.com/MATHEMA-GmbH/privacyblur"
     },
     "ProtonPass": {
-      "line": 764,
+      "line": 763,
       "packages": [
         {
           "antiFeatures": [
@@ -10562,7 +10673,7 @@
       "sourceUrl": "https://github.com/protonpass/android-pass"
     },
     "ProtonVPN": {
-      "line": 1008,
+      "line": 1015,
       "packages": [
         {
           "antiFeatures": [
@@ -10584,8 +10695,27 @@
       ],
       "sourceUrl": "https://github.com/ProtonVPN/android-app"
     },
+    "Puzzle Games": {
+      "line": 1133,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-08-31",
+          "license": "GPL-3.0-only",
+          "packageId": "com.sidhant.puzzle",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/sidhant947/puzzle",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/sidhant947/puzzle"
+    },
     "PxerStudio": {
-      "line": 474,
+      "line": 472,
       "packages": [
         {
           "antiFeatures": [],
@@ -10604,7 +10734,7 @@
       "sourceUrl": "https://github.com/BennyKok/PxerStudio"
     },
     "QDict": {
-      "line": 347,
+      "line": 341,
       "packages": [
         {
           "antiFeatures": [],
@@ -10623,7 +10753,7 @@
       "sourceUrl": "https://github.com/marmistrz/QDict"
     },
     "Qalculate": {
-      "line": 255,
+      "line": 253,
       "packages": [
         {
           "antiFeatures": [],
@@ -10642,7 +10772,7 @@
       "sourceUrl": "https://github.com/jherkenhoff/qalculate-android"
     },
     "Quick Calculation": {
-      "line": 1075,
+      "line": 1083,
       "packages": [
         {
           "antiFeatures": [],
@@ -10661,7 +10791,7 @@
       "sourceUrl": "https://github.com/SubhamTyagi/quick-calculation"
     },
     "QuickDic": {
-      "line": 348,
+      "line": 342,
       "packages": [
         {
           "antiFeatures": [],
@@ -10680,7 +10810,7 @@
       "sourceUrl": "https://github.com/rdoeffinger/Dictionary"
     },
     "Quik": {
-      "line": 839,
+      "line": 843,
       "packages": [
         {
           "antiFeatures": [],
@@ -10718,7 +10848,7 @@
       "sourceUrl": "https://github.com/quillpad/quillpad"
     },
     "Quinb": {
-      "line": 1101,
+      "line": 1112,
       "packages": [
         {
           "antiFeatures": [],
@@ -10737,7 +10867,7 @@
       "sourceUrl": "https://gitlab.com/deepdaikon/Quinb"
     },
     "QuizFlow": {
-      "line": 460,
+      "line": 458,
       "packages": [
         {
           "antiFeatures": [
@@ -10758,7 +10888,7 @@
       "sourceUrl": "https://github.com/judemont/quizflow"
     },
     "RHVoice": {
-      "line": 916,
+      "line": 920,
       "packages": [
         {
           "antiFeatures": [
@@ -10801,7 +10931,7 @@
       "sourceUrl": "https://github.com/segler-alex/RadioDroid"
     },
     "Rain": {
-      "line": 1040,
+      "line": 1047,
       "packages": [
         {
           "antiFeatures": [],
@@ -10819,8 +10949,27 @@
       ],
       "sourceUrl": "https://github.com/darkmoonight/Rain"
     },
+    "ReFra": {
+      "line": 509,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-09-02",
+          "license": "Apache-2.0",
+          "packageId": "com.dot.gallery",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/IacobIonut01/Gallery",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/IacobIonut01/ReFra"
+    },
     "ReTerminal": {
-      "line": 902,
+      "line": 906,
       "packages": [
         {
           "antiFeatures": [],
@@ -10852,7 +11001,7 @@
       "sourceUrl": "https://github.com/RohitKushvaha01/ReTerminal"
     },
     "ReaDrops": {
-      "line": 812,
+      "line": 817,
       "packages": [
         {
           "antiFeatures": [],
@@ -10870,8 +11019,27 @@
       ],
       "sourceUrl": "https://github.com/readrops/Readrops"
     },
+    "Read Later": {
+      "line": 792,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-09-05",
+          "license": "MIT",
+          "packageId": "io.github.sak.read.it.later",
+          "permissionCount": 0,
+          "repository": "IzzyOnDroid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/sak96/read_later",
+          "store": "IzzyOnDroid"
+        }
+      ],
+      "sourceUrl": "https://github.com/sak96/read_later"
+    },
     "ReadYou": {
-      "line": 813,
+      "line": 818,
       "packages": [
         {
           "antiFeatures": [],
@@ -10890,7 +11058,7 @@
       "sourceUrl": "https://github.com/Ashinch/ReadYou"
     },
     "Recurring Expense Tracker": {
-      "line": 445,
+      "line": 443,
       "packages": [
         {
           "antiFeatures": [],
@@ -10909,7 +11077,7 @@
       "sourceUrl": "https://github.com/DennisBauer/RecurringExpenseTracker"
     },
     "Red Moon": {
-      "line": 852,
+      "line": 857,
       "packages": [
         {
           "antiFeatures": [],
@@ -10928,7 +11096,7 @@
       "sourceUrl": "https://github.com/LibreShift/red-moon"
     },
     "RedReader": {
-      "line": 308,
+      "line": 304,
       "packages": [
         {
           "antiFeatures": [
@@ -10968,7 +11136,7 @@
       "sourceUrl": "https://github.com/hddq/restoid"
     },
     "Rethink DNS + Firewall": {
-      "line": 453,
+      "line": 452,
       "packages": [
         {
           "antiFeatures": [],
@@ -11008,7 +11176,7 @@
       "sourceUrl": "https://github.com/RetroMusicPlayer/RetroMusicPlayer"
     },
     "RetroArch": {
-      "line": 1086,
+      "line": 1096,
       "packages": [
         {
           "antiFeatures": [
@@ -11029,7 +11197,7 @@
       "sourceUrl": "https://github.com/libretro/RetroArch"
     },
     "Revengate": {
-      "line": 1143,
+      "line": 1155,
       "packages": [
         {
           "antiFeatures": [],
@@ -11067,7 +11235,7 @@
       "sourceUrl": "https://github.com/cromaguy/Rhythm"
     },
     "Riseup VPN": {
-      "line": 1009,
+      "line": 1016,
       "packages": [
         {
           "antiFeatures": [
@@ -11145,7 +11313,7 @@
       "sourceUrl": "https://github.com/rustdesk/rustdesk"
     },
     "SD Maid 2/SE": {
-      "line": 978,
+      "line": 979,
       "packages": [
         {
           "antiFeatures": [
@@ -11181,7 +11349,7 @@
       "sourceUrl": "https://github.com/d4rken-org/sdmaid-se"
     },
     "SMS Import / Export": {
-      "line": 980,
+      "line": 981,
       "packages": [
         {
           "antiFeatures": [],
@@ -11238,7 +11406,7 @@
       "sourceUrl": "https://github.com/aashishksahu/SafeSpace"
     },
     "Saracroche": {
-      "line": 269,
+      "line": 267,
       "packages": [
         {
           "antiFeatures": [
@@ -11259,7 +11427,7 @@
       "sourceUrl": "https://codeberg.org/cbouvat/saracroche-android"
     },
     "SaverTuner": {
-      "line": 225,
+      "line": 224,
       "packages": [
         {
           "antiFeatures": [],
@@ -11278,7 +11446,7 @@
       "sourceUrl": "https://codeberg.org/s1m/savertuner"
     },
     "SchildiChat": {
-      "line": 618,
+      "line": 621,
       "packages": [
         {
           "antiFeatures": [],
@@ -11297,7 +11465,7 @@
       "sourceUrl": "https://github.com/SchildiChat/SchildiChat-android"
     },
     "SchildiChat Next": {
-      "line": 606,
+      "line": 607,
       "packages": [
         {
           "antiFeatures": [],
@@ -11316,7 +11484,7 @@
       "sourceUrl": "https://github.com/SchildiChat/schildichat-android-next"
     },
     "Scrambled Exif": {
-      "line": 502,
+      "line": 501,
       "packages": [
         {
           "antiFeatures": [],
@@ -11335,7 +11503,7 @@
       "sourceUrl": "https://gitlab.com/juanitobananas/scrambled-exif"
     },
     "Screen Time": {
-      "line": 977,
+      "line": 978,
       "packages": [
         {
           "antiFeatures": [],
@@ -11367,7 +11535,7 @@
       "sourceUrl": "https://github.com/markusfisch/ScreenTime"
     },
     "Seafile": {
-      "line": 862,
+      "line": 867,
       "packages": [
         {
           "antiFeatures": [],
@@ -11386,7 +11554,7 @@
       "sourceUrl": "https://github.com/haiwen/seadroid"
     },
     "Seal": {
-      "line": 384,
+      "line": 380,
       "packages": [
         {
           "antiFeatures": [
@@ -11407,7 +11575,7 @@
       "sourceUrl": "https://github.com/JunkFood02/Seal"
     },
     "Seamless": {
-      "line": 932,
+      "line": 935,
       "packages": [
         {
           "antiFeatures": [
@@ -11428,29 +11596,8 @@
       ],
       "sourceUrl": "https://github.com/woheller69/seamless"
     },
-    "Session F-Droid": {
-      "line": 619,
-      "packages": [
-        {
-          "antiFeatures": [
-            "NonFreeNet"
-          ],
-          "lastUpdated": "2026-09-03",
-          "license": "GPL-3.0-only",
-          "packageId": "network.loki.messenger.fdroid",
-          "permissionCount": 0,
-          "repository": "F-Droid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://github.com/session-foundation/session-android",
-          "store": "F-Droid"
-        }
-      ],
-      "sourceUrl": "https://github.com/oxen-io/session-android"
-    },
     "ShareX": {
-      "line": 429,
+      "line": 427,
       "packages": [
         {
           "antiFeatures": [],
@@ -11469,7 +11616,7 @@
       "sourceUrl": "https://github.com/akanshSirohi/ShareX"
     },
     "Sharik": {
-      "line": 430,
+      "line": 428,
       "packages": [
         {
           "antiFeatures": [
@@ -11491,7 +11638,7 @@
       "sourceUrl": "https://github.com/marchellodev/sharik"
     },
     "Sharing": {
-      "line": 431,
+      "line": 429,
       "packages": [
         {
           "antiFeatures": [],
@@ -11523,7 +11670,7 @@
       "sourceUrl": "https://github.com/Ammar64/Sharing"
     },
     "Shattered Pixel Dungeon": {
-      "line": 1144,
+      "line": 1156,
       "packages": [
         {
           "antiFeatures": [],
@@ -11542,7 +11689,7 @@
       "sourceUrl": "https://github.com/00-Evan/shattered-pixel-dungeon"
     },
     "Shelter": {
-      "line": 819,
+      "line": 824,
       "packages": [
         {
           "antiFeatures": [],
@@ -11561,7 +11708,7 @@
       "sourceUrl": "https://gitea.angry.im/PeterCxy/Shelter"
     },
     "SherpaTTS": {
-      "line": 917,
+      "line": 921,
       "packages": [
         {
           "antiFeatures": [
@@ -11580,6 +11727,38 @@
         }
       ],
       "sourceUrl": "https://github.com/woheller69/ttsengine"
+    },
+    "ShizuCallRecorder": {
+      "line": 645,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-08-13",
+          "license": "GPL-3.0-only",
+          "packageId": "com.kitsumed.shizucallrecorder",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/kitsumed/ShizuCallRecorder",
+          "store": "F-Droid"
+        },
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-08-12",
+          "license": "GPL-3.0-only",
+          "packageId": "com.kitsumed.shizucallrecorder",
+          "permissionCount": 0,
+          "repository": "IzzyOnDroid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/kitsumed/ShizuCallRecorder",
+          "store": "IzzyOnDroid"
+        }
+      ],
+      "sourceUrl": "https://github.com/kitsumed/ShizuCallRecorder"
     },
     "ShowCase": {
       "line": 654,
@@ -11603,7 +11782,7 @@
       "sourceUrl": "https://github.com/WirelessAlien/MovieDB"
     },
     "Silence": {
-      "line": 270,
+      "line": 268,
       "packages": [
         {
           "antiFeatures": [],
@@ -11622,7 +11801,7 @@
       "sourceUrl": "https://github.com/x13a/Silence"
     },
     "SilverDict": {
-      "line": 349,
+      "line": 343,
       "packages": [
         {
           "antiFeatures": [],
@@ -11641,7 +11820,7 @@
       "sourceUrl": "https://github.com/Crissium/SilverDict-mobile"
     },
     "Simon Tatham's Puzzles": {
-      "line": 1122,
+      "line": 1134,
       "packages": [
         {
           "antiFeatures": [],
@@ -11696,7 +11875,7 @@
       "sourceUrl": "https://github.com/maxrave-dev/SimpMusic"
     },
     "Simple Alarm Clock": {
-      "line": 291,
+      "line": 289,
       "packages": [
         {
           "antiFeatures": [],
@@ -11715,7 +11894,7 @@
       "sourceUrl": "https://github.com/yuriykulikov/AlarmClock"
     },
     "Simple Chess Clock": {
-      "line": 1061,
+      "line": 1068,
       "packages": [
         {
           "antiFeatures": [],
@@ -11734,7 +11913,7 @@
       "sourceUrl": "https://github.com/simenheg/simple-chess-clock"
     },
     "Simple Keyboard": {
-      "line": 529,
+      "line": 528,
       "packages": [
         {
           "antiFeatures": [],
@@ -11817,7 +11996,7 @@
       "sourceUrl": "https://github.com/inventory69/simple-notes-sync"
     },
     "Simple Sudoku Game": {
-      "line": 1123,
+      "line": 1135,
       "packages": [
         {
           "antiFeatures": [],
@@ -11855,7 +12034,7 @@
       "sourceUrl": "https://github.com/Razeeman/Android-SimpleTimeTracker"
     },
     "SimpleLogin": {
-      "line": 393,
+      "line": 389,
       "packages": [
         {
           "antiFeatures": [],
@@ -11874,7 +12053,7 @@
       "sourceUrl": "https://github.com/simple-login/Simple-Login-Android"
     },
     "SimpleX Chat": {
-      "line": 621,
+      "line": 624,
       "packages": [
         {
           "antiFeatures": [],
@@ -11893,7 +12072,7 @@
       "sourceUrl": "https://github.com/simplex-chat/simplex-chat"
     },
     "SimplyTranslate Mobile": {
-      "line": 933,
+      "line": 936,
       "packages": [
         {
           "antiFeatures": [
@@ -11914,7 +12093,7 @@
       "sourceUrl": "https://github.com/ManeraKai/simplytranslate_mobile"
     },
     "SkillApp": {
-      "line": 482,
+      "line": 481,
       "packages": [
         {
           "antiFeatures": [],
@@ -11933,7 +12112,7 @@
       "sourceUrl": "https://github.com/Jaimies/SkillApp"
     },
     "Sky Map": {
-      "line": 831,
+      "line": 835,
       "packages": [
         {
           "antiFeatures": [],
@@ -11952,7 +12131,7 @@
       "sourceUrl": "https://github.com/sky-map-team/stardroid"
     },
     "SkyTube": {
-      "line": 592,
+      "line": 593,
       "packages": [
         {
           "antiFeatures": [
@@ -11973,7 +12152,7 @@
       "sourceUrl": "https://github.com/ram-on/SkyTube"
     },
     "Slideshow Wallpaper": {
-      "line": 1024,
+      "line": 1031,
       "packages": [
         {
           "antiFeatures": [],
@@ -12011,7 +12190,7 @@
       "sourceUrl": "https://github.com/Nain57/Smart-AutoClicker"
     },
     "Smart Edge": {
-      "line": 979,
+      "line": 980,
       "packages": [
         {
           "antiFeatures": [],
@@ -12030,7 +12209,7 @@
       "sourceUrl": "https://github.com/Imtiaz-Official/Smart-Edge"
     },
     "Smart EggTimer": {
-      "line": 292,
+      "line": 290,
       "packages": [
         {
           "antiFeatures": [],
@@ -12049,7 +12228,7 @@
       "sourceUrl": "https://github.com/woheller69/eggtimer"
     },
     "Snapdrop & PairDrop for Android": {
-      "line": 432,
+      "line": 430,
       "packages": [
         {
           "antiFeatures": [
@@ -12070,7 +12249,7 @@
       "sourceUrl": "https://github.com/fm-sys/snapdrop-android"
     },
     "Snow": {
-      "line": 832,
+      "line": 836,
       "packages": [
         {
           "antiFeatures": [],
@@ -12089,7 +12268,7 @@
       "sourceUrl": "https://github.com/sahej-dev/Snow"
     },
     "Sobriety": {
-      "line": 483,
+      "line": 482,
       "packages": [
         {
           "antiFeatures": [],
@@ -12108,7 +12287,7 @@
       "sourceUrl": "https://github.com/KiARC/Sobriety"
     },
     "Space Vertex Multiplayer": {
-      "line": 1102,
+      "line": 1113,
       "packages": [
         {
           "antiFeatures": [],
@@ -12127,7 +12306,7 @@
       "sourceUrl": "https://github.com/smart-fun/spacevertex"
     },
     "SpamBlocker (Call & SMS)": {
-      "line": 271,
+      "line": 269,
       "packages": [
         {
           "antiFeatures": [],
@@ -12144,6 +12323,25 @@
         }
       ],
       "sourceUrl": "https://github.com/aj3423/SpamBlocker"
+    },
+    "Spectre": {
+      "line": 786,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-08-01",
+          "license": "GPL-3.0-only",
+          "packageId": "dev.thomasbuilds.spectre",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/thomasbuilds/Spectre",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/thomasbuilds/Spectre"
     },
     "Spotube": {
       "line": 708,
@@ -12167,7 +12365,7 @@
       "sourceUrl": "https://github.com/KRTirtho/spotube"
     },
     "Squawker": {
-      "line": 310,
+      "line": 305,
       "packages": [
         {
           "antiFeatures": [
@@ -12188,7 +12386,7 @@
       "sourceUrl": "https://github.com/j-fbriere/squawker"
     },
     "Squircle CE": {
-      "line": 910,
+      "line": 914,
       "packages": [
         {
           "antiFeatures": [],
@@ -12258,7 +12456,7 @@
       "sourceUrl": "https://codeberg.org/y20k/stayput"
     },
     "Stealth": {
-      "line": 311,
+      "line": 306,
       "packages": [
         {
           "antiFeatures": [
@@ -12278,8 +12476,27 @@
       ],
       "sourceUrl": "https://gitlab.com/cosmosapps/stealth"
     },
+    "Sterna Mail": {
+      "line": 397,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-08-31",
+          "license": "GPL-3.0-or-later",
+          "packageId": "app.sterna",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://codeberg.org/emon/sterna-mail",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://codeberg.org/emon/sterna-mail"
+    },
     "Stingle Photos": {
-      "line": 511,
+      "line": 510,
       "packages": [
         {
           "antiFeatures": [],
@@ -12298,7 +12515,7 @@
       "sourceUrl": "https://github.com/stingle/stingle-photos-android"
     },
     "Stroke Input Method (\u7b46\u756b\u8f38\u5165\u6cd5)": {
-      "line": 530,
+      "line": 529,
       "packages": [
         {
           "antiFeatures": [],
@@ -12317,7 +12534,7 @@
       "sourceUrl": "https://github.com/stroke-input/stroke-input-android"
     },
     "Sudoku": {
-      "line": 1124,
+      "line": 1136,
       "packages": [
         {
           "antiFeatures": [],
@@ -12335,8 +12552,27 @@
       ],
       "sourceUrl": "https://github.com/TheSunCat/Sudoku"
     },
+    "Super Productivity": {
+      "line": 793,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-09-02",
+          "license": "MIT",
+          "packageId": "com.superproductivity.superproductivity",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/johannesjo/super-productivity/",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/super-productivity/super-productivity"
+    },
     "Super Retro Mega Wars": {
-      "line": 1134,
+      "line": 1146,
       "packages": [
         {
           "antiFeatures": [],
@@ -12355,7 +12591,7 @@
       "sourceUrl": "https://github.com/retrowars/retrowars"
     },
     "SuperFreezZ": {
-      "line": 893,
+      "line": 897,
       "packages": [
         {
           "antiFeatures": [],
@@ -12374,7 +12610,7 @@
       "sourceUrl": "https://gitlab.com/SuperFreezZ/SuperFreezZ"
     },
     "SuperTuxKart": {
-      "line": 1130,
+      "line": 1142,
       "packages": [
         {
           "antiFeatures": [],
@@ -12393,7 +12629,7 @@
       "sourceUrl": "https://github.com/supertuxkart/stk-code"
     },
     "Syncopoli": {
-      "line": 863,
+      "line": 868,
       "packages": [
         {
           "antiFeatures": [],
@@ -12412,7 +12648,7 @@
       "sourceUrl": "https://gitlab.com/fengshaun/syncopoli"
     },
     "Syncthing-Fork": {
-      "line": 864,
+      "line": 869,
       "packages": [
         {
           "antiFeatures": [],
@@ -12431,7 +12667,7 @@
       "sourceUrl": "https://github.com/Catfriend1/syncthing-android"
     },
     "Syncthing-Lite": {
-      "line": 865,
+      "line": 870,
       "packages": [
         {
           "antiFeatures": [],
@@ -12450,7 +12686,7 @@
       "sourceUrl": "https://github.com/Catfriend1/syncthing-lite"
     },
     "SystemUI Tuner": {
-      "line": 894,
+      "line": 898,
       "packages": [
         {
           "antiFeatures": [
@@ -12472,7 +12708,7 @@
       "sourceUrl": "https://github.com/zacharee/Tweaker"
     },
     "TTS Util": {
-      "line": 982,
+      "line": 983,
       "packages": [
         {
           "antiFeatures": [],
@@ -12491,7 +12727,7 @@
       "sourceUrl": "https://github.com/Danesprite/tts-util-app"
     },
     "Table Habit": {
-      "line": 484,
+      "line": 483,
       "packages": [
         {
           "antiFeatures": [],
@@ -12529,7 +12765,7 @@
       "sourceUrl": "https://github.com/patzly/tack-android"
     },
     "Tailscale": {
-      "line": 1010,
+      "line": 1017,
       "packages": [
         {
           "antiFeatures": [
@@ -12550,7 +12786,7 @@
       "sourceUrl": "https://github.com/tailscale/tailscale-android"
     },
     "Tarnhelm": {
-      "line": 941,
+      "line": 943,
       "packages": [
         {
           "antiFeatures": [],
@@ -12569,7 +12805,7 @@
       "sourceUrl": "https://github.com/lz233/Tarnhelm"
     },
     "TaskManager": {
-      "line": 895,
+      "line": 899,
       "packages": [
         {
           "antiFeatures": [],
@@ -12588,7 +12824,7 @@
       "sourceUrl": "https://github.com/RohitKushvaha01/TaskManager"
     },
     "Tasks.org": {
-      "line": 925,
+      "line": 929,
       "packages": [
         {
           "antiFeatures": [],
@@ -12611,6 +12847,19 @@
       "packages": [
         {
           "antiFeatures": [],
+          "lastUpdated": "2026-09-05",
+          "license": "GPL-3.0-only",
+          "packageId": "com.eddyizm.degoogled.tempus",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/eddyizm/tempus",
+          "store": "F-Droid"
+        },
+        {
+          "antiFeatures": [],
           "lastUpdated": "2026-09-02",
           "license": "GPL-3.0-only",
           "packageId": "com.eddyizm.degoogled.tempus",
@@ -12626,7 +12875,7 @@
       "sourceUrl": "https://github.com/eddyizm/tempus"
     },
     "TermuC": {
-      "line": 327,
+      "line": 321,
       "packages": [
         {
           "antiFeatures": [],
@@ -12645,7 +12894,7 @@
       "sourceUrl": "https://github.com/RainbowC0/TermuC"
     },
     "Termux": {
-      "line": 903,
+      "line": 907,
       "packages": [
         {
           "antiFeatures": [],
@@ -12662,25 +12911,6 @@
         }
       ],
       "sourceUrl": "https://github.com/termux/termux-app"
-    },
-    "The Translator": {
-      "line": 934,
-      "packages": [
-        {
-          "antiFeatures": [],
-          "lastUpdated": "2022-12-11",
-          "license": "GPL-3.0-or-later",
-          "packageId": "com.sunilpaulmathew.translator",
-          "permissionCount": 0,
-          "repository": "F-Droid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://github.com/sunilpaulmathew/Translator",
-          "store": "F-Droid"
-        }
-      ],
-      "sourceUrl": "https://github.com/sunilpaulmathew/Translator"
     },
     "Threema Libre": {
       "line": 626,
@@ -12705,7 +12935,7 @@
       "sourceUrl": "https://github.com/threema-ch/threema-android"
     },
     "Thud": {
-      "line": 814,
+      "line": 819,
       "packages": [
         {
           "antiFeatures": [
@@ -12726,7 +12956,7 @@
       "sourceUrl": "https://github.com/aerotoad/Thud"
     },
     "Thumb-Key": {
-      "line": 531,
+      "line": 530,
       "packages": [
         {
           "antiFeatures": [],
@@ -12758,7 +12988,7 @@
       "sourceUrl": "https://github.com/dessalines/thumb-key"
     },
     "Thunder": {
-      "line": 312,
+      "line": 307,
       "packages": [
         {
           "antiFeatures": [],
@@ -12777,7 +13007,7 @@
       "sourceUrl": "https://github.com/thunder-app/thunder"
     },
     "Thunderbird": {
-      "line": 401,
+      "line": 398,
       "packages": [
         {
           "antiFeatures": [],
@@ -12794,6 +13024,25 @@
         }
       ],
       "sourceUrl": "https://github.com/thunderbird/thunderbird-android"
+    },
+    "TimePlanner": {
+      "line": 794,
+      "packages": [
+        {
+          "antiFeatures": [],
+          "lastUpdated": "2026-08-04",
+          "license": "Apache-2.0",
+          "packageId": "ru.aleshin.timeplanner",
+          "permissionCount": 0,
+          "repository": "F-Droid",
+          "reproducible": null,
+          "sensitivePermissions": [],
+          "sourceArchive": false,
+          "sourceCode": "https://github.com/v1tzor/TimePlanner",
+          "store": "F-Droid"
+        }
+      ],
+      "sourceUrl": "https://github.com/v1tzor/TimePlanner"
     },
     "Timeto.me": {
       "line": 648,
@@ -12815,7 +13064,7 @@
       "sourceUrl": "https://github.com/Medvedev91/timeto.me"
     },
     "Tiny Weather Forecast Germany": {
-      "line": 1041,
+      "line": 1048,
       "packages": [
         {
           "antiFeatures": [],
@@ -12847,7 +13096,7 @@
       "sourceUrl": "https://codeberg.org/Starfish/TinyWeatherForecastGermany"
     },
     "Tokn": {
-      "line": 765,
+      "line": 764,
       "packages": [
         {
           "antiFeatures": [],
@@ -12866,7 +13115,7 @@
       "sourceUrl": "https://github.com/fthomys/tokn"
     },
     "TorrServe": {
-      "line": 387,
+      "line": 383,
       "packages": [
         {
           "antiFeatures": [],
@@ -12885,7 +13134,7 @@
       "sourceUrl": "https://github.com/YouROK/TorrServe"
     },
     "Track & Graph": {
-      "line": 981,
+      "line": 982,
       "packages": [
         {
           "antiFeatures": [],
@@ -12904,7 +13153,7 @@
       "sourceUrl": "https://github.com/SamAmco/track-and-graph"
     },
     "TrackerControl": {
-      "line": 188,
+      "line": 189,
       "packages": [
         {
           "antiFeatures": [],
@@ -12936,7 +13185,7 @@
       "sourceUrl": "https://github.com/TrackerControl/tracker-control-android"
     },
     "Traditional T9": {
-      "line": 532,
+      "line": 531,
       "packages": [
         {
           "antiFeatures": [],
@@ -13028,7 +13277,7 @@
       "sourceUrl": "https://codeberg.org/y20k/transistor"
     },
     "Transito": {
-      "line": 795,
+      "line": 799,
       "packages": [
         {
           "antiFeatures": [],
@@ -13047,7 +13296,7 @@
       "sourceUrl": "https://git.sr.ht/~mil/transito"
     },
     "Translate You": {
-      "line": 935,
+      "line": 937,
       "packages": [
         {
           "antiFeatures": [],
@@ -13079,7 +13328,7 @@
       "sourceUrl": "https://github.com/you-apps/TranslateYou"
     },
     "Transportr": {
-      "line": 796,
+      "line": 800,
       "packages": [
         {
           "antiFeatures": [
@@ -13115,7 +13364,7 @@
       "sourceUrl": "https://github.com/grote/transportr"
     },
     "Treble Info": {
-      "line": 896,
+      "line": 900,
       "packages": [
         {
           "antiFeatures": [],
@@ -13134,7 +13383,7 @@
       "sourceUrl": "https://gitlab.com/TrebleInfo/TrebleInfo"
     },
     "TriPeaks": {
-      "line": 1066,
+      "line": 1073,
       "packages": [
         {
           "antiFeatures": [],
@@ -13153,7 +13402,7 @@
       "sourceUrl": "https://github.com/mimoguz/tripeaks-gdx"
     },
     "Trime": {
-      "line": 533,
+      "line": 532,
       "packages": [
         {
           "antiFeatures": [],
@@ -13172,7 +13421,7 @@
       "sourceUrl": "https://github.com/osfans/trime"
     },
     "Tsacdop": {
-      "line": 778,
+      "line": 777,
       "packages": [
         {
           "antiFeatures": [
@@ -13234,7 +13483,7 @@
       "sourceUrl": "https://github.com/thetwom/Tuner"
     },
     "Tusky": {
-      "line": 313,
+      "line": 308,
       "packages": [
         {
           "antiFeatures": [],
@@ -13253,7 +13502,7 @@
       "sourceUrl": "https://codeberg.org/tusky/Tusky"
     },
     "Tuta Calendar": {
-      "line": 264,
+      "line": 263,
       "packages": [
         {
           "antiFeatures": [
@@ -13274,7 +13523,7 @@
       "sourceUrl": "https://github.com/tutao/tutanota"
     },
     "Tutanota": {
-      "line": 402,
+      "line": 399,
       "packages": [
         {
           "antiFeatures": [
@@ -13295,7 +13544,7 @@
       "sourceUrl": "https://github.com/tutao/tutanota"
     },
     "Tux Math": {
-      "line": 1078,
+      "line": 1086,
       "packages": [
         {
           "antiFeatures": [],
@@ -13314,7 +13563,7 @@
       "sourceUrl": "https://gitlab.com/Afrikalan/tuxmath-android"
     },
     "Tux Paint": {
-      "line": 475,
+      "line": 473,
       "packages": [
         {
           "antiFeatures": [],
@@ -13333,7 +13582,7 @@
       "sourceUrl": "https://github.com/tux4kids/Tuxpaint-Android"
     },
     "Twire": {
-      "line": 593,
+      "line": 594,
       "packages": [
         {
           "antiFeatures": [
@@ -13354,7 +13603,7 @@
       "sourceUrl": "https://github.com/twireapp/Twire"
     },
     "URLCheck": {
-      "line": 944,
+      "line": 946,
       "packages": [
         {
           "antiFeatures": [],
@@ -13386,7 +13635,7 @@
       "sourceUrl": "https://github.com/TrianguloY/UrlChecker"
     },
     "USB Descriptor Explorer": {
-      "line": 983,
+      "line": 984,
       "packages": [
         {
           "antiFeatures": [],
@@ -13405,7 +13654,7 @@
       "sourceUrl": "https://github.com/iodn/android-usb-device-info"
     },
     "UnCiv": {
-      "line": 1145,
+      "line": 1157,
       "packages": [
         {
           "antiFeatures": [],
@@ -13424,7 +13673,7 @@
       "sourceUrl": "https://github.com/yairm210/UnCiv"
     },
     "Unexpected Keyboard": {
-      "line": 534,
+      "line": 533,
       "packages": [
         {
           "antiFeatures": [],
@@ -13443,7 +13692,7 @@
       "sourceUrl": "https://github.com/Julow/Unexpected-Keyboard"
     },
     "Unitto": {
-      "line": 256,
+      "line": 254,
       "packages": [
         {
           "antiFeatures": [],
@@ -13462,7 +13711,7 @@
       "sourceUrl": "https://github.com/sadellie/unitto"
     },
     "UntrackMe": {
-      "line": 943,
+      "line": 945,
       "packages": [
         {
           "antiFeatures": [],
@@ -13481,7 +13730,7 @@
       "sourceUrl": "https://framagit.org/tom79/nitterizeme"
     },
     "Untracker": {
-      "line": 942,
+      "line": 944,
       "packages": [
         {
           "antiFeatures": [],
@@ -13500,7 +13749,7 @@
       "sourceUrl": "https://github.com/zhanghai/Untracker"
     },
     "UpgradeAll": {
-      "line": 897,
+      "line": 901,
       "packages": [
         {
           "antiFeatures": [],
@@ -13519,7 +13768,7 @@
       "sourceUrl": "https://github.com/DUpdateSystem/UpgradeAll"
     },
     "Urik": {
-      "line": 535,
+      "line": 534,
       "packages": [
         {
           "antiFeatures": [],
@@ -13538,7 +13787,7 @@
       "sourceUrl": "https://github.com/urikdev/Urik"
     },
     "VLC": {
-      "line": 997,
+      "line": 1004,
       "packages": [
         {
           "antiFeatures": [],
@@ -13557,7 +13806,7 @@
       "sourceUrl": "https://www.videolan.org/vlc/download-android.html"
     },
     "Valv": {
-      "line": 786,
+      "line": 787,
       "packages": [
         {
           "antiFeatures": [],
@@ -13608,7 +13857,7 @@
       "sourceUrl": "https://vanilla-music.github.io"
     },
     "Vault": {
-      "line": 766,
+      "line": 765,
       "packages": [
         {
           "antiFeatures": [
@@ -13669,7 +13918,7 @@
       "sourceUrl": "https://github.com/AdrienPoupa/VinylMusicPlayer"
     },
     "Voice": {
-      "line": 779,
+      "line": 778,
       "packages": [
         {
           "antiFeatures": [],
@@ -13701,7 +13950,7 @@
       "sourceUrl": "https://github.com/PaulWoitaschek/Voice"
     },
     "Voice Notify": {
-      "line": 984,
+      "line": 985,
       "packages": [
         {
           "antiFeatures": [],
@@ -13720,7 +13969,7 @@
       "sourceUrl": "https://github.com/pilot51/voicenotify"
     },
     "VolumeScroll": {
-      "line": 985,
+      "line": 986,
       "packages": [
         {
           "antiFeatures": [],
@@ -13739,7 +13988,7 @@
       "sourceUrl": "https://github.com/YeapGuy/VolumeScroll"
     },
     "Voyager": {
-      "line": 315,
+      "line": 309,
       "packages": [
         {
           "antiFeatures": [],
@@ -13758,7 +14007,7 @@
       "sourceUrl": "https://github.com/aeharding/voyager"
     },
     "WG Tunnel": {
-      "line": 1012,
+      "line": 1019,
       "packages": [
         {
           "antiFeatures": [],
@@ -13777,7 +14026,7 @@
       "sourceUrl": "https://github.com/wgtunnel/wgtunnel"
     },
     "Wall You": {
-      "line": 1025,
+      "line": 1032,
       "packages": [
         {
           "antiFeatures": [
@@ -13813,7 +14062,7 @@
       "sourceUrl": "https://github.com/you-apps/WallYou"
     },
     "WallFlow": {
-      "line": 1026,
+      "line": 1033,
       "packages": [
         {
           "antiFeatures": [
@@ -13849,7 +14098,7 @@
       "sourceUrl": "https://github.com/ammargitham/WallFlow"
     },
     "WallMan": {
-      "line": 1027,
+      "line": 1034,
       "packages": [
         {
           "antiFeatures": [],
@@ -13868,7 +14117,7 @@
       "sourceUrl": "https://gitlab.com/colorata/wallman"
     },
     "Warpinator": {
-      "line": 433,
+      "line": 431,
       "packages": [
         {
           "antiFeatures": [],
@@ -13900,7 +14149,7 @@
       "sourceUrl": "https://github.com/slowscript/warpinator-android"
     },
     "Wattz": {
-      "line": 226,
+      "line": 225,
       "packages": [
         {
           "antiFeatures": [],
@@ -13919,7 +14168,7 @@
       "sourceUrl": "https://github.com/dubrowgn/wattz"
     },
     "Wave Lines Live Wallpaper": {
-      "line": 1028,
+      "line": 1035,
       "packages": [
         {
           "antiFeatures": [],
@@ -13938,7 +14187,7 @@
       "sourceUrl": "https://github.com/markusfisch/WaveLinesWallpaper"
     },
     "Weather": {
-      "line": 1042,
+      "line": 1049,
       "packages": [
         {
           "antiFeatures": [],
@@ -13957,7 +14206,7 @@
       "sourceUrl": "https://github.com/sunilpaulmathew/Weather"
     },
     "WeatherMaster": {
-      "line": 1043,
+      "line": 1050,
       "packages": [
         {
           "antiFeatures": [],
@@ -13976,7 +14225,7 @@
       "sourceUrl": "https://github.com/PranshulGG/WeatherMaster"
     },
     "WebLibre": {
-      "line": 244,
+      "line": 242,
       "packages": [
         {
           "antiFeatures": [],
@@ -13995,7 +14244,7 @@
       "sourceUrl": "https://github.com/FaFre/WebLibre"
     },
     "Webview Kiosk": {
-      "line": 245,
+      "line": 243,
       "packages": [
         {
           "antiFeatures": [],
@@ -14067,7 +14316,7 @@
       "sourceUrl": "https://github.com/js-labs/WalkieTalkie"
     },
     "WifiAnalyzer": {
-      "line": 898,
+      "line": 902,
       "packages": [
         {
           "antiFeatures": [],
@@ -14086,7 +14335,7 @@
       "sourceUrl": "https://github.com/VREMSoftwareDevelopment/WiFiAnalyzer"
     },
     "Wikipedia": {
-      "line": 833,
+      "line": 837,
       "packages": [
         {
           "antiFeatures": [
@@ -14129,7 +14378,7 @@
       "sourceUrl": "https://github.com/wireapp/wire-android"
     },
     "Word Tracer": {
-      "line": 1153,
+      "line": 1165,
       "packages": [
         {
           "antiFeatures": [],
@@ -14148,7 +14397,7 @@
       "sourceUrl": "https://github.com/plhosk/wordtracer"
     },
     "WordleSolver": {
-      "line": 1103,
+      "line": 1114,
       "packages": [
         {
           "antiFeatures": [],
@@ -14167,7 +14416,7 @@
       "sourceUrl": "https://github.com/billthefarmer/wordlesolver"
     },
     "Xed-Editor (Karbon)": {
-      "line": 911,
+      "line": 915,
       "packages": [
         {
           "antiFeatures": [],
@@ -14199,7 +14448,7 @@
       "sourceUrl": "https://github.com/Xed-Editor/Xed-Editor"
     },
     "Xeonjia": {
-      "line": 1104,
+      "line": 1115,
       "packages": [
         {
           "antiFeatures": [],
@@ -14218,7 +14467,7 @@
       "sourceUrl": "https://gitlab.com/deepdaikon/Xeonjia"
     },
     "Xtra": {
-      "line": 594,
+      "line": 595,
       "packages": [
         {
           "antiFeatures": [
@@ -14272,7 +14521,7 @@
       "sourceUrl": "https://codeberg.org/ottoptj/yamlauncher"
     },
     "YTDLnis": {
-      "line": 388,
+      "line": 384,
       "packages": [
         {
           "antiFeatures": [],
@@ -14323,7 +14572,7 @@
       "sourceUrl": "https://github.com/JackEblan/YagniLauncher"
     },
     "Zade's Wallpaper": {
-      "line": 1029,
+      "line": 1036,
       "packages": [
         {
           "antiFeatures": [],
@@ -14342,7 +14591,7 @@
       "sourceUrl": "https://github.com/zadeviggers/wallpaper"
     },
     "Zorin Connect": {
-      "line": 434,
+      "line": 432,
       "packages": [
         {
           "antiFeatures": [],
@@ -14361,7 +14610,7 @@
       "sourceUrl": "https://github.com/ZorinOS/zorin-connect-android"
     },
     "Zoysii": {
-      "line": 1105,
+      "line": 1116,
       "packages": [
         {
           "antiFeatures": [],
@@ -14380,7 +14629,7 @@
       "sourceUrl": "https://gitlab.com/deepdaikon/Zoysii"
     },
     "aShell You": {
-      "line": 871,
+      "line": 876,
       "packages": [
         {
           "antiFeatures": [],
@@ -14399,7 +14648,7 @@
       "sourceUrl": "https://github.com/DP-Hridayan/aShellYou"
     },
     "addy.io Android": {
-      "line": 392,
+      "line": 388,
       "packages": [
         {
           "antiFeatures": [],
@@ -14418,7 +14667,7 @@
       "sourceUrl": "https://github.com/anonaddy/addy-android"
     },
     "another.im": {
-      "line": 602,
+      "line": 603,
       "packages": [
         {
           "antiFeatures": [],
@@ -14437,7 +14686,7 @@
       "sourceUrl": "https://dev.narayana.im/narayana/anotherim"
     },
     "droidVNC-NG": {
-      "line": 959,
+      "line": 961,
       "packages": [
         {
           "antiFeatures": [],
@@ -14456,7 +14705,7 @@
       "sourceUrl": "https://github.com/bk138/droidVNC-NG"
     },
     "eSpeak": {
-      "line": 915,
+      "line": 919,
       "packages": [
         {
           "antiFeatures": [],
@@ -14475,7 +14724,7 @@
       "sourceUrl": "https://github.com/espeak-ng/espeak-ng"
     },
     "fcitx5-android": {
-      "line": 517,
+      "line": 516,
       "packages": [
         {
           "antiFeatures": [],
@@ -14494,7 +14743,7 @@
       "sourceUrl": "https://github.com/fcitx5-android/fcitx5-android"
     },
     "floccus": {
-      "line": 858,
+      "line": 863,
       "packages": [
         {
           "antiFeatures": [],
@@ -14526,7 +14775,7 @@
       "sourceUrl": "https://github.com/floccusaddon/floccus"
     },
     "freeDictionaryApp": {
-      "line": 345,
+      "line": 339,
       "packages": [
         {
           "antiFeatures": [
@@ -14562,7 +14811,7 @@
       "sourceUrl": "https://github.com/yamin8000/freeDictionaryApp"
     },
     "hEARtest": {
-      "line": 847,
+      "line": 852,
       "packages": [
         {
           "antiFeatures": [],
@@ -14600,7 +14849,7 @@
       "sourceUrl": "https://github.com/TechbeeAT/jtxBoard"
     },
     "little music player": {
-      "line": 691,
+      "line": 692,
       "packages": [
         {
           "antiFeatures": [],
@@ -14619,7 +14868,7 @@
       "sourceUrl": "https://github.com/martinmimigames/little-music-player"
     },
     "monocles chat": {
-      "line": 604,
+      "line": 605,
       "packages": [
         {
           "antiFeatures": [],
@@ -14638,7 +14887,7 @@
       "sourceUrl": "https://codeberg.org/monocles/monocles_chat"
     },
     "monocles mail": {
-      "line": 399,
+      "line": 395,
       "packages": [
         {
           "antiFeatures": [],
@@ -14656,27 +14905,8 @@
       ],
       "sourceUrl": "https://codeberg.org/monocles/monocles_mail"
     },
-    "monocles social": {
-      "line": 304,
-      "packages": [
-        {
-          "antiFeatures": [],
-          "lastUpdated": "2022-07-17",
-          "license": "GPL-3.0-only",
-          "packageId": "de.monocles.social",
-          "permissionCount": 0,
-          "repository": "F-Droid",
-          "reproducible": null,
-          "sensitivePermissions": [],
-          "sourceArchive": false,
-          "sourceCode": "https://codeberg.org/Arne/monocles_social",
-          "store": "F-Droid"
-        }
-      ],
-      "sourceUrl": "https://codeberg.org/Arne/monocles_social"
-    },
     "mpv for Android": {
-      "line": 993,
+      "line": 1000,
       "packages": [
         {
           "antiFeatures": [],
@@ -14695,7 +14925,7 @@
       "sourceUrl": "https://github.com/mpv-android/mpv-android"
     },
     "mpvExtended": {
-      "line": 994,
+      "line": 1001,
       "packages": [
         {
           "antiFeatures": [],
@@ -14733,7 +14963,7 @@
       "sourceUrl": "https://github.com/appml/neutrinote"
     },
     "ownCloud": {
-      "line": 861,
+      "line": 866,
       "packages": [
         {
           "antiFeatures": [],
@@ -14752,7 +14982,7 @@
       "sourceUrl": "https://github.com/owncloud/android"
     },
     "personalDNSfilter": {
-      "line": 187,
+      "line": 188,
       "packages": [
         {
           "antiFeatures": [],
@@ -14790,7 +15020,7 @@
       "sourceUrl": "https://github.com/stsaz/phiola"
     },
     "phyphox": {
-      "line": 829,
+      "line": 833,
       "packages": [
         {
           "antiFeatures": [],
@@ -14809,7 +15039,7 @@
       "sourceUrl": "https://github.com/phyphox/phyphox-android"
     },
     "yetCalc": {
-      "line": 257,
+      "line": 255,
       "packages": [
         {
           "antiFeatures": [
@@ -14881,7 +15111,7 @@
       "sourceUrl": "https://github.com/bfabiszewski/ulogger-android"
     }
   },
-  "generatedAt": "2026-09-06T12:20:05Z",
+  "generatedAt": "2026-09-06T12:38:52Z",
   "schemaVersion": 1,
   "sources": {
     "fdroid": {

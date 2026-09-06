@@ -2,7 +2,7 @@
 
 ## Android FOSS v0.0.14 (2026-09-06)
 
-- Rebuilt the browser around the 767-entry catalog data, with accurate counts and focused app cards instead of a rendered README wall.
+- Rebuilt the browser around the 776-entry catalog data, with accurate counts and focused app cards instead of a rendered README wall.
 - Added a new app-grid identity, installable web app icons, dark and light themes, responsive layouts, and offline caching.
 - Improved search, sorting, trust filters, source actions, empty states, keyboard focus, and mobile behavior.
 - Refreshed the README, research notes, installation guide, project screenshots, repository metadata, local validation, and release packaging.

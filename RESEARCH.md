@@ -4,7 +4,7 @@ Updated for Android FOSS v0.0.14 on September 6, 2026.
 
 ## Product position
 
-Android FOSS is a GPLv3 catalog for people who want open-source Android apps without wading through store rankings or opaque recommendation lists. The current catalog contains 767 apps across 84 categories, with 831 links to F-Droid and IzzyOnDroid packages.
+Android FOSS is a GPLv3 catalog for people who want open-source Android apps without wading through store rankings or opaque recommendation lists. The current catalog contains 776 apps across 85 categories, with 838 links to F-Droid and IzzyOnDroid packages.
 
 The README remains the contribution surface and long-form catalog. The browser turns generated catalog data into a faster discovery experience with search, sorting, source links, store filters, update dates, popularity signals, and published trust metadata.
 
