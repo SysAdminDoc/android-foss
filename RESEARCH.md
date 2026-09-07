@@ -1,6 +1,6 @@
 # Research: Android FOSS
 
-Updated for Android FOSS v0.0.14 on September 6, 2026.
+Updated for Android FOSS v0.0.15 on September 7, 2026.
 
 ## Product position
 
@@ -35,6 +35,12 @@ Commercial stores also shape user expectations around version history, signing c
 - Local checks cover catalog structure, ordering, changed-entry acceptance, source health, generated metadata, and frontend behavior.
 
 The browser defaults to the strongest available signal coverage instead of star count. Stars can help discovery, but they don't prove privacy, maintenance quality, or security.
+
+## Brand direction
+
+The approved identity is the modular catalog hex. Its Android green palette and grid structure remain recognizable at favicon size without falling back to a generic robot or code-bracket symbol. The untouched selected master now lives beside the production mark, while the original alternatives and supporting catalog composition remain available in `assets/brand/concepts/`.
+
+The code-heavy shield and ring studies were not selected because their meaning softens at small sizes. The catalog composition remains useful for larger marketing placements, but it is too detailed to replace the primary mark.
 
 ## Reliability and privacy decisions
 

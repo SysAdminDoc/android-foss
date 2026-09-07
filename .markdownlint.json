@@ -1,7 +1,9 @@
 {
     "default": true,
     "MD007": { "indent": 4 },
-    "MD033": { "allowed_elements": ["sup"] },
+    "MD033": { "allowed_elements": ["sup", "p", "img", "h1", "strong", "details", "summary"] },
     "MD013": false,
-    "MD024": { "siblings_only": true }
+    "MD024": { "siblings_only": true },
+    "MD041": false,
+    "MD060": false
 }

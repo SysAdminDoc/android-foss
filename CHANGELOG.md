@@ -1,5 +1,10 @@
 # Changelog
 
+## Android FOSS v0.0.15 (2026-09-07)
+
+- Preserved the approved modular catalog mark, untouched source master, supporting composition, and alternate identity studies in a documented brand archive.
+- Added automated archive and screenshot integrity checks, refreshed the verified product captures, and rebuilt the deterministic release package.
+
 ## Android FOSS v0.0.14 (2026-09-06)
 
 - Rebuilt the browser around the 776-entry catalog data, with accurate counts and focused app cards instead of a rendered README wall.

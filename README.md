@@ -6,7 +6,7 @@
 
 <p align="center"><strong>Find open-source Android apps with the evidence you need to choose well.</strong></p>
 
-[![Version](https://img.shields.io/badge/version-0.0.14-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.0.15-blue.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android-3ddc84.svg)](https://www.android.com/)
 
@@ -1212,6 +1212,10 @@ Sources: [Android developer verification](https://developer.android.com/develope
 * [**IzzyOnDroid F-Droid Repository**](https://apt.izzysoft.de/fdroid/) / [**IzzyOnDroid Website**](https://izzyondroid.org/)
 * [**List of free and open-source Android applications**](https://en.wikipedia.org/wiki/List_of_free_and_open-source_Android_applications)
 * [**OpenApk**](https://github.com/mobilenetworkltd/openapk)
+
+## Brand assets
+
+The modular catalog mark is the approved Android FOSS identity. The [untouched master](assets/brand/android-foss-selected-master.png) and [original concept archive](assets/brand/concepts/) are kept in the repository, with the chosen direction recorded in [selection.json](assets/brand/concepts/selection.json). The archive also includes the supporting product composition and the alternate directions reviewed during development.
 
 ## Local validation
 

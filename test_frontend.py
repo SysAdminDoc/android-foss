@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "0.0.14"
+VERSION = "0.0.15"
 
 
 class AssetParser(HTMLParser):
@@ -56,6 +56,22 @@ class FrontendTests(unittest.TestCase):
         self.assertEqual((192, 192), png_size(icon_sizes["192x192"]))
         self.assertEqual((512, 512), png_size(icon_sizes["512x512"]))
         self.assertEqual((1024, 1024), png_size(ROOT / "assets/brand/android-foss-mark.png"))
+
+    def test_brand_archive_preserves_selected_direction(self):
+        concepts = ROOT / "assets" / "brand" / "concepts"
+        selection = json.loads((concepts / "selection.json").read_text(encoding="utf-8"))
+        selected = concepts / selection["selectedConcepts"][0]
+        master = ROOT / "assets" / "brand" / "android-foss-selected-master.png"
+        supporting = concepts / selection["selectedSupportingConcepts"][0]
+        self.assertEqual(selected.read_bytes(), master.read_bytes())
+        self.assertTrue(supporting.is_file())
+        self.assertGreaterEqual(len(list(concepts.glob("direction-*.png"))), 4)
+
+    def test_marketing_screenshots_are_full_resolution_pngs(self):
+        screenshots = ROOT / "assets" / "screenshots"
+        for name in ("catalog-home.png", "catalog-search.png", "catalog-light.png"):
+            path = screenshots / name
+            self.assertEqual((1265, 712), png_size(path))
 
     def test_version_strings_match(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")

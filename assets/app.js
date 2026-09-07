@@ -1,7 +1,7 @@
 (() => {
 	'use strict';
 
-	const APP_VERSION = '0.0.14';
+	const APP_VERSION = '0.0.15';
 	const PAGE_SIZE = 24;
 	const formatter = new Intl.NumberFormat();
 	const compactFormatter = new Intl.NumberFormat(undefined, {
