@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/social-preview.png" alt="Android FOSS catalog with search, trust filters, and catalog totals">
-</p>
-
 <h1 align="center">Android FOSS</h1>
 
 <p align="center"><strong>Find open-source Android apps with the evidence you need to choose well.</strong></p>
