@@ -1,5 +1,10 @@
 # Changelog
 
+## Android FOSS v0.0.16 (2026-09-12)
+
+- Put the verified catalog marketing hero at the top of the README so GitHub visitors see the product immediately.
+- Added a regression check that keeps the hero connected to the README in future releases.
+
 ## Android FOSS v0.0.15 (2026-09-07)
 
 - Preserved the approved modular catalog mark, untouched source master, supporting composition, and alternate identity studies in a documented brand archive.

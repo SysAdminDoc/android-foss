@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/brand/android-foss-mark.png" width="132" alt="Android FOSS logo">
+  <img src="assets/social-preview.png" alt="Android FOSS catalog with search, trust filters, and catalog totals">
 </p>
 
 <h1 align="center">Android FOSS</h1>
 
 <p align="center"><strong>Find open-source Android apps with the evidence you need to choose well.</strong></p>
 
-[![Version](https://img.shields.io/badge/version-0.0.15-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.0.16-blue.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-GPLv3-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android-3ddc84.svg)](https://www.android.com/)
 

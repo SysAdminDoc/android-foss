@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "0.0.15"
+VERSION = "0.0.16"
 DIST = ROOT / "dist"
 ARCHIVE = DIST / f"android-foss-v{VERSION}.zip"
 CHECKSUM = DIST / f"android-foss-v{VERSION}.zip.sha256"
@@ -35,7 +35,7 @@ def write_archive(files):
     with zipfile.ZipFile(ARCHIVE, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
         for path in files:
             relative = path.relative_to(ROOT).as_posix()
-            info = zipfile.ZipInfo(relative, date_time=(2026, 9, 7, 0, 0, 0))
+            info = zipfile.ZipInfo(relative, date_time=(2026, 9, 12, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = 0o100644 << 16
             archive.writestr(info, path.read_bytes(), compresslevel=9)

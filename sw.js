@@ -1,4 +1,4 @@
-const CACHE_NAME = 'android-foss-v0.0.15';
+const CACHE_NAME = 'android-foss-v0.0.16';
 const CORE_ASSETS = [
 	'./',
 	'index.html',

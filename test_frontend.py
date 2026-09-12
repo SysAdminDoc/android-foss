@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-VERSION = "0.0.15"
+VERSION = "0.0.16"
 
 
 class AssetParser(HTMLParser):
@@ -72,6 +72,11 @@ class FrontendTests(unittest.TestCase):
         for name in ("catalog-home.png", "catalog-search.png", "catalog-light.png"):
             path = screenshots / name
             self.assertEqual((1265, 712), png_size(path))
+
+    def test_readme_opens_with_marketing_hero(self):
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        self.assertTrue(readme.startswith('<p align="center">\n  <img src="assets/social-preview.png"'))
+        self.assertEqual((1280, 640), png_size(ROOT / "assets" / "social-preview.png"))
 
     def test_version_strings_match(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
